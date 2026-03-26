@@ -953,6 +953,7 @@
             "Enforcement": "enforce",
             "Relevance Notes": "relnotes",
             "Source": "source",
+            "Last Modified": "modified",
         };
 
         // ── State ──
@@ -1457,6 +1458,7 @@
                             ${law.nextsteps ? `<div class="detail-section"><div class="detail-label">Next Steps</div><div class="detail-text">${escapeHtml(law.nextsteps)}</div></div>` : ''}
                             ${law.source ? `<a href="${escapeHtml(law.source)}" target="_blank" class="source-link" onclick="event.stopPropagation()">View Source &rarr;</a>` : ''}
                         </div>
+                        ${law.modified ? `<div style="padding:6px 16px 2px;font-size:0.65rem;font-weight:300;color:#556;text-align:right;letter-spacing:0.02em">Last updated ${formatDate(law.modified)}</div>` : ''}
                         <div class="card-flip-hint">Click to flip back &#8635;</div>
                     </div>
                 </div>
