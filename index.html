@@ -1,0 +1,1506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revontulet | Regulatory Landscape</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #0c1a30;
+            color: #93d5de;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header - Compact */
+        header {
+            padding: 20px 30px;
+            border-bottom: 1px solid rgba(36, 185, 168, 0.2);
+            background: #0c1a30;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            gap: 30px;
+        }
+
+        .header-left {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .header-search {
+            flex-shrink: 0;
+            width: 320px;
+        }
+
+        .revontulet-logo {
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: #f16632;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 4px;
+        }
+
+        .header-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 2px;
+        }
+
+        .header-subtitle {
+            font-size: 0.9rem;
+            color: #93d5de;
+            font-weight: 300;
+            margin-bottom: 12px;
+            max-width: 900px;
+        }
+
+        .header-stats {
+            display: flex;
+            gap: 24px;
+            flex-wrap: wrap;
+            font-size: 0.9rem;
+            color: #8a91a5;
+        }
+
+        .stat-inline {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .stat-value {
+            color: #24b9a8;
+            font-weight: 600;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 10px 14px;
+            background: #1c2e55;
+            border: 2px solid rgba(147, 213, 222, 0.3);
+            border-radius: 8px;
+            color: #93d5de;
+            font-size: 0.95rem;
+            font-family: 'Poppins', sans-serif;
+            transition: all 0.3s ease;
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: #24b9a8;
+            box-shadow: 0 0 0 3px rgba(36, 185, 168, 0.1);
+        }
+
+        .search-input::placeholder {
+            color: #8a91a5;
+        }
+
+        /* Main Layout */
+        .main-wrapper {
+            display: flex;
+            max-width: 1400px;
+            margin: 0 auto;
+            min-height: calc(100vh - 200px);
+            padding-right: 280px;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 280px;
+            background: #1c2e55;
+            padding: 24px 28px;
+            border-left: 1px solid rgba(36, 185, 168, 0.2);
+            position: fixed;
+            right: max(0px, calc((100vw - 1400px) / 2));
+            top: 220px;
+            bottom: 60px;
+            overflow-y: auto;
+            z-index: 90;
+            border-radius: 10px 0 0 10px;
+        }
+
+        .sidebar-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+
+        .sidebar-title {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: #24b9a8;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .clear-all-link {
+            font-size: 0.75rem;
+            color: #f16632;
+            cursor: pointer;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .clear-all-link:hover {
+            color: #ff8a5a;
+        }
+
+        .result-count {
+            font-size: 0.8rem;
+            color: #8a91a5;
+            margin-bottom: 16px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid rgba(147, 213, 222, 0.2);
+        }
+
+        .sort-group {
+            margin-bottom: 20px;
+        }
+
+        .sort-label {
+            font-size: 0.7rem;
+            font-weight: 600;
+            color: #93d5de;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 6px;
+            display: block;
+        }
+
+        .sort-select {
+            width: 100%;
+            padding: 8px 10px;
+            background: #17274a;
+            border: 1px solid rgba(147, 213, 222, 0.3);
+            border-radius: 6px;
+            color: #93d5de;
+            font-size: 0.85rem;
+            font-family: 'Poppins', sans-serif;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .sort-select:hover,
+        .sort-select:focus {
+            border-color: #24b9a8;
+            outline: none;
+        }
+
+        /* Filter Group */
+        .filter-group {
+            margin-bottom: 16px;
+            border-bottom: 1px solid rgba(147, 213, 222, 0.15);
+            padding-bottom: 12px;
+        }
+
+        .filter-group:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .filter-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            user-select: none;
+            padding: 8px 0;
+        }
+
+        .filter-header:hover .filter-title {
+            color: #24b9a8;
+        }
+
+        .filter-title {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            transition: color 0.3s ease;
+        }
+
+        .filter-toggle {
+            width: 16px;
+            height: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #24b9a8;
+            font-size: 0.9rem;
+            transition: transform 0.3s ease;
+        }
+
+        .filter-toggle.collapsed {
+            transform: rotate(-90deg);
+        }
+
+        .filter-content {
+            display: block;
+            margin-top: 8px;
+        }
+
+        .filter-content.hidden {
+            display: none;
+        }
+
+        /* Checkbox Styling */
+        .checkbox-group {
+            margin-bottom: 8px;
+        }
+
+        .checkbox-group-label {
+            font-size: 0.7rem;
+            color: #8a91a5;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin: 8px 0 4px 0;
+            display: block;
+        }
+
+        .checkbox-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 4px 0;
+            cursor: pointer;
+            user-select: none;
+            line-height: 1.4;
+        }
+
+        .checkbox-input {
+            appearance: none;
+            -webkit-appearance: none;
+            width: 18px;
+            height: 18px;
+            border: 2px solid rgba(147, 213, 222, 0.3);
+            border-radius: 4px;
+            background: transparent;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .checkbox-input:hover {
+            border-color: #24b9a8;
+        }
+
+        .checkbox-input:checked {
+            background: #24b9a8;
+            border-color: #24b9a8;
+        }
+
+        .checkbox-input:checked::after {
+            content: '✓';
+            color: #0c1a30;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .checkbox-label {
+            font-size: 0.8rem;
+            color: #93d5de;
+            cursor: pointer;
+            flex-grow: 1;
+        }
+
+        /* Radio Buttons for Timeline */
+        .radio-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 4px 0;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .radio-input {
+            appearance: none;
+            -webkit-appearance: none;
+            width: 16px;
+            height: 16px;
+            border: 2px solid rgba(147, 213, 222, 0.3);
+            border-radius: 50%;
+            background: transparent;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            flex-shrink: 0;
+        }
+
+        .radio-input:hover {
+            border-color: #24b9a8;
+        }
+
+        .radio-input:checked {
+            background: #24b9a8;
+            border-color: #24b9a8;
+        }
+
+        .radio-label {
+            font-size: 0.8rem;
+            color: #93d5de;
+            cursor: pointer;
+        }
+
+        /* Main Content Area */
+        .main-content {
+            flex: 1;
+            padding: 30px;
+            overflow-y: auto;
+        }
+
+        /* Cards Grid */
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+            margin-bottom: 50px;
+        }
+
+        .law-card {
+            perspective: 900px;
+            height: 440px;
+            animation: cardEnter 0.5s ease-out forwards;
+            opacity: 0;
+        }
+
+        @keyframes cardEnter {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            transition: transform 0.5s ease;
+            transform-style: preserve-3d;
+            cursor: pointer;
+        }
+
+        .law-card.flipped .card-inner {
+            transform: rotateY(180deg);
+        }
+
+        .card-front, .card-back {
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            backface-visibility: hidden;
+            -webkit-backface-visibility: hidden;
+            background: linear-gradient(135deg, #1c2e55 0%, #17274a 100%);
+            border: 1px solid rgba(36, 185, 168, 0.2);
+            border-radius: 12px;
+            padding: 22px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card-front:hover, .law-card.flipped .card-back {
+            border-color: rgba(36, 185, 168, 0.4);
+            box-shadow: 0 8px 20px rgba(36, 185, 168, 0.1);
+        }
+
+        .card-back {
+            transform: rotateY(180deg);
+        }
+
+        .card-back-scroll {
+            flex: 1;
+            overflow-y: auto;
+            padding-right: 6px;
+        }
+
+        .card-back-scroll::-webkit-scrollbar {
+            width: 4px;
+        }
+        .card-back-scroll::-webkit-scrollbar-track {
+            background: rgba(147, 213, 222, 0.05);
+            border-radius: 2px;
+        }
+        .card-back-scroll::-webkit-scrollbar-thumb {
+            background: rgba(36, 185, 168, 0.3);
+            border-radius: 2px;
+        }
+
+        .card-front-scroll {
+            flex: 1;
+            overflow-y: auto;
+            padding-right: 4px;
+        }
+
+        .card-front-scroll::-webkit-scrollbar {
+            width: 3px;
+        }
+        .card-front-scroll::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        .card-front-scroll::-webkit-scrollbar-thumb {
+            background: rgba(36, 185, 168, 0.2);
+            border-radius: 2px;
+        }
+
+        .card-flip-hint {
+            font-size: 0.68rem;
+            color: #24b9a8;
+            text-align: center;
+            margin-top: auto;
+            padding-top: 8px;
+            flex-shrink: 0;
+            border-top: 1px solid rgba(36, 185, 168, 0.15);
+            letter-spacing: 0.03em;
+        }
+
+        .card-back-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #fff;
+            margin-bottom: 14px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid rgba(36, 185, 168, 0.2);
+        }
+
+        .card-header {
+            margin-bottom: 12px;
+        }
+
+        .card-title {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 6px;
+            line-height: 1.3;
+        }
+
+        .card-full-name {
+            font-size: 0.85rem;
+            color: #8a91a5;
+            margin-bottom: 16px;
+        }
+
+        .card-badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 16px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            white-space: nowrap;
+        }
+
+        .badge-jurisdiction {
+            background: rgba(15, 129, 186, 0.2);
+            color: #0f81ba;
+            border: 1px solid rgba(15, 129, 186, 0.4);
+        }
+
+        .badge-status {
+            background: rgba(147, 213, 222, 0.15);
+            color: #93d5de;
+            border: 1px solid rgba(147, 213, 222, 0.3);
+        }
+
+        .badge-relevance {
+            font-weight: 600;
+            border: 1px solid;
+        }
+
+        .badge-relevance.direct {
+            background: rgba(36, 185, 168, 0.2);
+            color: #24b9a8;
+            border-color: rgba(36, 185, 168, 0.4);
+        }
+
+        .badge-relevance.strong {
+            background: rgba(241, 102, 50, 0.2);
+            color: #f16632;
+            border-color: rgba(241, 102, 50, 0.4);
+        }
+
+        .badge-relevance.moderate {
+            background: rgba(15, 129, 186, 0.2);
+            color: #0f81ba;
+            border-color: rgba(15, 129, 186, 0.4);
+        }
+
+        .badge-relevance.contextual {
+            background: rgba(138, 145, 165, 0.2);
+            color: #8a91a5;
+            border-color: rgba(138, 145, 165, 0.3);
+        }
+
+        .category-pills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-bottom: 12px;
+        }
+
+        .pill {
+            display: inline-block;
+            padding: 4px 10px;
+            background: rgba(147, 213, 222, 0.1);
+            color: #93d5de;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 500;
+            border: 1px solid rgba(147, 213, 222, 0.2);
+        }
+
+        .domain-pills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-bottom: 16px;
+        }
+
+        .pill-domain {
+            display: inline-block;
+            padding: 4px 10px;
+            background: rgba(241, 102, 50, 0.1);
+            color: #f16632;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 500;
+            border: 1px solid rgba(241, 102, 50, 0.2);
+        }
+
+        .card-dates {
+            background: rgba(36, 185, 168, 0.05);
+            padding: 12px;
+            border-radius: 8px;
+            margin-bottom: 16px;
+            font-size: 0.85rem;
+        }
+
+        .date-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 4px 0;
+            color: #93d5de;
+        }
+
+        .date-label {
+            color: #8a91a5;
+            font-weight: 600;
+        }
+
+        .date-value {
+            color: #24b9a8;
+            font-weight: 500;
+        }
+
+        .detail-section {
+            margin-bottom: 14px;
+        }
+
+        .detail-section:last-child {
+            margin-bottom: 0;
+        }
+
+        .detail-label {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: #24b9a8;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 4px;
+        }
+
+        .detail-text {
+            font-size: 0.85rem;
+            color: #93d5de;
+            line-height: 1.5;
+        }
+
+        .source-link {
+            display: inline-block;
+            margin-top: 8px;
+            padding: 6px 12px;
+            background: rgba(15, 129, 186, 0.2);
+            border: 1px solid rgba(15, 129, 186, 0.4);
+            color: #0f81ba;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .source-link:hover {
+            background: rgba(15, 129, 186, 0.3);
+            border-color: rgba(15, 129, 186, 0.6);
+        }
+
+        /* No Results */
+        .no-results {
+            text-align: center;
+            padding: 60px 20px;
+            color: #8a91a5;
+        }
+
+        .no-results h2 {
+            font-size: 1.5rem;
+            color: #93d5de;
+            margin-bottom: 10px;
+        }
+
+        /* Confidential Banner */
+        .disclaimer-footer {
+            position: sticky;
+            bottom: 0;
+            z-index: 90;
+            background: rgba(12, 26, 48, 0.92);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            border-top: 1px solid rgba(36, 185, 168, 0.15);
+            padding: 8px 30px;
+            text-align: center;
+            font-size: 0.68rem;
+            color: #8a91a5;
+            font-weight: 300;
+            line-height: 1.5;
+        }
+
+        /* Hamburger Menu (hidden by default) */
+        .hamburger {
+            display: none;
+            width: 30px;
+            height: 24px;
+            flex-direction: column;
+            justify-content: space-between;
+            cursor: pointer;
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 200;
+            background: none;
+            border: none;
+            padding: 0;
+        }
+
+        .hamburger span {
+            width: 100%;
+            height: 2px;
+            background: #24b9a8;
+            border-radius: 2px;
+            transition: all 0.3s ease;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 900px) {
+            .hamburger {
+                display: flex;
+            }
+
+            .main-wrapper {
+                position: relative;
+                padding-right: 0;
+            }
+
+            .sidebar {
+                position: fixed;
+                right: -280px;
+                left: auto;
+                top: 120px;
+                height: calc(100vh - 120px);
+                z-index: 150;
+                transition: right 0.3s ease;
+                border-radius: 0;
+            }
+
+            .sidebar.open {
+                right: 0;
+            }
+
+            .main-content {
+                width: 100%;
+                padding: 20px;
+            }
+
+            .cards-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 600px) {
+            header {
+                padding: 16px 16px;
+            }
+
+            .header-title {
+                font-size: 1.4rem;
+            }
+
+            .header-subtitle {
+                font-size: 0.8rem;
+                margin-bottom: 8px;
+            }
+
+            .header-stats {
+                font-size: 0.8rem;
+                gap: 12px;
+            }
+
+            .header-content {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .header-search {
+                width: 100%;
+            }
+
+            .main-content {
+                padding: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <div class="header-left">
+                <div class="revontulet-logo">REVONTULET</div>
+                <div class="header-title">Regulatory Landscape</div>
+                <p class="header-subtitle" id="headerSubtitle">
+                    Loading regulatory data...
+                </p>
+                <div class="header-stats">
+                    <div class="stat-inline"><span id="statTotal">—</span><span>Items</span></div>
+                    <div class="stat-inline"><span id="statJurisdictions">—</span><span>Jurisdictions</span></div>
+                    <div class="stat-inline"><span id="statInForce">—</span><span>In Force</span></div>
+                    <div class="stat-inline"><span id="statDirect">—</span><span>Direct Relevance</span></div>
+                </div>
+            </div>
+            <div class="header-search">
+                <input type="text" id="searchInput" class="search-input" placeholder="Search laws...">
+            </div>
+        </div>
+    </header>
+
+    <!-- Hamburger Menu -->
+    <button class="hamburger" id="hamburgerBtn">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <!-- Main Layout -->
+    <div class="main-wrapper">
+        <div class="main-content">
+            <div class="cards-grid" id="cardsGrid"></div>
+            <div class="no-results" id="noResults" style="display: none;">
+                <h2>No matching results</h2>
+                <p>Try adjusting your filters or search terms.</p>
+            </div>
+        </div>
+
+        <!-- Sidebar (right) -->
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <span class="sidebar-title">Filters</span>
+                <a href="#" class="clear-all-link" id="clearAllLink">Clear All</a>
+            </div>
+
+            <div class="result-count">
+                Showing <span id="resultCount">66</span> of 66
+            </div>
+
+            <div class="sort-group">
+                <label class="sort-label">Sort By</label>
+                <select id="sortSelect" class="sort-select">
+                    <option value="">Default</option>
+                    <option value="name">Name (A-Z)</option>
+                    <option value="jurisdiction">Jurisdiction</option>
+                    <option value="relevance">Relevance</option>
+                    <option value="deadline">Deadline</option>
+                </select>
+            </div>
+
+
+            <!-- Type Filter -->
+            <div class="filter-group">
+                <div class="filter-header" data-toggle="typeFilters">
+                    <span class="filter-title">Type</span>
+                    <span class="filter-toggle collapsed">▶</span>
+                </div>
+                <div class="filter-content hidden" id="typeFilters"></div>
+            </div>
+
+            <!-- Jurisdiction Filter -->
+            <div class="filter-group">
+                <div class="filter-header" data-toggle="jurisdictionFilters">
+                    <span class="filter-title">Jurisdiction</span>
+                    <span class="filter-toggle collapsed">▶</span>
+                </div>
+                <div class="filter-content hidden" id="jurisdictionFilters"></div>
+            </div>
+
+            <!-- Category Filter -->
+            <div class="filter-group">
+                <div class="filter-header" data-toggle="categoryFilters">
+                    <span class="filter-title">Category</span>
+                    <span class="filter-toggle collapsed">▶</span>
+                </div>
+                <div class="filter-content hidden" id="categoryFilters"></div>
+            </div>
+
+            <!-- Intelligence Domain Filter -->
+            <div class="filter-group">
+                <div class="filter-header" data-toggle="domainFilters">
+                    <span class="filter-title">Intelligence Domain</span>
+                    <span class="filter-toggle collapsed">▶</span>
+                </div>
+                <div class="filter-content hidden" id="domainFilters"></div>
+            </div>
+
+            <!-- Relevance Filter -->
+            <div class="filter-group">
+                <div class="filter-header" data-toggle="relevanceFilters">
+                    <span class="filter-title">Relevance</span>
+                    <span class="filter-toggle collapsed">▶</span>
+                </div>
+                <div class="filter-content hidden" id="relevanceFilters"></div>
+            </div>
+
+            <!-- Status Filter -->
+            <div class="filter-group">
+                <div class="filter-header" data-toggle="statusFilters">
+                    <span class="filter-title">Status</span>
+                    <span class="filter-toggle collapsed">▶</span>
+                </div>
+                <div class="filter-content hidden" id="statusFilters"></div>
+            </div>
+
+            <!-- Timeline Filter -->
+            <div class="filter-group">
+                <div class="filter-header" data-toggle="timelineFilters">
+                    <span class="filter-title">Timeline</span>
+                    <span class="filter-toggle collapsed">▶</span>
+                </div>
+                <div class="filter-content hidden" id="timelineFilters"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Sticky Disclaimer Footer -->
+    <div class="disclaimer-footer">
+        This page is for informational purposes only and does not constitute legal advice. Organizations should consult qualified legal counsel regarding their specific compliance obligations.
+    </div>
+
+    <script>
+        // ── Configuration ──
+        // Data source: static JSON export from Airtable (pre-filtered for client-relevant records)
+        const DATA_URL = 'regulations.json';
+
+        const FIELD_MAP = {
+            "Legislation": "leg",
+            "Full Name": "full",
+            "Categories": "cats",
+            "Jurisdiction": "jur",
+            "Status": "status",
+            "Relevance": "relevance",
+            "Domains": "domains",
+            "Brief Description": "desc",
+            "Type": "type",
+            "Enacted": "enacted",
+            "In Force": "force",
+            "Deadline": "deadline",
+            "Next Steps": "nextsteps",
+            "Scope": "scope",
+            "Enforcement": "enforce",
+            "Relevance Notes": "relnotes",
+            "Source": "source",
+        };
+
+        // ── State ──
+        const state = {
+            activeJurisdictions: new Set(),
+            activeCategories: new Set(),
+            activeDomains: new Set(),
+            activeRelevances: new Set(),
+            activeStatuses: new Set(),
+            activeTimelines: new Set(),
+            activeTypes: new Set(),
+            searchTerm: '',
+            sortBy: ''
+        };
+
+        let legislationData = [
+    {leg:'ISO/IEC 27001:2022',full:'ISO/IEC 27001:2022 - Information security, cybersecurity and privacy protection - Information security management systems - Requirements',cats:['Cybersecurity'],jur:'ISO / International',status:'In force',relevance:'Direct',domains:['Cyber Threat Intel','Counter-Terrorism','Geopolitical Risk','Financial Crime','Organised Crime','Disinfo & Influence Ops','VIP Protection'],desc:'The global gold standard for information security management. 93 controls across 4 themes, with new requirements for threat intelligence, cloud security, and data leakage prevention. Certification mandatory for many supply chains.',type:'Standard',enacted:'2022-10-25',force:'2022-10-25',nextsteps:'2022 edition mandatory since Oct 2025. 93 controls in 4 themes replace 114 controls in 14 domains. 11 new controls include threat intelligence (5.7).',scope:'All organizations seeking to establish, implement, maintain, and continually improve an information security management system (ISMS). Applicable regardless of size, type, or nature.',enforce:'Voluntary certification standard. Accredited certification bodies audit compliance. Transition from 2013 edition required by October 2025.',relnotes:'ISO 27001 certification is the most widely recognized ISMS standard globally. Many NIS2-regulated entities and financial institutions require 27001 certification from suppliers, making it directly relevant to Revontulet\'s market positioning.',source:'https://www.iso.org/standard/27001'},
+    {leg:'EU Racism/Xenophobia Framework Decision',full:'Council Framework Decision 2008/913/JHA on combating certain forms and expressions of racism and xenophobia by means of criminal law',cats:['Online Safety / Content Governance'],jur:'EU',status:'In force',relevance:'Moderate',domains:['Counter-Terrorism','Disinfo & Influence Ops','Organised Crime'],desc:'Requires all EU member states to criminalize public incitement to violence or hatred based on race, religion, or ethnicity, including through online distribution. Underpins the DSA\'s illegal content definitions.',type:'Legislation',enacted:'2008-11-28',force:'2010-11-28',nextsteps:'In force since 2010. Legal basis for criminalizing online hate speech across the EU. Underpins DSA illegal content definitions. EC proposed extension to include all EU hate crimes (2021 proposal stalled in Council).',scope:'All EU member states must criminalize public incitement to violence or hatred based on race, colour, religion, descent, or national/ethnic origin, including through online distribution.',enforce:'Member state criminal law enforcement. Penalties of 1-3 years imprisonment depending on member state transposition.',relnotes:'Defines the legal baseline for hate speech that platforms must moderate under the DSA. Understanding extremist networks that produce and distribute hate content is a cross-domain intelligence requirement connecting terrorism, organized crime, and influence operations.',source:'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32008F0913'},
+    {leg:'France Loi SREN',full:'Loi n° 2024-449 visant à sécuriser et réguler l\'espace numérique (SREN)',cats:['Online Safety / Content Governance'],jur:'France',status:'In force',relevance:'Strong',domains:['Counter-Terrorism','Disinfo & Influence Ops','Organised Crime'],desc:'France\'s digital space security law supplements the DSA with stricter national rules on terrorist content removal, hate speech, deepfakes, and cyberbullying. ARCOM enforces with fines up to EUR 75K.',type:'Legislation',enacted:'2024-05-21',force:'2024-05-21',nextsteps:'In force. Adapts French law for DSA/DMA application. Goes beyond EU minimum with 1-hour terrorist content takedown, 24-hour other illegal content, ban enforcement for convicted hate offenders, deep fake provisions.',scope:'Online platforms operating in France. Supplements DSA with stricter national provisions on terrorist content, hate speech, CSAM, cyberbullying, and deep fakes.',enforce:'ARCOM (Autorité de régulation de la communication audiovisuelle et numérique). EUR 75K for failure to ban convicted users. Additional penalties for content removal failures.',relnotes:'France\'s 1-hour terrorist content takedown exceeds the EU TCO\'s requirements. The combination of terrorist content, hate speech, and deep fake provisions creates cross-domain content moderation intelligence needs.',source:'https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049563356'},
+    {leg:'UK CSRB',full:'Cyber Security and Resilience (Network and Information Systems) Bill 2024-26',cats:['Cybersecurity','Critical Infrastructure'],jur:'UK',status:'In legislative process',relevance:'Direct',domains:['Cyber Threat Intel','Counter-Terrorism','Geopolitical Risk'],desc:'Expands UK cyber regulation to cover MSPs, data centres, and critical suppliers alongside essential services. Introduces enhanced enforcement powers for sector regulators and NCSC oversight of 900+ additional firms.',type:'Legislation',enacted:'2025-11-12',nextsteps:'Completed second reading and committee stage in the House of Commons. Royal Assent expected late 2026. Phased implementation through secondary legislation, full enforcement not expected until 2028.',scope:'Operators of essential services, digital service providers, MSPs, data centres (1MW+), large load controllers (300MW+), designated critical suppliers. 900-1,100 additional firms under regulatory oversight.',enforce:'Two-tier penalty regime with enhanced enforcement powers for sector regulators and the NCSC. Specific penalty amounts to be set through secondary legislation.',relnotes:'Expansion to MSPs and critical suppliers creates demand for threat intelligence across a new category of regulated entities. Revontulet\'s tiered delivery model is well-suited for newly regulated mid-market operators.',source:'https://bills.parliament.uk/bills/4035'},
+    {leg:'Israel Privacy Protection Amendment 13',full:'Privacy Protection Law Amendment 13 (תיקון 13 לחוק הגנת הפרטיות)',cats:['Privacy / Data Protection','Cybersecurity'],jur:'Israel',status:'In force',relevance:'Moderate',domains:['Cyber Threat Intel','Counter-Terrorism','Geopolitical Risk'],desc:'Modernizes Israel\'s data protection regime with GDPR-style obligations. Fines up to 5% of annual turnover. INCD exercises separate regulatory authority over critical infrastructure cybersecurity.',type:'Legislation',enacted:'2025-08-14',force:'2025-08-14',nextsteps:'In force since Aug 2025. Major overhaul aligning with GDPR. Israel National Cyber Directorate (INCD) operates as national threat intelligence hub.',scope:'All entities processing personal data of Israeli residents. INCD covers all critical infrastructure and government entities.',enforce:'Privacy Protection Authority enforcement. Fines up to 5% of annual turnover. INCD has separate regulatory authority over critical infrastructure.',relnotes:'Israel\'s advanced cyber ecosystem and INCD threat intelligence hub create a sophisticated regulatory environment. Cross-domain threats (state-sponsored, terrorism, cybercrime) are acute given geopolitical context.',source:'https://www.gov.il/en/departments/news/privacy-protection-law-amendment-2025'},
+    {leg:'GDPR',full:'Regulation (EU) 2016/679 - General Data Protection Regulation',cats:['Privacy / Data Protection'],jur:'EU',status:'In force',relevance:'Direct',domains:['Cyber Threat Intel','Counter-Terrorism','Geopolitical Risk','Financial Crime','Organised Crime','Disinfo & Influence Ops','VIP Protection'],desc:'The EU\'s foundational data protection regulation governing all personal data processing with global reach. Fines up to EUR 20M or 4% of global turnover. 72-hour breach notification. Over EUR 4.5B in cumulative fines.',type:'Legislation',enacted:'2016-04-27',force:'2018-05-25',nextsteps:'Fully in force since May 2018. Over EUR 4.5B in cumulative fines. 72-hour breach notification. Adequacy decisions for 16 countries. Schrems II impacts on US data transfers.',scope:'All organizations processing personal data of EU/EEA residents, regardless of location. Applies to data controllers and processors worldwide with EU nexus.',enforce:'National data protection authorities. Fines up to EUR 20M or 4% of global annual turnover. Lead supervisory authority mechanism for cross-border processing.',relnotes:'GDPR governs all personal data processing in Revontulet\'s intelligence operations. European-sovereign data processing is a key competitive differentiator. Breach notification requirements drive demand for threat intelligence.',source:'https://eur-lex.europa.eu/eli/reg/2016/679/oj'},
+    {leg:'UNSCR 1373',full:'UN Security Council Resolution 1373 (2001) - Counter-Terrorism',cats:['AML / CFT / Financial Crime','National Security'],jur:'UN / International',status:'In force',relevance:'Direct',domains:['Counter-Terrorism','Financial Crime','Organised Crime'],desc:'Binding UN resolution requiring all 193 member states to criminalize terrorist financing, freeze assets, and share intelligence. Foundational framework for global counter-terrorism finance obligations.',type:'Resolution',enacted:'2001-09-28',force:'2001-09-28',nextsteps:'Binding on all UN member states. Counter-Terrorism Committee (CTC) conducts ongoing assessments of national implementation. Forms legal basis for national CT financing legislation worldwide.',scope:'All 193 UN member states. Requires criminalization of terrorist financing, asset freezing, information sharing, and border controls.',enforce:'Binding under Chapter VII of the UN Charter. CTC monitors implementation. Non-compliance can trigger further Security Council action.',relnotes:'The foundational international CT obligation. Creates the legal basis for terrorist financing intelligence requirements that cascade into national law in every jurisdiction Revontulet serves.',source:'https://www.un.org/securitycouncil/s/res/1373-%282001%29'},
+    {leg:'ISO/IEC 27002:2022',full:'ISO/IEC 27002:2022 - Information security, cybersecurity and privacy protection - Information security controls',cats:['Cybersecurity'],jur:'ISO / International',status:'In force',relevance:'Direct',domains:['Cyber Threat Intel','Counter-Terrorism','Geopolitical Risk'],desc:'Implementation guidance for ISO 27001 controls. Control 5.7 explicitly mandates threat intelligence collection and analysis at strategic, tactical, and operational levels. Defines the TI requirement globally.',type:'Standard',enacted:'2022-02-15',force:'2022-02-15',nextsteps:'Control 5.7 requires organizations to collect, analyse, and produce threat intelligence at strategic, tactical, and operational levels.',scope:'Organizations implementing ISO 27001 controls. Control 5.7 specifically requires collection, analysis, and production of threat intelligence relating to information security threats.',enforce:'Implementation guidance for ISO 27001. Not directly certifiable but essential for 27001 compliance.',relnotes:'Control 5.7 explicitly requires threat intelligence capabilities. This is the international standard that formally defines the need for the type of intelligence product Revontulet delivers.',source:'https://www.iso.org/standard/75652.html'},
+    {leg:'ISO/IEC 27032:2023',full:'ISO/IEC 27032:2023 - Cybersecurity - Guidelines for Internet security',cats:['Cybersecurity'],jur:'ISO / International',status:'In force',relevance:'Moderate',domains:['Cyber Threat Intel','Organised Crime'],desc:'International cybersecurity guidelines covering Internet security, multi-stakeholder coordination, and threat information sharing. Provides the framework for cross-sector cooperation on cyber threats.',type:'Standard',enacted:'2023-06-01',force:'2023-06-01',nextsteps:'Revised 2023. Covers Internet security guidelines including multi-stakeholder coordination, threat landscape analysis, and information sharing frameworks.',scope:'Organizations addressing Internet security risks. Covers guidance on information sharing, coordination, and incident handling for cyberspace stakeholders.',enforce:'Voluntary guideline standard. Provides cybersecurity framework for coordination between stakeholders.',relnotes:'Provides the international framework for multi-stakeholder cybersecurity coordination and information sharing that Revontulet\'s platform supports.',source:'https://www.iso.org/standard/44375.html'},
+    {leg:'Taiwan CSMA',full:'資通安全管理法 (Cyber Security Management Act, amended 2025)',cats:['Cybersecurity','Critical Infrastructure'],jur:'Taiwan',status:'In force',relevance:'Moderate',domains:['Cyber Threat Intel','Geopolitical Risk'],desc:'Taiwan\'s cybersecurity framework covers 8 critical infrastructure sectors and government agencies. Amended in 2025 to strengthen incident reporting and cross-sector coordination. Fines up to NT$10M.',type:'Legislation',enacted:'2025-09-24',force:'2025-09-24',nextsteps:'Amended Sept 2025. World\'s fastest incident reporting requirement: 1-hour notification for critical infrastructure. MODA as central coordination body.',scope:'Government agencies, critical infrastructure operators, specific non-government entities. Covers 8 critical infrastructure sectors.',enforce:'MODA enforcement. Fines up to NT$10M. Non-compliance can trigger operational restrictions.',relnotes:'Taiwan\'s 1-hour reporting requirement is the world\'s fastest. Geopolitical context (cross-strait tensions) makes this a uniquely high-threat regulatory environment relevant to Revontulet\'s geopolitical risk domain.',source:'https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030297'},
+    {leg:'KOSA',full:'Kids Online Safety Act',cats:['Child Safety','Platform Accountability','Content Moderation'],jur:'USA (Federal)',status:'Enacted, not yet in force',relevance:'Direct',domains:['Social Media','Online Platforms'],desc:'US federal law requiring platforms to provide minors with safeguards including opt-out of addictive features, strongest privacy defaults, and tools to limit harmful content exposure.',type:'Legislation'},
+    {leg:'DSA',full:'Digital Services Act - Regulation (EU) 2022/2065',cats:['Online Safety / Content Governance'],jur:'EU',status:'In force',relevance:'Strong',domains:['Counter-Terrorism','Disinfo & Influence Ops','Organised Crime'],desc:'The EU\'s landmark platform regulation imposes content moderation and transparency duties on all online intermediaries. VLOPs with 45M+ users face systemic risk assessments. Fines up to 6% of global turnover.',type:'Legislation',enacted:'2022-11-16',force:'2024-02-17',nextsteps:'Fully applicable since Feb 2024. EC conducting investigations and enforcement actions against VLOPs (X fined EUR 120M).',scope:'All online intermediaries operating in the EU. Enhanced obligations for VLOPs/VLOSEs (45M+ EU users).',enforce:'EC directly enforces against VLOPs/VLOSEs. Fines up to 6% of worldwide turnover. Periodic penalty payments up to 5% of daily turnover.',relnotes:'DSA\'s systemic risk assessments and illegal content identification requirements span terrorism, organized crime (fraud), and influence operations. Revontulet\'s cross-domain graph provides contextual intelligence for content moderation.',source:'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32022R2065'},
+    {leg:'UK NSI Act',full:'National Security and Investment Act 2021',cats:['Foreign Investment Screening','National Security'],jur:'UK',status:'In force',relevance:'Strong',domains:['Geopolitical Risk','Financial Crime','Organised Crime'],desc:'Mandatory foreign investment screening across 17 sensitive sectors including defence, energy, AI, and communications. Transactions can be blocked or unwound. Penalties up to 5% of worldwide turnover.',type:'Legislation',enacted:'2021-04-29',force:'2022-01-04',nextsteps:'Fully operational since Jan 2022. 1,000+ notifications reviewed. Investment Security Unit publishes annual reports. Mandatory notification for 17 sensitive sectors.',scope:'Acquisitions of entities or assets in 17 sensitive sectors including defence, energy, transport, AI, communications, and computing hardware. Mandatory notification regime.',enforce:'Investment Security Unit (Cabinet Office). Transactions can be blocked, unwound, or subject to conditions. Civil penalties up to 5% of worldwide turnover. Criminal penalties up to 5 years imprisonment.',relnotes:'UK\'s FDI screening requires intelligence on foreign actors, state affiliations, and investor networks. Pairs with EU FDI Screening Regulation. Maps to geopolitical risk and national security domains.',source:'https://www.legislation.gov.uk/ukpga/2021/25/contents'},
+    {leg:'Sikkerhetsloven',full:'Norwegian Security Act (Lov om nasjonal sikkerhet)',cats:['National Security','Critical Infrastructure'],jur:'Norway',status:'In force',relevance:'Direct',domains:['Cyber Threat Intel','Counter-Terrorism','Geopolitical Risk','Organised Crime'],desc:'Norway\'s national security framework mandates risk-based protective security across critical infrastructure, with the new Digital Security Act introducing cybersecurity obligations and fines up to 4% of turnover.',type:'Legislation',enacted:'2018-06-01',force:'2019-01-01',nextsteps:'Digital Security Act (digitalsikkerhetsloven) transposing NIS2 entered into force 1 Jan 2025. Implementing regulations ongoing.',scope:'Entities of significance for national security designated by sector ministries. Covers critical infrastructure, government, defence supply chain.',enforce:'NSM oversight. Criminal penalties for breaches. Administrative sanctions.',relnotes:'Directly regulates the security environment Revontulet operates in as a Norwegian company. Platform supports risk-based security programs, threat information exchange, and critical infrastructure monitoring.',source:'https://lovdata.no/lov/2018-06-01-24'},
+    {leg:'EU Sanctions Framework',full:'EU Restrictive Measures (Sanctions) Regulations and Anti-Sanctions Circumvention Instrument',cats:['Sanctions / Export Control','AML / CFT / Financial Crime'],jur:'EU',status:'In force',relevance:'Direct',domains:['Financial Crime','Organised Crime','Geopolitical Risk','Counter-Terrorism'],desc:'EU restrictive measures require all persons and entities to screen against sanctions lists and detect circumvention. Sanctions evasion was criminalized EU-wide in 2023 with member state penalties.',type:'Legislation',nextsteps:'40+ sanctions packages since Feb 2022. Anti-Sanctions Circumvention Instrument proposed. Continuous updates to designated persons lists. Enhanced enforcement coordination across member states.',scope:'All EU persons and entities. Obliged entities must screen against sanctions lists and detect circumvention through front companies, intermediaries, and layered ownership structures.',enforce:'Criminal penalties in member states. EU-level coordination. Sanctions evasion is a criminal offence under the 2023 EU Directive on criminalisation of sanctions violations.',relnotes:'Sanctions circumvention detection is fundamentally a graph problem: tracing ownership networks, front companies, and intermediaries across jurisdictions. Maps directly to Revontulet\'s cross-domain graph across financial crime, organized crime, and geopolitical risk.',source:'https://www.consilium.europa.eu/en/policies/sanctions/'},
+    {leg:'COPPA',full:'Children\'s Online Privacy Protection Act',cats:['Child Safety','Data Protection','Privacy'],jur:'USA (Federal)',status:'In force',relevance:'Direct',domains:['Online Platforms','Data Processing'],desc:'US federal law requiring parental consent for collecting personal data from children under 13, with strict rules on data use, storage, and deletion by online services.',type:'Legislation'},
+    {leg:'Japan ACDA',full:'Active Cyber Defense Act (能動的サイバー防御法)',cats:['Cybersecurity','Critical Infrastructure','National Security'],jur:'Japan',status:'Enacted, not yet in force',relevance:'Moderate',domains:['Cyber Threat Intel','Counter-Terrorism','Geopolitical Risk'],desc:'Japan\'s Active Cyber Defense Act covers 15 critical infrastructure sectors with proactive threat monitoring. First Japanese law authorizing government offensive cyber capabilities. In force November 2026.',type:'Legislation',enacted:'2025-05-16',deadline:'2026-11-30',nextsteps:'NCO replaced NISC July 2025. Incident reporting for essential infrastructure by Nov 2026. Full government countermeasures (active defense operations) by Nov 2027.',scope:'15 critical infrastructure sectors: info-comms, financial services, aviation, airports, railways, electric power, gas, government, healthcare, water, logistics, chemicals, credit cards, petroleum, ports/harbors.',enforce:'Enforcement under NCO framework. Specific penalty structures set through implementing regulations.',relnotes:'15-sector scope covers industries facing cross-domain threats at the intersection of state-sponsored cyber operations, geopolitical risk, and organized crime.',source:'https://iclg.com/practice-areas/cybersecurity-laws-and-regulations/japan'},
+    {leg:'UNCAC',full:'UN Convention against Corruption (2003)',cats:['AML / CFT / Financial Crime','Corporate Due Diligence'],jur:'UN / International',status:'In force',relevance:'Moderate',domains:['Financial Crime','Organised Crime','Geopolitical Risk'],desc:'Global anti-corruption treaty with 190 state parties. Requires criminalization of bribery, embezzlement, and money laundering, plus international asset recovery cooperation and prevention frameworks.',type:'Treaty / Convention',enacted:'2003-10-31',force:'2005-12-14',nextsteps:'190 state parties. Implementation Review Mechanism ongoing (second cycle). COSP meets biennially. Asset recovery provisions increasingly enforced.',scope:'190 state parties. Requires criminalization of bribery, embezzlement, money laundering, and obstruction of justice. Prevention measures for public and private sectors.',enforce:'Treaty obligations. Implementation Review Mechanism. Requires international cooperation, asset recovery, and technical assistance.',relnotes:'Corruption is a predicate offence connecting financial crime, organized crime, and state capture. Intelligence on corruption networks supports due diligence and sanctions compliance.',source:'https://www.unodc.org/unodc/en/corruption/uncac.html'},
+    {leg:'EU CSAM Regulation',full:'Proposed Regulation laying down rules to prevent and combat child sexual abuse (COM/2022/209)',cats:['Online Safety / Content Governance','Privacy / Data Protection'],jur:'EU',status:'In legislative process',relevance:'Strong',domains:['Counter-Terrorism','Organised Crime','Cyber Threat Intel'],desc:'Proposed EU regulation on preventing child sexual abuse online. Would create an EU Centre on CSA. Council removed mandatory scanning in Nov 2025 position. Trilogue negotiations ongoing through 2026.',type:'Legislation',enacted:'2022-05-11',nextsteps:'Council general approach adopted Nov 2025 (removed mandatory scanning). Trilogues started Dec 2025, next rounds Feb, May, Jun 2026. Interim voluntary detection rules extended to Apr 2026, proposed extension to Aug 2027.',scope:'Online service providers, messaging platforms, cloud storage providers, and app stores operating in the EU. Would establish an EU Centre on Child Sexual Abuse.',enforce:'Proposed EU Centre on Child Sexual Abuse as coordinating body. Mandatory risk assessments and mitigation. Council position removes mandatory scanning.',relnotes:'CSAM detection intersects with counter-terrorism (exploitation networks), organized crime (distribution networks), and cyber threat intelligence (technical indicators). Cross-domain intelligence supports platform compliance.',source:'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM:2022:209:FIN'},
+    {leg:'UNSCR 2178',full:'UN Security Council Resolution 2178 (2014) - Foreign Terrorist Fighters',cats:['National Security'],jur:'UN / International',status:'In force',relevance:'Strong',domains:['Counter-Terrorism','Geopolitical Risk','Disinfo & Influence Ops'],desc:'Binding UN resolution on foreign terrorist fighters. Requires states to prevent recruitment, develop watch lists, share cross-border intelligence, and enhance border security. Chapter VII enforcement.',type:'Resolution',enacted:'2014-09-24',force:'2014-09-24',nextsteps:'Strengthened by UNSCR 2396 (2017) which added biometric data, PNR, and API requirements. Ongoing CTC/CTED monitoring of national implementation.',scope:'All UN member states. Requires prevention and suppression of recruitment, organization, transport, and equipping of foreign terrorist fighters.',enforce:'Chapter VII binding. CTC/CTED assessment visits. Requires states to develop watch lists, share information, and enhance border security.',relnotes:'FTF tracking requires cross-domain intelligence connecting terrorism, travel patterns, financial flows, and online radicalization. Directly maps to Revontulet\'s multi-domain analysis capabilities.',source:'https://www.un.org/securitycouncil/s/res/2178-%282014%29'},
+    {leg:'CA CCPA Audit Rules',full:'California Consumer Privacy Act Cybersecurity Audit and Risk Assessment Regulations',cats:['Privacy / Data Protection','Cybersecurity'],jur:'USA (California)',status:'In force',relevance:'Moderate',domains:['Cyber Threat Intel'],desc:'California\'s cybersecurity audit and risk assessment rules for businesses processing data of 250K+ consumers. Fines of USD 7,500 per intentional violation with no aggregate cap.',type:'Legislation',enacted:'2025-09-22',force:'2026-01-01',deadline:'2028-04-01',nextsteps:'In force since Jan 2026. Phased audit deadlines: Apr 2028 (>USD 100M revenue), Apr 2029 (USD 50-100M), Apr 2030 (<USD 50M).',scope:'Businesses processing California consumer data where processing presents significant risk. Thresholds: USD 26.625M+ revenue with 250,000+ consumers or 50,000+ sensitive data subjects.',enforce:'CPPA enforcement. Up to USD 2,500 per unintentional violation, USD 7,500 per intentional violation. No cap on aggregate penalties.',relnotes:'Cybersecurity audit rules create demand for threat intelligence informing posture assessments. Businesses must demonstrate threat awareness across ransomware, data exfiltration, and supply chain vulnerabilities.',source:'https://cppa.ca.gov/regulations/ccpa_updates.html'},
+    {leg:'US CIRCIA',full:'Cyber Incident Reporting for Critical Infrastructure Act of 2022',cats:['Cybersecurity','Critical Infrastructure'],jur:'USA (Federal)',status:'In legislative process',relevance:'Strong',domains:['Cyber Threat Intel','Organised Crime','Geopolitical Risk'],desc:'Requires 316,000+ critical infrastructure entities across 16 US sectors to report cyber incidents to CISA within specified timeframes. CISA gains subpoena power for non-reporters.',type:'Legislation',enacted:'2022-03-15',nextsteps:'Signed into law March 2022. CISA published NPRM April 2024. Final rule expected 2025-2026. Will require 72-hour incident reporting and 24-hour ransomware payment reporting for covered entities.',scope:'Critical infrastructure entities across 16 sectors designated under Presidential Policy Directive 21. Estimated 316,000+ entities covered.',enforce:'CISA enforcement. Subpoena power for non-reporting. Referral to DOJ for non-compliance with subpoenas. Civil penalties.',relnotes:'US federal equivalent of NIS2 reporting requirements. 316,000+ covered entities across 16 sectors will need threat intelligence to support incident detection and reporting obligations.',source:'https://www.cisa.gov/topics/cyber-threats-and-advisories/information-sharing/cyber-incident-reporting-critical-infrastructure-act-2022-circia'},
+    {leg:'UN Cybercrime Convention',full:'UN Convention against Cybercrime (adopted UNGA Dec 2024)',cats:['Cybersecurity'],jur:'UN / International',status:'Enacted, not yet in force',relevance:'Strong',domains:['Cyber Threat Intel','Organised Crime','Financial Crime'],desc:'First global cybercrime treaty, adopted by the UN General Assembly in December 2024. Covers computer fraud, identity theft, and electronic evidence cooperation. Opens for ratification.',type:'Treaty / Convention',enacted:'2024-12-24',nextsteps:'Adopted by UNGA Dec 2024. Open for signature from 2025. Enters into force 90 days after 40th ratification. Expected to take several years. Will create new cross-border cooperation and evidence-sharing obligations.',scope:'All UN member states upon ratification. Covers computer-related fraud, identity theft, content-related offences, and electronic evidence procedures.',enforce:'Treaty obligations upon ratification. Requires criminalization of cybercrime offences, mutual legal assistance, and real-time data cooperation.',relnotes:'First global cybercrime treaty. Will generate implementation legislation in dozens of countries, expanding the regulatory environment for cyber threat intelligence worldwide.',source:'https://www.unodc.org/unodc/en/cybercrime/ad_hoc_committee/home'},
+    {leg:'TCO Regulation',full:'Regulation (EU) 2021/784 on addressing the dissemination of terrorist content online',cats:['Online Safety / Content Governance','National Security'],jur:'EU',status:'In force',relevance:'Strong',domains:['Counter-Terrorism','Disinfo & Influence Ops','Organised Crime'],desc:'Requires all EU hosting providers to remove terrorist content within one hour of receiving a removal order. Systematic non-compliance carries fines up to 4% of global turnover.',type:'Legislation',enacted:'2021-05-17',force:'2022-06-07',nextsteps:'Fully in force. EC evaluation ongoing.',scope:'All hosting service providers offering services in the EU that may be used for disseminating terrorist content.',enforce:'National competent authorities. Penalties for systematic non-compliance up to 4% of global turnover.',relnotes:'TCO requires proactive measures and network analysis for terrorist content detection. Revontulet\'s counter-terrorism and network analysis capabilities directly support these obligations.',source:'https://eur-lex.europa.eu/eli/reg/2021/784/oj/eng'},
+    {leg:'ISO 31000:2018',full:'ISO 31000:2018 - Risk management - Guidelines',cats:['Cybersecurity','Corporate Due Diligence'],jur:'ISO / International',status:'In force',relevance:'Moderate',domains:['Cyber Threat Intel','Counter-Terrorism','Geopolitical Risk','Financial Crime','Organised Crime'],desc:'The universal risk management standard referenced by NIS2, DORA, CER, GDPR, and AML frameworks. Provides principles and guidelines for identifying, assessing, and treating risks across all domains.',type:'Standard',enacted:'2018-02-15',force:'2018-02-15',nextsteps:'Universal risk management guidelines. Referenced by NIS2, DORA, CER, GDPR, and AML frameworks for their risk-based approaches.',scope:'All organizations managing risk regardless of sector or size. Provides principles, framework, and process for risk management applicable across all domains.',enforce:'Voluntary guideline. Universal risk management framework referenced by most regulatory risk assessment requirements.',relnotes:'The universal risk management framework. Underpins the risk-based approaches mandated by NIS2, DORA, CER, GDPR, and AML regulations. Threat intelligence informs all stages of the risk management process.',source:'https://www.iso.org/standard/65694.html'},
+    {leg:'ISO/IEC 27035:2023',full:'ISO/IEC 27035:2023 - Information technology - Information security incident management',cats:['Cybersecurity','Critical Infrastructure'],jur:'ISO / International',status:'In force',relevance:'Strong',domains:['Cyber Threat Intel','Organised Crime','Geopolitical Risk'],desc:'Four-part standard for security incident management covering detection, reporting, assessment, and response. Referenced by NIS2 and DORA as best practice. Requires threat intelligence for effective triage.',type:'Standard',enacted:'2023-02-01',force:'2023-02-01',nextsteps:'Part 1 revised 2023. 4-part standard covering principles, planning, operations, and coordination. Complements NIS2 and DORA incident reporting.',scope:'All organizations managing information security incidents. Part 1 covers principles; Part 2 covers planning and preparation; Part 3 covers ICT incident response operations.',enforce:'Voluntary standard. Referenced by NIS2, DORA, and national cybersecurity regulations as best practice for incident response.',relnotes:'Incident management frameworks require threat intelligence for detection, triage, and response. Referenced by NIS2 and DORA incident reporting obligations.',source:'https://www.iso.org/standard/78973.html'},
+    {leg:'Canada Bill C-8',full:'Bill C-8, An Act respecting cyber security (Critical Cyber Systems Protection Act)',cats:['Cybersecurity','Critical Infrastructure'],jur:'Canada',status:'In legislative process',relevance:'Strong',domains:['Cyber Threat Intel','Counter-Terrorism','Geopolitical Risk'],desc:'Canada\'s critical cyber systems protection bill covering federally regulated telecom, finance, energy, and transport operators. Establishes mandatory cybersecurity programs and incident reporting.',type:'Legislation',nextsteps:'Second reading completed Oct 2025. Under study by SECU committee. Original Bill C-26 died on the Order Paper during Jan 2025 prorogation. Expected to pass with mandatory incident reporting.',scope:'Operators of critical cyber systems in federally regulated sectors: telecommunications, finance, energy, and transport.',enforce:'Penalties for non-compliance with cybersecurity directions. Specific framework to be finalized through committee process.',relnotes:'Canada\'s critical infrastructure operators face similar cross-domain threats to European counterparts. Relevant for telecom sector where Revontulet has existing customer relationships.',source:'https://www.parl.ca/legisinfo/en/bill/45-1/c-8'},
+    {leg:'UNSCR 2462',full:'UN Security Council Resolution 2462 (2019) - Countering the Financing of Terrorism',cats:['AML / CFT / Financial Crime','National Security'],jur:'UN / International',status:'In force',relevance:'Direct',domains:['Counter-Terrorism','Financial Crime','Organised Crime'],desc:'Binding UN resolution strengthening counter-terrorism financing frameworks. Requires robust CFT risk assessments and private sector cooperation. Complements and reinforces FATF standards globally.',type:'Resolution',enacted:'2019-03-28',force:'2019-03-28',nextsteps:'Ongoing. Strengthens UNSCR 1373 with specific focus on terrorist financing through new payment methods, social media fundraising, and abuse of NPOs.',scope:'All UN member states. Requires robust CFT frameworks, risk assessments, and cooperation with private sector and financial institutions.',enforce:'Chapter VII binding. Complements FATF standards. CTC monitoring.',relnotes:'Specifically addresses emerging terrorist financing methods (crypto, social media fundraising, crowdfunding) that require the kind of cross-domain monitoring Revontulet provides.',source:'https://www.un.org/securitycouncil/s/res/2462-%282019%29'},
+    {leg:'UK Online Safety Act',full:'Online Safety Act 2023',cats:['Online Safety / Content Governance'],jur:'UK',status:'Partially in force',relevance:'Strong',domains:['Counter-Terrorism','Financial Crime','Organised Crime','Disinfo & Influence Ops'],desc:'Comprehensive online safety regime requiring platforms to protect users from illegal and harmful content. Ofcom enforces with fines up to 10% of worldwide revenue and senior manager criminal liability.',type:'Legislation',enacted:'2023-10-26',force:'2025-03-17',deadline:'2026-12-31',nextsteps:'Illegal content risk assessment duties in force since March 2025. Ofcom enforcement active. Full implementation across three phased rollouts expected through 2026.',scope:'All services allowing user-generated content or interaction with a significant number of UK users. Applies globally to services accessible from the UK.',enforce:'Fines up to 10% of qualifying worldwide revenue or GBP 18M. Senior manager liability. Ofcom can require business disruption measures including blocking.',relnotes:'Risk assessment requirements span terrorism, organized crime (fraud), and influence operations. Platforms need intelligence beyond content-level detection to understand networks producing harmful content.',source:'https://www.gov.uk/government/publications/online-safety-act-explainer/online-safety-act-explainer'},
+    {leg:'Brazil LGPD',full:'Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018)',cats:['Privacy / Data Protection'],jur:'Brazil',status:'In force',relevance:'Contextual',domains:['Cyber Threat Intel'],desc:'Brazil\'s general data protection law covers all entities processing data of 215M+ Brazilian residents. Fines up to 2% of revenue in Brazil, capped at BRL 50M per infraction. ANPD enforcement.',type:'Legislation',enacted:'2018-08-14',force:'2021-08-01',nextsteps:'Fully enforceable since Jan 2026 (final enforcement phase). ANPD actively enforcing. National cybersecurity law in legislative process (expected 2026-2027).',scope:'All entities processing personal data of Brazilian residents, regardless of location. Largest Latin American data protection market (~215M population).',enforce:'ANPD enforcement. Fines up to 2% of revenue in Brazil, capped at BRL 50M per infraction. Daily penalties for ongoing violations.',relnotes:'Brazil is Latin America\'s largest market. LGPD\'s data protection requirements intersect with cybersecurity obligations. A dedicated cybersecurity law is expected 2026-2027 which will expand the regulatory landscape.',source:'https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm'},
+    {leg:'EU CSDDD',full:'Corporate Sustainability Due Diligence Directive (EU) 2024/1760',cats:['Corporate Due Diligence'],jur:'EU',status:'Enacted, not yet in force',relevance:'Moderate',domains:['Organised Crime','Geopolitical Risk','Financial Crime'],desc:'Corporate due diligence directive requiring large companies to identify and mitigate human rights and environmental risks across value chains. Fines up to 5% of worldwide net turnover. Civil liability.',type:'Legislation',enacted:'2024-07-25',deadline:'2027-07-26',nextsteps:'Member state transposition by 26 July 2027. Phased application: largest companies (5000+ employees, EUR 1.5B+ turnover) from 2027, mid-size from 2028, smaller in-scope from 2029. EC announced simplification proposals Feb 2025.',scope:'Large EU companies and non-EU companies with significant EU turnover. Must identify and mitigate human rights and environmental risks across value chains.',enforce:'National supervisory authorities. Fines up to 5% of worldwide net turnover. Civil liability for failure to prevent adverse impacts.',relnotes:'Supply chain due diligence requirements overlap with organized crime (forced labor, conflict minerals) and geopolitical risk (sanctioned supply chains). Intelligence on value chain risks across these domains is needed.',source:'https://eur-lex.europa.eu/eli/dir/2024/1760/oj'},
+    {leg:'ISO/IEC 27701:2019',full:'ISO/IEC 27701:2019 - Security techniques - Extension to ISO/IEC 27001 and 27002 for privacy information management',cats:['Privacy / Data Protection','Cybersecurity'],jur:'ISO / International',status:'In force',relevance:'Moderate',domains:['Cyber Threat Intel','Financial Crime'],desc:'Extension of ISO 27001 for privacy information management. Maps controls to GDPR requirements and supports PII controller/processor compliance. Under revision to align with the 2022 edition.',type:'Standard',enacted:'2019-08-06',force:'2019-08-06',nextsteps:'Extension to 27001/27002 for privacy information management. Maps controls to GDPR articles. Under revision to align with 27001:2022.',scope:'Organizations acting as PII controllers or PII processors seeking to extend their ISO 27001 ISMS to cover privacy. Maps to GDPR, LGPD, and other data protection frameworks.',enforce:'Voluntary certification. Extends ISO 27001 scope. Certification demonstrates GDPR-aligned privacy management.',relnotes:'Privacy management standard relevant to Revontulet\'s own data processing obligations and to customers operating under GDPR and equivalent frameworks.',source:'https://www.iso.org/standard/71670.html'},
+    {leg:'New Zealand FVPC Act',full:'Films, Videos, and Publications Classification Act 1993 (as amended, including Urgent Interim Classification amendments)',cats:['Online Safety / Content Governance','National Security'],jur:'New Zealand',status:'In force',relevance:'Moderate',domains:['Counter-Terrorism','Disinfo & Influence Ops'],desc:'Criminalizes distribution of objectionable material including terrorist content online. Up to 14 years imprisonment for knowing distribution. Enacted urgently after the Christchurch attack.',type:'Legislation',enacted:'1993-09-01',force:'1993-09-01',nextsteps:'Significantly strengthened post-Christchurch 2019. Amendments added livestreaming offence and takedown notice powers for DIA. Up to NZD 200K fines for non-compliant hosts. Ongoing enforcement.',scope:'All online content hosts accessible from New Zealand. Objectionable material includes terrorism, extreme violence, sexual exploitation. Christchurch attack video classified as objectionable.',enforce:'DIA (Department of Internal Affairs) and Classification Office. Up to 14 years imprisonment for knowingly distributing objectionable material. NZD 200K for hosting providers failing to comply with takedown notices.',relnotes:'New Zealand\'s classification regime and post-Christchurch amendments demonstrate the regulatory trajectory for terrorist content globally. Intelligence on terrorist organizations and their content distribution networks supports classification decisions.',source:'https://legislation.govt.nz/act/public/1993/0094/latest/DLM313407.html'},
+    {leg:'France LPM Cyber',full:'Loi de Programmation Militaire 2024-2030 (Cyber Provisions, Articles 32-34, 64, 67)',cats:['Cybersecurity','National Security'],jur:'France',status:'In force',relevance:'Strong',domains:['Cyber Threat Intel','Counter-Terrorism','Geopolitical Risk'],desc:'France\'s military programming law grants ANSSI authority to deploy network probes on ISP systems, prescribe DNS filtering, and mandate incident reporting. EUR 150K fines for non-compliance.',type:'Legislation',enacted:'2023-08-01',force:'2023-08-01',nextsteps:'In force. ANSSI has authority for DNS filtering, ISP probe deployment, and mandatory software publisher vulnerability reporting. SecNumCloud mandate for sensitive defense data. EUR 4B cyber budget 2024-2030.',scope:'ISPs, communications service providers, software publishers, DNS operators, organizations handling sensitive defense data.',enforce:'ANSSI enforcement. EUR 150K for non-compliance. ANSSI can deploy network probes on ISP systems and prescribe DNS filtering for national security threats.',relnotes:'France\'s proactive cyber defense posture (ANSSI probes, DNS filtering authority) goes beyond other EU states. Creates demand for intelligence supporting national-level threat detection.',source:'https://www.vie-publique.fr/loi/288878-loi-du-1er-aout-2023-programmation-militaire-2024-2030-lpm'},
+    {leg:'Saudi NCA ECC',full:'National Cybersecurity Authority Essential Cybersecurity Controls (ECC 2-2024)',cats:['Cybersecurity','Critical Infrastructure','National Security'],jur:'Saudi Arabia',status:'In force',relevance:'Moderate',domains:['Cyber Threat Intel','Counter-Terrorism','Geopolitical Risk'],desc:'Saudi Arabia\'s essential cybersecurity controls for government and critical infrastructure. Complemented by PDPL data protection with fines up to 2% of revenue and anti-cybercrime penalties up to SAR 5M.',type:'Legislation',enacted:'2024-01-01',force:'2024-01-01',nextsteps:'ECC 2-2024 (updated framework) in force. NCA established 2017. Comprehensive controls mandatory for government and critical national infrastructure. Personal Data Protection Law fully enforceable since Sept 2024.',scope:'Government entities and critical national infrastructure organizations. PDPL covers all entities processing Saudi residents\' data.',enforce:'NCA enforcement for cybersecurity. SDAIA for data protection. PDPL penalties up to 2% of revenue or SAR 3M. Anti-Cyber Crime Law: up to SAR 5M and 10 years imprisonment.',relnotes:'Saudi Arabia\'s Vision 2030 digitalization creates expanding attack surface. NCA\'s comprehensive controls framework drives demand for threat intelligence across government and CNI sectors.',source:'https://nca.gov.sa/en/pages/ecc.html'},
+    {leg:'Australia Cyber Security Act 2024',full:'Cyber Security Act 2024 (complementing Security of Critical Infrastructure Act 2018)',cats:['Cybersecurity','Critical Infrastructure'],jur:'Australia',status:'In force',relevance:'Strong',domains:['Cyber Threat Intel','Geopolitical Risk','Organised Crime'],desc:'Introduces mandatory ransomware payment reporting, minimum security standards for smart devices, and a Cyber Incident Review Board. Complements the SOCI Act\'s critical infrastructure protections.',type:'Legislation',enacted:'2024-11-29',force:'2025-05-30',nextsteps:'Ransomware payment reporting obligations effective since May 2025. Security standards for smart devices to be set through regulations.',scope:'Critical infrastructure operators under SOCI Act, organizations above AUD 3M annual revenue, entities making ransomware payments.',enforce:'Civil penalties for failure to report ransomware payments. SOCI Act enforcement for critical infrastructure operators. Limited use provisions to encourage voluntary reporting.',relnotes:'Creates demand for intelligence spanning ransomware attribution (cyber), criminal organizations (organized crime), and state-sponsored operations (geopolitical). Cross-domain graph connects these dimensions.',source:'https://www.legislation.gov.au/C2024A00098/asmade/text'},
+    {leg:'Australia AVM Act',full:'Criminal Code Amendment (Sharing of Abhorrent Violent Material) Act 2019',cats:['Online Safety / Content Governance','National Security'],jur:'Australia',status:'In force',relevance:'Strong',domains:['Counter-Terrorism','Organised Crime','Disinfo & Influence Ops'],desc:'Requires platforms to expeditiously remove abhorrent violent material including terrorist acts, murder, and torture. Failure to remove carries fines up to 10% of annual turnover. Global jurisdiction.',type:'Legislation',enacted:'2019-04-06',force:'2019-04-06',nextsteps:'In force since April 2019 (enacted within weeks of the Christchurch attack). World\'s first criminal penalties for platforms failing to remove terrorist content. Parliamentary Joint Committee review completed 2022.',scope:'All internet service providers, hosting service providers, and content service providers globally if they have Australian users. Covers terrorist acts, murder, torture, rape, kidnapping involving violence.',enforce:'AFP enforcement. Failure to remove: up to 10% of annual turnover for corporations or AUD 11.1M. Failure to report to AFP: AUD 888K for corporations. Up to 3 years imprisonment for individuals.',relnotes:'Pioneered criminal liability for platforms failing to remove terrorist content. Requires rapid identification and classification of abhorrent violent material, which demands real-time threat intelligence on terrorist organizations, actors, and attack patterns.',source:'https://www.legislation.gov.au/Details/C2019A00038'},
+    {leg:'DORA',full:'Digital Operational Resilience Act - Regulation (EU) 2022/2554',cats:['Cybersecurity','Critical Infrastructure'],jur:'EU',status:'In force',relevance:'Direct',domains:['Cyber Threat Intel','Geopolitical Risk','Financial Crime'],desc:'EU digital resilience framework for 22,000+ financial entities including banks, insurers, and crypto providers. Mandates ICT risk management, incident reporting, and third-party provider oversight.',type:'Legislation',enacted:'2023-01-16',force:'2025-01-17',nextsteps:'Fully applicable since Jan 2025. ESAs publishing regulatory technical standards through 2025.',scope:'22,000+ financial entities including banks, insurers, investment firms, crypto-asset service providers, and their critical ICT third-party providers.',enforce:'Financial supervisory authorities. Penalties set by member states. Critical ICT providers face fines up to 1% of average daily worldwide turnover.',relnotes:'Financial sector entities need ICT risk management, cyber threat reporting, and third-party risk assessment. Revontulet\'s cross-domain model covers the full threat landscape financial entities face.',source:'https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng'},
+    {leg:'EU 6AMLD',full:'Sixth Anti-Money Laundering Directive (EU) 2024/1640',cats:['AML / CFT / Financial Crime'],jur:'EU',status:'Enacted, not yet in force',relevance:'Strong',domains:['Counter-Terrorism','Financial Crime','Organised Crime','Cyber Threat Intel'],desc:'Harmonizes money laundering criminal penalties across the EU and adds cybercrime as a 22nd predicate offence. Enhances FIU powers to suspend transactions. Transposition deadline July 2027.',type:'Legislation',enacted:'2024-07-19',deadline:'2027-07-10',nextsteps:'Published July 2024. Member states must transpose by 10 July 2027. Covers areas requiring national flexibility: FIU powers and cooperation, supervisory frameworks, beneficial ownership registries, and access to financial information.',scope:'Member state FIUs, national supervisory authorities, beneficial ownership registries. Defines 22 predicate offences for money laundering (adding cybercrime to FATF\'s 21).',enforce:'Member state transposition and enforcement. Harmonizes criminal penalties for money laundering across the EU. Enhanced FIU powers including ability to suspend transactions.',relnotes:'Defines the 22 predicate offences for money laundering, spanning multiple domains Revontulet covers: terrorism, drug trafficking, cybercrime, corruption, human trafficking, organized crime. Strengthened FIU cooperation increases demand for cross-border intelligence.',source:'https://eur-lex.europa.eu/eli/dir/2024/1640/oj/eng'},
+    {leg:'Budapest Convention Protocol on Xenophobia',full:'Additional Protocol to the Convention on Cybercrime concerning the criminalisation of acts of a racist and xenophobic nature committed through computer systems (ETS No. 189)',cats:['Online Safety / Content Governance','Cybersecurity'],jur:'Council of Europe',status:'In force',relevance:'Moderate',domains:['Counter-Terrorism','Disinfo & Influence Ops'],desc:'Extends the Budapest Convention to criminalize distribution of racist and xenophobic material through computer systems. 35 state parties. Covers threats, insults, and genocide denial online.',type:'Treaty / Convention',enacted:'2003-01-28',force:'2006-03-01',nextsteps:'In force since 2006. 35 state parties. Extends Budapest Convention to cover racist and xenophobic material distributed through computer systems. Complements EU Framework Decision 2008/913/JHA.',scope:'35 state parties. Requires criminalization of distribution of racist/xenophobic material, racist/xenophobic motivated threats and insults, and denial/gross minimization of genocide through computer systems.',enforce:'Treaty obligations. State parties must establish domestic criminal offences.',relnotes:'Extends the international legal framework for online extremism beyond terrorism to racist and xenophobic content. Relevant to understanding the broader content governance landscape that Revontulet\'s counter-terrorism and influence operations domains address.',source:'https://www.coe.int/en/web/conventions/full-list?module=treaty-detail&treatynum=189'},
+    {leg:'ISO/IEC 27036',full:'ISO/IEC 27036 - Information security for supplier relationships (Parts 1-4)',cats:['Cybersecurity','Critical Infrastructure'],jur:'ISO / International',status:'In force',relevance:'Strong',domains:['Cyber Threat Intel','Geopolitical Risk','Organised Crime'],desc:'Four-part standard for information security in supplier relationships covering ICT supply chain security and cloud services. Increasingly referenced by NIS2 and CRA for supply chain risk management.',type:'Standard',enacted:'2021-07-01',force:'2021-07-01',nextsteps:'Four-part standard updated 2021-2024. Part 2 covers requirements, Part 3 covers ICT supply chain security, Part 4 covers cloud services.',scope:'Organizations managing information security risks in supplier and ICT supply chain relationships. Covers acquirer-supplier requirements, cloud services, and ICT supply chain security.',enforce:'Voluntary standard. Increasingly referenced by NIS2 and CRA for supply chain security requirements.',relnotes:'Supply chain security is a core NIS2 and CRA requirement. Intelligence on supply chain threats, compromised vendors, and third-party risks maps to Revontulet\'s CTI domain.',source:'https://www.iso.org/standard/82905.html'},
+    {leg:'EU FDI Screening Regulation',full:'Regulation (EU) 2019/452 establishing a framework for screening of foreign direct investments (proposed revision Oct 2025)',cats:['Foreign Investment Screening','National Security'],jur:'EU',status:'In force',relevance:'Strong',domains:['Geopolitical Risk','Organised Crime','Financial Crime'],desc:'EU framework for screening foreign investments affecting security or public order. Proposed 2025 revision expands to greenfield investments and strengthens the Commission\'s coordination role.',type:'Legislation',enacted:'2019-04-19',force:'2020-10-11',nextsteps:'Current regulation in force since Oct 2020. EC proposed strengthened revision Oct 2025: mandatory screening in all member states, broader scope, lower thresholds. Expected adoption 2026-2027.',scope:'Foreign investors acquiring control of EU entities in sectors affecting security or public order. Proposed revision expands to greenfield investments and EU-internal investments by foreign-controlled entities.',enforce:'National screening authorities with EC cooperation mechanism. Proposed revision strengthens EC role and introduces mandatory screening.',relnotes:'FDI screening requires intelligence on foreign actors, state affiliations, and threat assessments of investors and their networks. Maps to geopolitical risk, national security, and organized crime domains.',source:'https://eur-lex.europa.eu/eli/reg/2019/452/oj'},
+    {leg:'NIS2 Directive',full:'Directive (EU) 2022/2555 on measures for a high common level of cybersecurity',cats:['Cybersecurity','Critical Infrastructure'],jur:'EU',status:'Partially in force',relevance:'Direct',domains:['Cyber Threat Intel','Counter-Terrorism','Geopolitical Risk'],desc:'EU\'s core cybersecurity directive covering 160,000+ entities across 18 sectors. Fines up to EUR 10M or 2% of global turnover. Personal liability for senior management. Broadest EU cyber law.',type:'Legislation',enacted:'2023-01-16',force:'2024-10-18',deadline:'2024-10-17',nextsteps:'Member state transposition deadline was Oct 2024; many states still finalising. EC implementing acts on technical requirements ongoing through 2025.',scope:'160,000+ essential and important entities across 18 sectors in the EU/EEA. Significantly broader than NIS1.',enforce:'Fines up to EUR 10M or 2% of global turnover (essential entities) or EUR 7M / 1.4% (important entities). Senior management personal liability.',relnotes:'NIS2\'s 160,000+ regulated entities need threat intelligence for risk management, incident prevention, and supply chain security. Core market driver.',source:'https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng'},
+    {leg:'FATF AML/CFT Standards',full:'FATF Recommendations (particularly Recommendation 16: Payment Transparency / Travel Rule)',cats:['AML / CFT / Financial Crime'],jur:'Global / FATF',status:'In force',relevance:'Direct',domains:['Counter-Terrorism','Financial Crime','Organised Crime','Geopolitical Risk'],desc:'Global AML/CFT standards applied across 200+ jurisdictions. Grey-listing triggers significant economic consequences. The Travel Rule extends obligations to virtual asset service providers.',type:'Framework',nextsteps:'Recommendation 16 revised June 2025. Annex IV assessment methodology published Oct 2025. 99 jurisdictions enacted or enacting Travel Rule. Compliance required from 2030.',scope:'Global: 40 FATF member jurisdictions and 200+ via regional bodies. Financial institutions, DNFBPs, and virtual asset service providers (VASPs).',enforce:'Mutual evaluations; grey/black listing. Being grey-listed causes significant economic consequences: reduced foreign investment, increased compliance costs. EU framework: fines up to 10% of turnover.',relnotes:'FATF creates the global AML/CFT baseline. Revontulet\'s financial crime and counter-terrorism domains directly support risk-based due diligence, suspicious activity monitoring, and predicate offence identification across 21 offence categories.',source:'https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Fatf-recommendations.html'},
+    {leg:'AMLA',full:'Anti-Money Laundering Authority - Regulation (EU) 2024/1620',cats:['AML / CFT / Financial Crime'],jur:'EU',status:'In force',relevance:'Strong',domains:['Counter-Terrorism','Financial Crime','Organised Crime'],desc:'New EU-level anti-money laundering authority directly supervising ~40 highest-risk cross-border financial entities. Can impose fines, conduct on-site inspections, and coordinate national FIUs.',type:'Legislation',enacted:'2024-07-19',force:'2025-07-01',nextsteps:'Operational since 1 July 2025, headquartered in Frankfurt. Currently building supervisory capacity. Direct supervision of highest-risk cross-border obliged entities begins 2028. 2026-2028 work programme published.',scope:'EU-level supervisory authority. Will directly supervise ~40 highest-risk cross-border financial entities. Coordinates national FIUs and supervisors. Develops binding technical standards.',enforce:'Direct supervisory and sanctioning powers over selected obliged entities. Can impose fines, issue binding decisions, and conduct on-site inspections. Coordinates enforcement across member states.',relnotes:'AMLA\'s centralized supervision and cross-border coordination increases the demand for standardized, multi-jurisdictional threat intelligence. Its role developing binding technical standards will shape compliance requirements Revontulet\'s platform needs to support.',source:'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1620'},
+    {leg:'Sweden Cybersäkerhetslagen',full:'Cybersäkerhetslagen (2025:1506)',cats:['Cybersecurity','Critical Infrastructure'],jur:'Sweden',status:'In force',relevance:'Strong',domains:['Cyber Threat Intel','Counter-Terrorism','Geopolitical Risk'],desc:'Sweden\'s NIS2 transposition covering several thousand entities across 18 sectors with organization-wide scope. CEO and board personal accountability. Fines up to EUR 10M or 2% of turnover.',type:'Legislation',enacted:'2025-12-11',force:'2026-01-15',nextsteps:'In force since Jan 2026. Expanded from 7 to 18 sectors. Applies to entire organizations, not just essential services functions. Operates alongside Säkerhetsskyddslag (Protective Security Act) for security-classified entities.',scope:'Several thousand entities across 18 sectors. Organization-wide application (broader than NIS2 minimum). CEO and board personal accountability.',enforce:'MCF (Myndigheten för civilt försvar) as coordinator. Up to EUR 10M or 2% turnover (essential), EUR 7M or 1.4% (important). Director disqualification possible.',relnotes:'Sweden\'s organization-wide scope and parallel protective security regime create compound compliance requirements. Nordic market relevant to Revontulet\'s home region.',source:'https://www.cyberday.ai/blog/what-is-cybersakerhetslagen-swedish-nis2/'},
+    {leg:'ePrivacy Directive',full:'Directive 2002/58/EC concerning the processing of personal data and protection of privacy in electronic communications',cats:['Privacy / Data Protection'],jur:'EU',status:'In force',relevance:'Contextual',domains:['Cyber Threat Intel','Counter-Terrorism','Geopolitical Risk','Financial Crime','Organised Crime','Disinfo & Influence Ops','VIP Protection'],desc:'EU directive governing privacy in electronic communications, including cookie consent rules and confidentiality of communications. Enforced by national data protection authorities.',type:'Legislation',enacted:'2002-07-12',force:'2003-10-31',nextsteps:'ePrivacy Regulation (replacement) has been stalled in Council since 2017. Current directive remains in force indefinitely.',scope:'Providers of electronic communications services and networks in the EU/EEA.',enforce:'National data protection authorities. Penalties vary by member state.',relnotes:'Sets the privacy framework within which Revontulet\'s intelligence collection and processing must operate. European-sovereign data processing is a compliance enabler.',source:'https://eur-lex.europa.eu/eli/dir/2002/58/oj/eng'},
+    {leg:'EU Political Advertising Regulation',full:'Regulation (EU) 2024/900 on the transparency and targeting of political advertising',cats:['Online Safety / Content Governance'],jur:'EU',status:'Partially in force',relevance:'Strong',domains:['Disinfo & Influence Ops','Geopolitical Risk','Counter-Terrorism'],desc:'Requires identification and labeling of political advertising and detection of foreign-sponsored influence campaigns. Platforms must enable transparency about ad targeting and funding sources.',type:'Legislation',enacted:'2024-03-13',force:'2025-10-10',nextsteps:'Transparency provisions applicable from Oct 2025. Full application including targeting restrictions from Oct 2025. Cross-border enforcement cooperation mechanisms being established.',scope:'Political advertising service providers, publishers, platforms. Must identify and label political advertising and detect foreign-sponsored influence campaigns.',enforce:'National authorities with cross-border cooperation. Penalties set by member states. Must be effective, proportionate, and dissuasive.',relnotes:'Requires platforms to detect foreign-sponsored influence campaigns and political advertising manipulation. Maps directly to Revontulet\'s disinfo and influence operations domain.',source:'https://eur-lex.europa.eu/eli/reg/2024/900/oj'},
+    {leg:'EU AI Act',full:'Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence',cats:['AI Regulation'],jur:'EU',status:'Partially in force',relevance:'Moderate',domains:['Cyber Threat Intel','Counter-Terrorism','Geopolitical Risk','Financial Crime','Organised Crime','Disinfo & Influence Ops','VIP Protection'],desc:'World\'s first comprehensive AI regulation. Law enforcement AI classified as high-risk. Prohibits social scoring and real-time biometric surveillance. Fines up to EUR 35M or 7% of global turnover.',type:'Legislation',enacted:'2024-08-01',force:'2024-08-01',deadline:'2027-08-02',nextsteps:'Prohibited AI practices banned Feb 2025. GPAI model rules apply Aug 2025. Full high-risk AI system obligations apply Aug 2026. Sector-specific high-risk systems Aug 2027.',scope:'All providers and deployers of AI systems in the EU market. Law enforcement AI classified as high-risk. Revontulet\'s AI/LLM components must comply with data governance and transparency requirements.',enforce:'National market surveillance authorities. Fines up to EUR 35M or 7% of global turnover (prohibited practices), EUR 15M or 3% (other violations).',relnotes:'Revontulet uses AI/LLM for analysis. AI Act compliance (data quality, human oversight, documentation) is a product requirement and a differentiator vs. non-compliant competitors.',source:'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202401689'},
+    {leg:'UN 1988 Sanctions (Taliban)',full:'UNSC Sanctions Committee established pursuant to resolution 1988 (2011) concerning the Taliban',cats:['Sanctions / Export Control','National Security'],jur:'UN / International',status:'In force',relevance:'Strong',domains:['Counter-Terrorism','Geopolitical Risk','Financial Crime','Organised Crime'],desc:'UN sanctions regime targeting Taliban-associated individuals and entities threatening Afghan stability. All 193 member states must implement asset freezes, travel bans, and arms embargoes.',type:'Resolution',enacted:'2011-06-17',force:'2011-06-17',nextsteps:'Split from 1267 regime in 2011. Separate list maintained for Taliban-associated individuals and entities. Geopolitically sensitive given Taliban governance of Afghanistan since 2021. Delisting procedures distinct from 1267.',scope:'All 193 UN member states. Designations target individuals and entities associated with the Taliban constituting a threat to peace, stability, and security of Afghanistan.',enforce:'Chapter VII binding. Separate Monitoring Team. Travel ban exemptions process for designated individuals.',relnotes:'The Taliban sanctions regime creates unique intelligence challenges given the Taliban\'s status as a governing entity. Requires nuanced cross-domain analysis across counter-terrorism, geopolitical risk, and financial crime domains.',source:'https://main.un.org/securitycouncil/en/sanctions/1988'},
+    {leg:'Switzerland GwG Revision',full:'Bundesgesetz über die Bekämpfung der Geldwäscherei (Geldwäschereigesetz, GwG) - 2025 Revision',cats:['AML / CFT / Financial Crime'],jur:'Switzerland',status:'Enacted, not yet in force',relevance:'Strong',domains:['Financial Crime','Organised Crime','Counter-Terrorism'],desc:'Modernizes Swiss AML law to cover lawyers, notaries, and trust advisors. Introduces a federal beneficial ownership registry. Addresses FATF mutual evaluation gaps. FINMA enforcement.',type:'Legislation',enacted:'2025-09-26',nextsteps:'Comprehensive revision adopted Sept 2025. Entry into force expected mid-2026. Expands scope to lawyers/notaries as \'advisors.\' Establishes federal Transparency Register (LETA) for beneficial ownership.',scope:'Financial intermediaries, banks, VASPs, and newly: lawyers, notaries, and trust service providers acting as advisors. Federal beneficial ownership registry.',enforce:'FINMA enforcement for financial sector. Federal Office of Justice for registry. Criminal penalties for AML violations.',relnotes:'Switzerland\'s financial sector concentration makes its AML framework globally significant. The beneficial ownership registry and expansion to legal advisors creates new demand for due diligence intelligence.',source:'https://www.admin.ch/gov/en/start/documentation/media-releases.msg-id-102750.html'},
+    {leg:'South Korea PIPA',full:'개인정보보호법 (Personal Information Protection Act, amended 2023)',cats:['Privacy / Data Protection','Cybersecurity'],jur:'South Korea',status:'In force',relevance:'Moderate',domains:['Cyber Threat Intel'],desc:'South Korea\'s personal data protection law with 2023 amendments strengthening cross-border transfer rules. Fines up to 3% of revenue with criminal penalties for serious violations.',type:'Legislation',enacted:'2023-09-15',force:'2023-09-15',nextsteps:'Amended 2023 with expanded enforcement. 72-hour breach notification. Personal Information Protection Commission (PIPC) active enforcement.',scope:'All entities processing personal information of Korean residents. Cross-border transfer provisions apply to international companies.',enforce:'PIPC enforcement. Fines up to 3% of revenue. Criminal penalties for serious violations.',relnotes:'South Korea is a major technology market. PIPA creates data protection obligations that intersect with cybersecurity threat intelligence requirements for breach detection and response.',source:'https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=253044'},
+    {leg:'Germany NIS2UmsG',full:'NIS-2-Umsetzungs- und Cybersicherheitsstärkungsgesetz (NIS2 Implementation and Cybersecurity Strengthening Act)',cats:['Cybersecurity','Critical Infrastructure'],jur:'Germany',status:'In force',relevance:'Direct',domains:['Cyber Threat Intel','Counter-Terrorism','Geopolitical Risk'],desc:'Germany\'s NIS2 transposition expanding scope from 4,500 to ~30,000 entities. Doubles EU minimum penalties to EUR 20M or 4% turnover. Personal director liability. EUR 500K for reporting failures.',type:'Legislation',enacted:'2025-12-06',force:'2025-12-06',nextsteps:'In force since Dec 2025. BSI registration deadline March 2026. Germany\'s most aggressive NIS2 implementation: mandatory attack detection systems, 3-stage incident reporting, personal management liability exceeding EU minimum.',scope:'~30,000 entities (up from ~4,500 under NIS1). Creates \'critical entities\' subcategory with enhanced requirements. Covers 18 sectors.',enforce:'BSI enforcement. Up to EUR 20M or 4% global turnover (double the NIS2 minimum). Personal liability for directors. EUR 500K for reporting failures.',relnotes:'Germany\'s 30,000 regulated entities represent the largest single national NIS2 market. Enhanced requirements (attack detection, management liability) create demand for threat intelligence above EU baseline.',source:'https://www.bundesregierung.de/breg-de/aktuelles/nis-2-richtlinie-deutschland-2373174'},
+    {leg:'Australia FITS',full:'Foreign Influence Transparency Scheme Act 2018 (strengthened 2024)',cats:['National Security','Online Safety / Content Governance'],jur:'Australia',status:'In force',relevance:'Moderate',domains:['Disinfo & Influence Ops','Geopolitical Risk','Counter-Terrorism'],desc:'Requires registration of activities undertaken on behalf of foreign governments or political organizations. Criminal penalties up to 7 years for non-registration. Strengthened in 2024.',type:'Legislation',enacted:'2018-12-10',force:'2019-03-10',nextsteps:'Operational since 2019. Strengthened through Foreign Interference through Social Media Bill 2024. Ongoing expansion of transparency obligations for foreign-influenced activities.',scope:'Any person or entity undertaking activities in Australia on behalf of a foreign principal (foreign government, government-related entity, foreign political organisation).',enforce:'Criminal penalties for non-registration. Up to 7 years imprisonment for aggravated offences. Civil penalty provisions.',relnotes:'Creates demand for intelligence on state-sponsored influence networks and foreign interference operations. Directly relevant to Revontulet\'s disinfo/influence ops and geopolitical risk domains.',source:'https://www.legislation.gov.au/C2018A00154/latest/text'},
+    {leg:'Singapore CSA (Amended)',full:'Cybersecurity Act (Cap. 9, as amended by Cybersecurity (Amendment) Act 2024)',cats:['Cybersecurity','Critical Infrastructure'],jur:'Singapore',status:'Partially in force',relevance:'Moderate',domains:['Cyber Threat Intel','Geopolitical Risk'],desc:'Expanded Singapore cybersecurity law covering critical infrastructure plus three new categories: foundational digital infrastructure, systems of temporary concern, and entities of special interest.',type:'Legislation',enacted:'2024-07-04',force:'2025-10-31',nextsteps:'Parts 3A and 3B in force since Oct 2025. Part 3C (Entities of Special Cybersecurity Interest) not yet commenced. Monitor for commencement notices.',scope:'CII owners across 11 sectors, plus three new categories: Foundational Digital Infrastructure Service providers, Systems of Temporary Cybersecurity Concern, and Entities of Special Cybersecurity Interest.',enforce:'Fines up to SGD 100,000 for CII owners. Enhanced penalties up to SGD 200,000 or 10% annual turnover for ESCI and FDI violations.',relnotes:'Expanded framework (ESCI, FDIS) creates demand among previously unregulated entities: universities, financial institutions, cloud providers facing state-sponsored espionage and supply chain attacks.',source:'https://www.csa.gov.sg/legislation/cybersecurity-act/'},
+    {leg:'EU Cyber Resilience Act',full:'Regulation (EU) 2024/2847 on horizontal cybersecurity requirements for products with digital elements',cats:['Cybersecurity'],jur:'EU',status:'Partially in force',relevance:'Moderate',domains:['Cyber Threat Intel'],desc:'Horizontal cybersecurity requirements for all products with digital elements sold in the EU. Manufacturers must ensure security by design. Fines up to EUR 15M or 2.5% of global turnover.',type:'Legislation',enacted:'2024-12-10',force:'2024-12-10',deadline:'2027-12-11',nextsteps:'Entered into force Dec 2024. Reporting obligations for actively exploited vulnerabilities apply from Sep 2026. Full compliance required by Dec 2027.',scope:'All manufacturers, importers, and distributors of products with digital elements placed on the EU market. Covers hardware and software including IoT devices.',enforce:'National market surveillance authorities. Fines up to EUR 15M or 2.5% of global turnover. Non-compliant products can be withdrawn from the EU market.',relnotes:'Mandatory vulnerability reporting and product security requirements create demand for vulnerability intelligence and supply chain security analysis. Revontulet\'s cyber threat intel domain supports these obligations.',source:'https://eur-lex.europa.eu/eli/reg/2024/2847/oj'},
+    {leg:'UNTOC (Palermo Convention)',full:'UN Convention against Transnational Organized Crime (2000) and Protocols',cats:['AML / CFT / Financial Crime','National Security'],jur:'UN / International',status:'In force',relevance:'Strong',domains:['Organised Crime','Financial Crime','Counter-Terrorism','Geopolitical Risk'],desc:'Global treaty against transnational organized crime with 190 state parties. Covers criminal groups, money laundering, corruption, and trafficking through three supplementary protocols.',type:'Treaty / Convention',enacted:'2000-11-15',force:'2003-09-29',nextsteps:'190 state parties. Review mechanism adopted 2018. Conference of Parties meets biennially. Protocols cover trafficking in persons, migrant smuggling, and firearms.',scope:'190 state parties. Covers organized criminal groups, money laundering, corruption, and obstruction of justice. Three supplementary protocols.',enforce:'Treaty obligations. Requires mutual legal assistance, extradition cooperation, and joint investigations. Review mechanism monitors implementation.',relnotes:'Foundation for international organized crime cooperation. Revontulet\'s organized crime, financial crime, and counter-terrorism domains map to UNTOC\'s cross-border intelligence-sharing requirements.',source:'https://www.unodc.org/unodc/en/organized-crime/intro/UNTOC.html'},
+    {leg:'EU AMLR',full:'Anti-Money Laundering Regulation (EU) 2024/1624',cats:['AML / CFT / Financial Crime'],jur:'EU',status:'Enacted, not yet in force',relevance:'Direct',domains:['Counter-Terrorism','Financial Crime','Organised Crime'],desc:'EU-wide AML regulation applying directly to all obliged entities including crypto providers and football clubs. Fines up to 10% of turnover. Enhanced due diligence and beneficial ownership rules.',type:'Legislation',enacted:'2024-07-19',deadline:'2027-07-10',nextsteps:'Published July 2024. Applies from 10 July 2027. Directly applicable in all member states (no transposition needed). Replaces the current patchwork of national AML laws with a single rulebook.',scope:'All obliged entities across the EU: credit institutions, financial institutions, crypto-asset service providers, real estate agents, high-value goods dealers, football clubs, crowdfunding platforms, mortgage intermediaries.',enforce:'National supervisors and AMLA. Fines up to 10% of annual turnover or EUR 10M (whichever is higher). Enhanced due diligence and reporting failures can trigger criminal liability under 6AMLD.',relnotes:'The single EU AML rulebook. Sets the substantive obligations for customer due diligence, beneficial ownership, suspicious transaction reporting, and risk assessment that Revontulet\'s financial crime and CT intelligence directly supports.',source:'https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng'},
+    {leg:'UN 1267/2253 Sanctions (ISIL/Al-Qaida)',full:'UNSC Sanctions Committee pursuant to resolutions 1267 (1999), 1989 (2011), and 2253 (2015) concerning ISIL (Da\'esh), Al-Qaida, and associated individuals/entities',cats:['Sanctions / Export Control','National Security','AML / CFT / Financial Crime'],jur:'UN / International',status:'In force',relevance:'Direct',domains:['Counter-Terrorism','Financial Crime','Organised Crime','Geopolitical Risk'],desc:'UN sanctions targeting ISIL, Al-Qaida, and affiliates globally. All member states must screen the consolidated list, freeze assets, and impose travel bans. Chapter VII binding.',type:'Resolution',enacted:'1999-10-15',force:'1999-10-15',nextsteps:'Continuously updated. Sanctions list contains 252 individuals and 88 entities (as of Feb 2026). Expanded in 2015 to include ISIL designations. Monitoring Team provides ongoing analysis. All UN member states must implement asset freezes, travel bans, and arms embargoes.',scope:'All 193 UN member states must implement. Designations target individuals and entities associated with ISIL, Al-Qaida, and affiliated groups globally. Financial institutions must screen against the consolidated list.',enforce:'Binding under Chapter VII. Monitoring Team reports to Committee. Non-implementation can trigger Security Council action. National-level enforcement through domestic sanctions legislation.',relnotes:'The 1267/2253 sanctions list is the primary global terrorist designation regime. Revontulet\'s counter-terrorism and financial crime domains directly support the screening, network mapping, and circumvention detection obligations it creates for financial institutions worldwide.',source:'https://main.un.org/securitycouncil/en/sanctions/1267'},
+    {leg:'India CERT-In Directions',full:'CERT-In Directions on Information Security Practices (April 2022)',cats:['Cybersecurity','Critical Infrastructure'],jur:'India',status:'In force',relevance:'Moderate',domains:['Cyber Threat Intel','Organised Crime'],desc:'Mandates 6-hour cyber incident reporting for all Indian organizations. VPN providers must retain subscriber data for 5 years. Fines plus up to 1 year imprisonment for non-compliance.',type:'Legislation',enacted:'2022-04-28',force:'2022-06-28',nextsteps:'In force. World\'s strictest reporting window: 6-hour mandatory incident reporting for 20 categories of cyber incidents. 180-day log retention within Indian jurisdiction.',scope:'All service providers, intermediaries, data centres, body corporates, and government organizations in India. VPN providers must retain subscriber data for 5 years.',enforce:'CERT-In enforcement. Fines up to INR 1 lakh plus up to 1 year imprisonment. Non-compliance can trigger service disruption orders.',relnotes:'India\'s 6-hour reporting window is the world\'s strictest among major economies. Creates demand for real-time threat detection and incident identification capabilities.',source:'https://www.cert-in.org.in/Directions70B.jsp'},
+    {leg:'India IT Rules 2021',full:'Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules, 2021 (as amended 2023)',cats:['Online Safety / Content Governance','National Security'],jur:'India',status:'In force',relevance:'Moderate',domains:['Counter-Terrorism','Organised Crime','Disinfo & Influence Ops'],desc:'India\'s intermediary guidelines requiring proactive content monitoring and message traceability for platforms with 5M+ users. Non-compliance triggers loss of safe harbour protection.',type:'Legislation',enacted:'2021-02-25',force:'2021-05-26',nextsteps:'In force. 2023 amendments added AI/deep fake provisions and government fact-check unit. Traceability of first originator requirement for messaging platforms with 5M+ users. 36-hour content removal for court/government orders.',scope:'All social media intermediaries in India. Significant Social Media Intermediaries (SSMIs) with 5M+ registered users face enhanced obligations including traceability and proactive monitoring.',enforce:'MeitY enforcement. Loss of safe harbour protection for non-compliant intermediaries. Criminal liability under IT Act Section 69.',relnotes:'India\'s traceability requirement for first originators of terrorist and criminal content creates intelligence needs around message attribution and network analysis. World\'s second-largest internet population.',source:'https://www.meity.gov.in/writereaddata/files/Intermediary_Guidelines_and_Digital_Media_Ethics_Code_Rules-2021.pdf'},
+    {leg:'UK Economic Crime Act',full:'Economic Crime and Corporate Transparency Act 2023 (Failure to Prevent Fraud offence)',cats:['AML / CFT / Financial Crime','Corporate Due Diligence'],jur:'UK',status:'In force',relevance:'Strong',domains:['Financial Crime','Organised Crime','Cyber Threat Intel'],desc:'Creates corporate criminal liability for failure to prevent fraud in large organizations. Unlimited fines. SFO and CPS prosecution. Reasonable prevention procedures serve as a defence.',type:'Legislation',enacted:'2023-10-26',force:'2025-09-01',nextsteps:'Failure to prevent fraud offence in force since Sept 2025. Organisations must demonstrate \'reasonable procedures\' to prevent fraud by employees or agents.',scope:'Large organisations meeting 2 of 3 criteria: 250+ employees, GBP 36M+ turnover, GBP 18M+ total assets. Also covers all companies regardless of size for some provisions.',enforce:'Corporate criminal liability. Unlimited fines. SFO and CPS prosecution. Reasonable procedures defence available.',relnotes:'Creates corporate liability for fraud, requiring threat awareness across fraud typologies. Bridges financial crime intelligence and corporate compliance in a cross-domain way.',source:'https://www.legislation.gov.uk/ukpga/2023/56/contents'},
+    {leg:'Australia Social Media Minimum Age Act',full:'Online Safety Amendment (Social Media Minimum Age) Act 2024',cats:['Online Safety / Content Governance'],jur:'Australia',status:'In force',relevance:'Moderate',domains:['Counter-Terrorism','Disinfo & Influence Ops','Organised Crime'],desc:'World\'s first social media minimum age law requiring platforms to prevent under-16s from holding accounts. eSafety Commissioner enforces with fines up to AUD 49.5M. 4.7M+ accounts deactivated by Jan 2026.',type:'Legislation',enacted:'2024-11-29',force:'2025-12-10',nextsteps:'In force since Dec 2025. 10 platforms age-restricted. eSafety issued regulatory guidance Feb 2026. High Court challenge filed Nov 2025, hearing scheduled 2026.',scope:'Social media platforms accessible to Australian users. Platforms must take reasonable steps to prevent under-16s from creating accounts. Age verification required beyond self-declaration.',enforce:'eSafety Commissioner enforcement. Fines up to AUD 49.5M for non-compliance. 4.7M+ accounts deactivated by Jan 2026. High Court challenge pending.',relnotes:'Landmark child safety legislation driving global regulatory trajectory. Platforms subject to this law also face content moderation obligations that benefit from threat intelligence on harmful content networks.',source:'https://www.esafety.gov.au/about-us/industry-regulation/social-media-age-restrictions'},
+    {leg:'Christchurch Call',full:'Christchurch Call to Action to Eliminate Terrorist and Violent Extremist Content Online (2019)',cats:['Online Safety / Content Governance','National Security'],jur:'UN / International',status:'In force',relevance:'Moderate',domains:['Counter-Terrorism','Disinfo & Influence Ops'],desc:'Voluntary multinational commitment by 120+ governments and tech companies to eliminate terrorist and violent extremist content online. GIFCT serves as operational coordination arm.',type:'Framework',enacted:'2019-05-15',force:'2019-05-15',nextsteps:'Not legally binding but politically influential. 120+ government and tech company endorsements. Contributed to GIFCT expansion. Annual leaders\' summits. Framework behind many OSA and DSA content obligations.',scope:'Voluntary commitment by governments and tech companies. 120+ endorsers. Focuses on terrorist and violent extremist content online.',enforce:'Voluntary, no penalties. Political accountability through annual summits and progress reporting. GIFCT serves as operational arm.',relnotes:'Political framework that drives content governance legislation globally. Understanding the Christchurch Call commitments helps contextualize the regulatory trajectory for online safety obligations.',source:'https://www.christchurchcall.com/'},
+    {leg:'Budapest Convention',full:'Council of Europe Convention on Cybercrime (ETS No. 185)',cats:['Cybersecurity'],jur:'Council of Europe',status:'In force',relevance:'Strong',domains:['Cyber Threat Intel','Organised Crime','Financial Crime'],desc:'The foundational international treaty on cybercrime with 76+ state parties. Establishes frameworks for domestic criminalization, digital evidence procedures, and 24/7 international cooperation.',type:'Treaty / Convention',enacted:'2001-11-23',force:'2004-07-01',nextsteps:'76 state parties (as of 2025), including non-CoE members (US, Japan, Australia). Second Additional Protocol on enhanced cooperation and disclosure of electronic evidence opened for signature May 2022. Continues as primary operational cybercrime treaty alongside the new UN Convention.',scope:'76+ state parties globally. Covers offences against computer systems, computer-related fraud and forgery, content-related offences, and copyright infringement.',enforce:'Treaty obligations. Requires domestic criminalization, procedural powers for investigation, and international cooperation including 24/7 points of contact.',relnotes:'The most widely adopted cybercrime treaty. Established the international cooperation framework for cybercrime investigation that Revontulet\'s intelligence supports.',source:'https://www.coe.int/en/web/cybercrime/the-budapest-convention'},
+    {leg:'CER Directive',full:'Directive (EU) 2022/2557 on the resilience of critical entities',cats:['Critical Infrastructure','National Security'],jur:'EU',status:'Partially in force',relevance:'Direct',domains:['Cyber Threat Intel','Counter-Terrorism','Geopolitical Risk','Disinfo & Influence Ops','VIP Protection'],desc:'EU directive on critical entity resilience across 11 sectors including energy, transport, health, and space. Requires risk assessments, incident notification, and physical security measures.',type:'Legislation',enacted:'2023-01-16',force:'2024-10-18',deadline:'2026-07-17',nextsteps:'Member states to identify critical entities by 17 July 2026. National risk assessments by 17 January 2026.',scope:'Critical entities across 11 sectors: energy, transport, banking, financial market infrastructure, health, drinking water, wastewater, digital infrastructure, public administration, space, food.',enforce:'National competent authorities. Penalties set by member states. Supervision and enforcement powers include on-site inspections and audits.',relnotes:'CER requires comprehensive threat assessment spanning terrorism, sabotage, hybrid threats, and natural hazards. Revontulet\'s multi-domain model directly addresses the breadth of threats critical entities must assess.',source:'https://eur-lex.europa.eu/eli/dir/2022/2557/oj/eng'},
+    {leg:'ISO/IEC 25389:2025',full:'ISO/IEC 25389:2025 - Information technology - The Safe Framework',cats:['Online Safety / Content Governance','Platform Accountability'],jur:'ISO / International',status:'In force',relevance:'Direct',domains:['Disinfo & Influence Ops','Counter-Terrorism','Organised Crime','Cyber Threat Intel'],desc:'First international standard for trust and safety in digital services. Provides framework for content moderation, conduct-related risk management, and assessing organizational digital safety maturity.',type:'Standard',source:'https://www.iso.org/standard/90106.html'}
+  ];
+
+        // ── Airtable API Fetch ──
+        function resolveSelectValue(val) {
+            if (!val) return '';
+            if (typeof val === 'object' && val.name) return val.name;
+            return String(val);
+        }
+
+        function resolveMultiSelect(val) {
+            if (!val || !Array.isArray(val)) return [];
+            return val.map(v => typeof v === 'object' && v.name ? v.name : String(v));
+        }
+
+        function transformRecord(record) {
+            const f = record.fields || {};
+            const entry = {};
+            for (const [fieldName, jsKey] of Object.entries(FIELD_MAP)) {
+                const raw = f[fieldName];
+                if (['cats', 'domains'].includes(jsKey)) {
+                    entry[jsKey] = resolveMultiSelect(raw);
+                } else if (['jur', 'status', 'relevance', 'type'].includes(jsKey)) {
+                    entry[jsKey] = resolveSelectValue(raw);
+                } else {
+                    entry[jsKey] = raw || '';
+                }
+            }
+            return entry;
+        }
+
+        async function fetchRegulations() {
+            const resp = await fetch(DATA_URL);
+            if (!resp.ok) throw new Error(`Failed to load regulations: ${resp.status}`);
+            const data = await resp.json();
+            return data.records.map(transformRecord);
+        }
+
+        async function loadData() {
+            const grid = document.getElementById('cardsGrid');
+
+            // Show loading state
+            grid.innerHTML = '<div style="grid-column:1/-1;text-align:center;padding:60px 20px;color:#8a91a5;font-size:0.9rem;">Loading regulatory data...</div>';
+
+            try {
+                const fetched = await fetchRegulations();
+                if (fetched.length > 0) {
+                    legislationData = fetched;
+                    console.log(`Loaded ${legislationData.length} regulations`);
+                }
+            } catch (err) {
+                console.warn('JSON fetch failed, using embedded fallback data:', err.message);
+                // legislationData already contains the hardcoded fallback
+            }
+
+            initializeFilters();
+            initializeFilterToggles();
+            initializeMobileMenu();
+            updateStats();
+            updateCards();
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', loadData);
+
+        function initializeFilters() {
+            const jurisdictions = [...new Set(legislationData.map(l => l.jur))].sort();
+            const categories = [...new Set(legislationData.flatMap(l => l.cats))].sort();
+            const domains = [...new Set(legislationData.flatMap(l => l.domains))].sort();
+            const relevances = ['Direct', 'Strong', 'Moderate', 'Contextual'];
+            const statuses = ['In force', 'Partially in force', 'Enacted, not yet in force', 'In legislative process'];
+            const timelines = ['By 2026', 'By 2027', 'By 2028', 'All'];
+
+            const jurisdictionGroups = {
+                'Nordic': ['Norway', 'Sweden'],
+                'EU': ['EU'],
+                'UK & Europe': ['UK', 'Council of Europe'],
+                'UN/International': ['UN / International', 'Global / FATF', 'ISO / International'],
+                'Americas': ['USA (Federal)', 'USA (California)', 'United States', 'Canada', 'Brazil'],
+                'Asia-Pacific': ['Australia', 'New Zealand', 'Japan', 'South Korea', 'Taiwan', 'Singapore', 'India', 'Israel', 'Saudi Arabia'],
+                'Other European': ['France', 'Germany', 'Switzerland']
+            };
+
+            const jurisdictionContainer = document.getElementById('jurisdictionFilters');
+            for (const [group, jurs] of Object.entries(jurisdictionGroups)) {
+                const groupJurs = jurs.filter(j => jurisdictions.includes(j));
+                if (groupJurs.length > 0) {
+                    const groupLabel = document.createElement('div');
+                    groupLabel.className = 'checkbox-group-label';
+                    groupLabel.textContent = group;
+                    jurisdictionContainer.appendChild(groupLabel);
+
+                    for (const jur of groupJurs) {
+                        createCheckbox(jur, 'activeJurisdictions', jurisdictionContainer);
+                    }
+                }
+            }
+
+            const types = ['Legislation', 'Standard', 'Treaty / Convention', 'Resolution', 'Framework'];
+            renderFilterCheckboxes('typeFilters', types, 'activeTypes');
+            renderFilterCheckboxes('categoryFilters', categories, 'activeCategories');
+            renderFilterCheckboxes('domainFilters', domains, 'activeDomains');
+            renderFilterCheckboxes('relevanceFilters', relevances, 'activeRelevances');
+            renderFilterCheckboxes('statusFilters', statuses, 'activeStatuses');
+            renderFilterRadios('timelineFilters', timelines, 'activeTimelines');
+        }
+
+        function renderFilterCheckboxes(containerId, items, stateKey) {
+            const container = document.getElementById(containerId);
+            for (const item of items) {
+                createCheckbox(item, stateKey, container);
+            }
+        }
+
+        function renderFilterRadios(containerId, items, stateKey) {
+            const container = document.getElementById(containerId);
+            for (const item of items) {
+                createRadio(item, stateKey, container);
+            }
+        }
+
+        function createCheckbox(text, stateKey, container) {
+            const item = document.createElement('div');
+            item.className = 'checkbox-item';
+
+            const checkbox = document.createElement('input');
+            checkbox.type = 'checkbox';
+            checkbox.className = 'checkbox-input';
+            checkbox.id = `${stateKey}-${text}`;
+            checkbox.addEventListener('change', () => {
+                state[stateKey].has(text) ? state[stateKey].delete(text) : state[stateKey].add(text);
+                updateCards();
+                updateClearButton();
+            });
+
+            const label = document.createElement('label');
+            label.htmlFor = checkbox.id;
+            label.className = 'checkbox-label';
+            label.textContent = text;
+
+            item.appendChild(checkbox);
+            item.appendChild(label);
+            container.appendChild(item);
+        }
+
+        function createRadio(text, stateKey, container) {
+            const item = document.createElement('div');
+            item.className = 'radio-item';
+
+            const radio = document.createElement('input');
+            radio.type = 'radio';
+            radio.className = 'radio-input';
+            radio.name = stateKey;
+            radio.id = `${stateKey}-${text}`;
+            radio.addEventListener('change', () => {
+                state[stateKey].clear();
+                if (text !== 'All') {
+                    state[stateKey].add(text);
+                }
+                updateCards();
+                updateClearButton();
+            });
+
+            const label = document.createElement('label');
+            label.htmlFor = radio.id;
+            label.className = 'radio-label';
+            label.textContent = text;
+
+            item.appendChild(radio);
+            item.appendChild(label);
+            container.appendChild(item);
+        }
+
+        function initializeFilterToggles() {
+            document.querySelectorAll('.filter-header').forEach(header => {
+                header.addEventListener('click', () => {
+                    const toggle = header.querySelector('.filter-toggle');
+                    const content = header.nextElementSibling;
+
+                    toggle.classList.toggle('collapsed');
+                    content.classList.toggle('hidden');
+                });
+            });
+        }
+
+        function initializeMobileMenu() {
+            const hamburger = document.getElementById('hamburgerBtn');
+            const sidebar = document.getElementById('sidebar');
+
+            hamburger.addEventListener('click', () => {
+                sidebar.classList.toggle('open');
+            });
+
+            document.getElementById('clearAllLink').addEventListener('click', (e) => {
+                e.preventDefault();
+                clearAllFilters();
+            });
+
+            // Close sidebar when clicking outside
+            document.addEventListener('click', (e) => {
+                if (!sidebar.contains(e.target) && !hamburger.contains(e.target)) {
+                    sidebar.classList.remove('open');
+                }
+            });
+        }
+
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            state.searchTerm = e.target.value.toLowerCase();
+            updateCards();
+            updateClearButton();
+        });
+
+        document.getElementById('sortSelect').addEventListener('change', (e) => {
+            state.sortBy = e.target.value;
+            updateCards();
+        });
+
+        function clearAllFilters() {
+            state.activeJurisdictions.clear();
+            state.activeCategories.clear();
+            state.activeDomains.clear();
+            state.activeRelevances.clear();
+            state.activeStatuses.clear();
+            state.activeTimelines.clear();
+            state.activeTypes.clear();
+            state.searchTerm = '';
+            document.getElementById('searchInput').value = '';
+
+            document.querySelectorAll('.checkbox-input, .radio-input').forEach(input => {
+                input.checked = false;
+            });
+            updateClearButton();
+            updateCards();
+        }
+
+        function updateClearButton() {
+            const hasFilters = state.activeJurisdictions.size > 0 ||
+                               state.activeCategories.size > 0 ||
+                               state.activeDomains.size > 0 ||
+                               state.activeRelevances.size > 0 ||
+                               state.activeStatuses.size > 0 ||
+                               state.activeTimelines.size > 0 ||
+                               state.activeTypes.size > 0 ||
+                               state.searchTerm !== '';
+            const clearLink = document.getElementById('clearAllLink');
+            clearLink.style.opacity = hasFilters ? '1' : '0.5';
+            clearLink.style.pointerEvents = hasFilters ? 'auto' : 'none';
+        }
+
+        function filterLaws() {
+            return legislationData.filter(law => {
+                // Search filter
+                if (state.searchTerm) {
+                    const searchText = state.searchTerm;
+                    const matches = law.leg.toLowerCase().includes(searchText) ||
+                                   law.full.toLowerCase().includes(searchText) ||
+                                   law.jur.toLowerCase().includes(searchText) ||
+                                   law.cats.some(c => c.toLowerCase().includes(searchText)) ||
+                                   law.domains.some(d => d.toLowerCase().includes(searchText)) ||
+                                   (law.type && law.type.toLowerCase().includes(searchText)) ||
+                                   (law.desc && law.desc.toLowerCase().includes(searchText));
+                    if (!matches) return false;
+                }
+
+                if (state.activeTypes.size > 0 && !state.activeTypes.has(law.type)) {
+                    return false;
+                }
+
+                if (state.activeJurisdictions.size > 0 && !state.activeJurisdictions.has(law.jur)) {
+                    return false;
+                }
+
+                if (state.activeCategories.size > 0) {
+                    const hasCategory = law.cats.some(c => state.activeCategories.has(c));
+                    if (!hasCategory) return false;
+                }
+
+                if (state.activeDomains.size > 0) {
+                    const hasDomain = law.domains.some(d => state.activeDomains.has(d));
+                    if (!hasDomain) return false;
+                }
+
+                if (state.activeRelevances.size > 0 && !state.activeRelevances.has(law.relevance)) {
+                    return false;
+                }
+
+                if (state.activeStatuses.size > 0 && !state.activeStatuses.has(law.status)) {
+                    return false;
+                }
+
+                if (state.activeTimelines.size > 0 && !state.activeTimelines.has('All')) {
+                    const deadline = law.deadline;
+                    if (!deadline) return false;
+
+                    const deadlineDate = new Date(deadline);
+                    let matchesTimeline = false;
+
+                    if (state.activeTimelines.has('By 2026') && deadlineDate.getFullYear() === 2026) matchesTimeline = true;
+                    if (state.activeTimelines.has('By 2027') && deadlineDate.getFullYear() === 2027) matchesTimeline = true;
+                    if (state.activeTimelines.has('By 2028') && deadlineDate.getFullYear() === 2028) matchesTimeline = true;
+
+                    if (!matchesTimeline) return false;
+                }
+
+                return true;
+            });
+        }
+
+        function sortLaws(laws) {
+            const sorted = [...laws];
+
+            switch (state.sortBy) {
+                case 'name':
+                    sorted.sort((a, b) => a.leg.localeCompare(b.leg));
+                    break;
+                case 'jurisdiction':
+                    sorted.sort((a, b) => a.jur.localeCompare(b.jur) || a.leg.localeCompare(b.leg));
+                    break;
+                case 'relevance':
+                    const relevanceOrder = {'Direct': 0, 'Strong': 1, 'Moderate': 2, 'Contextual': 3};
+                    sorted.sort((a, b) => {
+                        const orderDiff = (relevanceOrder[a.relevance] || 999) - (relevanceOrder[b.relevance] || 999);
+                        if (orderDiff !== 0) return orderDiff;
+                        return a.leg.localeCompare(b.leg);
+                    });
+                    break;
+                case 'deadline':
+                    sorted.sort((a, b) => {
+                        if (!a.deadline) return 1;
+                        if (!b.deadline) return -1;
+                        return new Date(a.deadline) - new Date(b.deadline);
+                    });
+                    break;
+            }
+
+            return sorted;
+        }
+
+        function updateCards() {
+            const filtered = filterLaws();
+            const sorted = sortLaws(filtered);
+            const grid = document.getElementById('cardsGrid');
+            const noResults = document.getElementById('noResults');
+
+            grid.innerHTML = '';
+
+            if (sorted.length === 0) {
+                noResults.style.display = 'block';
+            } else {
+                noResults.style.display = 'none';
+                sorted.forEach((law, index) => {
+                    const card = createCard(law);
+                    card.style.animationDelay = (index * 0.05) + 's';
+                    grid.appendChild(card);
+                });
+            }
+
+            document.getElementById('resultCount').textContent = sorted.length;
+        }
+
+        function createCard(law) {
+            const card = document.createElement('div');
+            card.className = 'law-card';
+
+            const formatDate = (dateStr) => dateStr ? new Date(dateStr).toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: 'short',
+                day: 'numeric'
+            }) : '';
+
+            const isDeadlineUpcoming = law.deadline && new Date(law.deadline) > new Date('2026-03-25');
+
+            let html = `
+                <div class="card-inner">
+                    <div class="card-front">
+                        <div class="card-front-scroll">
+                            <div class="card-badges" style="margin-bottom:10px">
+                                <span class="badge badge-jurisdiction">${escapeHtml(law.jur)}</span>
+                                <span class="badge badge-status">${escapeHtml(law.status)}</span>
+                                ${law.type && law.type !== 'Legislation' ? `<span class="badge" style="background:${law.type === 'Standard' ? 'rgba(36,185,168,0.2);color:#24b9a8' : law.type === 'Treaty / Convention' ? 'rgba(147,213,222,0.2);color:#93d5de' : law.type === 'Framework' ? 'rgba(36,185,168,0.15);color:#6ecec3' : 'rgba(241,102,50,0.2);color:#f16632'}">${escapeHtml(law.type)}</span>` : ''}
+                            </div>
+
+                            <div class="card-header">
+                                <div class="card-title">${escapeHtml(law.leg)}</div>
+                                <div class="card-full-name">${escapeHtml(law.full)}</div>
+                            </div>
+
+                            ${law.desc ? `<div style="font-size:0.78rem;font-weight:200;color:#fff;line-height:1.55;margin-top:4px">${escapeHtml(law.desc)}</div>` : ''}
+
+                            <div class="category-pills" style="margin-top:14px">
+                                ${law.cats.map(c => `<span class="pill">${escapeHtml(c)}</span>`).join('')}
+                            </div>
+
+                            ${law.deadline ? `
+                            <div class="card-dates" style="margin-top:auto">
+                                <div class="date-item"><span class="date-label">Compliance Deadline:</span><span class="date-value" style="color: ${isDeadlineUpcoming ? '#f16632' : '#24b9a8'}">${formatDate(law.deadline)}</span></div>
+                            </div>` : ''}
+                        </div>
+                        <div class="card-flip-hint" style="color:#f16632">Click for details &#8635;</div>
+                    </div>
+
+                    <div class="card-back">
+                        <div class="card-back-title">${escapeHtml(law.leg)}</div>
+                        <div class="card-back-scroll">
+                            <div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px">
+                                <span class="badge badge-relevance ${law.relevance.toLowerCase()}">${escapeHtml(law.relevance)}</span>
+                                ${law.domains.map(d => `<span class="pill-domain">${escapeHtml(d)}</span>`).join('')}
+                            </div>
+
+                            ${(law.enacted || law.force) ? `
+                            <div class="card-dates" style="margin-bottom:14px">
+                                ${law.enacted ? `<div class="date-item"><span class="date-label">Enacted:</span><span class="date-value">${formatDate(law.enacted)}</span></div>` : ''}
+                                ${law.force ? `<div class="date-item"><span class="date-label">In Force:</span><span class="date-value">${formatDate(law.force)}</span></div>` : ''}
+                                ${law.deadline ? `<div class="date-item"><span class="date-label">Deadline:</span><span class="date-value" style="color: ${isDeadlineUpcoming ? '#f16632' : '#24b9a8'}">${formatDate(law.deadline)}</span></div>` : ''}
+                            </div>` : ''}
+
+                            ${law.scope ? `<div class="detail-section"><div class="detail-label">Scope</div><div class="detail-text">${escapeHtml(law.scope)}</div></div>` : ''}
+                            ${law.enforce ? `<div class="detail-section"><div class="detail-label">Enforcement</div><div class="detail-text">${escapeHtml(law.enforce)}</div></div>` : ''}
+                            ${law.relnotes ? `<div class="detail-section"><div class="detail-label">Revontulet Relevance</div><div class="detail-text">${escapeHtml(law.relnotes)}</div></div>` : ''}
+                            ${law.nextsteps ? `<div class="detail-section"><div class="detail-label">Next Steps</div><div class="detail-text">${escapeHtml(law.nextsteps)}</div></div>` : ''}
+                            ${law.source ? `<a href="${escapeHtml(law.source)}" target="_blank" class="source-link" onclick="event.stopPropagation()">View Source &rarr;</a>` : ''}
+                        </div>
+                        <div class="card-flip-hint">Click to flip back &#8635;</div>
+                    </div>
+                </div>
+            `;
+
+            card.innerHTML = html;
+
+            card.addEventListener('click', function(e) {
+                if (e.target.closest('.source-link')) return;
+                this.classList.toggle('flipped');
+            });
+
+            return card;
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        function updateStats() {
+            const total = legislationData.length;
+            const jurisdictions = new Set(legislationData.map(l => l.jur)).size;
+            const inForceCount = legislationData.filter(l => l.status === 'In force').length;
+            const directCount = legislationData.filter(l => l.relevance === 'Direct').length;
+
+            document.getElementById('statTotal').textContent = total;
+            document.getElementById('statJurisdictions').textContent = jurisdictions;
+            document.getElementById('statInForce').textContent = inForceCount;
+            document.getElementById('statDirect').textContent = directCount;
+
+            // Update header subtitle
+            const subtitle = document.getElementById('headerSubtitle');
+            if (subtitle) {
+                subtitle.textContent = `Mapping ${total} regulations and standards across ${jurisdictions} jurisdictions that create immediate demand for integrated cross-domain threat intelligence.`;
+            }
+
+            // Update sidebar result count
+            const totalSpan = document.querySelector('.result-count');
+            if (totalSpan) {
+                totalSpan.innerHTML = 'Showing <span id="resultCount">' + total + '</span> of ' + total;
+            }
+        }
+    </script>
+</body>
+</html>
