@@ -48,6 +48,7 @@ FIELD_IDS = {
     "fldLJe9RJyWqcNHVy": "Relevance Notes",
     "fldBYPbuoLTHG78TD": "Source",
     "fldIFXKD4YZda3WuS": "Audience",  # Used for filtering, not included in output
+    "fldmJYAT2NgT99MEI": "Last Modified",
 }
 
 AUDIENCE_FIELD_ID = "fldIFXKD4YZda3WuS"
