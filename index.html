@@ -133,7 +133,7 @@
             position: fixed;
             right: max(0px, calc((100vw - 1400px) / 2));
             top: var(--header-h, 100px);
-            bottom: 60px;
+            bottom: 180px;
             overflow-y: auto;
             z-index: 110;
             border-radius: 0 0 0 10px;
@@ -704,34 +704,55 @@
             line-height: 1.5;
         }
 
-        /* Hamburger Menu (hidden by default) */
-        .hamburger {
+        /* Floating filter button (mobile only) */
+        .filter-fab {
             display: none;
-            width: 30px;
-            height: 24px;
-            flex-direction: column;
-            justify-content: space-between;
-            cursor: pointer;
             position: fixed;
-            top: 20px;
-            right: 20px;
-            z-index: 200;
-            background: none;
+            bottom: 24px;
+            right: 24px;
+            width: 52px;
+            height: 52px;
+            border-radius: 50%;
+            background: #24b9a8;
             border: none;
-            padding: 0;
+            cursor: pointer;
+            z-index: 200;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+            align-items: center;
+            justify-content: center;
+            transition: background 0.3s ease, transform 0.2s ease;
         }
 
-        .hamburger span {
-            width: 100%;
-            height: 2px;
-            background: #24b9a8;
-            border-radius: 2px;
-            transition: all 0.3s ease;
+        .filter-fab:hover {
+            background: #1fa393;
+            transform: scale(1.05);
+        }
+
+        .filter-fab svg {
+            width: 22px;
+            height: 22px;
+            fill: none;
+            stroke: #0c1a30;
+            stroke-width: 2;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+
+        .sidebar-overlay {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(12, 26, 48, 0.6);
+            z-index: 149;
+        }
+
+        .sidebar-overlay.visible {
+            display: block;
         }
 
         /* Mobile Responsive */
         @media (max-width: 900px) {
-            .hamburger {
+            .filter-fab {
                 display: flex;
             }
 
@@ -749,6 +770,7 @@
                 z-index: 150;
                 transition: right 0.3s ease;
                 border-radius: 0;
+                bottom: 0;
             }
 
             .sidebar.open {
@@ -821,12 +843,11 @@
         </div>
     </header>
 
-    <!-- Hamburger Menu -->
-    <button class="hamburger" id="hamburgerBtn">
-        <span></span>
-        <span></span>
-        <span></span>
+    <!-- Mobile filter button -->
+    <button class="filter-fab" id="filterFab">
+        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21"/></svg>
     </button>
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
 
     <!-- Main Layout -->
     <div class="main-wrapper">
@@ -1110,7 +1131,7 @@
         // Sync sidebar top to header height
         function syncSidebarTop() {
             const h = document.querySelector('header');
-            if (h) document.documentElement.style.setProperty('--header-h', h.offsetHeight + 12 + 'px');
+            if (h) document.documentElement.style.setProperty('--header-h', h.offsetHeight + 132 + 'px');
         }
         window.addEventListener('resize', syncSidebarTop);
 
@@ -1238,23 +1259,26 @@
         }
 
         function initializeMobileMenu() {
-            const hamburger = document.getElementById('hamburgerBtn');
+            const fab = document.getElementById('filterFab');
             const sidebar = document.getElementById('sidebar');
+            const overlay = document.getElementById('sidebarOverlay');
 
-            hamburger.addEventListener('click', () => {
-                sidebar.classList.toggle('open');
-            });
+            function toggleSidebar() {
+                const open = sidebar.classList.toggle('open');
+                overlay.classList.toggle('visible', open);
+            }
+
+            function closeSidebar() {
+                sidebar.classList.remove('open');
+                overlay.classList.remove('visible');
+            }
+
+            fab.addEventListener('click', toggleSidebar);
+            overlay.addEventListener('click', closeSidebar);
 
             document.getElementById('clearAllLink').addEventListener('click', (e) => {
                 e.preventDefault();
                 clearAllFilters();
-            });
-
-            // Close sidebar when clicking outside
-            document.addEventListener('click', (e) => {
-                if (!sidebar.contains(e.target) && !hamburger.contains(e.target)) {
-                    sidebar.classList.remove('open');
-                }
             });
         }
 
@@ -1517,7 +1541,7 @@
             // Update header subtitle
             const subtitle = document.getElementById('headerSubtitle');
             if (subtitle) {
-                subtitle.textContent = `Mapping ${total} regulations and standards across ${jurisdictions} jurisdictions with ${totalObligations} tracked compliance obligations.`;
+                subtitle.textContent = `Mapping ${total} regulations and standards across ${jurisdictions} jurisdictions that create immediate demand for integrated cross-domain threat intelligence.`;
             }
 
             // Update sidebar result count
