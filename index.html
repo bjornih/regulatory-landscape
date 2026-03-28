@@ -820,6 +820,26 @@
                 padding: 16px;
             }
         }
+
+        /* Mobile: hide header/footer on scroll or filter */
+        @media (max-width: 900px) {
+            header {
+                transition: transform 0.3s ease, opacity 0.3s ease;
+            }
+            .disclaimer-footer {
+                transition: transform 0.3s ease, opacity 0.3s ease;
+            }
+            header.mobile-hidden {
+                transform: translateY(-100%);
+                opacity: 0;
+                pointer-events: none;
+            }
+            .disclaimer-footer.mobile-hidden {
+                transform: translateY(100%);
+                opacity: 0;
+                pointer-events: none;
+            }
+        }
     </style>
 </head>
 <body>
@@ -837,7 +857,6 @@
                     <div class="stat-inline"><span id="statTotal">—</span><span>Items</span></div>
                     <div class="stat-inline"><span id="statJurisdictions">—</span><span>Jurisdictions</span></div>
                     <div class="stat-inline"><span id="statInForce">—</span><span>In Force</span></div>
-                    <div class="stat-inline"><span id="statDirect">—</span><span>Direct Relevance</span></div>
                 </div>
             </div>
         </div>
@@ -845,7 +864,8 @@
 
     <!-- Mobile filter button -->
     <button class="filter-fab" id="filterFab">
-        <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21"/></svg>
+        <svg class="fab-icon-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21"/></svg>
+        <svg class="fab-icon-close" viewBox="0 0 24 24" style="display:none"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
     </button>
     <div class="sidebar-overlay" id="sidebarOverlay"></div>
 
@@ -1262,15 +1282,24 @@
             const fab = document.getElementById('filterFab');
             const sidebar = document.getElementById('sidebar');
             const overlay = document.getElementById('sidebarOverlay');
+            const iconSearch = fab.querySelector('.fab-icon-search');
+            const iconClose = fab.querySelector('.fab-icon-close');
+
+            function updateFabIcon(open) {
+                iconSearch.style.display = open ? 'none' : '';
+                iconClose.style.display = open ? '' : 'none';
+            }
 
             function toggleSidebar() {
                 const open = sidebar.classList.toggle('open');
                 overlay.classList.toggle('visible', open);
+                updateFabIcon(open);
             }
 
             function closeSidebar() {
                 sidebar.classList.remove('open');
                 overlay.classList.remove('visible');
+                updateFabIcon(false);
             }
 
             fab.addEventListener('click', toggleSidebar);
@@ -1281,6 +1310,36 @@
                 clearAllFilters();
             });
         }
+
+        // Mobile: hide header/footer on scroll or filter interaction
+        (function() {
+            const header = document.querySelector('header');
+            const footer = document.querySelector('.disclaimer-footer');
+            const isMobile = () => window.innerWidth <= 900;
+            let scrollY = 0;
+
+            function hideChrome() {
+                if (!isMobile()) return;
+                header.classList.add('mobile-hidden');
+                if (footer) footer.classList.add('mobile-hidden');
+            }
+
+            window.addEventListener('scroll', () => {
+                if (!isMobile()) return;
+                const currentY = window.scrollY;
+                if (currentY > 50) {
+                    hideChrome();
+                } else if (currentY < 10) {
+                    header.classList.remove('mobile-hidden');
+                    if (footer) footer.classList.remove('mobile-hidden');
+                }
+                scrollY = currentY;
+            }, { passive: true });
+
+            // Also hide when user interacts with filters or search
+            document.getElementById('sidebar')?.addEventListener('change', hideChrome);
+            document.getElementById('searchInput')?.addEventListener('focus', hideChrome);
+        })();
 
         document.getElementById('searchInput').addEventListener('input', (e) => {
             state.searchTerm = e.target.value.toLowerCase();
@@ -1530,18 +1589,14 @@
             const total = legislationData.length;
             const jurisdictions = new Set(legislationData.map(l => l.jur)).size;
             const inForceCount = legislationData.filter(l => l.status === 'In force').length;
-            const directCount = legislationData.filter(l => l.relevance === 'Direct').length;
-            const totalObligations = legislationData.reduce((sum, l) => sum + (l.obligations || 0), 0);
-
             document.getElementById('statTotal').textContent = total;
             document.getElementById('statJurisdictions').textContent = jurisdictions;
             document.getElementById('statInForce').textContent = inForceCount;
-            document.getElementById('statDirect').textContent = directCount;
 
             // Update header subtitle
             const subtitle = document.getElementById('headerSubtitle');
             if (subtitle) {
-                subtitle.textContent = `Mapping ${total} regulations and standards across ${jurisdictions} jurisdictions that create immediate demand for integrated cross-domain threat intelligence.`;
+                subtitle.textContent = `Mapping ${total} regulations and standards across ${jurisdictions} jurisdictions.`;
             }
 
             // Update sidebar result count
