@@ -24,7 +24,9 @@
         "Enforcement": "EC directly enforces against VLOPs/VLOSEs. Fines up to 6% of worldwide turnover. Periodic penalty payments up to 5% of daily turnover.",
         "Relevance Notes": "Platforms and digital service providers face extensive obligations under the DSA for systemic risk assessments, illegal content removal, and transparency reporting. Revontulet delivers actionable intelligence on terrorist networks, organized crime operations, and disinformation campaigns that directly supports clients' DSA compliance, enabling faster identification of illegal content and more robust systemic risk assessments.",
         "Source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32022R2065",
-        "Last Modified": "2026-03-27T03:51:13.000Z"
+        "Last Modified": "2026-03-28T09:55:29.000Z",
+        "Obligation Count": 11,
+        "Definition Count": 8
       }
     },
     {
@@ -51,7 +53,9 @@
         "Enforcement": "Direct supervisory and sanctioning powers over selected obliged entities. Can impose fines, issue binding decisions, and conduct on-site inspections. Coordinates enforcement across member states.",
         "Relevance Notes": "Financial institutions under AMLA's centralized EU supervision need standardized, multi-jurisdictional intelligence capabilities to meet heightened scrutiny. Revontulet provides the cross-border financial crime intelligence and counter-terrorism financing analysis that obliged entities require to satisfy AMLA's supervisory expectations and avoid enforcement action.",
         "Source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1620",
-        "Last Modified": "2026-03-28T06:09:14.000Z"
+        "Last Modified": "2026-03-28T06:09:14.000Z",
+        "Obligation Count": 4,
+        "Definition Count": 1
       }
     },
     {
@@ -79,7 +83,9 @@
         "Enforcement": "National screening authorities with EC cooperation mechanism. Proposed revision strengthens EC role and introduces mandatory screening.",
         "Relevance Notes": "Companies undergoing foreign investment screening and government bodies conducting FDI reviews require intelligence on foreign actors, state affiliations, and beneficial ownership structures. Revontulet delivers geopolitical risk assessments and actor-network analysis that enables clients to navigate FDI screening processes and meet disclosure requirements.",
         "Source": "https://eur-lex.europa.eu/eli/reg/2019/452/oj",
-        "Last Modified": "2026-03-27T04:17:10.000Z"
+        "Last Modified": "2026-03-27T04:17:10.000Z",
+        "Obligation Count": 2,
+        "Definition Count": 3
       }
     },
     {
@@ -105,7 +111,69 @@
         "Enforcement": "Mutual evaluations; grey/black listing. Being grey-listed causes significant economic consequences: reduced foreign investment, increased compliance costs. EU framework: fines up to 10% of turnover.",
         "Relevance Notes": "The FATF framework creates the global baseline for anti-money laundering and counter-terrorism financing compliance across 200+ jurisdictions. Revontulet's financial crime and counter-terrorism intelligence directly supports clients' risk-based approach requirements, helping them identify and mitigate money laundering and terrorist financing risks as mandated by FATF Recommendations.",
         "Source": "https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Fatf-recommendations.html",
-        "Last Modified": "2026-03-28T06:09:14.000Z"
+        "Last Modified": "2026-03-28T06:09:14.000Z",
+        "Obligation Count": 4,
+        "Definition Count": 3
+      }
+    },
+    {
+      "fields": {
+        "Legislation": "ATKM (TCO-NL)",
+        "Full Name": "Autoriteit online Terroristisch en Kinderpornografisch Materiaal - Dutch TCO Competent Authority",
+        "Categories": [
+          "Online Safety / Content Governance",
+          "Counter-Terrorism / P-CVE",
+          "National Security"
+        ],
+        "Jurisdiction": "Netherlands",
+        "Status": "In force",
+        "Relevance": "Direct",
+        "Domains": [
+          "Counter-Terrorism",
+          "Social Media",
+          "Online Platforms"
+        ],
+        "Brief Description": "Independent Dutch authority designated under EU Regulation 2021/784 (TCO) as the competent authority for issuing and receiving removal orders for terrorist content online. Also handles child sexual abuse material (CSAM). Operates the Meldpunt ATKM public reporting portal. Can impose administrative fines and penalty orders on non-compliant hosting providers. Limited scope: only terrorist content and CSAM; other extremist or violent content falls outside mandate.",
+        "Type": "Framework",
+        "Enacted": "2023-01-01",
+        "In Force": "2023-01-01",
+        "Scope": "Hosting service providers operating in or accessible from the Netherlands. Issues removal orders requiring content takedown within 1 hour. Can require specific measures (e.g., automated detection) against providers with repeated terrorist content.",
+        "Enforcement": "Administrative fines for non-compliance with removal orders. Penalty orders for repeated violations. Can compel hosting providers to implement specific measures. Fines up to 10% of annual turnover for CSAM-related violations (Eradication of Online Child Pornographic Material Act, July 2024).",
+        "Relevance Notes": "The primary enforcement body clients will interact with for terrorist content compliance in the Netherlands. ATKM operationalizes the EU TCO Regulation domestically. Understanding ATKM's scope (terrorist content + CSAM only, not broader extremist content) is critical for Dutch compliance advisory.",
+        "Source": "https://www.atkm.nl/",
+        "Last Modified": "2026-03-28T09:55:29.000Z",
+        "Obligation Count": 4,
+        "Definition Count": 1
+      }
+    },
+    {
+      "fields": {
+        "Legislation": "WvSr (Terrorism)",
+        "Full Name": "Wetboek van Strafrecht - Terrorism Provisions (Art. 83, 83a, 83b, 131, 132, 134a, 137c-e, 140a, 421)",
+        "Categories": [
+          "Counter-Terrorism / P-CVE",
+          "Online Safety / Content Governance",
+          "National Security"
+        ],
+        "Jurisdiction": "Netherlands",
+        "Status": "In force",
+        "Relevance": "Direct",
+        "Domains": [
+          "Counter-Terrorism",
+          "Cyber Threat Intel",
+          "Social Media"
+        ],
+        "Brief Description": "The Dutch Criminal Code's terrorism provisions, substantially expanded by the Wet terroristische misdrijven 2004 (Stb. 2004, 290), define terrorist offences, terrorist intent, and criminalize incitement, recruitment, training, financing, and participation in terrorist organizations. Art. 83/83a provide the core definitions; Art. 131/132 cover online incitement; Art. 134a addresses training; Art. 137c-e cover hate speech overlapping with extremist content; Art. 140a criminalizes participation in terrorist organizations; Art. 421 covers terrorism financing.",
+        "Type": "Legislation",
+        "Enacted": "2004-08-10",
+        "In Force": "2004-08-10",
+        "Scope": "All persons within Dutch jurisdiction. Online content provisions (Art. 131/132) apply to verbal, written, and pictorial incitement including social media. Enhanced penalties (typically +50%) apply when underlying offences carry terrorist intent.",
+        "Enforcement": "Criminal prosecution by the Openbaar Ministerie (Public Prosecution Service). Terrorism cases handled by the National Public Prosecutor's Office for Counterterrorism. Maximum penalties range from 5 years (incitement) to life imprisonment (murder with terrorist intent). Conspiracy to commit terrorist offences is separately criminalized.",
+        "Relevance Notes": "Core Dutch framework for prosecuting terrorist and violent extremist content. Art. 83a's three-prong definition of terrorist intent (intimidation, coercion, destruction of structures) is the foundation for all terrorism prosecutions. Critical for clients operating platforms in the Netherlands: online incitement (Art. 131/132) and hate speech (Art. 137c-e) create direct content moderation obligations when combined with TCO Regulation enforcement by ATKM.",
+        "Source": "https://wetten.overheid.nl/BWBR0001854/",
+        "Last Modified": "2026-03-28T09:55:29.000Z",
+        "Obligation Count": 2,
+        "Definition Count": 7
       }
     },
     {
@@ -133,7 +201,9 @@
         "Enforcement": "Member state transposition and enforcement. Harmonizes criminal penalties for money laundering across the EU. Enhanced FIU powers including ability to suspend transactions.",
         "Relevance Notes": "The Sixth Anti-Money Laundering Directive's 22 predicate offences span terrorism, drug trafficking, cybercrime, and organized crime. Obliged entities need intelligence covering these cross-domain threats to fulfil their customer due diligence obligations. Revontulet provides multi-domain intelligence that maps directly to 6AMLD's predicate offence categories, strengthening clients' suspicious activity detection.",
         "Source": "https://eur-lex.europa.eu/eli/dir/2024/1640/oj/eng",
-        "Last Modified": "2026-03-27T04:19:22.000Z"
+        "Last Modified": "2026-03-27T04:19:22.000Z",
+        "Obligation Count": 4,
+        "Definition Count": 5
       }
     },
     {
@@ -165,7 +235,35 @@
         "Enforcement": "National market surveillance authorities. Fines up to EUR 35M or 7% of global turnover (prohibited practices), EUR 15M or 3% (other violations).",
         "Relevance Notes": "Organizations deploying AI in security, law enforcement, and financial services face high-risk classification under the EU AI Act, requiring documented risk management, data quality controls, and human oversight. Revontulet helps clients assess AI compliance obligations across their security operations and provides intelligence that supports the transparency and accountability requirements for high-risk AI systems.",
         "Source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202401689",
-        "Last Modified": "2026-03-28T06:09:14.000Z"
+        "Last Modified": "2026-03-28T06:09:14.000Z",
+        "Obligation Count": 6,
+        "Definition Count": 2
+      }
+    },
+    {
+      "fields": {
+        "Legislation": "ICSFT (1999)",
+        "Full Name": "International Convention for the Suppression of the Financing of Terrorism",
+        "Categories": [
+          "AML / CFT / Financial Crime",
+          "Counter-Terrorism / P-CVE"
+        ],
+        "Jurisdiction": "UN / International",
+        "Status": "In Force",
+        "Relevance": "Tier 1",
+        "Domains": [
+          "Counter-Terrorism",
+          "Financial Crime"
+        ],
+        "Brief Description": "Foundational UN treaty on terrorism financing, adopted by UNGA Resolution 54/109. Criminalizes providing or collecting funds with the intent or knowledge that they will be used for terrorist acts. Establishes the 'dual criminality' approach: financing is an offence whether or not the funds are actually used. The Netherlands ratified in 2002. Directly referenced by UNSCR 1373 and shapes all subsequent EU/national CTF legislation.",
+        "Type": "Treaty / Convention",
+        "Enacted": "1999-12-09",
+        "In Force": "2002-04-10",
+        "Scope": "All State Parties (189 as of 2024). Requires criminalization of terrorism financing regardless of whether the funded act occurs. Applies to both natural and legal persons.",
+        "Enforcement": "No direct enforcement body. Implementation monitored through FATF mutual evaluations and UN CTC assessments. The Netherlands was last evaluated by FATF in 2022.",
+        "Relevance Notes": "The definitional ancestor for terrorism financing legislation worldwide. EU Directive 2017/541 Art. 11 and Dutch WvSr Art. 421 both trace back to this Convention. For platforms with crowdfunding or financial transfer features, this Convention establishes the baseline international obligation.",
+        "Source": "https://treaties.un.org/pages/ViewDetails.aspx?src=IND&mtdsg_no=XVIII-11&chapter=18&clang=_en",
+        "Last Modified": "2026-03-28T11:17:22.000Z"
       }
     },
     {
@@ -192,7 +290,9 @@
         "Enforcement": "National competent authorities and EU-level coordination. Products found in violation to be withdrawn from the market or prohibited from entry. Investigation procedures include risk-based assessments.",
         "Relevance Notes": "Companies must now demonstrate their supply chains are free from forced labour to maintain EU market access. Revontulet provides intelligence on state-sponsored forced labour programmes, trafficking networks, and high-risk sourcing regions, enabling clients to conduct the supply chain investigations required under this regulation.",
         "Source": "https://single-market-economy.ec.europa.eu/single-market/goods/forced-labour-regulation_en",
-        "Last Modified": "2026-03-27T08:06:22.000Z"
+        "Last Modified": "2026-03-27T08:06:22.000Z",
+        "Obligation Count": 4,
+        "Definition Count": 2
       }
     },
     {
@@ -219,7 +319,9 @@
         "Enforcement": "MODA enforcement. Fines up to NT$10M. Non-compliance can trigger operational restrictions.",
         "Relevance Notes": "Taiwan's 1-hour incident reporting requirement is the world's fastest, covering 8 critical infrastructure sectors facing intensifying cross-strait cyber threats. Revontulet delivers real-time threat intelligence and geopolitical context on state-sponsored campaigns targeting Taiwan, supporting clients' rapid detection and reporting capabilities.",
         "Source": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030297",
-        "Last Modified": "2026-03-27T08:04:17.000Z"
+        "Last Modified": "2026-03-27T08:04:17.000Z",
+        "Obligation Count": 2,
+        "Definition Count": 2
       }
     },
     {
@@ -250,7 +352,9 @@
         "Enforcement": "National data protection authorities. Fines up to EUR 20M or 4% of global annual turnover. Lead supervisory authority mechanism for cross-border processing.",
         "Relevance Notes": "GDPR compliance underpins every organization's data processing operations, with particular complexity in security and intelligence contexts. Revontulet's European-sovereign intelligence platform ensures clients receive critical threat data while maintaining full GDPR compliance, eliminating the regulatory risk of relying on non-European intelligence providers whose data processing may not meet EU standards.",
         "Source": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
-        "Last Modified": "2026-03-27T03:52:23.000Z"
+        "Last Modified": "2026-03-27T03:52:23.000Z",
+        "Obligation Count": 10,
+        "Definition Count": 7
       }
     },
     {
@@ -278,7 +382,9 @@
         "Enforcement": "AFP enforcement. Failure to remove: up to 10% of annual turnover for corporations or AUD 11.1M. Failure to report to AFP: AUD 888K for corporations. Up to 3 years imprisonment for individuals.",
         "Relevance Notes": "Platforms face criminal liability for failing to expeditiously remove abhorrent violent material including terrorist content. Revontulet provides rapid terrorist content classification and network analysis that enables platforms to meet their removal obligations and proactively identify abhorrent material before it spreads.",
         "Source": "https://www.legislation.gov.au/Details/C2019A00038",
-        "Last Modified": "2026-03-27T04:29:02.000Z"
+        "Last Modified": "2026-03-27T04:29:02.000Z",
+        "Obligation Count": 3,
+        "Definition Count": 2
       }
     },
     {
@@ -306,7 +412,9 @@
         "Enforcement": "MCF (Myndigheten för civilt försvar) as coordinator. Up to EUR 10M or 2% turnover (essential), EUR 7M or 1.4% (important). Director disqualification possible.",
         "Relevance Notes": "Sweden's NIS2 transposition covers several thousand entities across 18 sectors with organization-wide cybersecurity obligations. Revontulet delivers the threat intelligence, risk assessment support, and incident analysis that Swedish regulated entities need to meet their cybersecurity management requirements under this law.",
         "Source": "https://www.cyberday.ai/blog/what-is-cybersakerhetslagen-swedish-nis2/",
-        "Last Modified": "2026-03-27T04:26:22.000Z"
+        "Last Modified": "2026-03-27T04:26:22.000Z",
+        "Obligation Count": 2,
+        "Definition Count": 2
       }
     },
     {
@@ -333,7 +441,9 @@
         "Enforcement": "Through ENISA and national cybersecurity authorities. Certification framework provides presumption of conformity with NIS2 and other EU legislation. Non-compliance with certification requirements to be addressed through market surveillance.",
         "Relevance Notes": "The revised Cybersecurity Act expands certification to cover managed security services and organizational cybersecurity posture, directly relevant to security service providers. Revontulet can help clients prepare for the new certification requirements and leverage cybersecurity certification to demonstrate NIS2 compliance, while our threat intelligence feeds support the early warning and vulnerability management capabilities the Act enables.",
         "Source": "https://digital-strategy.ec.europa.eu/en/library/proposal-regulation-eu-cybersecurity-act",
-        "Last Modified": "2026-03-28T06:12:58.000Z"
+        "Last Modified": "2026-03-28T06:12:58.000Z",
+        "Obligation Count": 4,
+        "Definition Count": 3
       }
     },
     {
@@ -360,7 +470,9 @@
         "Enforcement": "Member state criminal law enforcement. Penalties of 1-3 years imprisonment depending on member state transposition.",
         "Relevance Notes": "This framework decision defines the legal baseline for hate speech that platforms must moderate under the DSA. Revontulet provides intelligence on extremist networks and hate-driven content ecosystems, helping clients identify and address illegal content that falls within this framework's definitions.",
         "Source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32008F0913",
-        "Last Modified": "2026-03-27T08:06:22.000Z"
+        "Last Modified": "2026-03-27T08:06:22.000Z",
+        "Obligation Count": 3,
+        "Definition Count": 2
       }
     },
     {
@@ -387,7 +499,9 @@
         "Enforcement": "Proposed EU Centre on Child Sexual Abuse as coordinating body. Mandatory risk assessments and mitigation. Council position removes mandatory scanning.",
         "Relevance Notes": "The proposed EU CSAM regulation will require platforms to detect, report, and remove child sexual abuse material, with a new EU Centre overseeing compliance. Revontulet provides intelligence on exploitation networks, distribution infrastructure, and organized criminal groups involved in CSAM, supporting platforms' detection and reporting obligations.",
         "Source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM:2022:209:FIN",
-        "Last Modified": "2026-03-27T04:27:39.000Z"
+        "Last Modified": "2026-03-27T04:27:39.000Z",
+        "Obligation Count": 8,
+        "Definition Count": 3
       }
     },
     {
@@ -415,7 +529,9 @@
         "Enforcement": "BSI enforcement. Up to EUR 20M or 4% global turnover (double the NIS2 minimum). Personal liability for directors. EUR 500K for reporting failures.",
         "Relevance Notes": "Germany's NIS2 transposition expands cybersecurity regulation from 4,500 to approximately 30,000 entities, representing the EU's largest single national market for NIS2 compliance. Revontulet provides the threat intelligence, attack detection capabilities, and supply chain risk analysis that these newly regulated German entities require to meet enhanced NIS2 requirements.",
         "Source": "https://www.bundesregierung.de/breg-de/aktuelles/nis-2-richtlinie-deutschland-2373174",
-        "Last Modified": "2026-03-27T08:06:22.000Z"
+        "Last Modified": "2026-03-27T08:06:22.000Z",
+        "Obligation Count": 2,
+        "Definition Count": 3
       }
     },
     {
@@ -442,7 +558,9 @@
         "Enforcement": "Voluntary certification. Extends ISO 27001 scope. Certification demonstrates GDPR-aligned privacy management.",
         "Relevance Notes": "ISO 27701 certification demonstrates privacy management maturity aligned with GDPR requirements. Revontulet helps clients implement the threat intelligence and security controls needed for ISO 27701 compliance, and maintains its own certification to provide assurance that client data is processed within a certified privacy framework.",
         "Source": "https://www.iso.org/standard/71670.html",
-        "Last Modified": "2026-03-27T08:06:21.000Z"
+        "Last Modified": "2026-03-27T08:06:21.000Z",
+        "Obligation Count": 2,
+        "Definition Count": 2
       }
     },
     {
@@ -470,7 +588,35 @@
         "Enforcement": "National judicial authorities issue orders directly to service providers. Pecuniary penalties up to 2% of total worldwide annual turnover for non-compliance.",
         "Relevance Notes": "The EU e-Evidence Regulation accelerates cross-border electronic evidence gathering from months to days, creating direct obligations on service providers to preserve and produce data on judicial request. Revontulet supports clients with the intelligence context needed to respond to e-Evidence orders accurately and the cyber forensic capabilities to preserve evidentiary integrity.",
         "Source": "https://eur-lex.europa.eu/eli/reg/2023/1543/oj/eng",
-        "Last Modified": "2026-03-27T04:29:02.000Z"
+        "Last Modified": "2026-03-27T04:29:02.000Z",
+        "Obligation Count": 5,
+        "Definition Count": 4
+      }
+    },
+    {
+      "fields": {
+        "Legislation": "CoE CT Convention Additional Protocol (CETS 217)",
+        "Full Name": "Additional Protocol to the Council of Europe Convention on the Prevention of Terrorism",
+        "Categories": [
+          "Counter-Terrorism / P-CVE",
+          "National Security"
+        ],
+        "Jurisdiction": "Council of Europe",
+        "Status": "In Force",
+        "Relevance": "Tier 1",
+        "Domains": [
+          "Counter-Terrorism",
+          "Geopolitical Risk"
+        ],
+        "Brief Description": "Supplements CETS 196 with foreign terrorist fighter (FTF) offences adopted to implement UNSCR 2178 (2014). Criminalizes participating in a group for terrorism (Art. 2), receiving training (Art. 3), travelling for terrorism (Art. 4), and financing/organizing such travel (Art. 5-6). These provisions became Arts. 8-11 of EU Directive 2017/541.",
+        "Type": "Treaty / Convention",
+        "Enacted": "2015-10-22",
+        "In Force": "2017-07-01",
+        "Scope": "All States Parties to CETS 196 that separately ratify this Protocol. Requires criminalization of FTF-related conduct regardless of where the underlying terrorist offence is intended to take place.",
+        "Enforcement": "Same Committee of the Parties mechanism as CETS 196. Relies on domestic criminal law transposition. Requires States to establish 24/7 contact points for timely information exchange on foreign travellers.",
+        "Relevance Notes": "Directly relevant to Dutch FTF provisions. WvSr Art. 134a (training/travel), Paspoortwet measures, and the Twbmt administrative measures all trace back to this Protocol's requirements. For online platforms, relevant where content facilitates FTF travel or logistics.",
+        "Source": "https://www.coe.int/en/web/conventions/full-list?module=treaty-detail&treatynum=217",
+        "Last Modified": "2026-03-28T11:17:22.000Z"
       }
     },
     {
@@ -497,7 +643,9 @@
         "Enforcement": "DIA (Department of Internal Affairs) and Classification Office. Up to 14 years imprisonment for knowingly distributing objectionable material. NZD 200K for hosting providers failing to comply with takedown notices.",
         "Relevance Notes": "New Zealand's classification regime and post-Christchurch amendments carry criminal penalties of up to 14 years for distributing terrorist content. Revontulet provides the terrorist content identification and classification intelligence that platforms need to comply with this strict liability framework.",
         "Source": "https://legislation.govt.nz/act/public/1993/0094/latest/DLM313407.html",
-        "Last Modified": "2026-03-27T08:05:16.000Z"
+        "Last Modified": "2026-03-27T08:05:16.000Z",
+        "Obligation Count": 2,
+        "Definition Count": 2
       }
     },
     {
@@ -526,7 +674,9 @@
         "Enforcement": "Enforcement under NCO framework. Specific penalty structures set through implementing regulations.",
         "Relevance Notes": "Japan's Active Cyber Defense Act covers 15 critical infrastructure sectors with proactive threat monitoring requirements, reflecting the escalating state-sponsored cyber threat landscape in the Indo-Pacific. Revontulet provides the cross-domain threat intelligence covering state-sponsored operations, geopolitical context, and supply chain risks that Japanese CI operators need.",
         "Source": "https://iclg.com/practice-areas/cybersecurity-laws-and-regulations/japan",
-        "Last Modified": "2026-03-27T08:05:11.000Z"
+        "Last Modified": "2026-03-27T08:05:11.000Z",
+        "Obligation Count": 2,
+        "Definition Count": 2
       }
     },
     {
@@ -553,7 +703,9 @@
         "Enforcement": "eSafety Commissioner enforcement. Fines up to AUD 49.5M for non-compliance. 4.7M+ accounts deactivated by Jan 2026. High Court challenge pending.",
         "Relevance Notes": "The world's first social media minimum age law creates new compliance requirements for platforms that also face content moderation obligations. Revontulet helps platforms subject to this law address the broader ecosystem of online safety risks, providing intelligence on exploitation networks, grooming tactics, and harmful content patterns.",
         "Source": "https://www.esafety.gov.au/about-us/industry-regulation/social-media-age-restrictions",
-        "Last Modified": "2026-03-27T08:06:24.000Z"
+        "Last Modified": "2026-03-27T08:06:24.000Z",
+        "Obligation Count": 3,
+        "Definition Count": 3
       }
     },
     {
@@ -581,7 +733,35 @@
         "Enforcement": "National competent authorities. Penalties for systematic non-compliance up to 4% of global turnover.",
         "Relevance Notes": "EU hosting providers must remove terrorist content within one hour of receiving a removal order and implement proactive measures to prevent dissemination. Revontulet's counter-terrorism intelligence and content analysis capabilities enable hosting providers to detect terrorist material proactively and respond within the mandatory one-hour window.",
         "Source": "https://eur-lex.europa.eu/eli/reg/2021/784/oj/eng",
-        "Last Modified": "2026-03-27T03:49:51.000Z"
+        "Last Modified": "2026-03-27T03:49:51.000Z",
+        "Obligation Count": 7,
+        "Definition Count": 5
+      }
+    },
+    {
+      "fields": {
+        "Legislation": "UNSCR 2396",
+        "Full Name": "UN Security Council Resolution 2396 (2017) on Returning Foreign Terrorist Fighters",
+        "Categories": [
+          "Counter-Terrorism / P-CVE",
+          "National Security"
+        ],
+        "Jurisdiction": "UN / International",
+        "Status": "In Force",
+        "Relevance": "Tier 1",
+        "Domains": [
+          "Counter-Terrorism",
+          "Geopolitical Risk"
+        ],
+        "Brief Description": "Follow-up to UNSCR 2178, specifically addressing threats from returning and relocating foreign terrorist fighters as ISIL lost territory. Requires Member States to strengthen border controls, collect biometric data, implement advance passenger information (API) systems, develop watchlists, and address prosecution, rehabilitation, and reintegration of returnees and their families.",
+        "Type": "Resolution",
+        "Enacted": "2017-12-21",
+        "In Force": "2017-12-21",
+        "Scope": "Binding on all UN Member States under Chapter VII. Focuses on the return/relocation phase of FTF lifecycle, complementing UNSCR 2178's focus on outbound travel.",
+        "Enforcement": "Binding under Chapter VII of the UN Charter. Monitored by the Counter-Terrorism Committee (CTC) and CTED. The CTC conducts country visits to assess implementation.",
+        "Relevance Notes": "Completes the UN FTF resolution chain (1373 > 2178 > 2396 > 2462). The Netherlands' Twbmt measures and NCTV returnee policies respond to 2396's requirements. For online platforms, relevant as the policy driver behind increased focus on FTF-related content during the returnee phase.",
+        "Source": "https://unscr.com/en/resolutions/2396/",
+        "Last Modified": "2026-03-28T11:17:22.000Z"
       }
     },
     {
@@ -608,7 +788,9 @@
         "Enforcement": "Fines up to SGD 100,000 for CII owners. Enhanced penalties up to SGD 200,000 or 10% annual turnover for ESCI and FDI violations.",
         "Relevance Notes": "Singapore's expanded cybersecurity framework now covers foundational digital infrastructure, entities of special cybersecurity interest, and systems of temporary concern beyond traditional critical infrastructure. Revontulet provides the threat intelligence and risk assessment capabilities these newly regulated entities require to meet their cybersecurity obligations.",
         "Source": "https://www.csa.gov.sg/legislation/cybersecurity-act/",
-        "Last Modified": "2026-03-27T08:04:17.000Z"
+        "Last Modified": "2026-03-27T08:04:17.000Z",
+        "Obligation Count": 2,
+        "Definition Count": 1
       }
     },
     {
@@ -638,7 +820,9 @@
         "Enforcement": "Voluntary guideline. Universal risk management framework referenced by most regulatory risk assessment requirements.",
         "Relevance Notes": "ISO 31000 is the universal risk management framework referenced by NIS2, DORA, CER, GDPR, and AML regulations. Organizations implementing risk-based compliance across these regimes need intelligence-informed risk assessments. Revontulet provides the threat data, geopolitical analysis, and domain-specific intelligence that transforms ISO 31000 risk frameworks from theoretical exercises into operationally effective compliance tools.",
         "Source": "https://www.iso.org/standard/65694.html",
-        "Last Modified": "2026-03-27T08:06:24.000Z"
+        "Last Modified": "2026-03-27T08:06:24.000Z",
+        "Obligation Count": 2,
+        "Definition Count": 2
       }
     },
     {
@@ -666,7 +850,9 @@
         "Enforcement": "National export control authorities. Penalties determined by Member States. Denial of export licences and potential criminal prosecution for violations.",
         "Relevance Notes": "The EU Dual-Use Regulation controls exports of cyber-surveillance and intelligence technologies, with a catch-all provision for items not on control lists. Organizations developing or deploying intelligence tools need expert guidance on export control compliance. Revontulet helps clients navigate dual-use classification requirements and provides geopolitical intelligence on end-use risk assessments.",
         "Source": "https://eur-lex.europa.eu/eli/reg/2021/821/oj/eng",
-        "Last Modified": "2026-03-27T04:17:10.000Z"
+        "Last Modified": "2026-03-27T04:17:10.000Z",
+        "Obligation Count": 2,
+        "Definition Count": 4
       }
     },
     {
@@ -695,7 +881,9 @@
         "Enforcement": "NCA enforcement for cybersecurity. SDAIA for data protection. PDPL penalties up to 2% of revenue or SAR 3M. Anti-Cyber Crime Law: up to SAR 5M and 10 years imprisonment.",
         "Relevance Notes": "Saudi Arabia's Vision 2030 digitalization creates an expanding attack surface across government and critical infrastructure. Organizations operating in Saudi Arabia need comprehensive cybersecurity controls aligned with NCA requirements. Revontulet provides the threat intelligence and geopolitical risk context specific to the Gulf region that supports clients' ECC compliance.",
         "Source": "https://nca.gov.sa/en/pages/ecc.html",
-        "Last Modified": "2026-03-27T08:06:21.000Z"
+        "Last Modified": "2026-03-27T08:06:21.000Z",
+        "Obligation Count": 3,
+        "Definition Count": 2
       }
     },
     {
@@ -722,7 +910,9 @@
         "Enforcement": "Finanstilsynet (Financial Supervisory Authority of Norway). Administrative sanctions and enforcement fines. Enforcement fines for beneficial ownership registration non-compliance from July 2025.",
         "Relevance Notes": "Norwegian financial institutions and designated non-financial businesses must conduct customer due diligence, monitor transactions, and report suspicious activity under the Hvitvaskingsloven. Revontulet provides the financial crime intelligence, PEP screening data, and beneficial ownership analysis that Norwegian obliged entities need to fulfil their AML/CFT obligations effectively.",
         "Source": "https://lovdata.no/lov/2018-06-01-23",
-        "Last Modified": "2026-03-27T08:05:11.000Z"
+        "Last Modified": "2026-03-27T08:05:11.000Z",
+        "Obligation Count": 4,
+        "Definition Count": 2
       }
     },
     {
@@ -750,7 +940,9 @@
         "Enforcement": "Treaty obligations. Implementation Review Mechanism. Requires international cooperation, asset recovery, and technical assistance.",
         "Relevance Notes": "Corruption is a cross-cutting risk connecting financial crime, organized crime, and state capture across 190 signatory states. Revontulet provides intelligence on corruption networks, politically exposed persons, and illicit financial flows that helps clients conducting due diligence, anti-bribery compliance, and integrity assessments meet their UNCAC-derived obligations.",
         "Source": "https://www.unodc.org/unodc/en/corruption/uncac.html",
-        "Last Modified": "2026-03-27T08:06:23.000Z"
+        "Last Modified": "2026-03-27T08:06:23.000Z",
+        "Obligation Count": 3,
+        "Definition Count": 2
       }
     },
     {
@@ -779,7 +971,9 @@
         "Enforcement": "NSM (National Security Authority) and sector-specific authorities. Registration, risk management, and incident reporting obligations.",
         "Relevance Notes": "As Norway's NIS/NIS2 implementation, the Digitalsikkerhetsloven creates cybersecurity obligations for essential and important entities across multiple sectors. The upcoming NIS2 expansion will significantly increase the number of regulated Norwegian organizations. Revontulet provides the threat intelligence and incident response capabilities these entities need, delivered from within the Norwegian regulatory jurisdiction.",
         "Source": "https://lovdata.no/lov/2024-06-21-46",
-        "Last Modified": "2026-03-28T06:09:14.000Z"
+        "Last Modified": "2026-03-28T06:09:14.000Z",
+        "Obligation Count": 2,
+        "Definition Count": 3
       }
     },
     {
@@ -806,7 +1000,9 @@
         "Enforcement": "National supervisors and AMLA. Fines up to 10% of annual turnover or EUR 10M (whichever is higher). Enhanced due diligence and reporting failures can trigger criminal liability under 6AMLD.",
         "Relevance Notes": "The EU's single AML rulebook creates directly applicable obligations for customer due diligence, beneficial ownership transparency, and suspicious activity reporting across all obliged entities including crypto providers. Revontulet delivers the financial crime intelligence, sanctions screening data, and network analysis that obliged entities need to meet AMLR's harmonized requirements.",
         "Source": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng",
-        "Last Modified": "2026-03-27T08:06:20.000Z"
+        "Last Modified": "2026-03-27T08:06:20.000Z",
+        "Obligation Count": 5,
+        "Definition Count": 2
       }
     },
     {
@@ -834,7 +1030,9 @@
         "Enforcement": "Voluntary standard. Referenced by NIS2, DORA, and national cybersecurity regulations as best practice for incident response.",
         "Relevance Notes": "Effective incident management requires threat intelligence for detection, triage, and response prioritization. Organizations implementing ISO 27035 need real-time threat context to classify incidents accurately. Revontulet provides the threat intelligence feeds and analysis that transform incident response from reactive to intelligence-led, as referenced by NIS2 and DORA compliance requirements.",
         "Source": "https://www.iso.org/standard/78973.html",
-        "Last Modified": "2026-03-27T04:26:22.000Z"
+        "Last Modified": "2026-03-27T04:26:22.000Z",
+        "Obligation Count": 2,
+        "Definition Count": 2
       }
     },
     {
@@ -860,7 +1058,9 @@
         "Enforcement": "Treaty obligations upon ratification. Requires criminalization of cybercrime offences, mutual legal assistance, and real-time data cooperation.",
         "Relevance Notes": "The first global cybercrime treaty will generate implementation legislation across dozens of countries, dramatically expanding the regulatory landscape for cybersecurity compliance. Revontulet helps clients anticipate and prepare for these emerging national-level cybercrime laws by tracking implementation progress and providing intelligence on the evolving threat landscape the convention addresses.",
         "Source": "https://www.unodc.org/unodc/en/cybercrime/ad_hoc_committee/home",
-        "Last Modified": "2026-03-27T04:18:14.000Z"
+        "Last Modified": "2026-03-27T04:18:14.000Z",
+        "Obligation Count": 2,
+        "Definition Count": 1
       }
     },
     {
@@ -887,7 +1087,34 @@
         "Enforcement": "National criminal law enforcement. Maximum penalties of 2-5 years imprisonment depending on offence, with aggravating factors (organised crime, critical infrastructure, botnets) increasing sentences.",
         "Relevance Notes": "The EU Cybercrime Directive defines the criminal law framework for cyber offences across the EU, complementing NIS2's regulatory requirements. Organizations need to understand these criminal definitions to calibrate their cybersecurity and incident reporting responses. Revontulet provides intelligence that helps clients distinguish criminal cyber activity from other incidents, improving reporting accuracy and legal response.",
         "Source": "https://eur-lex.europa.eu/eli/dir/2013/40/oj/eng",
-        "Last Modified": "2026-03-27T08:06:20.000Z"
+        "Last Modified": "2026-03-27T08:06:20.000Z",
+        "Obligation Count": 1,
+        "Definition Count": 3
+      }
+    },
+    {
+      "fields": {
+        "Legislation": "Rijkswet op het Nederlanderschap",
+        "Full Name": "Rijkswet op het Nederlanderschap (Kingdom Act on Netherlands Nationality)",
+        "Categories": [
+          "Counter-Terrorism / P-CVE",
+          "National Security"
+        ],
+        "Jurisdiction": "Netherlands",
+        "Status": "In Force",
+        "Relevance": "Tier 2",
+        "Domains": [
+          "Counter-Terrorism"
+        ],
+        "Brief Description": "Kingdom Act governing acquisition and loss of Dutch nationality. Art. 14(2)b enables revocation of Dutch nationality for persons convicted of terrorism offences (WvSr Arts. 83/83a offences) or training for terrorism (Art. 134a), provided the person holds another nationality (to prevent statelessness). Art. 14(4) enables administrative revocation by the Minister for persons who have joined an organisation participating in armed conflict that poses a threat to national security.",
+        "Type": "Legislation",
+        "Enacted": "1984-12-19",
+        "In Force": "1985-01-01",
+        "Scope": "Kingdom of the Netherlands (including Caribbean territories). Terrorism-related revocation provisions only apply to dual nationals to comply with the Convention on Statelessness.",
+        "Enforcement": "Revocation decisions made by Royal Decree (Art. 14(2)b conviction-based) or by the Minister of Justice (Art. 14(4) administrative). Subject to judicial review. Art. 14(4) administrative revocation was added in 2017 specifically for FTF cases.",
+        "Relevance Notes": "Consequential instrument: citizenship revocation is a downstream effect of terrorism convictions, not a content regulation tool. Relevant for completeness of the Dutch CT enforcement picture and for understanding the severity of consequences that flow from the WvSr terrorism provisions.",
+        "Source": "https://wetten.overheid.nl/BWBR0003738/",
+        "Last Modified": "2026-03-28T11:17:22.000Z"
       }
     },
     {
@@ -915,7 +1142,9 @@
         "Enforcement": "ANSSI enforcement. EUR 150K for non-compliance. ANSSI can deploy network probes on ISP systems and prescribe DNS filtering for national security threats.",
         "Relevance Notes": "France's proactive cyber defense posture, including ANSSI network probes and DNS filtering authority, represents one of Europe's most advanced national cyber frameworks. Critical infrastructure operators and service providers in France need sophisticated threat intelligence to meet these heightened requirements. Revontulet delivers the cyber threat analysis and geopolitical context French entities need for compliance.",
         "Source": "https://www.vie-publique.fr/loi/288878-loi-du-1er-aout-2023-programmation-militaire-2024-2030-lpm",
-        "Last Modified": "2026-03-27T04:17:10.000Z"
+        "Last Modified": "2026-03-27T04:17:10.000Z",
+        "Obligation Count": 2,
+        "Definition Count": 2
       }
     },
     {
@@ -944,7 +1173,9 @@
         "Enforcement": "Treaty obligations. Requires mutual legal assistance, extradition cooperation, and joint investigations. Review mechanism monitors implementation.",
         "Relevance Notes": "The Palermo Convention creates the international legal framework for combating transnational organized crime, with 190 state parties implementing national legislation. Revontulet provides intelligence on organized crime networks, trafficking routes, and criminal enterprise structures that helps clients meet their compliance obligations under UNTOC-derived national laws.",
         "Source": "https://www.unodc.org/unodc/en/organized-crime/intro/UNTOC.html",
-        "Last Modified": "2026-03-27T04:25:12.000Z"
+        "Last Modified": "2026-03-27T04:25:12.000Z",
+        "Obligation Count": 2,
+        "Definition Count": 4
       }
     },
     {
@@ -973,7 +1204,9 @@
         "Enforcement": "National criminal law enforcement. Higher penalties when internet or digital technologies are used for exploitation. Member States must ensure effective investigation and prosecution.",
         "Relevance Notes": "The amended Anti-Trafficking Directive expands covered exploitation forms and strengthens obligations for prevention and victim identification. Organizations in supply chain management, financial services, and platform operations need intelligence on trafficking networks and indicators. Revontulet provides cross-domain intelligence connecting organized crime, financial flows, and exploitation patterns.",
         "Source": "https://eur-lex.europa.eu/eli/dir/2024/1712/oj/eng",
-        "Last Modified": "2026-03-27T08:05:06.000Z"
+        "Last Modified": "2026-03-27T08:05:06.000Z",
+        "Obligation Count": 3,
+        "Definition Count": 2
       }
     },
     {
@@ -1000,7 +1233,9 @@
         "Enforcement": "Treaty obligations. Requires domestic criminalization, procedural powers for investigation, and international cooperation including 24/7 points of contact.",
         "Relevance Notes": "The most widely adopted cybercrime treaty (76+ parties) establishes the international cooperation framework for cybercrime investigations, including mutual legal assistance and expedited data preservation. Revontulet provides the cyber threat intelligence and digital forensic context that helps clients operating across multiple jurisdictions understand and comply with Budapest Convention cooperation mechanisms.",
         "Source": "https://www.coe.int/en/web/cybercrime/the-budapest-convention",
-        "Last Modified": "2026-03-27T04:18:14.000Z"
+        "Last Modified": "2026-03-27T04:18:14.000Z",
+        "Obligation Count": 2,
+        "Definition Count": 5
       }
     },
     {
@@ -1031,7 +1266,42 @@
         "Enforcement": "National competent authorities. Penalties set by member states. Supervision and enforcement powers include on-site inspections and audits.",
         "Relevance Notes": "Critical entities across 11 EU sectors must conduct comprehensive threat assessments covering terrorism, sabotage, hybrid threats, and natural hazards under the CER Directive. Revontulet delivers the multi-domain threat intelligence spanning counter-terrorism, geopolitical risk, and physical security that critical entities need for their mandatory resilience assessments and continuity planning.",
         "Source": "https://eur-lex.europa.eu/eli/dir/2022/2557/oj/eng",
-        "Last Modified": "2026-03-27T08:05:20.000Z"
+        "Last Modified": "2026-03-27T08:05:20.000Z",
+        "Obligation Count": 3,
+        "Definition Count": 2
+      }
+    },
+    {
+      "fields": {
+        "Legislation": "EU CT Directive",
+        "Full Name": "Directive (EU) 2017/541 on combating terrorism",
+        "Categories": [
+          "Counter-Terrorism / P-CVE",
+          "Online Safety / Content Governance",
+          "National Security"
+        ],
+        "Jurisdiction": "EU",
+        "Status": "In force",
+        "Relevance": "Direct",
+        "Domains": [
+          "Counter-Terrorism",
+          "Cyber Threat Intel",
+          "Social Media",
+          "Online Platforms"
+        ],
+        "Brief Description": "The EU's primary criminal law instrument on terrorism. Replaces Framework Decision 2002/475/JHA. Defines terrorist offences, terrorist-linked offences (public provocation, recruitment, training, travel, financing, facilitation), and requires Member States to criminalize them. Provides the definitional foundation that the TCO Regulation (2021/784) refers back to for what constitutes a 'terrorist offence.' Also criminalizes online public provocation to commit terrorist offences, including glorification.",
+        "Type": "Legislation",
+        "Enacted": "2017-03-15",
+        "In Force": "2017-04-20",
+        "Deadline": "2018-09-08",
+        "Next Steps": "Fully transposed by all Member States. The European Commission monitors implementation. Art. 21-23 require regular reporting and review. The ProtectEU Counter-Terrorism Agenda (2026) proposes further strengthening of the framework.",
+        "Scope": "All EU Member States must transpose into national law. Applies to natural and legal persons. Covers terrorist offences (Art. 3), offences related to a terrorist group (Art. 4), terrorist-linked offences including public provocation (Art. 5), recruitment (Art. 6), providing training (Art. 7), receiving training (Art. 8), travelling for terrorism (Art. 9), organizing/facilitating travel (Art. 10), and financing (Art. 11).",
+        "Enforcement": "Member States must establish effective, proportionate, and dissuasive criminal penalties. Art. 15 sets minimum maximum penalties: not less than 15 years for terrorist offences resulting in death (Art. 3(2)), not less than 8 years for most other terrorist offences. Member States may set higher maximums. Jurisdiction extends to offences committed by nationals abroad (Art. 19).",
+        "Relevance Notes": "The definitional backbone of EU counter-terrorism law. The TCO Regulation (2021/784) references this Directive's definitions when determining what constitutes 'terrorist content.' Understanding Directive 2017/541 is essential for interpreting TCO removal orders and ATKM enforcement actions. The Directive's criminalization of online public provocation (Art. 5) is the legislative basis for prosecuting online terrorist incitement across all Member States. Critical reference point for any client engagement involving TVEC compliance.",
+        "Source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32017L0541",
+        "Last Modified": "2026-03-28T11:06:11.000Z",
+        "Obligation Count": 8,
+        "Definition Count": 7
       }
     },
     {
@@ -1058,7 +1328,9 @@
         "Enforcement": "Treaty obligations. State parties must establish domestic criminal offences.",
         "Relevance Notes": "This protocol extends the international legal framework for online extremism beyond terrorism to racist and xenophobic content, creating obligations for states to criminalize such distribution. Platforms and service providers need intelligence on hate-driven content ecosystems. Revontulet provides analysis of extremist networks and cross-border content distribution patterns.",
         "Source": "https://www.coe.int/en/web/conventions/full-list?module=treaty-detail&treatynum=189",
-        "Last Modified": "2026-03-27T08:06:21.000Z"
+        "Last Modified": "2026-03-27T08:06:21.000Z",
+        "Obligation Count": 2,
+        "Definition Count": 2
       }
     },
     {
@@ -1089,7 +1361,9 @@
         "Enforcement": "National data protection authorities. Penalties vary by member state.",
         "Relevance Notes": "The ePrivacy Directive governs privacy in electronic communications, defining the legal boundaries for lawful interception, traffic data retention, and confidentiality of communications. Organizations operating intelligence and monitoring capabilities need to understand these boundaries. Revontulet ensures all intelligence collection and processing respects ePrivacy requirements, providing clients with legally compliant intelligence products.",
         "Source": "https://eur-lex.europa.eu/eli/dir/2002/58/oj/eng",
-        "Last Modified": "2026-03-27T08:04:17.000Z"
+        "Last Modified": "2026-03-27T08:04:17.000Z",
+        "Obligation Count": 5,
+        "Definition Count": 2
       }
     },
     {
@@ -1120,7 +1394,9 @@
         "Enforcement": "Voluntary certification standard. Accredited certification bodies audit compliance. Transition from 2013 edition required by October 2025.",
         "Relevance Notes": "ISO 27001 is the most widely recognized information security management standard globally, and is increasingly referenced by NIS2, DORA, and other regulatory frameworks as the baseline for compliance. Revontulet holds ISO 27001 certification and provides the threat intelligence that clients need to implement effective controls, particularly Control 5.7 which explicitly mandates threat intelligence capabilities.",
         "Source": "https://www.iso.org/standard/27001",
-        "Last Modified": "2026-03-27T08:05:20.000Z"
+        "Last Modified": "2026-03-27T08:05:20.000Z",
+        "Obligation Count": 3,
+        "Definition Count": 3
       }
     },
     {
@@ -1146,7 +1422,9 @@
         "Enforcement": "Home Secretary can apply for injunctions to compel statement publication, though no such action has been taken to date. Modern slavery offences carry life imprisonment.",
         "Relevance Notes": "UK companies with turnover above GBP 36M must publish annual modern slavery statements detailing supply chain due diligence efforts. Revontulet provides intelligence on forced labour risks, trafficking networks, and high-risk regions that enables clients to conduct meaningful supply chain assessments and produce substantive modern slavery statements.",
         "Source": "https://www.legislation.gov.uk/ukpga/2015/30/contents",
-        "Last Modified": "2026-03-27T08:04:17.000Z"
+        "Last Modified": "2026-03-27T08:04:17.000Z",
+        "Obligation Count": 3,
+        "Definition Count": 2
       }
     },
     {
@@ -1173,7 +1451,9 @@
         "Enforcement": "Two-tier penalty regime with enhanced enforcement powers for sector regulators and the NCSC. Specific penalty amounts to be set through secondary legislation.",
         "Relevance Notes": "The UK Cyber Security and Resilience Bill expands regulation to managed service providers, data centres, and critical suppliers alongside essential services. Revontulet provides the threat intelligence and risk assessment capabilities that these newly regulated entities need to comply with enhanced cybersecurity requirements and supply chain security obligations.",
         "Source": "https://bills.parliament.uk/bills/4035",
-        "Last Modified": "2026-03-27T08:06:20.000Z"
+        "Last Modified": "2026-03-27T08:06:20.000Z",
+        "Obligation Count": 3,
+        "Definition Count": 3
       }
     },
     {
@@ -1200,7 +1480,36 @@
         "Enforcement": "Finnish Transport and Communications Agency (Traficom) and sector-specific supervisory authorities. Administrative sanctions for non-compliance.",
         "Relevance Notes": "Finland's NIS2 transposition expands the regulated entity base fivefold, creating significant new demand for cybersecurity risk management and threat intelligence. Revontulet delivers threat intelligence services tailored to the Nordic threat landscape, helping newly regulated Finnish entities implement effective cybersecurity measures.",
         "Source": "https://finlex.fi/fi/laki/alkup/2025/20250124",
-        "Last Modified": "2026-03-27T08:06:24.000Z"
+        "Last Modified": "2026-03-27T08:06:24.000Z",
+        "Obligation Count": 2,
+        "Definition Count": 3
+      }
+    },
+    {
+      "fields": {
+        "Legislation": "Wwft",
+        "Full Name": "Wet ter voorkoming van witwassen en financieren van terrorisme (Anti-Money Laundering and Anti-Terrorist Financing Act)",
+        "Categories": [
+          "AML / CFT / Financial Crime",
+          "Counter-Terrorism / P-CVE"
+        ],
+        "Jurisdiction": "Netherlands",
+        "Status": "In Force",
+        "Relevance": "Tier 1",
+        "Domains": [
+          "Counter-Terrorism",
+          "Financial Crime",
+          "Organised Crime"
+        ],
+        "Brief Description": "Dutch AML/CTF legislation implementing EU Anti-Money Laundering Directives (4th and 5th). Requires designated institutions (financial services, legal, real estate, crypto) to perform customer due diligence, ongoing transaction monitoring, and reporting of unusual transactions to FIU-Nederland. Twin-peaks supervision: DNB (prudential) and AFM (conduct) both enforce.",
+        "Type": "Legislation",
+        "Enacted": "2008-07-15",
+        "In Force": "2008-08-01",
+        "Scope": "Netherlands. Applies to a wide range of 'gatekeepers': banks, insurers, investment firms, payment service providers, crypto-asset service providers, lawyers, notaries, accountants, tax advisors, real estate agents, dealers in high-value goods. Covers both AML and CTF obligations.",
+        "Enforcement": "Supervised by DNB and AFM for financial institutions; BFT (Bureau Financieel Toezicht) for notaries, lawyers, accountants. FIU-Nederland receives unusual transaction reports. Violations prosecuted under the Wet economische delicten (WED). Administrative fines up to EUR 5 million or 10% of annual turnover.",
+        "Relevance Notes": "Essential Dutch context for terrorism financing. WvSr Art. 421 criminalizes terrorism financing; the Wwft provides the preventive/detection framework. For platforms with payment features or crypto integration, Wwft obligations may apply. The tracker already includes Norway's equivalent (Hvitvaskingsloven); the Dutch version is critical for the NL case.",
+        "Source": "https://wetten.overheid.nl/BWBR0024282/",
+        "Last Modified": "2026-03-28T11:17:22.000Z"
       }
     },
     {
@@ -1226,7 +1535,9 @@
         "Enforcement": "National market surveillance authorities. Fines up to EUR 15M or 2.5% of global turnover. Non-compliant products can be withdrawn from the EU market.",
         "Relevance Notes": "Product manufacturers and software developers must meet mandatory cybersecurity requirements and report actively exploited vulnerabilities under the CRA. Revontulet provides vulnerability intelligence, supply chain threat analysis, and exploit monitoring that helps manufacturers identify and address security issues throughout their product lifecycle as required by this regulation.",
         "Source": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj",
-        "Last Modified": "2026-03-28T06:09:14.000Z"
+        "Last Modified": "2026-03-28T06:09:14.000Z",
+        "Obligation Count": 4,
+        "Definition Count": 3
       }
     },
     {
@@ -1253,7 +1564,9 @@
         "Enforcement": "ARCOM (Autorité de régulation de la communication audiovisuelle et numérique). EUR 75K for failure to ban convicted users. Additional penalties for content removal failures.",
         "Relevance Notes": "France's Loi SREN imposes a 1-hour terrorist content takedown requirement that exceeds EU-level TCO standards, combined with strict rules on hate speech and commercial fraud. Platforms operating in France need rapid content classification capabilities. Revontulet's counter-terrorism and organized crime intelligence enables platforms to detect and classify illegal content within these tight regulatory timeframes.",
         "Source": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049563356",
-        "Last Modified": "2026-03-27T04:27:39.000Z"
+        "Last Modified": "2026-03-27T04:27:39.000Z",
+        "Obligation Count": 6,
+        "Definition Count": 3
       }
     },
     {
@@ -1280,7 +1593,9 @@
         "Enforcement": "CPPA enforcement. Up to USD 2,500 per unintentional violation, USD 7,500 per intentional violation. No cap on aggregate penalties.",
         "Relevance Notes": "California's cybersecurity audit rules require businesses processing data of 250K+ consumers to conduct regular risk assessments and demonstrate adequate security posture. Revontulet provides the threat intelligence that informs these cybersecurity audits, helping businesses demonstrate proactive threat awareness and risk mitigation as required by CCPA audit regulations.",
         "Source": "https://cppa.ca.gov/regulations/ccpa_updates.html",
-        "Last Modified": "2026-03-27T08:06:21.000Z"
+        "Last Modified": "2026-03-27T08:06:21.000Z",
+        "Obligation Count": 5,
+        "Definition Count": 3
       }
     },
     {
@@ -1309,7 +1624,9 @@
         "Enforcement": "Fines up to 10% of qualifying worldwide revenue or GBP 18M. Senior manager liability. Ofcom can require business disruption measures including blocking.",
         "Relevance Notes": "The UK Online Safety Act requires platforms to conduct risk assessments spanning terrorism, fraud, and organized crime, and to implement proportionate safety measures. Revontulet provides the multi-domain intelligence on terrorist content, financial crime patterns, and disinformation campaigns that platforms need to fulfil these risk assessment and mitigation obligations.",
         "Source": "https://www.gov.uk/government/publications/online-safety-act-explainer/online-safety-act-explainer",
-        "Last Modified": "2026-03-28T06:09:14.000Z"
+        "Last Modified": "2026-03-28T06:09:14.000Z",
+        "Obligation Count": 10,
+        "Definition Count": 8
       }
     },
     {
@@ -1339,7 +1656,9 @@
         "Enforcement": "Binding under Chapter VII. Monitoring Team reports to Committee. Non-implementation can trigger Security Council action. National-level enforcement through domestic sanctions legislation.",
         "Relevance Notes": "All UN member states must screen against the 1267/2253 consolidated sanctions list targeting ISIL, Al-Qaida, and affiliates. Revontulet provides enhanced intelligence beyond basic list-matching, including network analysis of designated entities, identification of front companies, and intelligence on emerging designations that helps clients anticipate list updates and detect evasion attempts.",
         "Source": "https://main.un.org/securitycouncil/en/sanctions/1267",
-        "Last Modified": "2026-03-27T08:06:22.000Z"
+        "Last Modified": "2026-03-27T08:06:22.000Z",
+        "Obligation Count": 1,
+        "Definition Count": 2
       }
     },
     {
@@ -1366,7 +1685,9 @@
         "Enforcement": "Criminal penalties in member states. EU-level coordination. Sanctions evasion is a criminal offence under the 2023 EU Directive on criminalisation of sanctions violations.",
         "Relevance Notes": "EU sanctions require all persons and entities to screen against restrictive measures and detect circumvention attempts. Sanctions evasion through complex ownership networks, front companies, and intermediary jurisdictions demands sophisticated intelligence capabilities. Revontulet provides the network analysis, beneficial ownership intelligence, and geographic risk assessment that enables effective sanctions compliance.",
         "Source": "https://www.consilium.europa.eu/en/policies/sanctions/",
-        "Last Modified": "2026-03-27T08:05:11.000Z"
+        "Last Modified": "2026-03-27T08:05:11.000Z",
+        "Obligation Count": 3,
+        "Definition Count": 2
       }
     },
     {
@@ -1393,7 +1714,9 @@
         "Enforcement": "Voluntary, no penalties. Political accountability through annual summits and progress reporting. GIFCT serves as operational arm.",
         "Relevance Notes": "The Christchurch Call drives content governance legislation across 120+ signatory governments and tech companies. Organizations committed to the Call need intelligence on terrorist and violent extremist content ecosystems to fulfil their voluntary obligations. Revontulet provides the threat analysis and content classification capabilities that support effective implementation of Christchurch Call commitments.",
         "Source": "https://www.christchurchcall.com/",
-        "Last Modified": "2026-03-27T08:05:16.000Z"
+        "Last Modified": "2026-03-27T08:05:16.000Z",
+        "Obligation Count": 1,
+        "Definition Count": 2
       }
     },
     {
@@ -1421,7 +1744,9 @@
         "Enforcement": "Binding under Chapter VII of the UN Charter. CTC monitors implementation. Non-compliance can trigger further Security Council action.",
         "Relevance Notes": "UNSCR 1373 creates the foundational international obligation for all 193 UN member states to criminalize terrorist financing and freeze terrorist assets. Revontulet provides counter-terrorism financing intelligence, asset tracing capabilities, and network analysis that supports clients' compliance with the national-level CT financing laws derived from this resolution.",
         "Source": "https://www.un.org/securitycouncil/s/res/1373-%282001%29",
-        "Last Modified": "2026-03-27T08:05:11.000Z"
+        "Last Modified": "2026-03-27T08:05:11.000Z",
+        "Obligation Count": 1,
+        "Definition Count": 2
       }
     },
     {
@@ -1448,7 +1773,9 @@
         "Enforcement": "National supervisory authorities. Fines up to 5% of worldwide net turnover. Civil liability for failure to prevent adverse impacts.",
         "Relevance Notes": "Large companies must identify and mitigate human rights and environmental risks throughout their value chains under CSDDD. This requires intelligence on forced labour, conflict zones, corruption, and organized crime within supply networks. Revontulet provides the geopolitical risk assessments, organized crime analysis, and supply chain intelligence that enables effective due diligence.",
         "Source": "https://eur-lex.europa.eu/eli/dir/2024/1760/oj",
-        "Last Modified": "2026-03-27T08:04:22.000Z"
+        "Last Modified": "2026-03-27T08:04:22.000Z",
+        "Obligation Count": 3,
+        "Definition Count": 2
       }
     },
     {
@@ -1475,7 +1802,9 @@
         "Enforcement": "Court-authorized surveillance. Privacy safeguards through judicial oversight. Stricter rules for more intrusive measures. Citizens' legal rights and privacy protection maintained through court control requirements.",
         "Relevance Notes": "The expansion of Norwegian law enforcement surveillance capabilities creates new operational requirements for security-sector clients operating in Norway. Revontulet's understanding of Norwegian legal frameworks and threat intelligence capabilities helps clients navigate the evolving surveillance landscape, ensure compliance with court-ordered processes, and integrate lawful surveillance intelligence into their security operations.",
         "Source": "https://www.regjeringen.no/no/aktuelt/regjeringen-styrker-politiets-adgang-til-skjult-kameraovervaking/id3154895/",
-        "Last Modified": "2026-03-28T06:12:58.000Z"
+        "Last Modified": "2026-03-28T06:12:58.000Z",
+        "Obligation Count": 2,
+        "Definition Count": 2
       }
     },
     {
@@ -1500,7 +1829,9 @@
         "Enforcement": "ANPD enforcement. Fines up to 2% of revenue in Brazil, capped at BRL 50M per infraction. Daily penalties for ongoing violations.",
         "Relevance Notes": "Brazil's 215M+ population makes LGPD compliance essential for organizations operating in Latin America's largest market. Revontulet provides intelligence on cyber threats targeting Brazilian entities and data protection risk assessments that help clients navigate LGPD's data protection requirements alongside their security operations.",
         "Source": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
-        "Last Modified": "2026-03-27T08:06:23.000Z"
+        "Last Modified": "2026-03-27T08:06:23.000Z",
+        "Obligation Count": 3,
+        "Definition Count": 3
       }
     },
     {
@@ -1528,7 +1859,37 @@
         "Enforcement": "Financial supervisory authorities. Penalties set by member states. Critical ICT providers face fines up to 1% of average daily worldwide turnover.",
         "Relevance Notes": "DORA requires 22,000+ EU financial entities to implement ICT risk management, cyber threat reporting, and third-party risk assessment frameworks. Revontulet provides the cyber threat intelligence, geopolitical risk analysis, and financial crime intelligence that financial sector clients need to satisfy DORA's operational resilience requirements and ICT risk management obligations.",
         "Source": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng",
-        "Last Modified": "2026-03-28T06:09:14.000Z"
+        "Last Modified": "2026-03-28T06:09:14.000Z",
+        "Obligation Count": 4,
+        "Definition Count": 3
+      }
+    },
+    {
+      "fields": {
+        "Legislation": "Sanctiewet 1977",
+        "Full Name": "Sanctiewet 1977 (Sanctions Act 1977) - Terrorism Sanctions Framework",
+        "Categories": [
+          "AML / CFT / Financial Crime",
+          "National Security",
+          "Sanctions / Export Control"
+        ],
+        "Jurisdiction": "Netherlands",
+        "Status": "In force",
+        "Relevance": "Strong",
+        "Domains": [
+          "Counter-Terrorism",
+          "Financial Crime"
+        ],
+        "Brief Description": "Umbrella legislation for implementing national and international sanctions in the Netherlands. Provides the legal basis for the National Terrorism Sanctions List, enabling asset freezes against designated terrorist individuals and entities. Compliance enforced by DNB and AFM. Violations subject to the Dutch Economic Offences Act (Wet op de economische delicten).",
+        "Type": "Legislation",
+        "Enacted": "1977-03-15",
+        "In Force": "1977-03-15",
+        "Scope": "All natural and legal persons within Dutch jurisdiction, with particular obligations on financial institutions, trust offices, and entities subject to DNB/AFM supervision. Implements UN Security Council sanctions, EU sanctions regulations, and autonomous Dutch sanctions measures.",
+        "Enforcement": "Administrative enforcement by DNB and AFM. Criminal enforcement via the Economic Offences Act (WED). Administrative fines for supervisory violations. National Terrorism Sanctions List maintained by the Ministry of Foreign Affairs.",
+        "Relevance Notes": "Relevant for clients with financial operations or payment processing in the Netherlands. The National Terrorism Sanctions List creates screening obligations that complement EU-level sanctions. Understanding the interaction between Sanctiewet designations and EU terrorist lists is essential for compliance advisory services.",
+        "Source": "https://wetten.overheid.nl/BWBR0003296/",
+        "Last Modified": "2026-03-28T09:55:29.000Z",
+        "Obligation Count": 1
       }
     },
     {
@@ -1555,7 +1916,9 @@
         "Enforcement": "Implementation guidance for ISO 27001. Not directly certifiable but essential for 27001 compliance.",
         "Relevance Notes": "ISO 27002 provides the implementation guidance for ISO 27001, with Control 5.7 explicitly requiring threat intelligence capabilities. Organizations implementing these controls need reliable, actionable intelligence feeds. Revontulet delivers the threat intelligence that directly fulfils Control 5.7 requirements and supports implementation of security controls across all four themes.",
         "Source": "https://www.iso.org/standard/75652.html",
-        "Last Modified": "2026-03-27T08:05:16.000Z"
+        "Last Modified": "2026-03-27T08:05:16.000Z",
+        "Obligation Count": 2,
+        "Definition Count": 2
       }
     },
     {
@@ -1582,7 +1945,9 @@
         "Enforcement": "CISA enforcement. Subpoena power for non-reporting. Referral to DOJ for non-compliance with subpoenas. Civil penalties.",
         "Relevance Notes": "CIRCIA requires 316,000+ US critical infrastructure entities to report cyber incidents to CISA, creating massive demand for threat detection and incident classification capabilities. Revontulet provides the threat intelligence and incident analysis that helps US CI entities detect reportable incidents and produce the detailed reports CIRCIA mandates.",
         "Source": "https://www.cisa.gov/topics/cyber-threats-and-advisories/information-sharing/cyber-incident-reporting-critical-infrastructure-act-2022-circia",
-        "Last Modified": "2026-03-27T04:18:14.000Z"
+        "Last Modified": "2026-03-27T04:18:14.000Z",
+        "Obligation Count": 2,
+        "Definition Count": 3
       }
     },
     {
@@ -1611,7 +1976,9 @@
         "Enforcement": "Fines up to EUR 10M or 2% of global turnover (essential entities) or EUR 7M / 1.4% (important entities). Senior management personal liability.",
         "Relevance Notes": "NIS2 regulates 160,000+ entities across 18 sectors with requirements for threat intelligence-led risk management, incident reporting, and supply chain security. Revontulet provides the multi-domain threat intelligence, risk assessment capabilities, and incident analysis that essential and important entities need to meet NIS2's comprehensive cybersecurity management obligations.",
         "Source": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng",
-        "Last Modified": "2026-03-28T06:09:14.000Z"
+        "Last Modified": "2026-03-28T06:09:14.000Z",
+        "Obligation Count": 4,
+        "Definition Count": 3
       }
     },
     {
@@ -1638,7 +2005,9 @@
         "Enforcement": "Digitaliseringsstyrelsen and Styrelsen for Samfundssikkerhed og Beredskab, plus sector-specific regulators. Management body personal liability not included in Danish transposition.",
         "Relevance Notes": "Denmark's NIS2 transposition expands the regulated entity base requiring cybersecurity compliance. As a key Nordic market, Danish entities need threat intelligence tailored to the regional threat landscape. Revontulet delivers Nordic-focused cyber threat analysis and risk assessment capabilities that support Danish entities' NIS2 compliance.",
         "Source": "https://www.twobirds.com/en/insights/2025/denmark/update-from-the-nordic-countries-on-the-nis2-directive-implementation",
-        "Last Modified": "2026-03-27T08:05:20.000Z"
+        "Last Modified": "2026-03-27T08:05:20.000Z",
+        "Obligation Count": 2,
+        "Definition Count": 3
       }
     },
     {
@@ -1666,7 +2035,9 @@
         "Enforcement": "Voluntary standard. Increasingly referenced by NIS2 and CRA for supply chain security requirements.",
         "Relevance Notes": "Supply chain security is a core NIS2 and CRA requirement. Organizations implementing ISO 27036 need intelligence on supply chain threats, compromised vendors, and third-party risks. Revontulet provides supply chain threat intelligence, vendor risk assessments, and geopolitical analysis of sourcing risks that enables clients to meet supply chain security standards.",
         "Source": "https://www.iso.org/standard/82905.html",
-        "Last Modified": "2026-03-27T04:26:22.000Z"
+        "Last Modified": "2026-03-27T04:26:22.000Z",
+        "Obligation Count": 2,
+        "Definition Count": 1
       }
     },
     {
@@ -1695,7 +2066,9 @@
         "Enforcement": "Chapter VII binding. Separate Monitoring Team. Travel ban exemptions process for designated individuals.",
         "Relevance Notes": "The Taliban sanctions regime creates unique intelligence challenges given the Taliban's dual status as a governing entity and designated group. Revontulet provides specialized intelligence on Taliban-affiliated networks, front companies, and financial channels that helps clients navigate the complex compliance landscape of engaging with the Afghan economy while maintaining sanctions compliance.",
         "Source": "https://main.un.org/securitycouncil/en/sanctions/1988",
-        "Last Modified": "2026-03-27T04:18:14.000Z"
+        "Last Modified": "2026-03-27T04:18:14.000Z",
+        "Obligation Count": 1,
+        "Definition Count": 2
       }
     },
     {
@@ -1722,7 +2095,9 @@
         "Enforcement": "CERT-In enforcement. Fines up to INR 1 lakh plus up to 1 year imprisonment. Non-compliance can trigger service disruption orders.",
         "Relevance Notes": "India's 6-hour incident reporting window is the world's strictest among major economies, creating demand for real-time threat detection and rapid incident classification. Revontulet provides the threat intelligence and automated detection capabilities that help organizations operating in India meet this aggressive reporting timeline.",
         "Source": "https://www.cert-in.org.in/Directions70B.jsp",
-        "Last Modified": "2026-03-27T08:06:20.000Z"
+        "Last Modified": "2026-03-27T08:06:20.000Z",
+        "Obligation Count": 3,
+        "Definition Count": 3
       }
     },
     {
@@ -1749,7 +2124,37 @@
         "Enforcement": "National authorities with cross-border cooperation. Penalties set by member states. Must be effective, proportionate, and dissuasive.",
         "Relevance Notes": "Platforms must detect foreign-sponsored influence campaigns and political advertising manipulation under this regulation. Revontulet's influence operations analysis and geopolitical intelligence directly supports platforms' obligations to identify and flag foreign-sponsored political content and manipulation campaigns.",
         "Source": "https://eur-lex.europa.eu/eli/reg/2024/900/oj",
-        "Last Modified": "2026-03-27T04:27:39.000Z"
+        "Last Modified": "2026-03-27T04:27:39.000Z",
+        "Obligation Count": 4,
+        "Definition Count": 3
+      }
+    },
+    {
+      "fields": {
+        "Legislation": "EU CT Listings (Common Position 2001/931)",
+        "Full Name": "Council Common Position 2001/931/CFSP on the application of specific measures to combat terrorism",
+        "Categories": [
+          "Sanctions / Export Control",
+          "Counter-Terrorism / P-CVE",
+          "National Security"
+        ],
+        "Jurisdiction": "EU",
+        "Status": "In Force",
+        "Relevance": "Tier 2",
+        "Domains": [
+          "Counter-Terrorism",
+          "Financial Crime",
+          "Organised Crime"
+        ],
+        "Brief Description": "Establishes the EU terrorist listing mechanism. Maintains a list of persons, groups, and entities involved in terrorist acts, subject to asset freezing (via Regulation 2580/2001) and enhanced police/judicial cooperation. The list is reviewed at least every 6 months. Designations require a decision by a competent judicial/equivalent authority. Currently lists approximately 13 persons and 21 groups/entities.",
+        "Type": "Legislation",
+        "Enacted": "2001-12-27",
+        "In Force": "2001-12-28",
+        "Scope": "All EU Member States. Applies to listed persons, groups, and entities. Asset freezing measures have direct effect through Regulation 2580/2001. The listing process uses criteria defined in Art. 1(3)-(4).",
+        "Enforcement": "Maintained by the Council, reviewed every 6 months. CJEU has annulled listings for procedural failures (e.g. PMOI cases). Implemented in NL through the Sanctiewet 1977 and enforced by DNB/AFM.",
+        "Relevance Notes": "The CT-specific component of the EU sanctions regime. While the tracker has the broader EU Sanctions Framework entry, this Common Position is the specific mechanism for terrorism listings. For the Dutch case, Sanctiewet screening obligations reference these EU lists alongside UN lists.",
+        "Source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32001E0931",
+        "Last Modified": "2026-03-28T11:17:22.000Z"
       }
     },
     {
@@ -1775,7 +2180,9 @@
         "Enforcement": "National authorities designated by each Member State. Reversed burden of proof for retaliation claims. Penalties for hindering reporting or retaliating against whistleblowers.",
         "Relevance Notes": "Whistleblower reports are a significant source of intelligence on financial crime, corruption, and regulatory breaches. Organizations must establish internal reporting channels and protect whistleblowers. Revontulet provides the intelligence context that helps clients investigate and validate whistleblower reports related to financial crime, fraud, and compliance violations.",
         "Source": "https://eur-lex.europa.eu/eli/dir/2019/1937/oj/eng",
-        "Last Modified": "2026-03-27T08:06:23.000Z"
+        "Last Modified": "2026-03-27T08:06:23.000Z",
+        "Obligation Count": 3,
+        "Definition Count": 3
       }
     },
     {
@@ -1803,7 +2210,9 @@
         "Enforcement": "Corporate criminal liability. Unlimited fines. SFO and CPS prosecution. Reasonable procedures defence available.",
         "Relevance Notes": "The UK Economic Crime Act creates corporate criminal liability for failure to prevent fraud, with unlimited fines for large organizations. Companies need intelligence on fraud typologies, criminal networks, and emerging threats to demonstrate reasonable prevention procedures. Revontulet provides financial crime intelligence and fraud pattern analysis that supports clients' prevention frameworks.",
         "Source": "https://www.legislation.gov.uk/ukpga/2023/56/contents",
-        "Last Modified": "2026-03-27T04:25:12.000Z"
+        "Last Modified": "2026-03-27T04:25:12.000Z",
+        "Obligation Count": 3,
+        "Definition Count": 5
       }
     },
     {
@@ -1831,7 +2240,9 @@
         "Enforcement": "National supervisory bodies for trust services. Implementation monitored through EU-wide interoperability requirements.",
         "Relevance Notes": "The EU Digital Identity Wallet creates new vectors for identity fraud and social engineering as citizens store credentials digitally. Organizations implementing eIDAS 2.0 need intelligence on identity fraud techniques, deepfake risks, and social engineering tactics. Revontulet provides threat intelligence on digital identity exploitation methods that helps clients protect their eIDAS implementations.",
         "Source": "https://digital-strategy.ec.europa.eu/en/policies/eudi-regulation",
-        "Last Modified": "2026-03-27T08:06:23.000Z"
+        "Last Modified": "2026-03-27T08:06:23.000Z",
+        "Obligation Count": 3,
+        "Definition Count": 3
       }
     },
     {
@@ -1858,7 +2269,9 @@
         "Enforcement": "Chapter VII binding. CTC/CTED assessment visits. Requires states to develop watch lists, share information, and enhance border security.",
         "Relevance Notes": "UNSCR 2178 requires states to prevent recruitment and travel of foreign terrorist fighters, necessitating cross-domain intelligence connecting terrorism, travel patterns, financial flows, and online radicalization. Revontulet provides the integrated counter-terrorism intelligence that governments and transport sector entities need to implement effective FTF prevention measures.",
         "Source": "https://www.un.org/securitycouncil/s/res/2178-%282014%29",
-        "Last Modified": "2026-03-27T04:18:14.000Z"
+        "Last Modified": "2026-03-27T04:18:14.000Z",
+        "Obligation Count": 1,
+        "Definition Count": 1
       }
     },
     {
@@ -1880,7 +2293,9 @@
         "Brief Description": "US federal law requiring parental consent for collecting personal data from children under 13, with strict rules on data use, storage, and deletion by online services.",
         "Type": "Legislation",
         "Relevance Notes": "COPPA requires parental consent for collecting data from children under 13, with significant penalties for non-compliance. Platforms and online service providers need robust age verification and data handling processes. Revontulet provides intelligence on exploitation patterns and platform safety risks that helps clients understand the threat landscape underpinning child safety regulations.",
-        "Last Modified": "2026-03-27T08:06:21.000Z"
+        "Last Modified": "2026-03-27T08:06:21.000Z",
+        "Obligation Count": 7,
+        "Definition Count": 3
       }
     },
     {
@@ -1908,7 +2323,37 @@
         "Enforcement": "Investment Security Unit (Cabinet Office). Transactions can be blocked, unwound, or subject to conditions. Civil penalties up to 5% of worldwide turnover. Criminal penalties up to 5 years imprisonment.",
         "Relevance Notes": "The UK's mandatory FDI screening covers 17 sensitive sectors including defence, AI, and cybersecurity. Investors and companies undergoing screening need intelligence on foreign actors, state affiliations, and investor networks. Revontulet provides geopolitical risk assessments and actor network analysis that supports clients navigating UK investment screening processes.",
         "Source": "https://www.legislation.gov.uk/ukpga/2021/25/contents",
-        "Last Modified": "2026-03-27T04:15:20.000Z"
+        "Last Modified": "2026-03-27T04:15:20.000Z",
+        "Obligation Count": 2,
+        "Definition Count": 3
+      }
+    },
+    {
+      "fields": {
+        "Legislation": "Wiv 2017",
+        "Full Name": "Wet op de inlichtingen- en veiligheidsdiensten 2017 (Intelligence and Security Services Act 2017)",
+        "Categories": [
+          "National Security",
+          "Cybersecurity",
+          "Counter-Terrorism / Security"
+        ],
+        "Jurisdiction": "Netherlands",
+        "Status": "In force",
+        "Relevance": "Moderate",
+        "Domains": [
+          "Counter-Terrorism",
+          "Cyber Threat Intel",
+          "Geopolitical Risk"
+        ],
+        "Brief Description": "Governs the AIVD (General Intelligence and Security Service) and MIVD (Defence Intelligence and Security Service). Authorizes special powers including bulk interception, surveillance, and data collection for national security purposes including counter-terrorism. Subject to oversight by TIB (Review Board for Use of Powers) and CTIVD (Review Committee). Underwent advisory referendum in March 2018.",
+        "Type": "Legislation",
+        "Enacted": "2017-07-26",
+        "In Force": "2018-05-01",
+        "Scope": "AIVD and MIVD operations. Affects telecommunications providers (cooperation obligations), hosting providers (data requests), and organizations holding data relevant to national security investigations.",
+        "Enforcement": "Oversight by TIB (ex-ante legality review) and CTIVD (ex-post review). Ministerial authorization required for special powers. Annual reporting to Parliament.",
+        "Relevance Notes": "Contextually relevant for understanding the Dutch intelligence ecosystem around terrorism. AIVD threat assessments and NCTV coordination feed into the broader TVEC enforcement framework. Platform operators may receive data requests or cooperation obligations under this act.",
+        "Source": "https://wetten.overheid.nl/BWBR0039896/",
+        "Last Modified": "2026-03-28T09:52:28.000Z"
       }
     },
     {
@@ -1936,7 +2381,36 @@
         "Enforcement": "MeitY enforcement. Loss of safe harbour protection for non-compliant intermediaries. Criminal liability under IT Act Section 69.",
         "Relevance Notes": "India's IT Rules require proactive content monitoring and message traceability for first originators of terrorist and criminal content. Platforms operating in India need intelligence on extremist content networks and organized crime communication patterns. Revontulet provides the content classification and network analysis capabilities that support compliance with India's intermediary guidelines.",
         "Source": "https://www.meity.gov.in/writereaddata/files/Intermediary_Guidelines_and_Digital_Media_Ethics_Code_Rules-2021.pdf",
-        "Last Modified": "2026-03-27T08:06:23.000Z"
+        "Last Modified": "2026-03-27T08:06:23.000Z",
+        "Obligation Count": 7,
+        "Definition Count": 3
+      }
+    },
+    {
+      "fields": {
+        "Legislation": "WED",
+        "Full Name": "Wet op de economische delicten (Economic Offences Act)",
+        "Categories": [
+          "AML / CFT / Financial Crime",
+          "Sanctions / Export Control"
+        ],
+        "Jurisdiction": "Netherlands",
+        "Status": "In Force",
+        "Relevance": "Tier 3",
+        "Domains": [
+          "Counter-Terrorism",
+          "Financial Crime",
+          "Organised Crime"
+        ],
+        "Brief Description": "Dutch framework law for criminal enforcement of economic regulations, including sanctions violations and AML/CTF non-compliance. Violations of the Sanctiewet 1977 and Wwft are prosecuted as economic offences under this Act. Provides for both criminal penalties (imprisonment, fines) and administrative measures (temporary closure of businesses). The Functioneel Parket (Financial Crime Unit of the OM) handles prosecution.",
+        "Type": "Legislation",
+        "Enacted": "1950-06-22",
+        "In Force": "1951-05-01",
+        "Scope": "Netherlands. Applies to violations of economic regulations designated by the Act. Covers both natural persons and legal entities.",
+        "Enforcement": "Criminal prosecution by the Functioneel Parket. Penalties vary by severity classification (misdrijf vs. overtreding). Maximum penalties for Sanctiewet violations classified as crimes: 6 years imprisonment and/or category 5 fine (EUR 103,000 for natural persons, EUR 1,030,000 for legal entities, or higher if proportionate to turnover).",
+        "Relevance Notes": "The enforcement backstop for sanctions and AML/CTF violations in the Netherlands. Referenced in our Dutch TVEC summary as the prosecution mechanism for Sanctiewet non-compliance. Lower priority for content-focused work, but completes the enforcement chain.",
+        "Source": "https://wetten.overheid.nl/BWBR0002063/",
+        "Last Modified": "2026-03-28T11:18:05.000Z"
       }
     },
     {
@@ -1962,7 +2436,9 @@
         "Enforcement": "Voluntary guideline standard. Provides cybersecurity framework for coordination between stakeholders.",
         "Relevance Notes": "ISO 27032 provides the international framework for multi-stakeholder cybersecurity coordination and information sharing. Organizations implementing coordinated cyber defense need reliable intelligence partners. Revontulet's threat intelligence services align with ISO 27032's information sharing frameworks, enabling clients to participate effectively in collaborative cybersecurity ecosystems.",
         "Source": "https://www.iso.org/standard/44375.html",
-        "Last Modified": "2026-03-27T08:06:20.000Z"
+        "Last Modified": "2026-03-27T08:06:20.000Z",
+        "Obligation Count": 2,
+        "Definition Count": 3
       }
     },
     {
@@ -1990,7 +2466,63 @@
         "Enforcement": "Criminal penalties for non-registration. Up to 7 years imprisonment for aggravated offences. Civil penalty provisions.",
         "Relevance Notes": "Australia's Foreign Influence Transparency Scheme requires registration of activities undertaken on behalf of foreign governments. Revontulet provides intelligence on state-sponsored influence networks, foreign interference operations, and covert political activities that helps clients identify and assess foreign influence risks in the Australian context.",
         "Source": "https://www.legislation.gov.au/C2018A00154/latest/text",
-        "Last Modified": "2026-03-27T08:05:11.000Z"
+        "Last Modified": "2026-03-27T08:05:11.000Z",
+        "Obligation Count": 1,
+        "Definition Count": 2
+      }
+    },
+    {
+      "fields": {
+        "Legislation": "Twbmt",
+        "Full Name": "Tijdelijke wet bestuurlijke maatregelen terrorismebestrijding (Temporary Act on Administrative Measures for Counter-Terrorism)",
+        "Categories": [
+          "Counter-Terrorism / P-CVE",
+          "National Security"
+        ],
+        "Jurisdiction": "Netherlands",
+        "Status": "In Force",
+        "Relevance": "Tier 1",
+        "Domains": [
+          "Counter-Terrorism",
+          "Geopolitical Risk"
+        ],
+        "Brief Description": "Dutch administrative counter-terrorism law enabling non-criminal preventive measures against individuals posing a terrorism threat. Provides for area bans (gebiedsverbod), contact bans (contactverbod), reporting obligations (meldplicht), and Schengen exit bans (uitreisverbod). Measures imposed by the Minister, each for up to 6 months, renewable. In force since 1 March 2017, extended through 1 March 2027.",
+        "Type": "Legislation",
+        "Enacted": "2017-02-17",
+        "In Force": "2017-03-01",
+        "Deadline": "2027-03-01",
+        "Scope": "Netherlands only. Applies to individuals who, on the basis of their behaviour, are connected to terrorist activities or the support thereof, and pose a threat to national security. Measures require necessity for protection of national security.",
+        "Enforcement": "Administrative enforcement by the Minister of Justice and Security. Measures are subject to judicial review by the administrative courts. Violations of imposed measures are criminal offences. WODC evaluation published 2023.",
+        "Relevance Notes": "Directly operational for the Dutch case. Complements criminal prosecution with faster administrative interventions for FTF-related threats. The Schengen exit ban is the primary Dutch tool for preventing FTF travel, alongside passport revocation under the Paspoortwet. For platforms, relevant as context for why certain individuals may be subject to monitoring or restrictions.",
+        "Source": "https://wetten.overheid.nl/BWBR0039210/2017-03-01",
+        "Last Modified": "2026-03-28T11:17:22.000Z"
+      }
+    },
+    {
+      "fields": {
+        "Legislation": "EU CT Framework Decision",
+        "Full Name": "Council Framework Decision 2002/475/JHA on combating terrorism (as amended by 2008/919/JHA)",
+        "Categories": [
+          "Counter-Terrorism / P-CVE",
+          "Online Safety / Content Governance"
+        ],
+        "Jurisdiction": "EU",
+        "Status": "Replaced",
+        "Relevance": "Tier 2",
+        "Domains": [
+          "Counter-Terrorism",
+          "Social Media",
+          "Online Platforms"
+        ],
+        "Brief Description": "The original EU counter-terrorism instrument, adopted after 9/11. Defined terrorist offences (Art. 1), terrorist group offences (Art. 2), and required Member State criminalization. The 2008 amendment (2008/919/JHA) added public provocation (Art. 3(1)(a)), recruitment (Art. 3(1)(b)), and training for terrorism (Art. 3(1)(c)), implementing CETS 196. Replaced by Directive 2017/541 but still cited in CJEU case law.",
+        "Type": "Legislation",
+        "Enacted": "2002-06-13",
+        "In Force": "2002-06-22",
+        "Scope": "All EU Member States. Required criminalization of terrorist offences, directing and participating in terrorist groups. The 2008 amendment extended scope to preparatory acts (provocation, recruitment, training).",
+        "Enforcement": "Enforcement through national transposition. CJEU jurisdiction for preliminary references (notably C-573/14 Lounani). No direct effect on individuals (Framework Decision, not Regulation).",
+        "Relevance Notes": "Though replaced by Directive 2017/541, this remains relevant because: (1) Dutch case law from the Context investigation and earlier terrorism trials was decided under this instrument; (2) CJEU case law interpreting it (especially Lounani on group participation) still guides courts; (3) the Dutch Wet terroristische misdrijven 2004, which created WvSr Arts. 83/83a/140a, was the transposition of this Framework Decision.",
+        "Source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32002F0475",
+        "Last Modified": "2026-03-28T11:17:22.000Z"
       }
     },
     {
@@ -2016,7 +2548,9 @@
         "Enforcement": "PIPC enforcement. Fines up to 3% of revenue. Criminal penalties for serious violations.",
         "Relevance Notes": "South Korea's strengthened data protection law with cross-border transfer requirements affects organizations operating in one of Asia's largest technology markets. Revontulet provides cyber threat intelligence and data protection risk context relevant to the Korean regulatory environment, supporting clients' PIPA compliance efforts.",
         "Source": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=253044",
-        "Last Modified": "2026-03-27T08:06:21.000Z"
+        "Last Modified": "2026-03-27T08:06:21.000Z",
+        "Obligation Count": 2,
+        "Definition Count": 2
       }
     },
     {
@@ -2043,7 +2577,9 @@
         "Enforcement": "UK security services, National Crime Agency, and CPS. Life imprisonment for espionage and sabotage. Foreign interference offence carries up to 14 years. FIRS non-compliance is a criminal offence.",
         "Relevance Notes": "The UK's most significant espionage law reform in a century creates new offences and a Foreign Influence Registration Scheme. Organizations need intelligence on state-sponsored espionage, sabotage threats, and foreign interference activities. Revontulet provides the threat analysis on foreign state operations and influence networks that helps clients assess and mitigate national security risks.",
         "Source": "https://www.legislation.gov.uk/ukpga/2023/32/contents",
-        "Last Modified": "2026-03-27T04:15:20.000Z"
+        "Last Modified": "2026-03-27T04:15:20.000Z",
+        "Obligation Count": 2,
+        "Definition Count": 2
       }
     },
     {
@@ -2072,7 +2608,9 @@
         "Enforcement": "Framework-level agenda. Enforcement will operate through revised TCO Regulation, DSA enforcement, and strengthened Europol/Eurojust mandates. Specific enforcement mechanisms to be defined in implementing legislation.",
         "Relevance Notes": "The ProtectEU agenda signals a major expansion of EU counter-terrorism intelligence requirements across online content, travel data, terrorist financing, and critical infrastructure protection. Revontulet's multi-domain intelligence capabilities in counter-terrorism, network analysis, and threat anticipation are directly aligned with the six pillars of this agenda, positioning clients ahead of forthcoming regulatory obligations.",
         "Source": "https://home-affairs.ec.europa.eu/news/protecteu-commission-presents-new-counterterrorism-agenda-2026-02-26_en",
-        "Last Modified": "2026-03-28T06:12:58.000Z"
+        "Last Modified": "2026-03-28T06:12:58.000Z",
+        "Obligation Count": 5,
+        "Definition Count": 3
       }
     },
     {
@@ -2100,7 +2638,9 @@
         "Enforcement": "Privacy Protection Authority enforcement. Fines up to 5% of annual turnover. INCD has separate regulatory authority over critical infrastructure.",
         "Relevance Notes": "Israel's modernized data protection regime with GDPR-style obligations affects organizations in one of the world's most advanced cyber ecosystems. Revontulet provides intelligence on the unique threat landscape facing Israeli entities, combining cyber threat analysis with geopolitical context relevant to the region's security environment.",
         "Source": "https://www.gov.il/en/departments/news/privacy-protection-law-amendment-2025",
-        "Last Modified": "2026-03-27T08:05:16.000Z"
+        "Last Modified": "2026-03-27T08:05:16.000Z",
+        "Obligation Count": 2,
+        "Definition Count": 2
       }
     },
     {
@@ -2128,7 +2668,9 @@
         "Enforcement": "Civil penalties for failure to report ransomware payments. SOCI Act enforcement for critical infrastructure operators. Limited use provisions to encourage voluntary reporting.",
         "Relevance Notes": "Australia's Cyber Security Act introduces mandatory ransomware payment reporting, minimum device security standards, and limited-use protections for incident data. Revontulet provides intelligence on ransomware groups, criminal organizations, and state-sponsored threats that helps Australian entities meet their reporting obligations and implement effective security measures.",
         "Source": "https://www.legislation.gov.au/C2024A00098/asmade/text",
-        "Last Modified": "2026-03-27T04:26:22.000Z"
+        "Last Modified": "2026-03-27T04:26:22.000Z",
+        "Obligation Count": 2,
+        "Definition Count": 2
       }
     },
     {
@@ -2156,7 +2698,9 @@
         "Enforcement": "Chapter VII binding. Complements FATF standards. CTC monitoring.",
         "Relevance Notes": "UNSCR 2462 strengthens counter-terrorism financing frameworks with specific attention to emerging methods including cryptocurrency, social media fundraising, and crowdfunding. Revontulet provides intelligence on these evolving terrorist financing typologies, helping clients detect and report suspicious financing activity through non-traditional channels.",
         "Source": "https://www.un.org/securitycouncil/s/res/2462-%282019%29",
-        "Last Modified": "2026-03-27T08:05:20.000Z"
+        "Last Modified": "2026-03-27T08:05:20.000Z",
+        "Obligation Count": 1,
+        "Definition Count": 2
       }
     },
     {
@@ -2182,7 +2726,9 @@
         "Enforcement": "Penalties for non-compliance with cybersecurity directions. Specific framework to be finalized through committee process.",
         "Relevance Notes": "Canada's critical cyber systems protection bill covers federally regulated sectors including telecom, finance, energy, and transport. Revontulet provides the cross-domain threat intelligence that Canadian critical infrastructure operators need to meet their cyber protection obligations, with relevant experience from analogous European frameworks like NIS2.",
         "Source": "https://www.parl.ca/legisinfo/en/bill/45-1/c-8",
-        "Last Modified": "2026-03-27T04:26:22.000Z"
+        "Last Modified": "2026-03-27T04:26:22.000Z",
+        "Obligation Count": 2,
+        "Definition Count": 3
       }
     },
     {
@@ -2209,7 +2755,35 @@
         "Enforcement": "Voluntary regime operating by consensus. Participating states implement through national export control legislation. No central enforcement mechanism.",
         "Relevance Notes": "The Wassenaar Arrangement's 43 participating states control exports of cyber-surveillance and intelligence technologies. Organizations developing or deploying such tools need to understand export restrictions and end-use controls. Revontulet provides guidance on the regulatory implications of intelligence technology transfers and geopolitical risk assessments for export decisions.",
         "Source": "https://www.wassenaar.org/",
-        "Last Modified": "2026-03-27T08:06:22.000Z"
+        "Last Modified": "2026-03-27T08:06:22.000Z",
+        "Obligation Count": 1,
+        "Definition Count": 2
+      }
+    },
+    {
+      "fields": {
+        "Legislation": "Paspoortwet",
+        "Full Name": "Paspoortwet (Passport Act)",
+        "Categories": [
+          "Counter-Terrorism / P-CVE",
+          "National Security"
+        ],
+        "Jurisdiction": "Netherlands",
+        "Status": "In Force",
+        "Relevance": "Tier 2",
+        "Domains": [
+          "Counter-Terrorism",
+          "Geopolitical Risk"
+        ],
+        "Brief Description": "Dutch passport legislation. Art. 23 enables the Minister of the Interior to declare a passport or identity card invalid and refuse issuance when a person's presence outside the Netherlands would pose a risk to the security or other important interests of one or more countries in the Kingdom or of allies. Used as an FTF prevention tool to block outward travel to conflict zones. Revocation/refusal decisions are placed on signal in the Basisregister Reisdocumenten.",
+        "Type": "Legislation",
+        "Enacted": "1991-12-26",
+        "In Force": "1992-01-01",
+        "Scope": "Kingdom of the Netherlands. Applies to Dutch nationals and residents holding Dutch travel documents. Art. 23 measures are administrative, not criminal.",
+        "Enforcement": "Administrative decisions by the Minister of the Interior on advice from the NCTV/AIVD. Decisions subject to administrative judicial review (bezwaar/beroep). In practice, the Minister acts on a signal from the AIVD or NCTV that the person poses a terrorism-related travel risk.",
+        "Relevance Notes": "One of two primary Dutch administrative tools for preventing FTF travel (alongside the Twbmt Schengen exit ban). Referenced in our Directive 2017/541 definition for Travelling for Terrorism. For the Dutch agency client, provides context on the non-criminal intervention toolkit.",
+        "Source": "https://wetten.overheid.nl/BWBR0005212/",
+        "Last Modified": "2026-03-28T11:18:05.000Z"
       }
     },
     {
@@ -2231,7 +2805,9 @@
         "Brief Description": "US federal law requiring platforms to provide minors with safeguards including opt-out of addictive features, strongest privacy defaults, and tools to limit harmful content exposure.",
         "Type": "Legislation",
         "Relevance Notes": "KOSA requires platforms to provide minors with safeguards against addictive design features and harmful content, with new duty-of-care obligations. Platforms subject to KOSA need intelligence on exploitation tactics, harmful content patterns, and platform safety risks. Revontulet provides threat analysis that supports clients' broader online safety compliance efforts.",
-        "Last Modified": "2026-03-27T08:06:23.000Z"
+        "Last Modified": "2026-03-27T08:06:23.000Z",
+        "Obligation Count": 6,
+        "Definition Count": 3
       }
     },
     {
@@ -2257,7 +2833,9 @@
         "Enforcement": "FINMA enforcement for financial sector. Federal Office of Justice for registry. Criminal penalties for AML violations.",
         "Relevance Notes": "Switzerland's modernized AML framework extends to lawyers, notaries, and trust advisors, with a new beneficial ownership register. Switzerland's concentrated financial sector makes its AML framework globally significant. Revontulet provides the financial crime intelligence, beneficial ownership analysis, and risk assessments that Swiss financial intermediaries need for enhanced GwG compliance.",
         "Source": "https://www.admin.ch/gov/en/start/documentation/media-releases.msg-id-102750.html",
-        "Last Modified": "2026-03-27T04:25:12.000Z"
+        "Last Modified": "2026-03-27T04:25:12.000Z",
+        "Obligation Count": 4,
+        "Definition Count": 4
       }
     },
     {
@@ -2285,7 +2863,9 @@
         "Enforcement": "ESMA and national competent authorities. Administrative sanctions and measures including withdrawal of authorisation. Market abuse provisions mirror traditional financial regulation.",
         "Relevance Notes": "MiCA creates the EU's first comprehensive crypto-asset regulation, requiring licensing and AML compliance for crypto service providers. Crypto-assets are increasingly exploited for terrorist financing, money laundering, and sanctions evasion. Revontulet provides blockchain intelligence, financial crime analysis, and sanctions screening capabilities that help crypto-asset service providers meet MiCA's compliance requirements.",
         "Source": "https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/markets-crypto-assets-regulation-mica",
-        "Last Modified": "2026-03-27T04:19:22.000Z"
+        "Last Modified": "2026-03-27T04:19:22.000Z",
+        "Obligation Count": 5,
+        "Definition Count": 2
       }
     },
     {
@@ -2306,7 +2886,9 @@
         "Brief Description": "International standard establishing cybersecurity maturity models and metrics for organizations to assess and improve their security posture.",
         "Type": "Standard",
         "Relevance Notes": "ISO 25389 establishes cybersecurity maturity models and metrics for measuring organizational security posture. Revontulet provides threat intelligence and risk assessment capabilities that inform maturity assessments, helping clients identify gaps and prioritize security investments aligned with international benchmarking standards.",
-        "Last Modified": "2026-03-27T08:04:14.000Z"
+        "Last Modified": "2026-03-27T08:04:14.000Z",
+        "Obligation Count": 2,
+        "Definition Count": 1
       }
     },
     {
@@ -2335,7 +2917,63 @@
         "Enforcement": "NSM oversight. Criminal penalties for breaches. Administrative sanctions.",
         "Relevance Notes": "Norway's national security framework mandates risk-based protective security for critical infrastructure and national security interests. Organizations subject to Sikkerhetsloven need comprehensive threat assessments covering espionage, sabotage, and terrorism. Revontulet provides the multi-domain threat intelligence and security risk analysis that supports clients' protective security obligations under Norwegian law.",
         "Source": "https://lovdata.no/lov/2018-06-01-24",
-        "Last Modified": "2026-03-27T08:06:23.000Z"
+        "Last Modified": "2026-03-27T08:06:23.000Z",
+        "Obligation Count": 2,
+        "Definition Count": 2
+      }
+    },
+    {
+      "fields": {
+        "Legislation": "4AMLD",
+        "Full Name": "Fourth Anti-Money Laundering Directive (EU) 2015/849",
+        "Categories": [
+          "AML / CFT / Financial Crime"
+        ],
+        "Jurisdiction": "EU",
+        "Status": "In Force",
+        "Relevance": "Tier 2",
+        "Domains": [
+          "Counter-Terrorism",
+          "Financial Crime",
+          "Organised Crime"
+        ],
+        "Brief Description": "Main EU AML/CTF directive currently transposed into national law across Member States (including the Dutch Wwft). Establishes risk-based approach to customer due diligence, beneficial ownership transparency, and suspicious transaction reporting. Amended by the Fifth AMLD (2018/843) which extended scope to crypto-asset exchanges and custodian wallet providers. Will eventually be superseded by the AMLR.",
+        "Type": "Legislation",
+        "Enacted": "2015-05-20",
+        "In Force": "2017-06-26",
+        "Scope": "All EU Member States. Applies to 'obliged entities': credit/financial institutions, auditors, tax advisors, notaries, lawyers, estate agents, dealers in goods (cash payments over EUR 10,000), gambling service providers. 5th AMLD extended to crypto exchanges and wallet providers.",
+        "Enforcement": "Transposed into national law (Wwft in NL). Supervised by national financial authorities (DNB/AFM in NL). FIUs receive suspicious transaction reports. The AMLR will eventually replace this with a directly applicable regulation, but 4AMLD/5AMLD remain the operative transposed framework.",
+        "Relevance Notes": "The directive that the Dutch Wwft implements. Referenced in our Directive 2017/541 terrorism financing definition. The tracker already has AMLA and AMLR (the future replacements) but not the currently operative directive. For the Dutch case, the Wwft's CTF obligations flow directly from this directive.",
+        "Source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32015L0849",
+        "Last Modified": "2026-03-28T11:17:22.000Z"
+      }
+    },
+    {
+      "fields": {
+        "Legislation": "CoE CT Convention (CETS 196)",
+        "Full Name": "Council of Europe Convention on the Prevention of Terrorism",
+        "Categories": [
+          "Counter-Terrorism / P-CVE",
+          "Online Safety / Content Governance"
+        ],
+        "Jurisdiction": "Council of Europe",
+        "Status": "In Force",
+        "Relevance": "Tier 1",
+        "Domains": [
+          "Counter-Terrorism",
+          "Social Media",
+          "Online Platforms"
+        ],
+        "Brief Description": "Foundational Council of Europe treaty that first established public provocation to terrorism (Art. 5), recruitment (Art. 6), and training for terrorism (Art. 7) as distinct criminal offences requiring criminalization by States Parties. The EU acceded via Council Decision 2018/889. This Convention is the definitional ancestor of Directive 2017/541 Arts. 5-7 and, by extension, the TCO Regulation's content categories.",
+        "Type": "Treaty / Convention",
+        "Enacted": "2005-05-16",
+        "In Force": "2007-06-01",
+        "Scope": "All Council of Europe member states (46 countries). Applies to any person committing or contributing to offences defined in Arts. 5-7. Does not apply to activities of armed forces during armed conflict governed by international humanitarian law.",
+        "Enforcement": "No direct enforcement mechanism; relies on State Parties to transpose into domestic criminal law. The Committee of the Parties (Art. 30) monitors implementation. GRETA-style periodic reporting is not required, but the Committee may request information from State Parties.",
+        "Relevance Notes": "Critical for understanding the definitional ancestry of TVEC content categories. Art. 5 (public provocation) directly shaped both EU Directive 2017/541 Art. 5 and TCO Art. 2(7)(a). Without this Convention in the tracker, the chain from CoE treaty to EU directive to TCO regulation to Dutch implementation is incomplete. 25 EU Member States have ratified.",
+        "Source": "https://rm.coe.int/16808c3f55",
+        "Last Modified": "2026-03-28T11:18:52.000Z",
+        "Definition Count": 3
       }
     },
     {
@@ -2362,7 +3000,9 @@
         "Enforcement": "DOJ National Security Division, FARA Unit. Criminal penalties including up to 5 years imprisonment and $250K fines. Active enforcement with multiple high-profile prosecutions in 2024.",
         "Relevance Notes": "FARA registration data and enforcement actions are valuable open-source intelligence on foreign influence operations in the United States. Revontulet leverages FARA disclosures and enforcement patterns to provide clients with intelligence on foreign influence networks, lobbying activities, and state-sponsored advocacy that informs their geopolitical risk assessments.",
         "Source": "https://www.justice.gov/nsd-fara",
-        "Last Modified": "2026-03-27T08:06:22.000Z"
+        "Last Modified": "2026-03-27T08:06:22.000Z",
+        "Obligation Count": 2,
+        "Definition Count": 2
       }
     },
     {
@@ -2389,7 +3029,9 @@
         "Enforcement": "eSafety Commissioner. Investigation powers for code breaches. Basic Online Safety Expectations set enforceable transparency and safety standards for platforms.",
         "Relevance Notes": "Australia's comprehensive online safety framework requires industry compliance with codes and standards enforced by the eSafety Commissioner. Platforms must detect and remove illegal content including terrorist material, exploitation content, and cyber-abuse. Revontulet provides the content classification intelligence and threat analysis that supports platforms' compliance with Australian online safety obligations.",
         "Source": "https://www.esafety.gov.au/newsroom/whats-on/online-safety-act",
-        "Last Modified": "2026-03-27T04:29:02.000Z"
+        "Last Modified": "2026-03-27T04:29:02.000Z",
+        "Obligation Count": 8,
+        "Definition Count": 4
       }
     }
   ]
