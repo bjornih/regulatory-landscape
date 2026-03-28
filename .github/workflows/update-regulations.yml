@@ -36,4 +36,5 @@ jobs:
           git add regulations.json
           git commit -m "Update regulations data from Airtable"
           git pull --rebase origin main
+          git pull --rebase origin main
           git push
