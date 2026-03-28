@@ -29,7 +29,7 @@
 
         /* Header - Compact */
         header {
-            padding: 20px 30px;
+            padding: 12px 30px;
             border-bottom: 1px solid rgba(36, 185, 168, 0.2);
             background: #0c1a30;
             position: sticky;
@@ -41,7 +41,7 @@
             max-width: 1400px;
             margin: 0 auto;
             display: flex;
-            align-items: flex-end;
+            align-items: center;
             justify-content: space-between;
             gap: 30px;
         }
@@ -51,17 +51,11 @@
             min-width: 0;
         }
 
-        .header-search {
-            flex-shrink: 0;
-            width: 320px;
-        }
-
-        .revontulet-logo {
-            font-size: 0.75rem;
-            font-weight: 600;
-            color: #f16632;
-            text-transform: uppercase;
-            letter-spacing: 2px;
+        .header-top-row {
+            display: flex;
+            align-items: baseline;
+            gap: 16px;
+            flex-wrap: wrap;
             margin-bottom: 4px;
         }
 
@@ -69,22 +63,22 @@
             font-size: 1.8rem;
             font-weight: 700;
             color: #fff;
-            margin-bottom: 2px;
+            margin-bottom: 0;
         }
 
         .header-subtitle {
-            font-size: 0.9rem;
+            font-size: 0.85rem;
             color: #93d5de;
             font-weight: 300;
-            margin-bottom: 12px;
-            max-width: 900px;
+            margin-bottom: 0;
+            max-width: 700px;
         }
 
         .header-stats {
             display: flex;
             gap: 24px;
             flex-wrap: wrap;
-            font-size: 0.9rem;
+            font-size: 0.85rem;
             color: #8a91a5;
         }
 
@@ -126,7 +120,7 @@
             display: flex;
             max-width: 1400px;
             margin: 0 auto;
-            min-height: calc(100vh - 200px);
+            min-height: calc(100vh - 120px);
             padding-right: 280px;
         }
 
@@ -134,22 +128,31 @@
         .sidebar {
             width: 280px;
             background: #1c2e55;
-            padding: 24px 28px;
+            padding: 14px 20px 16px;
             border-left: 1px solid rgba(36, 185, 168, 0.2);
             position: fixed;
             right: max(0px, calc((100vw - 1400px) / 2));
-            top: 220px;
+            top: 100px;
             bottom: 60px;
             overflow-y: auto;
-            z-index: 90;
-            border-radius: 10px 0 0 10px;
+            z-index: 110;
+            border-radius: 0 0 0 10px;
+        }
+
+        .sidebar-search {
+            margin-bottom: 10px;
+        }
+
+        .sidebar-search .search-input {
+            padding: 8px 12px;
+            font-size: 0.85rem;
         }
 
         .sidebar-header {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 16px;
+            margin-bottom: 6px;
         }
 
         .sidebar-title {
@@ -176,13 +179,13 @@
         .result-count {
             font-size: 0.8rem;
             color: #8a91a5;
-            margin-bottom: 16px;
-            padding-bottom: 12px;
+            margin-bottom: 8px;
+            padding-bottom: 8px;
             border-bottom: 1px solid rgba(147, 213, 222, 0.2);
         }
 
         .sort-group {
-            margin-bottom: 20px;
+            margin-bottom: 8px;
         }
 
         .sort-label {
@@ -197,7 +200,7 @@
 
         .sort-select {
             width: 100%;
-            padding: 8px 10px;
+            padding: 5px 8px;
             background: #17274a;
             border: 1px solid rgba(147, 213, 222, 0.3);
             border-radius: 6px;
@@ -216,9 +219,9 @@
 
         /* Filter Group */
         .filter-group {
-            margin-bottom: 16px;
+            margin-bottom: 4px;
             border-bottom: 1px solid rgba(147, 213, 222, 0.15);
-            padding-bottom: 12px;
+            padding-bottom: 4px;
         }
 
         .filter-group:last-child {
@@ -233,7 +236,7 @@
             justify-content: space-between;
             cursor: pointer;
             user-select: none;
-            padding: 8px 0;
+            padding: 6px 0;
         }
 
         .filter-header:hover .filter-title {
@@ -741,8 +744,8 @@
                 position: fixed;
                 right: -280px;
                 left: auto;
-                top: 120px;
-                height: calc(100vh - 120px);
+                top: 0;
+                height: 100vh;
                 z-index: 150;
                 transition: right 0.3s ease;
                 border-radius: 0;
@@ -786,8 +789,9 @@
                 align-items: stretch;
             }
 
-            .header-search {
-                width: 100%;
+            .header-top-row {
+                flex-direction: column;
+                gap: 4px;
             }
 
             .main-content {
@@ -801,20 +805,18 @@
     <header>
         <div class="header-content">
             <div class="header-left">
-                <div class="revontulet-logo">REVONTULET</div>
-                <div class="header-title">Regulatory Landscape</div>
-                <p class="header-subtitle" id="headerSubtitle">
-                    Loading regulatory data...
-                </p>
+                <div class="header-top-row">
+                    <div class="header-title">Regulatory Landscape</div>
+                    <p class="header-subtitle" id="headerSubtitle">
+                        Loading regulatory data...
+                    </p>
+                </div>
                 <div class="header-stats">
                     <div class="stat-inline"><span id="statTotal">—</span><span>Items</span></div>
                     <div class="stat-inline"><span id="statJurisdictions">—</span><span>Jurisdictions</span></div>
                     <div class="stat-inline"><span id="statInForce">—</span><span>In Force</span></div>
                     <div class="stat-inline"><span id="statDirect">—</span><span>Direct Relevance</span></div>
                 </div>
-            </div>
-            <div class="header-search">
-                <input type="text" id="searchInput" class="search-input" placeholder="Search laws...">
             </div>
         </div>
     </header>
@@ -838,6 +840,9 @@
 
         <!-- Sidebar (right) -->
         <div class="sidebar" id="sidebar">
+            <div class="sidebar-search">
+                <input type="text" id="searchInput" class="search-input" placeholder="Search...">
+            </div>
             <div class="sidebar-header">
                 <span class="sidebar-title">Filters</span>
                 <a href="#" class="clear-all-link" id="clearAllLink">Clear All</a>
@@ -933,7 +938,7 @@
     <script>
         // ── Configuration ──
         // Data source: static JSON export from Airtable (pre-filtered for client-relevant records)
-        const DATA_URL = 'https://raw.githubusercontent.com/bjornih/regulatory-landscape/refs/heads/main/regulations.json';
+        const DATA_URL = 'regulations.json';
 
         const FIELD_MAP = {
             "Legislation": "leg",
@@ -954,6 +959,8 @@
             "Relevance Notes": "relnotes",
             "Source": "source",
             "Last Modified": "modified",
+            "Obligation Count": "obligations",
+            "Definition Count": "definitions",
         };
 
         // ── State ──
@@ -1060,6 +1067,8 @@
                     entry[jsKey] = resolveMultiSelect(raw);
                 } else if (['jur', 'status', 'relevance', 'type'].includes(jsKey)) {
                     entry[jsKey] = resolveSelectValue(raw);
+                } else if (['obligations', 'definitions'].includes(jsKey)) {
+                    entry[jsKey] = typeof raw === 'number' ? raw : 0;
                 } else {
                     entry[jsKey] = raw || '';
                 }
@@ -1429,6 +1438,12 @@
                                 ${law.cats.map(c => `<span class="pill">${escapeHtml(c)}</span>`).join('')}
                             </div>
 
+                            ${(law.obligations || law.definitions) ? `
+                            <div style="display:flex;gap:12px;margin-top:10px;font-size:0.72rem;font-weight:400;color:#93d5de">
+                                ${law.obligations ? `<span>${law.obligations} obligation${law.obligations !== 1 ? 's' : ''} tracked</span>` : ''}
+                                ${law.definitions ? `<span>${law.definitions} definition${law.definitions !== 1 ? 's' : ''}</span>` : ''}
+                            </div>` : ''}
+
                             ${law.deadline ? `
                             <div class="card-dates" style="margin-top:auto">
                                 <div class="date-item"><span class="date-label">Compliance Deadline:</span><span class="date-value" style="color: ${isDeadlineUpcoming ? '#f16632' : '#24b9a8'}">${formatDate(law.deadline)}</span></div>
@@ -1485,6 +1500,7 @@
             const jurisdictions = new Set(legislationData.map(l => l.jur)).size;
             const inForceCount = legislationData.filter(l => l.status === 'In force').length;
             const directCount = legislationData.filter(l => l.relevance === 'Direct').length;
+            const totalObligations = legislationData.reduce((sum, l) => sum + (l.obligations || 0), 0);
 
             document.getElementById('statTotal').textContent = total;
             document.getElementById('statJurisdictions').textContent = jurisdictions;
@@ -1494,7 +1510,7 @@
             // Update header subtitle
             const subtitle = document.getElementById('headerSubtitle');
             if (subtitle) {
-                subtitle.textContent = `Mapping ${total} regulations and standards across ${jurisdictions} jurisdictions that create immediate demand for integrated cross-domain threat intelligence.`;
+                subtitle.textContent = `Mapping ${total} regulations and standards across ${jurisdictions} jurisdictions with ${totalObligations} tracked compliance obligations.`;
             }
 
             // Update sidebar result count

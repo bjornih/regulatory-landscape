@@ -49,9 +49,17 @@ FIELD_IDS = {
     "fldBYPbuoLTHG78TD": "Source",
     "fldIFXKD4YZda3WuS": "Audience",  # Used for filtering, not included in output
     "fldmJYAT2NgT99MEI": "Last Modified",
+    "fldp1hAp1YivxMNKo": "Policy Requirements",  # Linked records to Policy Requirements table
+    "fld0ZoUSwQkCiBAsr": "Regulatory Definitions",  # Linked records to Regulatory Definitions table
 }
 
 AUDIENCE_FIELD_ID = "fldIFXKD4YZda3WuS"
+
+# Linked record fields: exported as counts rather than raw record IDs
+LINKED_RECORD_COUNT_FIELDS = {
+    "Policy Requirements": "Obligation Count",
+    "Regulatory Definitions": "Definition Count",
+}
 
 
 def resolve_value(val):
@@ -114,6 +122,13 @@ def transform_record(record: dict) -> dict | None:
     for field_id, field_name in FIELD_IDS.items():
         if field_name == "Audience":
             continue  # Don't include audience in public output
+
+        # Linked record fields: export as counts with a friendly key name
+        if field_name in LINKED_RECORD_COUNT_FIELDS:
+            raw = fields.get(field_name)
+            if isinstance(raw, list) and len(raw) > 0:
+                entry[LINKED_RECORD_COUNT_FIELDS[field_name]] = len(raw)
+            continue
 
         raw = fields.get(field_name)
         resolved = resolve_value(raw)
