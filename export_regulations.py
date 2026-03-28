@@ -47,6 +47,7 @@ FIELD_IDS = {
     "fldNLJ1KpDQF96L2l": "Enforcement",
     "fldLJe9RJyWqcNHVy": "Relevance Notes",
     "fldBYPbuoLTHG78TD": "Source",
+    "fldZW3FSZEPADKGOA": "Subregion",
     "fldIFXKD4YZda3WuS": "Audience",  # Used for filtering, not included in output
     "fldmJYAT2NgT99MEI": "Last Modified",
     "fldp1hAp1YivxMNKo": "Policy Requirements",  # Linked records to Policy Requirements table

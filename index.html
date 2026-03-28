@@ -608,6 +608,16 @@
             border: 1px solid rgba(241, 102, 50, 0.2);
         }
 
+        .badge[data-filter], .pill[data-filter], .pill-domain[data-filter] {
+            cursor: pointer;
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+        }
+
+        .badge[data-filter]:hover, .pill[data-filter]:hover, .pill-domain[data-filter]:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 8px rgba(36, 185, 168, 0.3);
+        }
+
         .card-dates {
             background: rgba(36, 185, 168, 0.05);
             padding: 12px;
@@ -996,6 +1006,7 @@
             "Full Name": "full",
             "Categories": "cats",
             "Jurisdiction": "jur",
+            "Subregion": "subregion",
             "Status": "status",
             "Relevance": "relevance",
             "Domains": "domains",
@@ -1169,39 +1180,47 @@
         document.addEventListener('DOMContentLoaded', () => { syncSidebarTop(); loadData(); });
 
         function initializeFilters() {
-            const jurisdictions = [...new Set(legislationData.map(l => l.jur))].sort();
             const categories = [...new Set(legislationData.flatMap(l => l.cats))].sort();
             const domains = [...new Set(legislationData.flatMap(l => l.domains))].sort();
-            const relevances = ['Direct', 'Strong', 'Moderate', 'Contextual'];
-            const statuses = ['In force', 'Partially in force', 'Enacted, not yet in force', 'In legislative process'];
+            const types = [...new Set(legislationData.map(l => l.type).filter(Boolean))].sort();
+            const statuses = [...new Set(legislationData.map(l => l.status).filter(Boolean))].sort();
+            const relevances = [...new Set(legislationData.map(l => l.relevance).filter(Boolean))].sort();
             const timelines = ['By 2026', 'By 2027', 'By 2028', 'All'];
 
-            const jurisdictionGroups = {
-                'Nordic': ['Norway', 'Sweden'],
-                'EU': ['EU'],
-                'UK & Europe': ['UK', 'Council of Europe'],
-                'UN/International': ['UN / International', 'Global / FATF', 'ISO / International'],
-                'Americas': ['USA (Federal)', 'USA (California)', 'United States', 'Canada', 'Brazil'],
-                'Asia-Pacific': ['Australia', 'New Zealand', 'Japan', 'South Korea', 'Taiwan', 'Singapore', 'India', 'Israel', 'Saudi Arabia'],
-                'Other European': ['France', 'Germany', 'Switzerland']
-            };
+            // Build jurisdiction groups from Subregion field
+            const subregionMap = {};
+            legislationData.forEach(l => {
+                const sub = l.subregion || 'Other';
+                if (!subregionMap[sub]) subregionMap[sub] = new Set();
+                subregionMap[sub].add(l.jur);
+            });
+            const subregionOrder = ['Nordic', 'EU', 'UK & Europe', 'UN/International', 'Americas', 'Asia-Pacific', 'Other European'];
+            const orderedGroups = {};
+            for (const name of subregionOrder) {
+                if (subregionMap[name]) {
+                    orderedGroups[name] = [...subregionMap[name]].sort();
+                }
+            }
+            for (const [name, jurs] of Object.entries(subregionMap)) {
+                if (!orderedGroups[name]) {
+                    orderedGroups[name] = [...jurs].sort();
+                }
+            }
 
             const jurisdictionContainer = document.getElementById('jurisdictionFilters');
-            for (const [group, jurs] of Object.entries(jurisdictionGroups)) {
-                const groupJurs = jurs.filter(j => jurisdictions.includes(j));
-                if (groupJurs.length > 0) {
+            for (const [group, jurs] of Object.entries(orderedGroups)) {
+                if (jurs.length > 0) {
                     const groupLabel = document.createElement('div');
                     groupLabel.className = 'checkbox-group-label';
                     groupLabel.textContent = group;
                     jurisdictionContainer.appendChild(groupLabel);
 
-                    for (const jur of groupJurs) {
+                    for (const jur of jurs) {
                         createCheckbox(jur, 'activeJurisdictions', jurisdictionContainer);
                     }
                 }
             }
 
-            const types = ['Legislation', 'Standard', 'Treaty / Convention', 'Resolution', 'Framework'];
             renderFilterCheckboxes('typeFilters', types, 'activeTypes');
             renderFilterCheckboxes('categoryFilters', categories, 'activeCategories');
             renderFilterCheckboxes('domainFilters', domains, 'activeDomains');
@@ -1520,9 +1539,9 @@
                     <div class="card-front">
                         <div class="card-front-scroll">
                             <div class="card-badges" style="margin-bottom:10px">
-                                <span class="badge badge-jurisdiction">${escapeHtml(law.jur)}</span>
-                                <span class="badge badge-status">${escapeHtml(law.status)}</span>
-                                ${law.type && law.type !== 'Legislation' ? `<span class="badge" style="background:${law.type === 'Standard' ? 'rgba(36,185,168,0.2);color:#24b9a8' : law.type === 'Treaty / Convention' ? 'rgba(147,213,222,0.2);color:#93d5de' : law.type === 'Framework' ? 'rgba(36,185,168,0.15);color:#6ecec3' : 'rgba(241,102,50,0.2);color:#f16632'}">${escapeHtml(law.type)}</span>` : ''}
+                                <span class="badge badge-jurisdiction" data-filter="activeJurisdictions" data-value="${escapeHtml(law.jur)}">${escapeHtml(law.jur)}</span>
+                                <span class="badge badge-status" data-filter="activeStatuses" data-value="${escapeHtml(law.status)}">${escapeHtml(law.status)}</span>
+                                ${law.type && law.type !== 'Legislation' ? `<span class="badge" data-filter="activeTypes" data-value="${escapeHtml(law.type)}" style="background:${law.type === 'Standard' ? 'rgba(36,185,168,0.2);color:#24b9a8' : law.type === 'Treaty / Convention' ? 'rgba(147,213,222,0.2);color:#93d5de' : law.type === 'Framework' ? 'rgba(36,185,168,0.15);color:#6ecec3' : 'rgba(241,102,50,0.2);color:#f16632'}">${escapeHtml(law.type)}</span>` : ''}
                             </div>
 
                             <div class="card-header">
@@ -1533,7 +1552,7 @@
                             ${law.desc ? `<div style="font-size:0.78rem;font-weight:200;color:#fff;line-height:1.55;margin-top:4px">${escapeHtml(law.desc)}</div>` : ''}
 
                             <div class="category-pills" style="margin-top:14px">
-                                ${law.cats.map(c => `<span class="pill">${escapeHtml(c)}</span>`).join('')}
+                                ${law.cats.map(c => `<span class="pill" data-filter="activeCategories" data-value="${escapeHtml(c)}">${escapeHtml(c)}</span>`).join('')}
                             </div>
 
                             ${(law.obligations || law.definitions) ? `
@@ -1554,8 +1573,8 @@
                         <div class="card-back-title">${escapeHtml(law.leg)}</div>
                         <div class="card-back-scroll">
                             <div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px">
-                                <span class="badge badge-relevance ${law.relevance.toLowerCase()}">${escapeHtml(law.relevance)}</span>
-                                ${law.domains.map(d => `<span class="pill-domain">${escapeHtml(d)}</span>`).join('')}
+                                <span class="badge badge-relevance ${law.relevance.toLowerCase()}" data-filter="activeRelevances" data-value="${escapeHtml(law.relevance)}">${escapeHtml(law.relevance)}</span>
+                                ${law.domains.map(d => `<span class="pill-domain" data-filter="activeDomains" data-value="${escapeHtml(d)}">${escapeHtml(d)}</span>`).join('')}
                             </div>
 
                             ${(law.enacted || law.force) ? `
@@ -1581,6 +1600,38 @@
 
             card.addEventListener('click', function(e) {
                 if (e.target.closest('.source-link')) return;
+
+                // Handle clickable pills/badges
+                const filterEl = e.target.closest('[data-filter]');
+                if (filterEl) {
+                    const stateKey = filterEl.dataset.filter;
+                    const value = filterEl.dataset.value;
+                    if (stateKey && value && state[stateKey]) {
+                        state[stateKey].clear();
+                        state[stateKey].add(value);
+                        // Check the corresponding checkbox
+                        const checkbox = document.getElementById(`${stateKey}-${value}`);
+                        if (checkbox) {
+                            // Uncheck all others in this group
+                            document.querySelectorAll(`input[id^="${stateKey}-"]`).forEach(cb => cb.checked = false);
+                            checkbox.checked = true;
+                        }
+                        updateCards();
+                        updateClearButton();
+                        // Open sidebar on mobile
+                        const sidebar = document.querySelector('.filter-sidebar');
+                        if (sidebar && window.innerWidth <= 768) {
+                            sidebar.classList.add('open');
+                            document.querySelector('.mobile-overlay')?.classList.add('active');
+                            const fab = document.querySelector('.filter-fab');
+                            if (fab) fab.innerHTML = '✕';
+                        }
+                        // Scroll to top to see filtered results
+                        window.scrollTo({ top: 0, behavior: 'smooth' });
+                        return;
+                    }
+                }
+
                 this.classList.toggle('flipped');
             });
 
