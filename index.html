@@ -821,28 +821,26 @@
             }
         }
 
-        /* Mobile: fade header/footer on scroll or filter */
-        @media (max-width: 900px) {
-            .rl-header {
-                transition: opacity 0.4s ease, max-height 0.4s ease, padding 0.4s ease;
-                max-height: 200px;
-                overflow: hidden;
-            }
-            .rl-header.mobile-hidden {
-                opacity: 0;
-                max-height: 0;
-                padding-top: 0;
-                padding-bottom: 0;
-                pointer-events: none;
-                border-bottom-color: transparent;
-            }
-            .disclaimer-footer {
-                transition: opacity 0.4s ease;
-            }
-            .disclaimer-footer.mobile-hidden {
-                opacity: 0;
-                pointer-events: none;
-            }
+        /* Fade header/footer on scroll */
+        .rl-header {
+            transition: opacity 0.4s ease, max-height 0.4s ease, padding 0.4s ease;
+            max-height: 200px;
+            overflow: hidden;
+        }
+        .rl-header.scroll-hidden {
+            opacity: 0;
+            max-height: 0;
+            padding-top: 0;
+            padding-bottom: 0;
+            pointer-events: none;
+            border-bottom-color: transparent;
+        }
+        .disclaimer-footer {
+            transition: opacity 0.4s ease;
+        }
+        .disclaimer-footer.scroll-hidden {
+            opacity: 0;
+            pointer-events: none;
         }
     </style>
 </head>
@@ -1315,29 +1313,27 @@
             });
         }
 
-        // Mobile: hide header/footer on scroll or filter interaction
+        // Hide header/footer on scroll or filter interaction
         (function() {
             const header = document.querySelector('.rl-header');
             const footer = document.querySelector('.disclaimer-footer');
-            const isMobile = () => window.innerWidth <= 900;
-            let scrollY = 0;
 
             function hideChrome() {
-                if (!isMobile()) return;
-                header.classList.add('mobile-hidden');
-                if (footer) footer.classList.add('mobile-hidden');
+                header.classList.add('scroll-hidden');
+                if (footer) footer.classList.add('scroll-hidden');
+            }
+
+            function showChrome() {
+                header.classList.remove('scroll-hidden');
+                if (footer) footer.classList.remove('scroll-hidden');
             }
 
             window.addEventListener('scroll', () => {
-                if (!isMobile()) return;
-                const currentY = window.scrollY;
-                if (currentY > 50) {
+                if (window.scrollY > 50) {
                     hideChrome();
-                } else if (currentY < 10) {
-                    header.classList.remove('mobile-hidden');
-                    if (footer) footer.classList.remove('mobile-hidden');
+                } else if (window.scrollY < 10) {
+                    showChrome();
                 }
-                scrollY = currentY;
             }, { passive: true });
 
             // Also hide when user interacts with filters or search
