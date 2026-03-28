@@ -136,7 +136,7 @@
             bottom: 180px;
             overflow-y: auto;
             z-index: 110;
-            border-radius: 0 0 0 10px;
+            border-radius: 10px 0 0 10px;
         }
 
         .sidebar-search {
@@ -721,6 +721,8 @@
             align-items: center;
             justify-content: center;
             transition: background 0.3s ease, transform 0.2s ease;
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
         }
 
         .filter-fab:hover {
@@ -742,7 +744,9 @@
             display: none;
             position: fixed;
             inset: 0;
-            background: rgba(12, 26, 48, 0.6);
+            background: rgba(12, 26, 48, 0.5);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
             z-index: 149;
         }
 
@@ -766,11 +770,15 @@
                 right: -280px;
                 left: auto;
                 top: 150px;
-                bottom: 0;
+                bottom: 80px;
                 height: auto;
                 z-index: 150;
                 transition: right 0.3s ease;
-                border-radius: 0;
+                border-radius: 10px 0 0 10px;
+                padding-bottom: 24px;
+                background: rgba(28, 46, 85, 0.95);
+                backdrop-filter: blur(12px);
+                -webkit-backdrop-filter: blur(12px);
             }
 
             .sidebar.open {
