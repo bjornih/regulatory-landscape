@@ -28,7 +28,7 @@
         }
 
         /* Header - Compact */
-        header {
+        .rl-header {
             padding: 42px 30px 12px;
             border-bottom: 1px solid rgba(36, 185, 168, 0.2);
             background: #0c1a30;
@@ -788,7 +788,7 @@
         }
 
         @media (max-width: 600px) {
-            header {
+            .rl-header {
                 padding: 16px 16px;
             }
 
@@ -823,7 +823,7 @@
 
         /* Mobile: hide header/footer on scroll or filter */
         @media (max-width: 900px) {
-            header.mobile-hidden {
+            .rl-header.mobile-hidden {
                 display: none;
             }
             .disclaimer-footer.mobile-hidden {
@@ -834,7 +834,7 @@
 </head>
 <body>
     <!-- Header -->
-    <header>
+    <div class="rl-header">
         <div class="header-content">
             <div class="header-left">
                 <div class="header-top-row">
@@ -850,7 +850,7 @@
                 </div>
             </div>
         </div>
-    </header>
+    </div>
 
     <!-- Mobile filter button -->
     <button class="filter-fab" id="filterFab">
@@ -1140,7 +1140,7 @@
 
         // Sync sidebar top to header height
         function syncSidebarTop() {
-            const h = document.querySelector('header');
+            const h = document.querySelector('.rl-header');
             if (h) document.documentElement.style.setProperty('--header-h', h.offsetHeight + 132 + 'px');
         }
         window.addEventListener('resize', syncSidebarTop);
@@ -1303,7 +1303,7 @@
 
         // Mobile: hide header/footer on scroll or filter interaction
         (function() {
-            const header = document.querySelector('header');
+            const header = document.querySelector('.rl-header');
             const footer = document.querySelector('.disclaimer-footer');
             const isMobile = () => window.innerWidth <= 900;
             let scrollY = 0;
