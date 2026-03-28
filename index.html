@@ -132,7 +132,7 @@
             border-left: 1px solid rgba(36, 185, 168, 0.2);
             position: fixed;
             right: max(0px, calc((100vw - 1400px) / 2));
-            top: 100px;
+            top: var(--header-h, 100px);
             bottom: 60px;
             overflow-y: auto;
             z-index: 110;
@@ -1107,8 +1107,15 @@
             updateCards();
         }
 
+        // Sync sidebar top to header height
+        function syncSidebarTop() {
+            const h = document.querySelector('header');
+            if (h) document.documentElement.style.setProperty('--header-h', h.offsetHeight + 12 + 'px');
+        }
+        window.addEventListener('resize', syncSidebarTop);
+
         // Initialize
-        document.addEventListener('DOMContentLoaded', loadData);
+        document.addEventListener('DOMContentLoaded', () => { syncSidebarTop(); loadData(); });
 
         function initializeFilters() {
             const jurisdictions = [...new Set(legislationData.map(l => l.jur))].sort();
