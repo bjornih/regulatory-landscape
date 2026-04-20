@@ -19,13 +19,13 @@
         "Type": "Legislation",
         "Enacted": "2022-11-16",
         "In Force": "2024-02-17",
-        "Next Steps": "Fully applicable since Feb 2024. EC conducting investigations and enforcement actions against VLOPs (X fined EUR 120M).",
+        "Next Steps": "Fully applicable since Feb 2024. EC fined X (now rebranded) EUR 120M in Dec 2025, the first penalty under the DSA. European Board for Digital Services held 18th meeting on 15 April 2026, reaffirming focus on protection of minors online. Decision on ChatGPT's VLOP designation expected mid-2026. 2026 enforcement priorities: age assurance/verification, online marketplace safety (Temu, Shein), and financial fraud. Additional investigations and fines anticipated throughout 2026.",
         "Scope": "All online intermediaries operating in the EU. Enhanced obligations for VLOPs/VLOSEs (45M+ EU users).",
         "Enforcement": "EC directly enforces against VLOPs/VLOSEs. Fines up to 6% of worldwide turnover. Periodic penalty payments up to 5% of daily turnover.",
         "Relevance Notes": "Platforms and digital service providers face extensive obligations under the DSA for systemic risk assessments, illegal content removal, and transparency reporting. Revontulet delivers actionable intelligence on terrorist networks, organized crime operations, and disinformation campaigns that directly supports clients' DSA compliance, enabling faster identification of illegal content and more robust systemic risk assessments.",
         "Source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32022R2065",
         "Subregion": "EU",
-        "Last Modified": "2026-03-28T11:42:01.000Z",
+        "Last Modified": "2026-04-20T04:58:56.000Z",
         "Obligation Count": 11,
         "Definition Count": 8
       }
@@ -109,13 +109,13 @@
         ],
         "Brief Description": "Global AML/CFT standards applied across 200+ jurisdictions. Grey-listing triggers significant economic consequences. The Travel Rule extends obligations to virtual asset service providers.",
         "Type": "Framework",
-        "Next Steps": "February 2026 plenary updated high-risk jurisdictions list and those under monitoring. Recommendation 1 strengthened to reinforce risk-based approach and financial inclusion expectations. New guidance on Financial Inclusion and AML/TF Measures published. Recommendation 16 (Travel Rule) revised June 2025; 99 jurisdictions enacting. Annex IV assessment methodology published Oct 2025. Full Travel Rule compliance required from 2030.",
+        "Next Steps": "February 2026 plenary: adopted mutual evaluation reports for Austria, Italy, and Singapore under new 5th Round methodology. Published new guidance on cyber-enabled fraud and virtual assets. Updated high-risk jurisdictions list and those under monitoring. Recommendation 1 strengthened to reinforce risk-based approach. Recommendation 16 (Travel Rule) revised June 2025; 99 jurisdictions enacting, full compliance required from 2030. 5th Round uses six-year evaluation cycle (shorter than previous 10-year average).",
         "Scope": "Global: 40 FATF member jurisdictions and 200+ via regional bodies. Financial institutions, DNFBPs, and virtual asset service providers (VASPs).",
         "Enforcement": "Mutual evaluations; grey/black listing. Being grey-listed causes significant economic consequences: reduced foreign investment, increased compliance costs. EU framework: fines up to 10% of turnover.",
         "Relevance Notes": "The FATF framework creates the global baseline for anti-money laundering and counter-terrorism financing compliance across 200+ jurisdictions. Revontulet's financial crime and counter-terrorism intelligence directly supports clients' risk-based approach requirements, helping them identify and mitigate money laundering and terrorist financing risks as mandated by FATF Recommendations.",
         "Source": "https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Fatf-recommendations.html",
         "Subregion": "UN/International",
-        "Last Modified": "2026-03-28T11:42:01.000Z",
+        "Last Modified": "2026-04-20T04:58:56.000Z",
         "Obligation Count": 4,
         "Definition Count": 3
       }
@@ -216,7 +216,7 @@
           "AML / CFT / Financial Crime"
         ],
         "Jurisdiction": "EU",
-        "Status": "Pending",
+        "Status": "In force",
         "Relevance": "Strong",
         "Domains": [
           "Counter-Terrorism",
@@ -224,17 +224,17 @@
           "Organised Crime",
           "Cyber Threat Intel"
         ],
-        "Brief Description": "Harmonizes money laundering criminal penalties across the EU and adds cybercrime as a 22nd predicate offence. Enhances FIU powers to suspend transactions. Transposition deadline July 2027.",
+        "Brief Description": "Sixth Anti-Money Laundering Directive (Directive (EU) 2024/1640) harmonizes money laundering criminal penalties across the EU and adds cybercrime as a 22nd predicate offence. Enhances FIU powers to suspend transactions. Member states must transpose by 10 July 2027, with beneficial ownership register provisions due by 10 July 2026.",
         "Type": "Legislation",
         "Enacted": "2024-07-19",
         "Deadline": "2027-07-10",
-        "Next Steps": "Published July 2024. Member states must transpose by 10 July 2027. Covers areas requiring national flexibility: FIU powers and cooperation, supervisory frameworks, beneficial ownership registries, and access to financial information.",
+        "Next Steps": "Directive entered into force 9 July 2024. Beneficial ownership register provisions must be transposed by 10 July 2026. Full transposition deadline: 10 July 2027. Real estate information single access point requirements due by 10 July 2029. As of April 2026, member states are at varying stages of transposition. Works alongside AMLR (Regulation) and AMLA (Authority).",
         "Scope": "Member state FIUs, national supervisory authorities, beneficial ownership registries. Defines 22 predicate offences for money laundering (adding cybercrime to FATF's 21).",
         "Enforcement": "Member state transposition and enforcement. Harmonizes criminal penalties for money laundering across the EU. Enhanced FIU powers including ability to suspend transactions.",
         "Relevance Notes": "The Sixth Anti-Money Laundering Directive's 22 predicate offences span terrorism, drug trafficking, cybercrime, and organized crime. Obliged entities need intelligence covering these cross-domain threats to fulfil their customer due diligence obligations. Revontulet provides multi-domain intelligence that maps directly to 6AMLD's predicate offence categories, strengthening clients' suspicious activity detection.",
         "Source": "https://eur-lex.europa.eu/eli/dir/2024/1640/oj/eng",
         "Subregion": "EU",
-        "Last Modified": "2026-03-28T14:39:51.000Z",
+        "Last Modified": "2026-04-20T04:58:16.000Z",
         "Obligation Count": 4,
         "Definition Count": 5
       }
@@ -587,16 +587,16 @@
           "Organised Crime",
           "Cyber Threat Intel"
         ],
-        "Brief Description": "Proposed EU regulation on preventing child sexual abuse online. Would create an EU Centre on CSA. Council removed mandatory scanning in Nov 2025 position. Trilogue negotiations ongoing through 2026.",
+        "Brief Description": "Proposed EU regulation on preventing child sexual abuse online. Would create an EU Centre on CSA. Council removed mandatory scanning in Nov 2025 position. European Parliament rejected extension of interim voluntary detection rules (ePrivacy derogation) on 26 March 2026. Trilogue negotiations on permanent regulation ongoing.",
         "Type": "Legislation",
         "Enacted": "2022-05-11",
-        "Next Steps": "Council general approach adopted Nov 2025 (removed mandatory scanning). Trilogues started Dec 2025, next rounds Feb, May, Jun 2026. Interim voluntary detection rules extended to Apr 2026, proposed extension to Aug 2027.",
+        "Next Steps": "Interim voluntary CSAM detection rules (ePrivacy derogation) expired 3 April 2026 after Parliament rejected further extension on 26 March 2026. The European Data Protection Supervisor had warned against indiscriminate scanning. Trilogue negotiations on the permanent CSA Regulation continue, with rounds scheduled through mid-2026. Council general approach (Nov 2025) removed mandatory scanning requirement. Significant political divisions remain between privacy advocates and child protection groups.",
         "Scope": "Online service providers, messaging platforms, cloud storage providers, and app stores operating in the EU. Would establish an EU Centre on Child Sexual Abuse.",
         "Enforcement": "Proposed EU Centre on Child Sexual Abuse as coordinating body. Mandatory risk assessments and mitigation. Council position removes mandatory scanning.",
         "Relevance Notes": "The proposed EU CSAM regulation will require platforms to detect, report, and remove child sexual abuse material, with a new EU Centre overseeing compliance. Revontulet provides intelligence on exploitation networks, distribution infrastructure, and organized criminal groups involved in CSAM, supporting platforms' detection and reporting obligations.",
         "Source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM:2022:209:FIN",
         "Subregion": "EU",
-        "Last Modified": "2026-03-28T14:40:14.000Z",
+        "Last Modified": "2026-04-20T04:58:16.000Z",
         "Obligation Count": 8,
         "Definition Count": 3
       }
@@ -708,14 +708,14 @@
         "Brief Description": "Enables judicial authorities to obtain electronic evidence directly from service providers across EU borders. Production Orders require 10-day response (8 hours in emergencies), replacing the 10-month average under mutual legal assistance. Penalties up to 2% of global turnover.",
         "Type": "Legislation",
         "Enacted": "2023-07-12",
-        "Deadline": "2026-08-01",
-        "Next Steps": "Binding in all Member States from August 2026. Service providers must designate legal representatives and establish systems for receiving and processing orders.",
+        "Deadline": "2026-08-18",
+        "Next Steps": "Regulation directly applicable from 18 August 2026 across all EU Member States (except Denmark). The accompanying e-Evidence Directive's transposition deadline was 18 February 2026, but as of that date only five Member States (Croatia, Denmark, Italy, Lithuania, Slovakia) had adopted implementing legislation. Six others (Belgium, Czech Republic, Finland, Ireland, Netherlands, Sweden) had draft legislation pending. Service providers must designate legal representatives and establish order-processing systems before August 2026.",
         "Scope": "Service providers offering services in the EU, including electronic communication services, e-messaging, and social media platforms. Covers subscriber data, traffic data, and content data.",
         "Enforcement": "National judicial authorities issue orders directly to service providers. Pecuniary penalties up to 2% of total worldwide annual turnover for non-compliance.",
         "Relevance Notes": "The EU e-Evidence Regulation accelerates cross-border electronic evidence gathering from months to days, creating direct obligations on service providers to preserve and produce data on judicial request. Revontulet supports clients with the intelligence context needed to respond to e-Evidence orders accurately and the cyber forensic capabilities to preserve evidentiary integrity.",
         "Source": "https://eur-lex.europa.eu/eli/reg/2023/1543/oj/eng",
         "Subregion": "EU",
-        "Last Modified": "2026-03-28T14:39:51.000Z",
+        "Last Modified": "2026-04-20T04:58:16.000Z",
         "Obligation Count": 5,
         "Definition Count": 4
       }
@@ -2046,13 +2046,13 @@
         "Enacted": "2023-10-26",
         "In Force": "2025-03-17",
         "Deadline": "2026-12-31",
-        "Next Steps": "12 March 2026: Ofcom issued four demands to large social media platforms on child safety (minimum age enforcement, grooming, safer feeds, ending product testing on children). Responses due 30 April 2026. CSEA reporting duty to NCA comes into force 7 April 2026. Ofcom consulting on updated Illegal Harms guidance reflecting new priority offences (cyberflashing, encouraging self-harm). Fined 4chan GBP 520K (March 2026) and 8579 LLC GBP 1.35M (Feb 2026) for non-compliance.",
+        "Next Steps": "12 March 2026: Ofcom issued four demands to large social media platforms on child safety (minimum age enforcement, grooming, safer feeds, ending product testing on children). Responses due 30 April 2026. CSEA reporting duty to NCA came into force 7 April 2026. Ofcom consulting on updated Illegal Harms guidance (published 24 March 2026) reflecting new priority offences. Technology notice guidance for CSEA/terrorism detection published April 2026. Categorisation register publication pushed to July 2026. Fined 4chan GBP 520K (March 2026) and 8579 LLC GBP 1.35M (Feb 2026). 21 investigations opened across 69 sites/apps since March 2025.",
         "Scope": "All services allowing user-generated content or interaction with a significant number of UK users. Applies globally to services accessible from the UK.",
         "Enforcement": "Fines up to 10% of qualifying worldwide revenue or GBP 18M. Senior manager liability. Ofcom can require business disruption measures including blocking.",
         "Relevance Notes": "The UK Online Safety Act requires platforms to conduct risk assessments spanning terrorism, fraud, and organized crime, and to implement proportionate safety measures. Revontulet provides the multi-domain intelligence on terrorist content, financial crime patterns, and disinformation campaigns that platforms need to fulfil these risk assessment and mitigation obligations.",
         "Source": "https://www.gov.uk/government/publications/online-safety-act-explainer/online-safety-act-explainer",
         "Subregion": "UK",
-        "Last Modified": "2026-03-28T14:41:17.000Z",
+        "Last Modified": "2026-04-20T04:58:56.000Z",
         "Obligation Count": 10,
         "Definition Count": 8
       }
@@ -2196,17 +2196,17 @@
           "Geopolitical Risk",
           "Financial Crime"
         ],
-        "Brief Description": "Corporate due diligence directive requiring large companies to identify and mitigate human rights and environmental risks across value chains. Fines up to 5% of worldwide net turnover. Civil liability.",
+        "Brief Description": "Corporate due diligence directive requiring large companies to identify and mitigate human rights and environmental risks across value chains. Scope significantly reduced by Omnibus I amendments (Directive (EU) 2026/470), now covering only companies with 5,000+ employees and EUR 1.5B+ turnover. Maximum penalties capped at 3% of worldwide net turnover.",
         "Type": "Legislation",
         "Enacted": "2024-07-25",
-        "Deadline": "2027-07-26",
-        "Next Steps": "Member state transposition by 26 July 2027. Phased application: largest companies (5000+ employees, EUR 1.5B+ turnover) from 2027, mid-size from 2028, smaller in-scope from 2029. EC announced simplification proposals Feb 2025.",
+        "Deadline": "2028-07-26",
+        "Next Steps": "Omnibus I Directive (EU) 2026/470 entered into force 18 March 2026, substantially amending CSDDD. Transposition deadline postponed to 26 July 2028. Scope reduced by approximately 70%: now applies only to companies with 5,000+ employees and EUR 1.5B+ turnover (EU), or EUR 1.5B+ EU turnover (non-EU). EU harmonised liability regime removed in favour of national-level liability. Companies must comply from July 2029. Real estate information access point due by 10 July 2029.",
         "Scope": "Large EU companies and non-EU companies with significant EU turnover. Must identify and mitigate human rights and environmental risks across value chains.",
         "Enforcement": "National supervisory authorities. Fines up to 5% of worldwide net turnover. Civil liability for failure to prevent adverse impacts.",
         "Relevance Notes": "Large companies must identify and mitigate human rights and environmental risks throughout their value chains under CSDDD. This requires intelligence on forced labour, conflict zones, corruption, and organized crime within supply networks. Revontulet provides the geopolitical risk assessments, organized crime analysis, and supply chain intelligence that enables effective due diligence.",
         "Source": "https://eur-lex.europa.eu/eli/dir/2024/1760/oj",
         "Subregion": "EU",
-        "Last Modified": "2026-03-28T14:39:51.000Z",
+        "Last Modified": "2026-04-20T04:58:16.000Z",
         "Obligation Count": 3,
         "Definition Count": 2
       }
@@ -3620,13 +3620,13 @@
         "Type": "Legislation",
         "Enacted": "2018-06-01",
         "In Force": "2019-01-01",
-        "Next Steps": "Digital Security Act (digitalsikkerhetsloven) transposing NIS2 entered into force 1 Jan 2025. Implementing regulations ongoing.",
+        "Next Steps": "Amendment to Sikkerhetsloven bringing approximately 5,000 additional organizations into scope expected to take effect 1 July 2026. Entity registration opens 1 July 2026. First NSM-led audits begin by 1 October 2026. NIS2 has not yet been formally incorporated into the EEA Agreement, so Norway's approach integrates select NIS2 requirements proactively through the separate Digitalsikkerhetsloven and its implementing regulations.",
         "Scope": "Entities of significance for national security designated by sector ministries. Covers critical infrastructure, government, defence supply chain.",
         "Enforcement": "NSM oversight. Criminal penalties for breaches. Administrative sanctions.",
         "Relevance Notes": "Norway's national security framework mandates risk-based protective security for critical infrastructure and national security interests. Organizations subject to Sikkerhetsloven need comprehensive threat assessments covering espionage, sabotage, and terrorism. Revontulet provides the multi-domain threat intelligence and security risk analysis that supports clients' protective security obligations under Norwegian law.",
         "Source": "https://lovdata.no/lov/2018-06-01-24",
         "Subregion": "Nordic",
-        "Last Modified": "2026-03-28T11:44:02.000Z",
+        "Last Modified": "2026-04-20T04:58:16.000Z",
         "Obligation Count": 2,
         "Definition Count": 2
       }
