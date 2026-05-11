@@ -109,13 +109,13 @@
         ],
         "Brief Description": "Global AML/CFT standards applied across 200+ jurisdictions. Grey-listing triggers significant economic consequences. The Travel Rule extends obligations to virtual asset service providers.",
         "Type": "Framework",
-        "Next Steps": "February 2026 plenary: adopted mutual evaluation reports for Austria, Italy, and Singapore under new 5th Round methodology. Published new guidance on cyber-enabled fraud and virtual assets. Updated high-risk jurisdictions list and those under monitoring. Recommendation 1 strengthened to reinforce risk-based approach. Recommendation 16 (Travel Rule) revised June 2025; 99 jurisdictions enacting, full compliance required from 2030. 5th Round uses six-year evaluation cycle (shorter than previous 10-year average).",
+        "Next Steps": "FATF Ministerial Meeting (April 2026, held alongside the IMF/World Bank Spring Meetings) issued a Ministerial Declaration committing to coordinated action on illicit finance, with a particular focus on fraud (organised scam centres, misuse of legal persons, virtual assets and AI). February 2026 plenary adopted mutual evaluation reports for Austria, Italy and Singapore under the new 5th Round methodology, added Kuwait and Papua New Guinea to the increased monitoring list, and endorsed Giles Thomson (UK) as incoming President from July 2026. The next FATF plenary is scheduled for June 2026. Recommendation 16 (Travel Rule) revised June 2025; full compliance required from 2030.",
         "Scope": "Global: 40 FATF member jurisdictions and 200+ via regional bodies. Financial institutions, DNFBPs, and virtual asset service providers (VASPs).",
         "Enforcement": "Mutual evaluations; grey/black listing. Being grey-listed causes significant economic consequences: reduced foreign investment, increased compliance costs. EU framework: fines up to 10% of turnover.",
         "Relevance Notes": "The FATF framework creates the global baseline for anti-money laundering and counter-terrorism financing compliance across 200+ jurisdictions. Revontulet's financial crime and counter-terrorism intelligence directly supports clients' risk-based approach requirements, helping them identify and mitigate money laundering and terrorist financing risks as mandated by FATF Recommendations.",
         "Source": "https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Fatf-recommendations.html",
         "Subregion": "UN/International",
-        "Last Modified": "2026-04-20T04:58:56.000Z",
+        "Last Modified": "2026-05-06T11:55:33.000Z",
         "Obligation Count": 4,
         "Definition Count": 3
       }
@@ -590,13 +590,13 @@
         "Brief Description": "Proposed EU regulation on preventing child sexual abuse online. Would create an EU Centre on CSA. Council removed mandatory scanning in Nov 2025 position. European Parliament rejected extension of interim voluntary detection rules (ePrivacy derogation) on 26 March 2026. Trilogue negotiations on permanent regulation ongoing.",
         "Type": "Legislation",
         "Enacted": "2022-05-11",
-        "Next Steps": "Interim voluntary CSAM detection rules (ePrivacy derogation) expired 3 April 2026 after Parliament rejected further extension on 26 March 2026. The European Data Protection Supervisor had warned against indiscriminate scanning. Trilogue negotiations on the permanent CSA Regulation continue, with rounds scheduled through mid-2026. Council general approach (Nov 2025) removed mandatory scanning requirement. Significant political divisions remain between privacy advocates and child protection groups.",
+        "Next Steps": "Interim voluntary CSAM detection rules (ePrivacy derogation) expired 3 April 2026 after Parliament rejected further extension on 26 March 2026. Co-legislators conducted a trilogue on 16 April 2026. A further trilogue took place on 4 May 2026, with a fourth and expected final round scheduled for 29 June 2026. Negotiators are aiming for a political deal on the permanent CSA Regulation by July 2026. Council general approach (Nov 2025) removed mandatory scanning. Parliament rejects scanning of end-to-end encrypted messages and limits detection to known material via hash matching, while Council continues to push for broader detection (including unknown material and grooming). The European Data Protection Supervisor and civil society remain critical of any return to mass scanning. As of early May 2026 there is no replacement legal basis for voluntary detection of new CSAM in interpersonal communications inside the EU.",
         "Scope": "Online service providers, messaging platforms, cloud storage providers, and app stores operating in the EU. Would establish an EU Centre on Child Sexual Abuse.",
         "Enforcement": "Proposed EU Centre on Child Sexual Abuse as coordinating body. Mandatory risk assessments and mitigation. Council position removes mandatory scanning.",
         "Relevance Notes": "The proposed EU CSAM regulation will require platforms to detect, report, and remove child sexual abuse material, with a new EU Centre overseeing compliance. Revontulet provides intelligence on exploitation networks, distribution infrastructure, and organized criminal groups involved in CSAM, supporting platforms' detection and reporting obligations.",
         "Source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM:2022:209:FIN",
         "Subregion": "EU",
-        "Last Modified": "2026-04-20T04:58:16.000Z",
+        "Last Modified": "2026-05-06T11:56:20.000Z",
         "Obligation Count": 8,
         "Definition Count": 3
       }
@@ -749,6 +749,38 @@
     },
     {
       "fields": {
+        "Legislation": "UK Crime and Policing Act 2026",
+        "Full Name": "Crime and Policing Act 2026",
+        "Categories": [
+          "Counter-Terrorism",
+          "Financial Crime",
+          "Cybercrime"
+        ],
+        "Jurisdiction": "UK",
+        "Status": "In force",
+        "Relevance": "Strong",
+        "Domains": [
+          "Counter-Terrorism",
+          "Cyber Threat Intelligence",
+          "Financial Crime"
+        ],
+        "Brief Description": "Wide-ranging UK criminal-justice reform including new police powers, expanded corporate criminal liability across all offences (mirroring the Economic Crime and Corporate Transparency Act 2023 model), specific provisions on cyber-enabled crime, and removal of the three-year civil limitation period for child sexual abuse claims.",
+        "Type": "Legislation",
+        "Enacted": "2026-04-29",
+        "In Force": "2026-04-29",
+        "Next Steps": "Royal Assent 29 April 2026. Key elements come into force on staggered commencement dates: corporate criminal liability provisions, new offences (including assault on retail workers, cyber-enabled crime measures), expanded police powers (entry without warrant for stolen-goods searches, drug testing on arrest, DVLA database access), and respect orders for persistent antisocial behaviour. Limitation Act 1980 amendment for CSA civil claims took effect on Royal Assent. Detailed commencement orders to follow.",
+        "Scope": "Both",
+        "Enforcement": "Enforced by police, prosecutors and courts under the criminal-justice system. Corporate criminal liability extension means corporates can be liable where a senior manager commits a relevant offence acting within the scope of their authority. Civil claims under the amended Limitation Act framework.",
+        "Relevance Notes": "Revontulet tracks the UK Crime and Policing Act 2026 because the extension of senior-manager corporate criminal liability across all offences materially raises compliance risk for clients with UK operations, particularly in cyber-enabled crime and financial crime areas. We help clients map exposure under the new model and adjust controls.",
+        "Source": "https://bills.parliament.uk/bills/3938",
+        "Subregion": "UK",
+        "Last Modified": "2026-05-06T11:59:58.000Z",
+        "Obligation Count": 2,
+        "Definition Count": 1
+      }
+    },
+    {
+      "fields": {
         "Legislation": "New Zealand FVPC Act",
         "Full Name": "Films, Videos, and Publications Classification Act 1993 (as amended, including Urgent Interim Classification amendments)",
         "Categories": [
@@ -771,8 +803,8 @@
         "Enforcement": "DIA (Department of Internal Affairs) and Classification Office. Up to 14 years imprisonment for knowingly distributing objectionable material. NZD 200K for hosting providers failing to comply with takedown notices.",
         "Relevance Notes": "New Zealand's classification regime and post-Christchurch amendments carry criminal penalties of up to 14 years for distributing terrorist content. Revontulet provides the terrorist content identification and classification intelligence that platforms need to comply with this strict liability framework.",
         "Source": "https://legislation.govt.nz/act/public/1993/0094/latest/DLM313407.html",
-        "Subregion": "Asia-Pacific",
-        "Last Modified": "2026-03-28T11:42:33.000Z",
+        "Subregion": "Oceania",
+        "Last Modified": "2026-05-06T12:01:11.000Z",
         "Obligation Count": 2,
         "Definition Count": 2
       }
@@ -1300,13 +1332,13 @@
         "Brief Description": "First global cybercrime treaty, adopted by the UN General Assembly in December 2024. Covers computer fraud, identity theft, and electronic evidence cooperation. Opens for ratification.",
         "Type": "Treaty/Convention",
         "Enacted": "2024-12-24",
-        "Next Steps": "Adopted by UNGA Dec 2024. Open for signature from 2025. Enters into force 90 days after 40th ratification. Expected to take several years. Will create new cross-border cooperation and evidence-sharing obligations.",
+        "Next Steps": "Adopted by UNGA December 2024. Signing ceremony held in Hanoi, October 2025. As of early May 2026 there are 74 signatories. Qatar became the first state to ratify, in February 2026 (with two reservations). The Convention requires 40 ratifications to enter into force, and is therefore unlikely to enter into force before late 2026 at the earliest. EU Member States and major Western signatories continue to weigh ratification against domestic privacy concerns.",
         "Scope": "All UN member states upon ratification. Covers computer-related fraud, identity theft, content-related offences, and electronic evidence procedures.",
         "Enforcement": "Treaty obligations upon ratification. Requires criminalization of cybercrime offences, mutual legal assistance, and real-time data cooperation.",
         "Relevance Notes": "The first global cybercrime treaty will generate implementation legislation across dozens of countries, dramatically expanding the regulatory landscape for cybersecurity compliance. Revontulet helps clients anticipate and prepare for these emerging national-level cybercrime laws by tracking implementation progress and providing intelligence on the evolving threat landscape the convention addresses.",
         "Source": "https://www.unodc.org/unodc/en/cybercrime/ad_hoc_committee/home",
         "Subregion": "UN/International",
-        "Last Modified": "2026-03-28T14:41:15.000Z",
+        "Last Modified": "2026-05-06T11:55:33.000Z",
         "Obligation Count": 2,
         "Definition Count": 1
       }
@@ -1872,13 +1904,13 @@
         "Enacted": "2024-12-10",
         "In Force": "2024-12-10",
         "Deadline": "2027-12-11",
-        "Next Steps": "EC published draft CRA implementation guidance on 3 March 2026 to help manufacturers and stakeholders interpret and implement obligations. From 11 September 2026, mandatory reporting of actively exploited vulnerabilities and serious cybersecurity incidents begins. Full application date: 11 December 2027. Revised Cybersecurity Act proposal (Jan 2026) will enable CRA compliance via cybersecurity certification.",
+        "Next Steps": "EC published draft CRA implementation guidance on 3 March 2026 with a feedback window that closed 31 March 2026; final guidance expected ahead of the September 2026 reporting milestone. From 11 June 2026 the legal framework on notification of conformity assessment bodies applies. From 11 September 2026 mandatory reporting of actively exploited vulnerabilities and serious cybersecurity incidents begins. Full application date: 11 December 2027. The revised Cybersecurity Act proposal (Jan 2026) will enable CRA compliance via cybersecurity certification.",
         "Scope": "All manufacturers, importers, and distributors of products with digital elements placed on the EU market. Covers hardware and software including IoT devices.",
         "Enforcement": "National market surveillance authorities. Fines up to EUR 15M or 2.5% of global turnover. Non-compliant products can be withdrawn from the EU market.",
         "Relevance Notes": "Product manufacturers and software developers must meet mandatory cybersecurity requirements and report actively exploited vulnerabilities under the CRA. Revontulet provides vulnerability intelligence, supply chain threat analysis, and exploit monitoring that helps manufacturers identify and address security issues throughout their product lifecycle as required by this regulation.",
         "Source": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj",
         "Subregion": "EU",
-        "Last Modified": "2026-03-28T14:40:06.000Z",
+        "Last Modified": "2026-05-06T11:55:33.000Z",
         "Obligation Count": 4,
         "Definition Count": 3
       }
@@ -1968,6 +2000,35 @@
     },
     {
       "fields": {
+        "Legislation": "UK Children's Wellbeing and Schools Act 2026",
+        "Full Name": "Children's Wellbeing and Schools Act 2026 (c. 13)",
+        "Categories": [
+          "Online Safety",
+          "Child Safety"
+        ],
+        "Jurisdiction": "UK",
+        "Status": "In force",
+        "Relevance": "Strong",
+        "Domains": [
+          "Online Safety / Content Governance"
+        ],
+        "Brief Description": "UK statute creating new ministerial regulation-making powers over children's online safety, alongside reforms to safeguarding, social care, schools and child protection. Designed to act in tandem with the Online Safety Act 2023 by enabling rapid translation of consultation outcomes into binding online-safety obligations on services accessible to under-18s.",
+        "Type": "Legislation",
+        "Enacted": "2026-04-29",
+        "In Force": "2026-04-29",
+        "Next Steps": "Royal Assent received 29 April 2026 (with the Crime and Policing Act 2026). The Secretary of State must publish a progress statement within three months setting out an indicative timeline for the first regulations, which must be laid before Parliament within 12 months of that statement. The Government's children's online-safety consultation closes 26 May 2026 and is expected to inform the first set of regulations. Government has indicated some form of age-based or functionality-based restrictions for under-16s will follow.",
+        "Scope": "Both",
+        "Enforcement": "Enforcement of online-safety regulations made under the Act will largely run through the Online Safety Act 2023 framework administered by Ofcom, including the OSA's penalty regime (up to 10% of qualifying worldwide revenue or GBP 18M) and senior-manager liability. Standalone safeguarding and care-regulation provisions are enforced by the Department for Education and the Care Quality Commission as appropriate.",
+        "Relevance Notes": "Revontulet tracks the UK Children's Wellbeing and Schools Act 2026 as a fast-moving expansion of the OSA regime. We help platforms anticipate the first set of children's online-safety regulations expected within 12 months of the Government's progress statement, and monitor risks across age assurance, harmful content categories and design-feature obligations.",
+        "Source": "https://bills.parliament.uk/bills/3909",
+        "Subregion": "UK",
+        "Last Modified": "2026-05-06T11:59:58.000Z",
+        "Obligation Count": 1,
+        "Definition Count": 1
+      }
+    },
+    {
+      "fields": {
         "Legislation": "CA CCPA Audit Rules",
         "Full Name": "California Consumer Privacy Act Cybersecurity Audit and Risk Assessment Regulations",
         "Categories": [
@@ -2046,13 +2107,13 @@
         "Enacted": "2023-10-26",
         "In Force": "2025-03-17",
         "Deadline": "2026-12-31",
-        "Next Steps": "12 March 2026: Ofcom issued four demands to large social media platforms on child safety (minimum age enforcement, grooming, safer feeds, ending product testing on children). Responses due 30 April 2026. CSEA reporting duty to NCA came into force 7 April 2026. Ofcom consulting on updated Illegal Harms guidance (published 24 March 2026) reflecting new priority offences. Technology notice guidance for CSEA/terrorism detection published April 2026. Categorisation register publication pushed to July 2026. Fined 4chan GBP 520K (March 2026) and 8579 LLC GBP 1.35M (Feb 2026). 21 investigations opened across 69 sites/apps since March 2025.",
+        "Next Steps": "12 March 2026: Ofcom issued four demands to large social media platforms on child safety (minimum age enforcement, grooming, safer feeds, ending product testing on children); platform responses were due 30 April 2026 and Ofcom is now reviewing them. CSEA reporting duty to the NCA came into force 7 April 2026 (SI 2026/268, Online Safety (CSEA Content Reporting by Regulated User-to-User Service Providers) Regulations 2026). Children's Wellbeing and Schools Act 2026 received Royal Assent 29 April 2026, giving the Secretary of State new regulation-making powers over children's online safety; a progress statement is due within three months and first regulations within 12 months thereafter; the related consultation closes 26 May 2026. Ofcom expected to announce its final hash-matching decision in May 2026. Categorisation register publication pushed to July 2026. Fines: 4chan GBP 520K (March 2026), 8579 LLC GBP 1.35M (Feb 2026). 21 investigations open across 69 sites/apps since March 2025.",
         "Scope": "All services allowing user-generated content or interaction with a significant number of UK users. Applies globally to services accessible from the UK.",
         "Enforcement": "Fines up to 10% of qualifying worldwide revenue or GBP 18M. Senior manager liability. Ofcom can require business disruption measures including blocking.",
         "Relevance Notes": "The UK Online Safety Act requires platforms to conduct risk assessments spanning terrorism, fraud, and organized crime, and to implement proportionate safety measures. Revontulet provides the multi-domain intelligence on terrorist content, financial crime patterns, and disinformation campaigns that platforms need to fulfil these risk assessment and mitigation obligations.",
         "Source": "https://www.gov.uk/government/publications/online-safety-act-explainer/online-safety-act-explainer",
         "Subregion": "UK",
-        "Last Modified": "2026-04-20T04:58:56.000Z",
+        "Last Modified": "2026-05-06T11:57:28.000Z",
         "Obligation Count": 10,
         "Definition Count": 8
       }
@@ -2109,13 +2170,13 @@
         ],
         "Brief Description": "EU restrictive measures require all persons and entities to screen against sanctions lists and detect circumvention. Sanctions evasion was criminalized EU-wide in 2023 with member state penalties.",
         "Type": "Legislation",
-        "Next Steps": "40+ sanctions packages since Feb 2022. Anti-Sanctions Circumvention Instrument proposed. Continuous updates to designated persons lists. Enhanced enforcement coordination across member states.",
+        "Next Steps": "20th Russia sanctions package adopted 23 April 2026 (Council Regulations (EU) 2026/506, 2026/509, 2026/511; entered into force 24 April 2026), comprising 120 new individual and entity listings, expanded sectoral measures on energy (LNG tanker and icebreaker bans, 46 additional shadow-fleet vessels port-banned), an additional 20 Russian banks placed under transaction ban (effective 14 May 2026), a full sectoral ban on transactions with crypto-asset service providers established in Russia (effective 24 May 2026), parallel measures on Belarus, and the first-ever invocation of the Article 12f anti-circumvention tool extending restrictions to Kyrgyzstan. Anti-Sanctions Circumvention Instrument continues legislative passage. Sanctions evasion criminalised EU-wide under the 2023 Directive.",
         "Scope": "All EU persons and entities. Obliged entities must screen against sanctions lists and detect circumvention through front companies, intermediaries, and layered ownership structures.",
         "Enforcement": "Criminal penalties in member states. EU-level coordination. Sanctions evasion is a criminal offence under the 2023 EU Directive on criminalisation of sanctions violations.",
         "Relevance Notes": "EU sanctions require all persons and entities to screen against restrictive measures and detect circumvention attempts. Sanctions evasion through complex ownership networks, front companies, and intermediary jurisdictions demands sophisticated intelligence capabilities. Revontulet provides the network analysis, beneficial ownership intelligence, and geographic risk assessment that enables effective sanctions compliance.",
         "Source": "https://www.consilium.europa.eu/en/policies/sanctions/",
         "Subregion": "EU",
-        "Last Modified": "2026-03-28T11:43:12.000Z",
+        "Last Modified": "2026-05-06T11:57:28.000Z",
         "Obligation Count": 3,
         "Definition Count": 2
       }
@@ -2404,13 +2465,13 @@
         "Brief Description": "Requires 316,000+ critical infrastructure entities across 16 US sectors to report cyber incidents to CISA within specified timeframes. CISA gains subpoena power for non-reporters.",
         "Type": "Legislation",
         "Enacted": "2022-03-15",
-        "Next Steps": "Signed into law March 2022. CISA published NPRM April 2024. Final rule expected 2025-2026. Will require 72-hour incident reporting and 24-hour ransomware payment reporting for covered entities.",
+        "Next Steps": "Underlying Act signed into law March 2022. CISA published NPRM April 2024. CISA targeted publication of the final rule by May 2026, but the March 2026 lapse in DHS appropriations forced cancellation of the planned 9 March - 2 April 2026 town hall consultation series, and analysts now expect further delay to the final rule. When finalised, the rule will require 72-hour incident reporting and 24-hour ransomware payment reporting for covered critical infrastructure entities.",
         "Scope": "Critical infrastructure entities across 16 sectors designated under Presidential Policy Directive 21. Estimated 316,000+ entities covered.",
         "Enforcement": "CISA enforcement. Subpoena power for non-reporting. Referral to DOJ for non-compliance with subpoenas. Civil penalties.",
         "Relevance Notes": "CIRCIA requires 316,000+ US critical infrastructure entities to report cyber incidents to CISA, creating massive demand for threat detection and incident classification capabilities. Revontulet provides the threat intelligence and incident analysis that helps US CI entities detect reportable incidents and produce the detailed reports CIRCIA mandates.",
         "Source": "https://www.cisa.gov/topics/cyber-threats-and-advisories/information-sharing/cyber-incident-reporting-critical-infrastructure-act-2022-circia",
         "Subregion": "Americas",
-        "Last Modified": "2026-03-28T14:40:14.000Z",
+        "Last Modified": "2026-05-06T11:55:33.000Z",
         "Obligation Count": 2,
         "Definition Count": 3
       }
@@ -2436,13 +2497,13 @@
         "Enacted": "2022-12-20",
         "In Force": "2024-10-18",
         "Deadline": "2024-10-17",
-        "Next Steps": "Transposition deadline was 17 Oct 2024; as of March 2026, 13 of 27 EU member states have still not transposed NIS2 into national law. First audit deadline for essential entities moved to 30 June 2026. Norway implementing via Digitalsikkerhetsloven amendments, targeting 1 July 2026 entry into force. EC proposed targeted NIS2 amendments as part of Jan 2026 Cybersecurity Package.",
+        "Next Steps": "Transposition deadline was 17 Oct 2024; as of April 2026 approximately 22 of 27 EU member states have transposed NIS2 into national law. Recent transpositions: Poland's amended Act on the National Cybersecurity System (KSC) entered into force 3 April 2026 with key/important entity list published 13 April 2026; Netherlands' Cyberbeveiligingswet passed the House of Representatives 15 April 2026 and is expected to take effect Q2 2026. EC reasoned opinions issued 7 May 2025 to 19 member states remain the most recent infringement step. First audit deadline for essential entities moved to 30 June 2026. Norway implementing via Digitalsikkerhetsloven amendments, targeting 1 July 2026 entry into force. EC proposed targeted NIS2 amendments as part of Jan 2026 Cybersecurity Package.",
         "Scope": "160,000+ essential and important entities across 18 sectors in the EU/EEA. Significantly broader than NIS1.",
         "Enforcement": "Fines up to EUR 10M or 2% of global turnover (essential entities) or EUR 7M / 1.4% (important entities). Senior management personal liability.",
         "Relevance Notes": "NIS2 regulates 160,000+ entities across 18 sectors with requirements for threat intelligence-led risk management, incident reporting, and supply chain security. Revontulet provides the multi-domain threat intelligence, risk assessment capabilities, and incident analysis that essential and important entities need to meet NIS2's comprehensive cybersecurity management obligations.",
         "Source": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng",
         "Subregion": "EU",
-        "Last Modified": "2026-03-28T14:43:36.000Z",
+        "Last Modified": "2026-05-06T11:55:33.000Z",
         "Obligation Count": 4,
         "Definition Count": 3
       }
@@ -2787,7 +2848,7 @@
           "Data Protection",
           "Privacy"
         ],
-        "Jurisdiction": "United States",
+        "Jurisdiction": "USA (Federal)",
         "Status": "In force",
         "Relevance": "Moderate",
         "Domains": [
@@ -2799,7 +2860,7 @@
         "Relevance Notes": "COPPA requires parental consent for collecting data from children under 13, with significant penalties for non-compliance. Platforms and online service providers need robust age verification and data handling processes. Revontulet provides intelligence on exploitation patterns and platform safety risks that helps clients understand the threat landscape underpinning child safety regulations.",
         "Source": "https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa",
         "Subregion": "Americas",
-        "Last Modified": "2026-03-28T14:39:40.000Z",
+        "Last Modified": "2026-05-06T12:01:11.000Z",
         "Obligation Count": 7,
         "Definition Count": 3
       }
@@ -3471,7 +3532,7 @@
           "Platform Accountability",
           "Content Moderation"
         ],
-        "Jurisdiction": "United States",
+        "Jurisdiction": "USA (Federal)",
         "Status": "In force",
         "Relevance": "Moderate",
         "Domains": [
@@ -3483,7 +3544,7 @@
         "Relevance Notes": "KOSA requires platforms to provide minors with safeguards against addictive design features and harmful content, with new duty-of-care obligations. Platforms subject to KOSA need intelligence on exploitation tactics, harmful content patterns, and platform safety risks. Revontulet provides threat analysis that supports clients' broader online safety compliance efforts.",
         "Source": "https://www.congress.gov/bill/118th-congress/senate-bill/1409",
         "Subregion": "Americas",
-        "Last Modified": "2026-03-28T14:40:14.000Z",
+        "Last Modified": "2026-05-06T12:01:11.000Z",
         "Obligation Count": 6,
         "Definition Count": 3
       }
@@ -3582,7 +3643,7 @@
           "Cybersecurity",
           "National Security"
         ],
-        "Jurisdiction": "International",
+        "Jurisdiction": "ISO / International",
         "Status": "In force",
         "Relevance": "Moderate",
         "Domains": [
@@ -3594,7 +3655,7 @@
         "Relevance Notes": "ISO 25389 establishes cybersecurity maturity models and metrics for measuring organizational security posture. Revontulet provides threat intelligence and risk assessment capabilities that inform maturity assessments, helping clients identify gaps and prioritize security investments aligned with international benchmarking standards.",
         "Source": "https://www.iso.org/standard/85104.html",
         "Subregion": "UN/International",
-        "Last Modified": "2026-03-28T14:40:14.000Z",
+        "Last Modified": "2026-05-06T12:01:11.000Z",
         "Obligation Count": 2,
         "Definition Count": 1
       }
