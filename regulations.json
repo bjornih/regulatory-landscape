@@ -93,6 +93,29 @@
     },
     {
       "fields": {
+        "Legislation": "US TAKE IT DOWN Act",
+        "Full Name": "Tools to Address Known Exploitation by Immobilizing Technological Deepfakes on Websites and Networks Act (Public Law 119-12)",
+        "Jurisdiction": "USA (Federal)",
+        "Status": "In force",
+        "Relevance": "Strong",
+        "Brief Description": "First US federal statute targeting non-consensual intimate imagery (NCII) and AI-generated intimate deepfakes. Criminalises the knowing publication of authentic or computer-generated intimate visual depictions of adults without consent and of minors. Requires covered online platforms to operate a notice-and-removal mechanism that takes content down within 48 hours of a valid request. FTC has primary civil enforcement authority.",
+        "Type": "Legislation",
+        "Enacted": "2025-05-19",
+        "In Force": "2025-05-19",
+        "Deadline": "2026-05-19",
+        "Next Steps": "Criminal prohibitions effective on enactment (19 May 2025). Notice-and-removal duties for covered platforms entered into force on 19 May 2026 (one year after enactment). FTC implementing guidance expected through 2026. First criminal conviction recorded in Ohio in April 2026.",
+        "Scope": "Covered platforms operating websites or mobile/online apps that primarily provide a forum for user-generated content (with limited exclusions). Reaches non-US providers offering services to US users.",
+        "Enforcement": "Criminal penalties (fines and imprisonment up to 3 years for adult NCII offences, up to 3 years for minor-targeted offences) and civil enforcement by the FTC under Section 5 unfair-or-deceptive-practices authority for platforms failing the takedown duties.",
+        "Relevance Notes": "Revontulet supports clients in mapping TAKE IT DOWN Act obligations onto existing trust and safety, content moderation and AI policy workflows, with particular focus on the 48-hour takedown clock, intersection with Section 230, and overlap with state deepfake regimes and the EU AI Act.",
+        "Source": "https://www.congress.gov/bill/119th-congress/senate-bill/146",
+        "Subregion": "Americas",
+        "Last Modified": "2026-05-17T16:09:03.000Z",
+        "Obligation Count": 3,
+        "Definition Count": 2
+      }
+    },
+    {
+      "fields": {
         "Legislation": "FATF AML/CFT Standards",
         "Full Name": "FATF Recommendations (particularly Recommendation 16: Payment Transparency / Travel Rule)",
         "Categories": [
@@ -530,13 +553,13 @@
         "Brief Description": "Proposed revision of the EU Cybersecurity Act expanding ENISA's mandate, introducing ICT supply chain security framework, and streamlining the cybersecurity certification process. ENISA budget increased by 75%. Enables presumption of NIS2 conformity via certification.",
         "Type": "Legislation",
         "Enacted": "2026-01-20",
-        "Next Steps": "Proposed 20 January 2026 as part of the EU Cybersecurity Package alongside targeted NIS2 amendments. Key features: expanded ENISA mandate and 75% budget increase, streamlined certification (12-month default for scheme development), extended certification scope to cover 'cybersecurity posture' and managed security services, horizontal ICT supply chain security framework, early threat alerts, ransomware response support with Europol/CSIRTs, and common vulnerability management service. Legislative process ongoing.",
+        "Next Steps": "Proposal adopted by the Commission on 20 January 2026 as part of the Cybersecurity Package (alongside targeted NIS2 amendments). Now in ordinary legislative procedure: Council and Parliament preparing positions ahead of trilogues. Introduces ICT supply-chain risk framework, expanded ENISA role and entity-level certification.",
         "Scope": "ICT product manufacturers, managed security service providers, entities seeking cybersecurity certification, ENISA and national cybersecurity authorities. Organizations can use certificates for NIS2 compliance presumption.",
         "Enforcement": "Through ENISA and national cybersecurity authorities. Certification framework provides presumption of conformity with NIS2 and other EU legislation. Non-compliance with certification requirements to be addressed through market surveillance.",
         "Relevance Notes": "The revised Cybersecurity Act expands certification to cover managed security services and organizational cybersecurity posture, directly relevant to security service providers. Revontulet can help clients prepare for the new certification requirements and leverage cybersecurity certification to demonstrate NIS2 compliance, while our threat intelligence feeds support the early warning and vulnerability management capabilities the Act enables.",
         "Source": "https://digital-strategy.ec.europa.eu/en/library/proposal-regulation-eu-cybersecurity-act",
         "Subregion": "EU",
-        "Last Modified": "2026-03-28T11:42:17.000Z",
+        "Last Modified": "2026-05-17T16:06:24.000Z",
         "Obligation Count": 4,
         "Definition Count": 3
       }
@@ -590,13 +613,13 @@
         "Brief Description": "Proposed EU regulation on preventing child sexual abuse online. Would create an EU Centre on CSA. Council removed mandatory scanning in Nov 2025 position. European Parliament rejected extension of interim voluntary detection rules (ePrivacy derogation) on 26 March 2026. Trilogue negotiations on permanent regulation ongoing.",
         "Type": "Legislation",
         "Enacted": "2022-05-11",
-        "Next Steps": "Interim voluntary CSAM detection rules (ePrivacy derogation) expired 3 April 2026 after Parliament rejected further extension on 26 March 2026. Co-legislators conducted a trilogue on 16 April 2026. A further trilogue took place on 4 May 2026, with a fourth and expected final round scheduled for 29 June 2026. Negotiators are aiming for a political deal on the permanent CSA Regulation by July 2026. Council general approach (Nov 2025) removed mandatory scanning. Parliament rejects scanning of end-to-end encrypted messages and limits detection to known material via hash matching, while Council continues to push for broader detection (including unknown material and grooming). The European Data Protection Supervisor and civil society remain critical of any return to mass scanning. As of early May 2026 there is no replacement legal basis for voluntary detection of new CSAM in interpersonal communications inside the EU.",
+        "Next Steps": "Council adopted general approach November 2025, dropping mandatory client-side scanning of private communications in favour of voluntary, time-limited detection. Trilogues opened 9 December 2025; third trilogue 26 February 2026; next round expected 4 May 2026. Separate Interim Regulation (ePrivacy derogation) extended by the European Parliament on 9 March 2026 until August 2027 to bridge negotiations.",
         "Scope": "Online service providers, messaging platforms, cloud storage providers, and app stores operating in the EU. Would establish an EU Centre on Child Sexual Abuse.",
         "Enforcement": "Proposed EU Centre on Child Sexual Abuse as coordinating body. Mandatory risk assessments and mitigation. Council position removes mandatory scanning.",
         "Relevance Notes": "The proposed EU CSAM regulation will require platforms to detect, report, and remove child sexual abuse material, with a new EU Centre overseeing compliance. Revontulet provides intelligence on exploitation networks, distribution infrastructure, and organized criminal groups involved in CSAM, supporting platforms' detection and reporting obligations.",
         "Source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM:2022:209:FIN",
         "Subregion": "EU",
-        "Last Modified": "2026-05-06T11:56:20.000Z",
+        "Last Modified": "2026-05-17T16:06:24.000Z",
         "Obligation Count": 8,
         "Definition Count": 3
       }
@@ -811,6 +834,25 @@
     },
     {
       "fields": {
+        "Legislation": "CoE AI Framework Convention",
+        "Full Name": "Council of Europe Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law (CETS No. 225)",
+        "Jurisdiction": "Council of Europe",
+        "Status": "Pending",
+        "Relevance": "Strong",
+        "Brief Description": "Council of Europe Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law (CETS No. 225). First international legally binding treaty on AI. Establishes a framework for activities within the lifecycle of AI systems consistent with human rights, democracy and the rule of law. Applies in the public sector (including private actors acting on its behalf) and, subject to each Party's choice, in the private sector. Addresses transparency, accountability, redress, risk and impact management, oversight and remedies.",
+        "Type": "Treaty/Convention",
+        "Enacted": "2024-05-17",
+        "Next Steps": "Opened for signature in Vilnius on 5 September 2024. Initial signatories included Andorra, Georgia, Iceland, Norway, the Republic of Moldova, San Marino, the United Kingdom, Israel, the United States, and the European Union; further signatures have followed. European Parliament approved EU conclusion on 11 March 2026. No ratifications recorded as of May 2026. Enters into force on the first day of the month after the expiry of three months from the date five signatories (at least three CoE member States) deposit instruments of ratification.",
+        "Scope": "Parties to the Convention; reaches activities within the lifecycle of AI systems carried out by public authorities and (subject to Party choice) by private actors acting on their behalf or otherwise within the Convention's modalities.",
+        "Enforcement": "No direct sanctions: enforcement is through Parties' domestic implementing law, with a Conference of the Parties to monitor implementation and a follow-up mechanism for reporting.",
+        "Relevance Notes": "The first binding international AI treaty sets a baseline against which Revontulet benchmarks clients' AI governance: it interacts with the EU AI Act, sectoral cyber rules, and the OECD AI Principles. Revontulet supports clients translating Convention principles into AI risk assessments and procurement controls.",
+        "Source": "https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence",
+        "Subregion": "EU",
+        "Last Modified": "2026-05-17T16:12:17.000Z"
+      }
+    },
+    {
+      "fields": {
         "Legislation": "Japan ACDA",
         "Full Name": "Active Cyber Defense Act (能動的サイバー防御法)",
         "Categories": [
@@ -830,13 +872,13 @@
         "Type": "Legislation",
         "Enacted": "2025-05-16",
         "Deadline": "2026-11-30",
-        "Next Steps": "NCO replaced NISC July 2025. Incident reporting for essential infrastructure by Nov 2026. Full government countermeasures (active defense operations) by Nov 2027.",
+        "Next Steps": "Active Cyber Defense Act enacted by the Diet on 16 May 2025. Phased implementation 2026-2027. Expert panel to finalise the basic policy on active cyber defense by end of 2026. Empowers the National Police Agency and Self-Defense Forces to monitor and neutralise malicious cyber activity at source under four pillars (public-private collaboration, communications monitoring, counter-access, neutralisation).",
         "Scope": "15 critical infrastructure sectors: info-comms, financial services, aviation, airports, railways, electric power, gas, government, healthcare, water, logistics, chemicals, credit cards, petroleum, ports/harbors.",
         "Enforcement": "Enforcement under NCO framework. Specific penalty structures set through implementing regulations.",
         "Relevance Notes": "Japan's Active Cyber Defense Act covers 15 critical infrastructure sectors with proactive threat monitoring requirements, reflecting the escalating state-sponsored cyber threat landscape in the Indo-Pacific. Revontulet provides the cross-domain threat intelligence covering state-sponsored operations, geopolitical context, and supply chain risks that Japanese CI operators need.",
         "Source": "https://iclg.com/practice-areas/cybersecurity-laws-and-regulations/japan",
         "Subregion": "Asia-Pacific",
-        "Last Modified": "2026-03-28T14:39:51.000Z",
+        "Last Modified": "2026-05-17T16:06:24.000Z",
         "Obligation Count": 2,
         "Definition Count": 2
       }
@@ -1272,13 +1314,13 @@
         "Type": "Legislation",
         "Enacted": "2024-07-19",
         "Deadline": "2027-07-10",
-        "Next Steps": "Published July 2024. Applies from 10 July 2027. Directly applicable in all member states (no transposition needed). Replaces the current patchwork of national AML laws with a single rulebook.",
+        "Next Steps": "Regulation (EU) 2024/1624 (AMLR) entered into force 9 July 2024. Applies from 10 July 2027 (10 July 2029 for football agents and certain professional football clubs). AMLA must issue guidelines on risk variables and factors, and develop draft technical standards, by 10 July 2026.",
         "Scope": "All obliged entities across the EU: credit institutions, financial institutions, crypto-asset service providers, real estate agents, high-value goods dealers, football clubs, crowdfunding platforms, mortgage intermediaries.",
         "Enforcement": "National supervisors and AMLA. Fines up to 10% of annual turnover or EUR 10M (whichever is higher). Enhanced due diligence and reporting failures can trigger criminal liability under 6AMLD.",
         "Relevance Notes": "The EU's single AML rulebook creates directly applicable obligations for customer due diligence, beneficial ownership transparency, and suspicious activity reporting across all obliged entities including crypto providers. Revontulet delivers the financial crime intelligence, sanctions screening data, and network analysis that obliged entities need to meet AMLR's harmonized requirements.",
         "Source": "https://eur-lex.europa.eu/eli/reg/2024/1624/oj/eng",
         "Subregion": "EU",
-        "Last Modified": "2026-03-28T14:39:51.000Z",
+        "Last Modified": "2026-05-17T16:06:24.000Z",
         "Obligation Count": 5,
         "Definition Count": 2
       }
@@ -1332,13 +1374,13 @@
         "Brief Description": "First global cybercrime treaty, adopted by the UN General Assembly in December 2024. Covers computer fraud, identity theft, and electronic evidence cooperation. Opens for ratification.",
         "Type": "Treaty/Convention",
         "Enacted": "2024-12-24",
-        "Next Steps": "Adopted by UNGA December 2024. Signing ceremony held in Hanoi, October 2025. As of early May 2026 there are 74 signatories. Qatar became the first state to ratify, in February 2026 (with two reservations). The Convention requires 40 ratifications to enter into force, and is therefore unlikely to enter into force before late 2026 at the earliest. EU Member States and major Western signatories continue to weigh ratification against domestic privacy concerns.",
+        "Next Steps": "Opened for signature in Hanoi October 2025. As of March 2026, 74 signatories including the EU, France, Sweden, UK, Russia, China and the United States. Qatar became the first State Party in February 2026 (with reservations on ICJ jurisdiction and on articles 14-16 on CSAM/CSAE/NCII). Convention enters into force after 40 ratifications.",
         "Scope": "All UN member states upon ratification. Covers computer-related fraud, identity theft, content-related offences, and electronic evidence procedures.",
         "Enforcement": "Treaty obligations upon ratification. Requires criminalization of cybercrime offences, mutual legal assistance, and real-time data cooperation.",
         "Relevance Notes": "The first global cybercrime treaty will generate implementation legislation across dozens of countries, dramatically expanding the regulatory landscape for cybersecurity compliance. Revontulet helps clients anticipate and prepare for these emerging national-level cybercrime laws by tracking implementation progress and providing intelligence on the evolving threat landscape the convention addresses.",
         "Source": "https://www.unodc.org/unodc/en/cybercrime/ad_hoc_committee/home",
         "Subregion": "UN/International",
-        "Last Modified": "2026-05-06T11:55:33.000Z",
+        "Last Modified": "2026-05-17T16:06:24.000Z",
         "Obligation Count": 2,
         "Definition Count": 1
       }
@@ -1539,6 +1581,26 @@
         "Source": "https://lovdata.no/dokument/NL/lov/1987-12-18-93",
         "Subregion": "Nordic",
         "Last Modified": "2026-03-28T14:39:24.000Z"
+      }
+    },
+    {
+      "fields": {
+        "Legislation": "EU Digital Networks Act",
+        "Full Name": "Proposal for a Regulation on Digital Networks (Digital Networks Act, DNA)",
+        "Jurisdiction": "EU",
+        "Status": "Proposed",
+        "Relevance": "Moderate",
+        "Brief Description": "Proposed EU regulation to modernise, simplify and harmonise the EU telecoms framework. Merges the European Electronic Communications Code (EECC), the BEREC Regulation, the Radio Spectrum Policy Programme and the core parts of the Open Internet Regulation into a single directly applicable Regulation. Introduces a Single Passport authorisation regime, EU-wide spectrum instruments, mandatory national copper-to-fibre transition plans by 2035, and a unified satellite spectrum authorisation.",
+        "Type": "Legislation",
+        "Enacted": "2026-01-21",
+        "Next Steps": "Adopted by the Commission on 21 January 2026. Now begins the ordinary legislative procedure: Council and Parliament preparing positions ahead of trilogues. National fibre transition plans due by 31 October 2029 if adopted as proposed.",
+        "Scope": "Providers of public electronic communications networks and services in the EU, satellite communications providers, spectrum users, internet access service providers.",
+        "Enforcement": "Enforcement model and sanctions are being negotiated; expected to retain national regulator-led enforcement (NRAs) under reinforced BEREC coordination, with EU-level authorisation regimes for cross-border activities.",
+        "Relevance Notes": "The DNA is the most significant restructuring of EU telecoms law in a decade and has direct implications for clients operating cross-border digital infrastructure, satellite services and connected products. Revontulet tracks the proposal's interaction with NIS2, CSA2 and the Cyber Resilience Act and can advise on consolidated cyber and telecoms compliance.",
+        "Source": "https://digital-strategy.ec.europa.eu/en/policies/digital-networks-act",
+        "Subregion": "EU",
+        "Last Modified": "2026-05-17T16:09:03.000Z",
+        "Definition Count": 1
       }
     },
     {
@@ -1817,13 +1879,13 @@
         "Brief Description": "Expands UK cyber regulation to cover MSPs, data centres, and critical suppliers alongside essential services. Introduces enhanced enforcement powers for sector regulators and NCSC oversight of 900+ additional firms.",
         "Type": "Legislation",
         "Enacted": "2025-11-12",
-        "Next Steps": "Completed second reading and committee stage in the House of Commons. Royal Assent expected late 2026. Phased implementation through secondary legislation, full enforcement not expected until 2028.",
+        "Next Steps": "Introduced House of Commons 12 Nov 2025; Second Reading 6 Jan 2026; Committee Stage completed and amended Bill published 25 Feb 2026; awaiting Report Stage and Third Reading in the Commons, then House of Lords. Royal Assent expected late 2026; phased implementation through secondary legislation, full implementation not expected before 2028.",
         "Scope": "Operators of essential services, digital service providers, MSPs, data centres (1MW+), large load controllers (300MW+), designated critical suppliers. 900-1,100 additional firms under regulatory oversight.",
         "Enforcement": "Two-tier penalty regime with enhanced enforcement powers for sector regulators and the NCSC. Specific penalty amounts to be set through secondary legislation.",
         "Relevance Notes": "The UK Cyber Security and Resilience Bill expands regulation to managed service providers, data centres, and critical suppliers alongside essential services. Revontulet provides the threat intelligence and risk assessment capabilities that these newly regulated entities need to comply with enhanced cybersecurity requirements and supply chain security obligations.",
         "Source": "https://bills.parliament.uk/bills/4035",
         "Subregion": "UK",
-        "Last Modified": "2026-03-28T14:41:17.000Z",
+        "Last Modified": "2026-05-17T16:06:24.000Z",
         "Obligation Count": 3,
         "Definition Count": 3
       }
@@ -2250,24 +2312,25 @@
           "Corporate Due Diligence"
         ],
         "Jurisdiction": "EU",
-        "Status": "Pending",
+        "Status": "In force",
         "Relevance": "Moderate",
         "Domains": [
           "Organised Crime",
           "Geopolitical Risk",
           "Financial Crime"
         ],
-        "Brief Description": "Corporate due diligence directive requiring large companies to identify and mitigate human rights and environmental risks across value chains. Scope significantly reduced by Omnibus I amendments (Directive (EU) 2026/470), now covering only companies with 5,000+ employees and EUR 1.5B+ turnover. Maximum penalties capped at 3% of worldwide net turnover.",
+        "Brief Description": "Directive (EU) 2024/1760 on corporate sustainability due diligence, as amended by Directive (EU) 2026/470 (Omnibus I). Requires large companies to identify, prevent, mitigate and account for actual and potential adverse human rights and environmental impacts in their own operations, their subsidiaries and their value chains. The Omnibus I amendment of 26 February 2026 significantly narrowed the scope of in-scope companies and extended timelines.",
         "Type": "Legislation",
         "Enacted": "2024-07-25",
+        "In Force": "2026-03-18",
         "Deadline": "2028-07-26",
-        "Next Steps": "Omnibus I Directive (EU) 2026/470 entered into force 18 March 2026, substantially amending CSDDD. Transposition deadline postponed to 26 July 2028. Scope reduced by approximately 70%: now applies only to companies with 5,000+ employees and EUR 1.5B+ turnover (EU), or EUR 1.5B+ EU turnover (non-EU). EU harmonised liability regime removed in favour of national-level liability. Companies must comply from July 2029. Real estate information access point due by 10 July 2029.",
+        "Next Steps": "Directive (EU) 2026/470 (Omnibus I) published in the Official Journal on 26 February 2026 and entered into force on 18 March 2026, simplifying CSDDD and CSRD. CSDDD scope narrowed: thresholds raised to >5,000 employees and >EUR 1.5 billion turnover. Application phased: largest companies (5,000+ employees, EUR 1.5bn) from 26 July 2028; 3,000+ employees / EUR 900m from 26 July 2029; 1,000+ employees / EUR 450m from 26 July 2030. Member State transposition of the CSDDD provisions due by 26 July 2028. Penalties capped at 3% of net worldwide turnover; mandatory climate transition plan obligation deleted.",
         "Scope": "Large EU companies and non-EU companies with significant EU turnover. Must identify and mitigate human rights and environmental risks across value chains.",
         "Enforcement": "National supervisory authorities. Fines up to 5% of worldwide net turnover. Civil liability for failure to prevent adverse impacts.",
         "Relevance Notes": "Large companies must identify and mitigate human rights and environmental risks throughout their value chains under CSDDD. This requires intelligence on forced labour, conflict zones, corruption, and organized crime within supply networks. Revontulet provides the geopolitical risk assessments, organized crime analysis, and supply chain intelligence that enables effective due diligence.",
         "Source": "https://eur-lex.europa.eu/eli/dir/2024/1760/oj",
         "Subregion": "EU",
-        "Last Modified": "2026-04-20T04:58:16.000Z",
+        "Last Modified": "2026-05-17T16:12:17.000Z",
         "Obligation Count": 3,
         "Definition Count": 2
       }
@@ -3403,13 +3466,13 @@
         ],
         "Brief Description": "Canada's critical cyber systems protection bill covering federally regulated telecom, finance, energy, and transport operators. Establishes mandatory cybersecurity programs and incident reporting.",
         "Type": "Legislation",
-        "Next Steps": "Second reading completed Oct 2025. Under study by SECU committee. Original Bill C-26 died on the Order Paper during Jan 2025 prorogation. Expected to pass with mandatory incident reporting.",
+        "Next Steps": "Bill C-8 (formerly C-26) introduced in 45th Parliament. Passed Third Reading in the House of Commons on 26 March 2026 following Speaker's ruling that removed proposed prior-judicial-authorization safeguards. Received First Reading in the Senate 26 March 2026; Senate Second Reading and committee study to follow. Any Senate amendments would return the bill to the Commons before Royal Assent.",
         "Scope": "Operators of critical cyber systems in federally regulated sectors: telecommunications, finance, energy, and transport.",
         "Enforcement": "Penalties for non-compliance with cybersecurity directions. Specific framework to be finalized through committee process.",
         "Relevance Notes": "Canada's critical cyber systems protection bill covers federally regulated sectors including telecom, finance, energy, and transport. Revontulet provides the cross-domain threat intelligence that Canadian critical infrastructure operators need to meet their cyber protection obligations, with relevant experience from analogous European frameworks like NIS2.",
         "Source": "https://www.parl.ca/legisinfo/en/bill/45-1/c-8",
         "Subregion": "Americas",
-        "Last Modified": "2026-03-28T14:40:14.000Z",
+        "Last Modified": "2026-05-17T16:06:24.000Z",
         "Obligation Count": 2,
         "Definition Count": 3
       }
@@ -3567,13 +3630,13 @@
         "Brief Description": "Modernizes Swiss AML law to cover lawyers, notaries, and trust advisors. Introduces a federal beneficial ownership registry. Addresses FATF mutual evaluation gaps. FINMA enforcement.",
         "Type": "Legislation",
         "Enacted": "2025-09-26",
-        "Next Steps": "Comprehensive revision adopted Sept 2025. Entry into force expected mid-2026. Expands scope to lawyers/notaries as 'advisors.' Establishes federal Transparency Register (LETA) for beneficial ownership.",
+        "Next Steps": "Federal Act on the Transparency of Legal Entities and the Identification of Beneficial Owners (LETA) and revised Anti-Money Laundering Act adopted by Parliament on 26 September 2025. Expected entry into force in the second half of 2026 (mid-2026 for AMLA following expiry of optional referendum period). Implementing ordinance (LETO) consultation ran 15 Oct 2025 to 30 Jan 2026; AMLA implementing ordinance (AMLO) also to be amended. Revision extends due diligence obligations to certain advisors (lawyers, notaries).",
         "Scope": "Financial intermediaries, banks, VASPs, and newly: lawyers, notaries, and trust service providers acting as advisors. Federal beneficial ownership registry.",
         "Enforcement": "FINMA enforcement for financial sector. Federal Office of Justice for registry. Criminal penalties for AML violations.",
         "Relevance Notes": "Switzerland's modernized AML framework extends to lawyers, notaries, and trust advisors, with a new beneficial ownership register. Switzerland's concentrated financial sector makes its AML framework globally significant. Revontulet provides the financial crime intelligence, beneficial ownership analysis, and risk assessments that Swiss financial intermediaries need for enhanced GwG compliance.",
         "Source": "https://www.admin.ch/gov/en/start/documentation/media-releases.msg-id-102750.html",
         "Subregion": "Other European",
-        "Last Modified": "2026-03-28T14:39:51.000Z",
+        "Last Modified": "2026-05-17T16:06:24.000Z",
         "Obligation Count": 4,
         "Definition Count": 4
       }
