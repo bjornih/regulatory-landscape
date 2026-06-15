@@ -848,7 +848,8 @@
         "Relevance Notes": "The first binding international AI treaty sets a baseline against which Revontulet benchmarks clients' AI governance: it interacts with the EU AI Act, sectoral cyber rules, and the OECD AI Principles. Revontulet supports clients translating Convention principles into AI risk assessments and procurement controls.",
         "Source": "https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence",
         "Subregion": "EU",
-        "Last Modified": "2026-05-17T16:12:17.000Z"
+        "Last Modified": "2026-06-14T16:06:52.000Z",
+        "Definition Count": 2
       }
     },
     {
@@ -1084,6 +1085,33 @@
         "Last Modified": "2026-03-28T11:42:33.000Z",
         "Obligation Count": 2,
         "Definition Count": 2
+      }
+    },
+    {
+      "fields": {
+        "Legislation": "EU Digital Omnibus",
+        "Full Name": "Digital Omnibus package: COM(2025) 836 (AI Act simplification) and COM(2025) 837 (GDPR, ePrivacy, Data Act, NIS2, CER simplification)",
+        "Categories": [
+          "AI Regulation",
+          "Cybersecurity",
+          "Privacy / Data Protection"
+        ],
+        "Jurisdiction": "EU",
+        "Status": "Proposed",
+        "Relevance": "Moderate",
+        "Domains": [
+          "Cyber Threat Intelligence"
+        ],
+        "Brief Description": "Package of two Commission proposals published 19 November 2025 to simplify and streamline the EU digital rulebook. COM(2025) 836 amends the AI Act (Reg (EU) 2024/1689), extending timelines and reducing compliance burdens for certain high-risk AI obligations. COM(2025) 837 amends the GDPR, ePrivacy Directive, Data Act, NIS2 and CER Directive, including a proposed extension of the personal-data breach notification deadline from 72 to 96 hours and a single EU cyber-incident reporting entry point. Both proposals are at first reading and not yet adopted.",
+        "Type": "Legislation",
+        "Next Steps": "Ordinary legislative procedure (COM(2025) 836 = procedure 2025/0359(COD); COM(2025) 837 = procedure 2025/0360(COD)). Awaiting European Parliament and Council positions through 2026. Expected to attract significant scrutiny over the GDPR and AI Act changes. Monitor trilogue scheduling.",
+        "Scope": "AI system providers and deployers under the AI Act; data controllers and processors under the GDPR; providers of electronic communications services under ePrivacy; essential and important entities under NIS2; critical entities under CER; and businesses relying on the Data Act.",
+        "Enforcement": "No new enforcement regime; the package amends the enforcement and penalty structures of the underlying instruments (AI Act, GDPR, NIS2, CER) rather than creating standalone penalties.",
+        "Relevance Notes": "The Digital Omnibus will reshape compliance baselines across the AI Act, GDPR, NIS2 and CER simultaneously. Revontulet tracks the amendments line by line so clients can plan to the moving deadlines rather than the original ones, and can tell which existing controls remain mandatory and which are being relaxed before committing budget.",
+        "Source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:52025PC0837",
+        "Subregion": "EU",
+        "Last Modified": "2026-06-14T16:05:29.000Z",
+        "Obligation Count": 1
       }
     },
     {
@@ -3457,7 +3485,7 @@
           "Critical Infrastructure"
         ],
         "Jurisdiction": "Canada",
-        "Status": "Proposed",
+        "Status": "Pending",
         "Relevance": "Strong",
         "Domains": [
           "Cyber Threat Intel",
@@ -3466,13 +3494,13 @@
         ],
         "Brief Description": "Canada's critical cyber systems protection bill covering federally regulated telecom, finance, energy, and transport operators. Establishes mandatory cybersecurity programs and incident reporting.",
         "Type": "Legislation",
-        "Next Steps": "Bill C-8 (formerly C-26) introduced in 45th Parliament. Passed Third Reading in the House of Commons on 26 March 2026 following Speaker's ruling that removed proposed prior-judicial-authorization safeguards. Received First Reading in the Senate 26 March 2026; Senate Second Reading and committee study to follow. Any Senate amendments would return the bill to the Commons before Royal Assent.",
+        "Next Steps": "Bill C-8 (formerly C-26) has now passed both chambers. House of Commons Third Reading completed 26 March 2026. Senate Second Reading 23 April 2026, committee reported without amendment 2 June 2026, and Senate Third Reading completed 4 June 2026. As of mid-June 2026 the bill is awaiting Royal Assent (LEGISinfo status: Awaiting royal assent). Because the Senate passed it without amendment, it does not return to the Commons. On Royal Assent the Critical Cyber Systems Protection Act provisions will commence on dates to be fixed by order; update Status to In force once commencement orders are made.",
         "Scope": "Operators of critical cyber systems in federally regulated sectors: telecommunications, finance, energy, and transport.",
         "Enforcement": "Penalties for non-compliance with cybersecurity directions. Specific framework to be finalized through committee process.",
         "Relevance Notes": "Canada's critical cyber systems protection bill covers federally regulated sectors including telecom, finance, energy, and transport. Revontulet provides the cross-domain threat intelligence that Canadian critical infrastructure operators need to meet their cyber protection obligations, with relevant experience from analogous European frameworks like NIS2.",
         "Source": "https://www.parl.ca/legisinfo/en/bill/45-1/c-8",
         "Subregion": "Americas",
-        "Last Modified": "2026-05-17T16:06:24.000Z",
+        "Last Modified": "2026-06-14T16:07:57.000Z",
         "Obligation Count": 2,
         "Definition Count": 3
       }
