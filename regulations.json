@@ -613,13 +613,13 @@
         "Brief Description": "Proposed EU regulation on preventing child sexual abuse online. Would create an EU Centre on CSA. Council removed mandatory scanning in Nov 2025 position. European Parliament rejected extension of interim voluntary detection rules (ePrivacy derogation) on 26 March 2026. Trilogue negotiations on permanent regulation ongoing.",
         "Type": "Legislation",
         "Enacted": "2022-05-11",
-        "Next Steps": "Trilogue negotiations ongoing. Third trilogue held 26 Feb 2026, fourth scheduled 4 May 2026. Council general approach reached Dec 2025 under Danish presidency (mandatory scanning of private messages dropped from Council position). Interim derogation for voluntary detection (Regulation 2021/1232) expired 3 April 2026, leaving a legal-detection gap. Adoption expected late 2026 at earliest.",
+        "Next Steps": "Trilogue negotiations ongoing. Council general approach reached Dec 2025 under Danish presidency (mandatory scanning of private messages dropped from Council position). Trilogues were scheduled for 26 Feb, 4 May and 29 June 2026; the 29 June 2026 trilogue is the next milestone. Interim derogation for voluntary detection (Regulation 2021/1232) expired 3 April 2026, leaving a legal-detection gap; the European Parliament has backed extending the interim voluntary-detection rules until August 2027 to bridge the gap. Adoption of the permanent regulation expected late 2026 at earliest.",
         "Scope": "Online service providers, messaging platforms, cloud storage providers, and app stores operating in the EU. Would establish an EU Centre on Child Sexual Abuse.",
         "Enforcement": "Proposed EU Centre on Child Sexual Abuse as coordinating body. Mandatory risk assessments and mitigation. Council position removes mandatory scanning.",
         "Relevance Notes": "The proposed EU CSAM regulation will require platforms to detect, report, and remove child sexual abuse material, with a new EU Centre overseeing compliance. Revontulet provides intelligence on exploitation networks, distribution infrastructure, and organized criminal groups involved in CSAM, supporting platforms' detection and reporting obligations.",
         "Source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM:2022:209:FIN",
         "Subregion": "EU",
-        "Last Modified": "2026-05-31T19:59:37.000Z",
+        "Last Modified": "2026-06-22T09:54:09.000Z",
         "Obligation Count": 8,
         "Definition Count": 3
       }
