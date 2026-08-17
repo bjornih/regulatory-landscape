@@ -873,8 +873,8 @@
         "Enforcement": "No direct sanctions: enforcement is through Parties' domestic implementing law, with a Conference of the Parties to monitor implementation and a follow-up mechanism for reporting.",
         "Relevance Notes": "The first binding international AI treaty sets a baseline against which Revontulet benchmarks clients' AI governance: it interacts with the EU AI Act, sectoral cyber rules, and the OECD AI Principles. Revontulet supports clients translating Convention principles into AI risk assessments and procurement controls.",
         "Source": "https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence",
-        "Subregion": "EU",
-        "Last Modified": "2026-06-14T16:06:52.000Z",
+        "Subregion": "UK & Europe",
+        "Last Modified": "2026-08-16T16:09:45.000Z",
         "Definition Count": 2
       }
     },
@@ -991,13 +991,13 @@
         "Enacted": "2021-07-14",
         "In Force": "2021-08-02",
         "Deadline": "2026-04-03",
-        "Next Steps": "Expired 3 April 2026 with no further extension; the European Parliament confirmed on 26 March 2026 that no agreement on prolongation was reached with the Council. Voluntary CSAM detection in number-independent interpersonal communications services currently lacks an EU-level legal basis pending agreement on the permanent CSA Regulation (trilogues resume September 2026).",
+        "Next Steps": "STATUS UNRESOLVED, DO NOT CITE EXTERNALLY UNTIL CONFIRMED. Two separate procedures need to be kept apart. First, procedure 2025/0429(COD): Parliament adopted amendments on 11 March 2026 shortening the extension to 3 August 2027 and excluding end-to-end encrypted communications, then rejected the file outright on 26 March 2026 by 228 votes to 311 after negotiations with the Council failed. On that basis the derogation lapsed after 3 April 2026, which is what the current Inactive status records. Second, a fast-tracked Council instrument was put to Parliament on 9 July 2026; Parliament did not reach the absolute majority of 361 votes required to reject the Council position, so the extension proceeded. Multiple secondary sources (The Register, Brussels Signal and TechRadar, all 9 July 2026) report the derogation is in force again until 3 April 2028. The Official Journal citation for that amending act has not been located, so Status has deliberately been left at Inactive rather than changed on secondary reporting alone. ACTION FOR HUMAN REVIEW: confirm the OJ reference on EUR-Lex, then set Status to In force, set Deadline to 2028-04-03, and repoint the Source URL from the 2021 base regulation to the amending act. Separately, trilogues on the permanent CSA Regulation continue and remain the medium-term determinant.",
         "Scope": "Providers of number-independent interpersonal communications services offered in the EU (webmail, messaging services, chat functions in dating and gaming apps). The regime is voluntary: it permits but does not require detection, removal and reporting of known CSAM, subject to strict conditions.",
         "Enforcement": "Supervision by national data protection authorities under the GDPR and ePrivacy frameworks. Processing outside the derogation's conditions loses its legal basis and exposes providers to GDPR-level sanctions of up to 4 percent of global annual turnover.",
         "Relevance Notes": "Revontulet tracks the interplay between the interim derogation, the pending CSA Regulation and platform trust and safety obligations, giving clients early warning on when voluntary scanning regimes may shift to mandatory detection orders and how the end-to-end encryption carve-out affects moderation and referral workflows.",
         "Source": "https://eur-lex.europa.eu/eli/reg/2021/1232/oj",
         "Subregion": "EU",
-        "Last Modified": "2026-08-09T16:08:25.000Z",
+        "Last Modified": "2026-08-16T16:08:52.000Z",
         "Obligation Count": 1,
         "Definition Count": 1
       }
@@ -1585,6 +1585,37 @@
         "Last Modified": "2026-03-28T11:42:42.000Z",
         "Obligation Count": 2,
         "Definition Count": 2
+      }
+    },
+    {
+      "fields": {
+        "Legislation": "European Democracy Shield",
+        "Full Name": "Joint Communication on the European Democracy Shield: Empowering Strong and Resilient Democracies (JOIN(2025) 791 final)",
+        "Categories": [
+          "Platform Accountability",
+          "Content Regulation",
+          "National Security"
+        ],
+        "Jurisdiction": "EU",
+        "Status": "In force",
+        "Relevance": "Strong",
+        "Domains": [
+          "Disinfo & Influence Ops",
+          "Geopolitical Risk",
+          "Online Platforms"
+        ],
+        "Brief Description": "Non-legislative EU strategy adopted by the Commission and the High Representative on 12 November 2025, setting out roughly 50 action points across three priority areas: integrity of the information space, media and elections, and societal resilience and citizen engagement. It is the successor framework to the European Democracy Action Plan and functions as the policy umbrella coordinating enforcement of the DSA, the Political Advertising Regulation, the European Media Freedom Act and the AI Act against foreign information manipulation and interference (FIMI). Because it is a communication rather than a regulation, it creates no directly binding obligations on private entities; its practical force runs through the instruments it coordinates and through EU funding lines.",
+        "Type": "Framework",
+        "Enacted": "2025-11-12",
+        "In Force": "2025-11-12",
+        "Next Steps": "Actions are scheduled to roll out through 2027. The European Parliament special committee on the European Democracy Shield (EUDS) had its mandate extended by six months to 3 August 2026 and tabled its draft initiative report on 21 January 2026, calling for a reform agenda centred on operational capacity, accountability and election preparedness; the committee's final report and Parliament's response are the next milestones to track. A European network of fact-checkers was announced in May 2025 with EUR 5 million in funding. Further funding instruments are proposed under the 2028 to 2034 Multiannual Financial Framework. Watch for whether any of the 50 action points are converted into binding legislative proposals, which is the point at which this record would need to spawn linked obligations.",
+        "Scope": "Applies to EU institutions, Member State authorities, and indirectly to very large online platforms and search engines, media organisations, political advertising services and civil society bodies that participate in the coordinated actions. No direct legal obligations are created on private entities by the communication itself; obligations arise under the underlying instruments (DSA, Political Advertising Regulation, EMFA, AI Act) that the Shield coordinates.",
+        "Enforcement": "No enforcement mechanism of its own. Enforcement runs through the instruments the Shield coordinates, principally DSA systemic risk supervision by the Commission (fines up to 6 percent of global turnover for VLOPs and VLOSEs) and the Political Advertising Regulation. The Shield's contribution is coordination, threat monitoring capacity, funding and the FIMI evidence base rather than sanction.",
+        "Relevance Notes": "The Democracy Shield is the clearest signal yet that European institutions treat foreign information manipulation as a cross-domain security problem rather than a content moderation problem, which is precisely how Revontulet is built to analyse it. Its 50 action points span information integrity, election security, platform accountability and societal resilience, and each of those touches a different regulatory instrument and a different national authority. Clients operating across Nordic and EU jurisdictions need a single view of how DSA systemic risk duties, political advertising transparency and FIMI threat reporting interact under this umbrella. Revontulet's cross-domain analysis and Cortexia's deployment flexibility, including on dedicated hardware and in air-gapped environments, make that view available to public sector and critical infrastructure clients who cannot use US-hosted tooling for election integrity work.",
+        "Source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52025JC0791",
+        "Subregion": "EU",
+        "Last Modified": "2026-08-16T16:10:17.000Z",
+        "Definition Count": 1
       }
     },
     {
@@ -2284,13 +2315,13 @@
         "Enacted": "2023-10-26",
         "In Force": "2025-03-17",
         "Deadline": "2026-12-31",
-        "Next Steps": "Ofcom is publishing the categorisation register (Category 1, 2A, 2B) in July 2026, followed by consultation on additional duties for categorised services. Ofcom and the ICO are due to report on age assurance effectiveness by end of July 2026. Categorisation triggers the most extensive duties for the largest services.",
+        "Next Steps": "Ofcom published the Register of Categorised Services on 10 July 2026, formally designating Category 1, Category 2A and Category 2B services and publishing a separate list of emerging Category 1 services. The same 10 July package opened consultation on draft codes of practice covering paid-for fraudulent advertising for the largest user-to-user and search services, plus draft guidance on the additional duties that categorisation triggers (transparency reporting, user empowerment, and protection of journalistic and news publisher content). Designated services should now be scoping those duties against the consultation drafts. Monitor consultation closing dates and Ofcom's final Category 1 codes, and track the DSIT response to the Growing Up in an Online World review for signals on further child safety duties.",
         "Scope": "All services allowing user-generated content or interaction with a significant number of UK users. Applies globally to services accessible from the UK.",
         "Enforcement": "Fines up to 10% of qualifying worldwide revenue or GBP 18M. Senior manager liability. Ofcom can require business disruption measures including blocking.",
         "Relevance Notes": "The UK Online Safety Act requires platforms to conduct risk assessments spanning terrorism, fraud, and organized crime, and to implement proportionate safety measures. Revontulet provides the multi-domain intelligence on terrorist content, financial crime patterns, and disinformation campaigns that platforms need to fulfil these risk assessment and mitigation obligations.",
         "Source": "https://www.gov.uk/government/publications/online-safety-act-explainer/online-safety-act-explainer",
         "Subregion": "UK",
-        "Last Modified": "2026-08-09T16:08:14.000Z",
+        "Last Modified": "2026-08-16T16:08:52.000Z",
         "Obligation Count": 10,
         "Definition Count": 8
       }
