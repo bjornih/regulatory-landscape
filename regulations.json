@@ -19,13 +19,13 @@
         "Type": "Legislation",
         "Enacted": "2022-11-16",
         "In Force": "2024-02-17",
-        "Next Steps": "Commission fined AliExpress EUR 550 million on 20 July 2026, the largest DSA fine to date, for failures to diligently assess and mitigate risks from illegal, unsafe and counterfeit products. Commission accepted and made binding X's commitments on advertising transparency and researcher data access on 20 July 2026. Preliminary findings issued against Meta on 10 July 2026 over addictive design and risks to minors (infinite scroll, autoplay, push notifications, personalised recommender systems). ChatGPT search and Roblox are reported to be nearing VLOP/VLOSE designation, possibly from August 2026 (not yet confirmed by the Commission). Monitor the Meta proceedings and further designations through autumn 2026.",
+        "Next Steps": "Commission issued preliminary findings against TikTok on 24 July 2026 over minors' account safety, focused on minors being able to set accounts to public and on content from 16 and 17 year olds being recommended into the For You Feed. The Commission's preliminary view is that minors' accounts should default to accepted-contacts-only visibility and that minors' content should not be accessible to a global audience off-platform. A non-compliance decision could follow with fines up to 6 percent of global turnover. Earlier in the cycle: AliExpress fined EUR 550 million on 20 July 2026, the largest DSA fine to date; X's commitments on advertising transparency and researcher data access accepted and made binding on 20 July 2026; preliminary findings against Meta on 10 July 2026 over addictive design. Reported imminent VLOP/VLOSE designation of ChatGPT search and Roblox remains unconfirmed by the Commission. Monitor the Meta and TikTok proceedings and further designations through autumn 2026.",
         "Scope": "All online intermediaries operating in the EU. Enhanced obligations for VLOPs/VLOSEs (45M+ EU users).",
         "Enforcement": "EC directly enforces against VLOPs/VLOSEs. Fines up to 6% of worldwide turnover. Periodic penalty payments up to 5% of daily turnover.",
         "Relevance Notes": "Platforms and digital service providers face extensive obligations under the DSA for systemic risk assessments, illegal content removal, and transparency reporting. Revontulet delivers actionable intelligence on terrorist networks, organized crime operations, and disinformation campaigns that directly supports clients' DSA compliance, enabling faster identification of illegal content and more robust systemic risk assessments.",
         "Source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32022R2065",
         "Subregion": "EU",
-        "Last Modified": "2026-08-03T09:55:16.000Z",
+        "Last Modified": "2026-08-23T16:33:16.000Z",
         "Obligation Count": 11,
         "Definition Count": 8
       }
@@ -132,13 +132,13 @@
         ],
         "Brief Description": "Global AML/CFT standards applied across 200+ jurisdictions. Grey-listing triggers significant economic consequences. The Travel Rule extends obligations to virtual asset service providers.",
         "Type": "Framework",
-        "Next Steps": "June 2026 plenary (17 to 19 June): Iraq and Bosnia and Herzegovina added to the grey list; Namibia and Algeria removed (list now 22 jurisdictions). Recommendation 6 updated to protect humanitarian assistance from unintended sanctions effects. Mutual evaluation reports for Canada and Turkiye adopted. UK Presidency begins July 2026. Next plenary October 2026.",
+        "Next Steps": "Public consultation on draft Recommendation 16 guidance on payment transparency closed 21 August 2026. The guidance supports the revised R.16 agreed in June 2025 covering cross-border payment transparency, misdirected-payment and alignment checks, digital wallets and mobile money, and interaction with data protection law; countries are expected to be ready to implement by end-2030. The 7th Targeted Update on Implementation of the FATF Standards on Virtual Assets and VASPs was published 16 July 2026, the first major publication under the UK presidency (Giles Thomson, from 1 July 2026): 83 percent of surveyed jurisdictions have passed Travel Rule legislation, up from 73 percent in 2025, and the report flags DPRK-linked cyber theft, pig-butchering scam-centre operations, a Cambodia-based conglomerate that laundered at least USD 4 billion between 2021 and 2025, AI misuse via deepfakes and synthetic identities, and an emerging risk of criminal-linked development of a proprietary stablecoin designed to resist freezing and seizure. June 2026 plenary (17 to 19 June, final plenary under the Mexican presidency): Iraq and Bosnia and Herzegovina added to the grey list, Namibia and Algeria removed, list now 22 jurisdictions; Recommendation 6 updated to protect humanitarian assistance from unintended sanctions effects; mutual evaluation reports for Canada and Turkiye adopted. Next plenary October 2026.",
         "Scope": "Global: 40 FATF member jurisdictions and 200+ via regional bodies. Financial institutions, DNFBPs, and virtual asset service providers (VASPs).",
         "Enforcement": "Mutual evaluations; grey/black listing. Being grey-listed causes significant economic consequences: reduced foreign investment, increased compliance costs. EU framework: fines up to 10% of turnover.",
         "Relevance Notes": "The FATF framework creates the global baseline for anti-money laundering and counter-terrorism financing compliance across 200+ jurisdictions. Revontulet's financial crime and counter-terrorism intelligence directly supports clients' risk-based approach requirements, helping them identify and mitigate money laundering and terrorist financing risks as mandated by FATF Recommendations.",
         "Source": "https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Fatf-recommendations.html",
         "Subregion": "UN/International",
-        "Last Modified": "2026-07-26T16:06:45.000Z",
+        "Last Modified": "2026-08-23T16:33:16.000Z",
         "Obligation Count": 4,
         "Definition Count": 3
       }
@@ -264,6 +264,36 @@
     },
     {
       "fields": {
+        "Legislation": "Sweden CER Implementation Bill (Prop. 2025/26:303)",
+        "Full Name": "Proposition 2025/26:303, En ny lag for okad motstandskraft hos kritiska verksamhetsutovare (A new act on increased resilience of critical entities)",
+        "Categories": [
+          "Critical Infrastructure",
+          "National Security",
+          "Cybersecurity"
+        ],
+        "Jurisdiction": "Sweden",
+        "Status": "Proposed",
+        "Relevance": "Strong",
+        "Domains": [
+          "Critical Infrastructure",
+          "Geopolitical Risk"
+        ],
+        "Brief Description": "Swedish government bill implementing the EU Critical Entities Resilience Directive (EU) 2022/2557 in Swedish law, establishing identification of critical entities, resilience measures, incident notification duties and supervision. It is the physical resilience counterpart to Cybersakerhetslagen (2025:1506), which implements NIS2.",
+        "Type": "Legislation",
+        "Deadline": "2027-01-01",
+        "Next Steps": "Registered with the Riksdag on 14 July 2026; the government proposes entry into force on 1 January 2027. The Riksdag was in recess across the summer, so committee handling and a vote fall in the autumn 2026 session. Once enacted, Swedish critical entities will face parallel obligations under this Act and Cybersakerhetslagen (2025:1506), and organisations already scoped into NIS2 in Sweden should map the overlap early. Sweden was among the Member States that missed the CER transposition deadline of 17 October 2024, so infringement exposure is a live consideration.",
+        "Scope": "Public and private operators providing essential services within eleven designated sectors, including energy, transport, health, drinking water and food, where identified as critical entities. Identified operators must take measures to prevent, withstand and limit the consequences of disruptions to their provision of essential services, and must report certain incidents.",
+        "Enforcement": "The bill contains provisions on supervision and intervention measures against operators that do not comply. It also proposes amendments to the security protection act (sakerhetsskyddslagen) allowing higher sanction fees to be imposed on private operators. Final penalty levels should be confirmed against the enacted SFS text once available.",
+        "Relevance Notes": "Nordic clients are about to face two overlapping resilience regimes at once, NIS2 through Cybersakerhetslagen and CER through this bill, and the practical question is which obligations duplicate and which genuinely add work. Revontulet tracks Nordic implementation instrument by instrument, including which deadlines have actually been met rather than announced, and can produce a consolidated obligation map across Sweden, Norway, Denmark and Finland.",
+        "Source": "https://www.regeringen.se/rattsliga-dokument/proposition/2026/07/prop.-202526303",
+        "Subregion": "Nordic",
+        "Last Modified": "2026-08-23T16:37:45.000Z",
+        "Obligation Count": 2,
+        "Definition Count": 1
+      }
+    },
+    {
+      "fields": {
         "Legislation": "EU AI Act",
         "Full Name": "Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence",
         "Categories": [
@@ -286,13 +316,13 @@
         "Enacted": "2024-08-01",
         "In Force": "2024-08-01",
         "Deadline": "2027-12-02",
-        "Next Steps": "High-risk obligations postponed by the Digital Omnibus on AI (Regulation (EU) 2026/1744, in force 27 July 2026): Annex III stand-alone systems now apply from 2 December 2027, Annex I embedded systems from 2 August 2028. A new Article 5 prohibition on AI-generated non-consensual intimate imagery and CSAM was added and applies without transition. GPAI obligations continue to apply.",
+        "Next Steps": "Enforcement powers of the AI Office and national competent authorities became applicable on 2 August 2026. Now enforceable: the Article 5 prohibited practices, GPAI provider obligations (transparency to downstream providers, copyright policy, systemic-risk security and safety measures) and Article 50 transparency duties covering chatbot disclosure, deepfake labelling and machine-readable marking of synthetic content. Penalties reach EUR 35 million or 7 percent of worldwide turnover for prohibited practices and EUR 15 million or 3 percent for GPAI breaches. High-risk obligations were postponed by the Digital Omnibus on AI (Regulation (EU) 2026/1744, in force 27 July 2026): Annex III stand-alone systems now apply from 2 December 2027, Annex I embedded systems from 2 August 2028. The new Article 5 prohibitions added by the Omnibus (AI-generated non-consensual intimate imagery and CSAM) apply from 2 December 2026. Corrected 23 August 2026: a previous entry stated these applied without transition, which was wrong.",
         "Scope": "All providers and deployers of AI systems in the EU market. Law enforcement AI classified as high-risk. Revontulet's AI/LLM components must comply with data governance and transparency requirements.",
         "Enforcement": "National market surveillance authorities. Fines up to EUR 35M or 7% of global turnover (prohibited practices), EUR 15M or 3% (other violations).",
         "Relevance Notes": "Organizations deploying AI in security, law enforcement, and financial services face high-risk classification under the EU AI Act, requiring documented risk management, data quality controls, and human oversight. Revontulet helps clients assess AI compliance obligations across their security operations and provides intelligence that supports the transparency and accountability requirements for high-risk AI systems.",
         "Source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202401689",
         "Subregion": "EU",
-        "Last Modified": "2026-08-09T16:08:14.000Z",
+        "Last Modified": "2026-08-23T16:33:16.000Z",
         "Obligation Count": 6,
         "Definition Count": 2
       }
@@ -401,13 +431,13 @@
         ],
         "Brief Description": "Proposed Norwegian act implementing the EU Digital Services Act (Regulation (EU) 2022/2065) in Norwegian law. Nkom is designated national digital services coordinator, with Medietilsynet, Forbrukertilsynet and Datatilsynet as competent authorities in their respective areas. The government aims for the DSA regime to apply in Norway from summer 2026.",
         "Type": "Legislation",
-        "Next Steps": "Public consultation closed 1 October 2025. The government has signalled entry into force during 2026; monitor the proposition to the Storting and EEA Joint Committee incorporation of the DSA. Once in force, DSA duties (risk assessments for the largest platforms, notice-and-action, transparency) apply to services in the Norwegian market under national supervision.",
+        "Next Steps": "FLAGGED FOR HUMAN REVIEW, 23 August 2026. A full scan of all 655 cases in the Storting's 2025-2026 session via data.stortinget.no returned no Prop., Innst. or Lovvedtak on digitale tjenester or the DSA. The measure remains at the horing stage from 2025 and the Storting is in recess until October 2026. Vendor and commentary claims that the law applies from summer 2026 are unverified against any primary source; the Brief Description currently repeats the government's stated aim, which is defensible as an aim but should not be read as an enacted timeline. Public consultation closed 1 October 2025. The DSA must also be incorporated into the EEA Agreement before Norwegian implementation, and no EEA Joint Committee decision doing so was identified as of 23 August 2026; the Joint Committee's last adopted decision on the EFTA list is No 123/2026 of 30 April 2026. ACTION: monitor for a proposition to the Storting in the autumn 2026 session and for EEA incorporation.",
         "Scope": "Intermediary services offered in Norway: mere conduit, caching and hosting services, online platforms and marketplaces, with VLOP/VLOSE obligations mirrored from the DSA.",
         "Enforcement": "Nkom as digital services coordinator with sanction powers mirroring the DSA, including fines of up to 6 percent of global annual turnover for the most serious infringements; sectoral supervision by Medietilsynet, Forbrukertilsynet and Datatilsynet.",
         "Relevance Notes": "As a Norwegian company advising Nordic public-sector and platform clients, Revontulet monitors the DSA's extension into Norwegian law at source, positioning clients ahead of Nkom supervision, risk assessment duties and content governance obligations before they take effect.",
         "Source": "https://www.regjeringen.no/no/dokumenter/3112328/id3112328/",
         "Subregion": "Nordic",
-        "Last Modified": "2026-08-03T09:55:51.000Z"
+        "Last Modified": "2026-08-23T16:33:51.000Z"
       }
     },
     {
@@ -526,9 +556,9 @@
         "Scope": "Several thousand entities across 18 sectors. Organization-wide application (broader than NIS2 minimum). CEO and board personal accountability.",
         "Enforcement": "MCF (Myndigheten för civilt försvar) as coordinator. Up to EUR 10M or 2% turnover (essential), EUR 7M or 1.4% (important). Director disqualification possible.",
         "Relevance Notes": "Sweden's NIS2 transposition covers several thousand entities across 18 sectors with organization-wide cybersecurity obligations. Revontulet delivers the threat intelligence, risk assessment support, and incident analysis that Swedish regulated entities need to meet their cybersecurity management requirements under this law.",
-        "Source": "https://www.cyberday.ai/blog/what-is-cybersakerhetslagen-swedish-nis2/",
+        "Source": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/cybersakerhetslag-20251506_sfs-2025-1506/",
         "Subregion": "Nordic",
-        "Last Modified": "2026-03-28T11:42:17.000Z",
+        "Last Modified": "2026-08-23T16:47:38.000Z",
         "Obligation Count": 2,
         "Definition Count": 2
       }
@@ -747,7 +777,7 @@
           "National Security"
         ],
         "Jurisdiction": "EU",
-        "Status": "Pending",
+        "Status": "In force",
         "Relevance": "Strong",
         "Domains": [
           "Cyber Threat Intel",
@@ -757,14 +787,15 @@
         "Brief Description": "Enables judicial authorities to obtain electronic evidence directly from service providers across EU borders. Production Orders require 10-day response (8 hours in emergencies), replacing the 10-month average under mutual legal assistance. Penalties up to 2% of global turnover.",
         "Type": "Legislation",
         "Enacted": "2023-07-12",
+        "In Force": "2026-08-18",
         "Deadline": "2026-08-18",
-        "Next Steps": "Regulation applies from 18 August 2026. Providers offering services in the EU must by then designate an establishment or legal representative to receive and execute orders. Member-state readiness is limited: as of February 2026 only Croatia, Italy, Lithuania and Slovakia had adopted legislation implementing the accompanying Directive (EU) 2023/1544 (transposition deadline was 18 February 2026).",
+        "Next Steps": "Regulation became applicable on 18 August 2026. Judicial authorities in Member States can now issue European Production Orders and European Preservation Orders directly on service providers established or represented in other Member States, with a 10-day response deadline and 8 hours in emergencies. Service providers offering services in the EU must have a designated establishment or legal representative to receive and execute orders. Member-state readiness at go-live is uneven: the Commission published a Q&A on legal contingency on 24 July 2026 and guidance on contingency arrangements on 11 August 2026, indicating the decentralised IT system is not uniformly operational. The accompanying Directive (EU) 2023/1544 applied from 18 February 2026 and transposition remains incomplete across several Member States. Monitor Commission implementing acts on the e-Evidence Digital Exchange System and national designations of competent authorities.",
         "Scope": "Service providers offering services in the EU, including electronic communication services, e-messaging, and social media platforms. Covers subscriber data, traffic data, and content data.",
         "Enforcement": "National judicial authorities issue orders directly to service providers. Pecuniary penalties up to 2% of total worldwide annual turnover for non-compliance.",
         "Relevance Notes": "The EU e-Evidence Regulation accelerates cross-border electronic evidence gathering from months to days, creating direct obligations on service providers to preserve and produce data on judicial request. Revontulet supports clients with the intelligence context needed to respond to e-Evidence orders accurately and the cyber forensic capabilities to preserve evidentiary integrity.",
         "Source": "https://eur-lex.europa.eu/eli/reg/2023/1543/oj/eng",
         "Subregion": "EU",
-        "Last Modified": "2026-08-09T16:08:14.000Z",
+        "Last Modified": "2026-08-23T16:33:16.000Z",
         "Obligation Count": 5,
         "Definition Count": 4
       }
@@ -821,10 +852,43 @@
         "Scope": "Both",
         "Enforcement": "Enforced by police, prosecutors and courts under the criminal-justice system. Corporate criminal liability extension means corporates can be liable where a senior manager commits a relevant offence acting within the scope of their authority. Civil claims under the amended Limitation Act framework.",
         "Relevance Notes": "Revontulet tracks the UK Crime and Policing Act 2026 because the extension of senior-manager corporate criminal liability across all offences materially raises compliance risk for clients with UK operations, particularly in cyber-enabled crime and financial crime areas. We help clients map exposure under the new model and adjust controls.",
-        "Source": "https://bills.parliament.uk/bills/3938",
+        "Source": "https://www.legislation.gov.uk/ukpga/2026/20",
         "Subregion": "UK",
-        "Last Modified": "2026-05-06T11:59:58.000Z",
+        "Last Modified": "2026-08-23T16:47:38.000Z",
         "Obligation Count": 2,
+        "Definition Count": 1
+      }
+    },
+    {
+      "fields": {
+        "Legislation": "US EO 14409 (Frontier AI)",
+        "Full Name": "Executive Order 14409, Promoting Advanced Artificial Intelligence Innovation and Security",
+        "Categories": [
+          "AI Regulation",
+          "Cybersecurity",
+          "National Security"
+        ],
+        "Jurisdiction": "USA (Federal)",
+        "Status": "In force",
+        "Relevance": "Moderate",
+        "Domains": [
+          "Cyber Threat Intelligence",
+          "Threat Intelligence",
+          "Geopolitical Risk"
+        ],
+        "Brief Description": "Directs Treasury, the NSA via the Department of War, and CISA within DHS to build a classified benchmarking process defining the covered frontier model threshold, and to design a voluntary framework under which developers give the federal government up to 30 days of pre-release access to covered frontier models under confidentiality, cybersecurity, insider risk and intellectual property terms. Section 3(c) expressly bars any mandatory licensing or preclearance regime. Section 4 directs the Attorney General to prioritise enforcement under 18 USC 1028, 1030 and 1343 against AI-enabled intrusion.",
+        "Type": "Framework",
+        "Enacted": "2026-06-02",
+        "In Force": "2026-06-02",
+        "Deadline": "2026-08-01",
+        "Next Steps": "The 60-day Section 3 deliverable fell due 1 August 2026. Press reporting (Axios, 3 August 2026; CNBC, 31 July 2026) quotes an unnamed White House official saying the voluntary framework was complete by the deadline, but no published framework document could be located on whitehouse.gov, cisa.gov or treasury.gov as of 23 August 2026. Treat completion as unconfirmed and the framework text as non-public. The contrast with the EU AI Act is the point of analytical interest: a voluntary, classified, pre-release access model against a statutory conformity assessment model, with the same frontier developers subject to both.",
+        "Scope": "Developers of covered frontier models, with the threshold to be set through a classified benchmarking process rather than published in the EO. Participation in the pre-release access framework is voluntary. Federal agencies named are Treasury, NSA via the Department of War, and CISA within DHS.",
+        "Enforcement": "No penalties attach to the voluntary framework itself. Section 4 enforcement runs through existing federal criminal statutes on identity fraud, computer fraud and wire fraud where AI is used to enable intrusion.",
+        "Relevance Notes": "Frontier AI governance is splitting into two incompatible models, a voluntary and partly classified US approach and a statutory EU approach, and clients operating across both need to understand where the obligations actually bind and where they do not. Revontulet tracks both regimes in the same database and can brief on the divergence, including what remains non-public on the US side.",
+        "Source": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
+        "Subregion": "Americas",
+        "Last Modified": "2026-08-23T16:37:45.000Z",
+        "Obligation Count": 1,
         "Definition Count": 1
       }
     },
@@ -868,13 +932,13 @@
         "Brief Description": "Council of Europe Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law (CETS No. 225). First international legally binding treaty on AI. Establishes a framework for activities within the lifecycle of AI systems consistent with human rights, democracy and the rule of law. Applies in the public sector (including private actors acting on its behalf) and, subject to each Party's choice, in the private sector. Addresses transparency, accountability, redress, risk and impact management, oversight and remedies.",
         "Type": "Treaty/Convention",
         "Enacted": "2024-05-17",
-        "Next Steps": "Opened for signature in Vilnius on 5 September 2024. Initial signatories included Andorra, Georgia, Iceland, Norway, the Republic of Moldova, San Marino, the United Kingdom, Israel, the United States, and the European Union; further signatures have followed. European Parliament approved EU conclusion on 11 March 2026. No ratifications recorded as of May 2026. Enters into force on the first day of the month after the expiry of three months from the date five signatories (at least three CoE member States) deposit instruments of ratification.",
+        "Next Steps": "Opened for signature in Vilnius on 5 September 2024. Initial signatories included Andorra, Georgia, Iceland, Norway, the Republic of Moldova, San Marino, the United Kingdom, Israel, the United States and the European Union. The European Parliament gave consent to EU conclusion on 11 March 2026 and the EU deposited its instrument of ratification on 15 May 2026 at the 135th session of the Committee of Ministers in Chisinau. Entry into force occurs on the first day of the month following expiry of three months after five signatories, of which at least three are Council of Europe member states, deposit instruments of ratification. A 1 September 2026 effective date for the EU circulates in commentary as a computation from Article 30(4) but has not been confirmed against the Council of Europe Treaty Office signature and ratification chart, which was not reachable during this review. Verify the ratification count on the CoE Treaty Office chart for CETS No. 225 before citing entry into force externally.",
         "Scope": "Parties to the Convention; reaches activities within the lifecycle of AI systems carried out by public authorities and (subject to Party choice) by private actors acting on their behalf or otherwise within the Convention's modalities.",
         "Enforcement": "No direct sanctions: enforcement is through Parties' domestic implementing law, with a Conference of the Parties to monitor implementation and a follow-up mechanism for reporting.",
         "Relevance Notes": "The first binding international AI treaty sets a baseline against which Revontulet benchmarks clients' AI governance: it interacts with the EU AI Act, sectoral cyber rules, and the OECD AI Principles. Revontulet supports clients translating Convention principles into AI risk assessments and procurement controls.",
         "Source": "https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence",
         "Subregion": "UK & Europe",
-        "Last Modified": "2026-08-16T16:09:45.000Z",
+        "Last Modified": "2026-08-23T16:33:51.000Z",
         "Definition Count": 2
       }
     },
@@ -991,13 +1055,13 @@
         "Enacted": "2021-07-14",
         "In Force": "2021-08-02",
         "Deadline": "2026-04-03",
-        "Next Steps": "STATUS UNRESOLVED, DO NOT CITE EXTERNALLY UNTIL CONFIRMED. Two separate procedures need to be kept apart. First, procedure 2025/0429(COD): Parliament adopted amendments on 11 March 2026 shortening the extension to 3 August 2027 and excluding end-to-end encrypted communications, then rejected the file outright on 26 March 2026 by 228 votes to 311 after negotiations with the Council failed. On that basis the derogation lapsed after 3 April 2026, which is what the current Inactive status records. Second, a fast-tracked Council instrument was put to Parliament on 9 July 2026; Parliament did not reach the absolute majority of 361 votes required to reject the Council position, so the extension proceeded. Multiple secondary sources (The Register, Brussels Signal and TechRadar, all 9 July 2026) report the derogation is in force again until 3 April 2028. The Official Journal citation for that amending act has not been located, so Status has deliberately been left at Inactive rather than changed on secondary reporting alone. ACTION FOR HUMAN REVIEW: confirm the OJ reference on EUR-Lex, then set Status to In force, set Deadline to 2028-04-03, and repoint the Source URL from the 2021 base regulation to the amending act. Separately, trilogues on the permanent CSA Regulation continue and remain the medium-term determinant.",
+        "Next Steps": "RESOLVED 23 August 2026. The prior human-review flag on this record is now closed. The outcome is that Regulation (EU) 2021/1232 did lapse after 3 April 2026 and this record correctly remains Inactive. The replacement is a fresh standalone instrument rather than an amendment: Regulation (EU) 2026/1881 of 24 July 2026, entry into force 31 July 2026, expiring 3 April 2028 (confirmed against EUR-Lex ELI metadata, date_no_longer_in_force 2028-04-03). It is tracked as a separate Legislative Tracker record, EU CSAM Derogation 2026 (Reg 2026/1881). No further action required on this record beyond retaining it as the historical predecessor. Trilogues on the permanent CSA Regulation continue and remain the medium-term determinant.",
         "Scope": "Providers of number-independent interpersonal communications services offered in the EU (webmail, messaging services, chat functions in dating and gaming apps). The regime is voluntary: it permits but does not require detection, removal and reporting of known CSAM, subject to strict conditions.",
         "Enforcement": "Supervision by national data protection authorities under the GDPR and ePrivacy frameworks. Processing outside the derogation's conditions loses its legal basis and exposes providers to GDPR-level sanctions of up to 4 percent of global annual turnover.",
         "Relevance Notes": "Revontulet tracks the interplay between the interim derogation, the pending CSA Regulation and platform trust and safety obligations, giving clients early warning on when voluntary scanning regimes may shift to mandatory detection orders and how the end-to-end encryption carve-out affects moderation and referral workflows.",
         "Source": "https://eur-lex.europa.eu/eli/reg/2021/1232/oj",
         "Subregion": "EU",
-        "Last Modified": "2026-08-16T16:08:52.000Z",
+        "Last Modified": "2026-08-23T16:33:51.000Z",
         "Obligation Count": 1,
         "Definition Count": 1
       }
@@ -1346,13 +1410,13 @@
         "Enacted": "2025-06-20",
         "In Force": "2025-10-01",
         "Deadline": "2026-10-01",
-        "Next Steps": "NIS2-aligned amendments entered into force on 1 July 2026, expanding coverage from roughly 600 to about 5,000 undertakings (including ICT services, waste management, food production, post and chemicals). Registration deadline for covered undertakings is 1 October 2026. Breaches can draw fees of up to 4 percent of annual turnover; serious incidents must be notified within 24 hours.",
+        "Next Steps": "FLAGGED FOR HUMAN REVIEW, 23 August 2026. DO NOT CITE THE NIS2 DATES EXTERNALLY UNTIL CONFIRMED. A primary-source check against Lovdata found that the Act in force is LOV-2023-12-20-108, entered into force 1 October 2025, implementing NIS1 only, with no recorded amendments. No NIS2 amending Act, no commencement forskrift and no NIS2 forskrift appears in Norsk Lovtidend Avd. I. The widely repeated vendor claim of a 1 July 2026 NIS2 commencement with a 1 October 2026 registration deadline could not be confirmed against any primary source and appears to be a planned timeline rather than an enacted one. NIS2 must first be incorporated into the EEA Agreement before Norwegian implementation, and no EEA Joint Committee decision doing so was identified as of 23 August 2026. Two further problems in this record: the Source URL points to lovdata.no/lov/2024-06-21-46, which is a different Act, and the Enacted date of 20 June 2025 does not match the Act's date of 20 December 2023. ACTION: repoint Source to LOV-2023-12-20-108, correct Enacted to 2023-12-20, and either remove the NIS2 assertions from the Brief Description or restate them as planned rather than in force. Left unchanged pending human confirmation per QA policy on factual issues.",
         "Scope": "Providers of essential services in energy, transport, health, water supply, banking, financial market infrastructure, and digital infrastructure. Digital service providers including online marketplaces, search engines, and cloud services.",
         "Enforcement": "NSM (National Security Authority) and sector-specific authorities. Registration, risk management, and incident reporting obligations.",
         "Relevance Notes": "As Norway's NIS/NIS2 implementation, the Digitalsikkerhetsloven creates cybersecurity obligations for essential and important entities across multiple sectors. The upcoming NIS2 expansion will significantly increase the number of regulated Norwegian organizations. Revontulet provides the threat intelligence and incident response capabilities these entities need, delivered from within the Norwegian regulatory jurisdiction.",
         "Source": "https://lovdata.no/lov/2024-06-21-46",
         "Subregion": "Nordic",
-        "Last Modified": "2026-07-26T16:07:03.000Z",
+        "Last Modified": "2026-08-23T16:33:51.000Z",
         "Obligation Count": 2,
         "Definition Count": 3
       }
@@ -1615,6 +1679,36 @@
         "Source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52025JC0791",
         "Subregion": "EU",
         "Last Modified": "2026-08-16T16:10:17.000Z",
+        "Definition Count": 1
+      }
+    },
+    {
+      "fields": {
+        "Legislation": "FinCEN BOI Final Rule 2026",
+        "Full Name": "Beneficial Ownership Information Reporting Requirement Revision, final rule, RIN 1506-AB67, 91 FR 52508",
+        "Categories": [
+          "AML / CFT / Financial Crime",
+          "Financial Crime"
+        ],
+        "Jurisdiction": "USA (Federal)",
+        "Status": "In force",
+        "Relevance": "Moderate",
+        "Domains": [
+          "Financial Crime",
+          "Financial Intelligence"
+        ],
+        "Brief Description": "Finalises, with limited changes, the 26 March 2025 interim final rule that narrowed beneficial ownership information reporting under the Corporate Transparency Act. It permanently exempts reporting companies from reporting BOI of US person beneficial owners, exempts US person company applicants entirely, and exempts all US persons from updating information tied to a FinCEN identifier. Only certain foreign-formed reporting companies remain in scope.",
+        "Type": "Legislation",
+        "Enacted": "2026-08-14",
+        "In Force": "2026-08-14",
+        "Next Steps": "Effective on publication, 14 August 2026. The practical consequence is that the US beneficial ownership register is now substantially narrower than the EU and UK equivalents, which widens the transatlantic divergence in corporate transparency and is likely to feature in FATF mutual evaluation commentary and in EU high-risk third country discussions. Monitor litigation and any Congressional response, and watch whether FinCEN issues conforming guidance on the residual foreign-formed reporting population.",
+        "Scope": "Reporting companies under 31 CFR 1010.380. After this rule, the reporting population is effectively limited to entities formed under the law of a foreign country and registered to do business in a US State or tribal jurisdiction, and only in respect of their non-US person beneficial owners.",
+        "Enforcement": "Civil and criminal penalties under 31 USC 5336 remain available for wilful failure to report or for reporting false information by entities still in scope, but the exemptions remove most previously covered entities from the enforcement perimeter.",
+        "Relevance Notes": "Clients running sanctions, AML or supply chain due diligence programmes that treated the US BOI register as a coverage source need to re-baseline: for US-formed entities that source is now effectively empty. Revontulet maps beneficial ownership data availability across jurisdictions and can identify where the gap has to be closed through commercial registries, adverse media or network analysis rather than statutory filings.",
+        "Source": "https://www.federalregister.gov/documents/2026/08/14/2026-16576/beneficial-ownership-information-reporting-requirement-revision",
+        "Subregion": "Americas",
+        "Last Modified": "2026-08-23T16:37:45.000Z",
+        "Obligation Count": 1,
         "Definition Count": 1
       }
     },
@@ -2059,11 +2153,44 @@
         "Scope": "Essential and important entities classified by employee count and turnover across telecommunications, healthcare, manufacturing, energy, finance, and public administration sectors.",
         "Enforcement": "Finnish Transport and Communications Agency (Traficom) and sector-specific supervisory authorities. Administrative sanctions for non-compliance.",
         "Relevance Notes": "Finland's NIS2 transposition expands the regulated entity base fivefold, creating significant new demand for cybersecurity risk management and threat intelligence. Revontulet delivers threat intelligence services tailored to the Nordic threat landscape, helping newly regulated Finnish entities implement effective cybersecurity measures.",
-        "Source": "https://finlex.fi/fi/laki/alkup/2025/20250124",
+        "Source": "https://www.finlex.fi/fi/lainsaadanto/saadoskokoelma/2025/124",
         "Subregion": "Nordic",
-        "Last Modified": "2026-03-28T11:42:52.000Z",
+        "Last Modified": "2026-08-23T16:47:38.000Z",
         "Obligation Count": 2,
         "Definition Count": 3
+      }
+    },
+    {
+      "fields": {
+        "Legislation": "EU CSAM Derogation 2026 (Reg 2026/1881)",
+        "Full Name": "Regulation (EU) 2026/1881 of the European Parliament and of the Council of 24 July 2026 on a temporary derogation from certain provisions of Directive 2002/58/EC as regards the use of technologies by providers of number-independent interpersonal communications services for the processing of personal and other data for the purpose of combating online child sexual abuse",
+        "Categories": [
+          "Online Safety / Content Governance",
+          "Child Safety",
+          "Privacy / Data Protection"
+        ],
+        "Jurisdiction": "EU",
+        "Status": "In force",
+        "Relevance": "Strong",
+        "Domains": [
+          "Online Safety / Content Governance",
+          "Content Moderation",
+          "Online Platforms"
+        ],
+        "Brief Description": "Restores the legal basis for providers of number-independent interpersonal communications services (webmail, messaging) to voluntarily scan communications for child sexual abuse material notwithstanding the confidentiality rules in the ePrivacy Directive. It is a fresh standalone regulation rather than an extension of Regulation (EU) 2021/1232, which lapsed after 3 April 2026 when Parliament rejected the extension file. The derogation is temporary and expires on 3 April 2028.",
+        "Type": "Legislation",
+        "Enacted": "2026-07-24",
+        "In Force": "2026-07-31",
+        "Deadline": "2028-04-03",
+        "Next Steps": "Expires 3 April 2028 (EUR-Lex ELI metadata records date_no_longer_in_force as 2028-04-03). The derogation is explicitly a bridge to the permanent CSA Regulation, which remains in trilogue; if that file does not conclude before April 2028 the same cliff-edge recurs. Providers relying on voluntary detection should document their legal basis, retention and reporting arrangements against the conditions in the Regulation, and should track the encryption carve-out debate, which was the principal sticking point in the failed 2025/0429(COD) procedure.",
+        "Scope": "Providers of number-independent interpersonal communications services offering services in the EU, meaning webmail, messaging and similar services that do not connect to the public switched telephone network. The derogation is permissive, not mandatory: it removes a legal barrier to voluntary detection rather than imposing a detection duty.",
+        "Enforcement": "No standalone penalty regime. The Regulation operates as a derogation from Directive 2002/58/EC, so providers acting outside its conditions fall back under national ePrivacy enforcement and the GDPR, where supervisory authorities can impose administrative fines up to EUR 20 million or 4 percent of worldwide annual turnover.",
+        "Relevance Notes": "The April 2026 lapse and July 2026 restoration created a four-month window in which voluntary CSAM detection in the EU had no clear legal basis, and platform legal teams are still reconstructing what that means for the reports filed in that period. Revontulet tracks the procedural history of this file in detail, including the distinction between the rejected 2025/0429(COD) extension and the separate Council instrument that produced Regulation 2026/1881, and can advise clients on detection governance, reporting posture and the encryption question ahead of the permanent CSA Regulation.",
+        "Source": "https://eur-lex.europa.eu/eli/reg/2026/1881/oj/eng",
+        "Subregion": "EU",
+        "Last Modified": "2026-08-23T16:37:45.000Z",
+        "Obligation Count": 2,
+        "Definition Count": 1
       }
     },
     {
@@ -2112,13 +2239,13 @@
         "Enacted": "2024-12-10",
         "In Force": "2024-12-10",
         "Deadline": "2027-12-11",
-        "Next Steps": "Commission published practical guidance for manufacturers on CRA obligations on 27 July 2026. Reporting obligations for actively exploited vulnerabilities apply from 11 September 2026; the main obligations apply from 11 December 2027.",
+        "Next Steps": "Phased application under Article 71. Chapter IV (Articles 35 to 51, notification of conformity assessment bodies) has applied since 11 June 2026. Article 14, the manufacturers' reporting obligation for actively exploited vulnerabilities and severe incidents having an impact on product security, applies from 11 September 2026, which is the next binding milestone and falls within three weeks of this review. The Regulation applies in full from 11 December 2027. Manufacturers of products with digital elements placed on the EU market should have single reporting platform routing, 24-hour early warning and 72-hour notification processes in place before 11 September 2026. Adoption 23 October 2024; entry into force 10 December 2024.",
         "Scope": "All manufacturers, importers, and distributors of products with digital elements placed on the EU market. Covers hardware and software including IoT devices.",
         "Enforcement": "National market surveillance authorities. Fines up to EUR 15M or 2.5% of global turnover. Non-compliant products can be withdrawn from the EU market.",
         "Relevance Notes": "Product manufacturers and software developers must meet mandatory cybersecurity requirements and report actively exploited vulnerabilities under the CRA. Revontulet provides vulnerability intelligence, supply chain threat analysis, and exploit monitoring that helps manufacturers identify and address security issues throughout their product lifecycle as required by this regulation.",
         "Source": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj",
         "Subregion": "EU",
-        "Last Modified": "2026-08-09T16:08:14.000Z",
+        "Last Modified": "2026-08-23T16:47:38.000Z",
         "Obligation Count": 4,
         "Definition Count": 3
       }
@@ -2228,9 +2355,9 @@
         "Scope": "Both",
         "Enforcement": "Enforcement of online-safety regulations made under the Act will largely run through the Online Safety Act 2023 framework administered by Ofcom, including the OSA's penalty regime (up to 10% of qualifying worldwide revenue or GBP 18M) and senior-manager liability. Standalone safeguarding and care-regulation provisions are enforced by the Department for Education and the Care Quality Commission as appropriate.",
         "Relevance Notes": "Revontulet tracks the UK Children's Wellbeing and Schools Act 2026 as a fast-moving expansion of the OSA regime. We help platforms anticipate the first set of children's online-safety regulations expected within 12 months of the Government's progress statement, and monitor risks across age assurance, harmful content categories and design-feature obligations.",
-        "Source": "https://bills.parliament.uk/bills/3909",
+        "Source": "https://www.legislation.gov.uk/ukpga/2026/21",
         "Subregion": "UK",
-        "Last Modified": "2026-05-06T11:59:58.000Z",
+        "Last Modified": "2026-08-23T16:47:38.000Z",
         "Obligation Count": 1,
         "Definition Count": 1
       }
@@ -2315,13 +2442,13 @@
         "Enacted": "2023-10-26",
         "In Force": "2025-03-17",
         "Deadline": "2026-12-31",
-        "Next Steps": "Ofcom published the Register of Categorised Services on 10 July 2026, formally designating Category 1, Category 2A and Category 2B services and publishing a separate list of emerging Category 1 services. The same 10 July package opened consultation on draft codes of practice covering paid-for fraudulent advertising for the largest user-to-user and search services, plus draft guidance on the additional duties that categorisation triggers (transparency reporting, user empowerment, and protection of journalistic and news publisher content). Designated services should now be scoping those duties against the consultation drafts. Monitor consultation closing dates and Ofcom's final Category 1 codes, and track the DSIT response to the Growing Up in an Online World review for signals on further child safety duties.",
+        "Next Steps": "Ofcom's Register of Categorised Services page was first published 30 June 2026, the register document is dated 10 July 2026, and the page was last updated 14 August 2026. Eleven Category 1 services are designated (Facebook, Instagram, Pinterest, Quora, Reddit, Roblox, Snapchat, TikTok, WhatsApp, X, YouTube), four Category 2A (Google Search, Bing, ChatGPT Search, Facebook Feed Deep Dive) and 24 Category 2B including Discord, Steam, Twitch, Pornhub and Xbox. Emerging Category 1 list: iMessage, Messenger, Threads, Wikipedia. Of note for emerging tech governance, an AI search assistant (ChatGPT Search) is now a categorised regulated search service in the UK. Enforcement activity in August 2026: investigations into Chat-Avenue.com and Teen-Chat.org on illegal content duties updated 20 August 2026; investigation into fapello.com on age assurance and the adult sector age-assurance enforcement programme updated 18 August 2026; investigation into TikTok under section 12 opened 16 July 2026. Monitor consultation closing dates on the fraudulent advertising codes and Ofcom's final Category 1 codes.",
         "Scope": "All services allowing user-generated content or interaction with a significant number of UK users. Applies globally to services accessible from the UK.",
         "Enforcement": "Fines up to 10% of qualifying worldwide revenue or GBP 18M. Senior manager liability. Ofcom can require business disruption measures including blocking.",
         "Relevance Notes": "The UK Online Safety Act requires platforms to conduct risk assessments spanning terrorism, fraud, and organized crime, and to implement proportionate safety measures. Revontulet provides the multi-domain intelligence on terrorist content, financial crime patterns, and disinformation campaigns that platforms need to fulfil these risk assessment and mitigation obligations.",
         "Source": "https://www.gov.uk/government/publications/online-safety-act-explainer/online-safety-act-explainer",
         "Subregion": "UK",
-        "Last Modified": "2026-08-16T16:08:52.000Z",
+        "Last Modified": "2026-08-23T16:33:16.000Z",
         "Obligation Count": 10,
         "Definition Count": 8
       }
@@ -2348,13 +2475,13 @@
         "Type": "Resolution",
         "Enacted": "1999-10-15",
         "In Force": "1999-10-15",
-        "Next Steps": "Continuously updated. Sanctions list contains 252 individuals and 88 entities (as of Feb 2026). Expanded in 2015 to include ISIL designations. Monitoring Team provides ongoing analysis. All UN member states must implement asset freezes, travel bans, and arms embargoes.",
+        "Next Steps": "Continuously updated. Three amendment tranches in August 2026 flowing from the review concluded 31 December 2025: 13 August 2026 (4 entries, SC/16433), 14 August 2026 (SC/16434 series) and 18 August 2026 (21 entries amended, SC/16435, covering 13 individuals including QDi.087 Hambali, QDi.204 Isnilon Hapilon, QDi.291 al-Asiri and QDi.294 Umar Patek, and 8 entities including QDe.129 AQAP, QDe.096 Lashkar i Jhangvi and QDe.134 MUJAO). Substantive changes confirm deaths (Hapilon killed at Marawi 15 October 2017; Djouadi killed 25 February 2022 at Timbuktu), update AQAP leadership to Sa'ad bin Atef al-Awlaki, and record Umar Patek's 2022 parole and current business activity in Surabaya. No new listings or de-listings in these tranches. Sanctions list contained 252 individuals and 88 entities as of February 2026. All UN member states must implement asset freezes, travel bans and arms embargoes.",
         "Scope": "All 193 UN member states must implement. Designations target individuals and entities associated with ISIL, Al-Qaida, and affiliated groups globally. Financial institutions must screen against the consolidated list.",
         "Enforcement": "Binding under Chapter VII. Monitoring Team reports to Committee. Non-implementation can trigger Security Council action. National-level enforcement through domestic sanctions legislation.",
         "Relevance Notes": "All UN member states must screen against the 1267/2253 consolidated sanctions list targeting ISIL, Al-Qaida, and affiliates. Revontulet provides enhanced intelligence beyond basic list-matching, including network analysis of designated entities, identification of front companies, and intelligence on emerging designations that helps clients anticipate list updates and detect evasion attempts.",
         "Source": "https://main.un.org/securitycouncil/en/sanctions/1267",
         "Subregion": "UN/International",
-        "Last Modified": "2026-03-28T11:43:12.000Z",
+        "Last Modified": "2026-08-23T16:33:16.000Z",
         "Obligation Count": 1,
         "Definition Count": 2
       }
@@ -2378,13 +2505,13 @@
         ],
         "Brief Description": "EU restrictive measures require all persons and entities to screen against sanctions lists and detect circumvention. Sanctions evasion was criminalized EU-wide in 2023 with member state penalties.",
         "Type": "Legislation",
-        "Next Steps": "20th Russia sanctions package adopted 23 April 2026 (Council Regulations (EU) 2026/506, 2026/509, 2026/511; entered into force 24 April 2026), comprising 120 new individual and entity listings, expanded sectoral measures on energy (LNG tanker and icebreaker bans, 46 additional shadow-fleet vessels port-banned), an additional 20 Russian banks placed under transaction ban (effective 14 May 2026), a full sectoral ban on transactions with crypto-asset service providers established in Russia (effective 24 May 2026), parallel measures on Belarus, and the first-ever invocation of the Article 12f anti-circumvention tool extending restrictions to Kyrgyzstan. Anti-Sanctions Circumvention Instrument continues legislative passage. Sanctions evasion criminalised EU-wide under the 2023 Directive.",
+        "Next Steps": "21st Russia sanctions package adopted 23 July 2026 (Council Regulation (EU) 2026/1848 amending Reg 833/2014; Regulation (EU) 2026/1844 and Implementing Regulation (EU) 2026/1843 amending and implementing Reg 269/2014; Regulation (EU) 2026/1846 amending Reg 765/2006 on Belarus; with Decisions (CFSP) 2026/1845, 2026/1847 and 2026/1849). 218 individual listings (48 individuals, 170 entities), the largest batch in four years. Asset freezes on 94 banks; transaction ban extended to 33 further Russian credit and financial institutions; transaction bans on 14 crypto-asset service platforms in Georgia, Panama, the UAE, the Marshall Islands, Kyrgyzstan and Belarus, plus a first third-country-wide crypto services ban tool. 41 further shadow-fleet vessels listed on top of 632. Oil price cap automatic adjustment paused until 15 July 2027. Eight individuals designated for spreading Russian war propaganda, which is directly relevant to the disinformation and influence operations domain. 51 new entities added to dual-use export restrictions across China and Hong Kong, India, Kazakhstan, Kyrgyzstan, Turkiye and the UAE. Separately, the Council adopted restrictive measures on 13 July 2026 covering the human rights situation in Russia, mistreatment of Ukrainian prisoners of war, and Russia-linked cyberattacks.",
         "Scope": "All EU persons and entities. Obliged entities must screen against sanctions lists and detect circumvention through front companies, intermediaries, and layered ownership structures.",
         "Enforcement": "Criminal penalties in member states. EU-level coordination. Sanctions evasion is a criminal offence under the 2023 EU Directive on criminalisation of sanctions violations.",
         "Relevance Notes": "EU sanctions require all persons and entities to screen against restrictive measures and detect circumvention attempts. Sanctions evasion through complex ownership networks, front companies, and intermediary jurisdictions demands sophisticated intelligence capabilities. Revontulet provides the network analysis, beneficial ownership intelligence, and geographic risk assessment that enables effective sanctions compliance.",
         "Source": "https://www.consilium.europa.eu/en/policies/sanctions/",
         "Subregion": "EU",
-        "Last Modified": "2026-05-06T11:57:28.000Z",
+        "Last Modified": "2026-08-23T16:33:16.000Z",
         "Obligation Count": 3,
         "Definition Count": 2
       }
@@ -2610,18 +2737,18 @@
           "Data Processing",
           "Online Safety / Content Governance"
         ],
-        "Brief Description": "Amends the EU AI Act to postpone high-risk obligations (Annex III stand-alone systems to 2 December 2027, Annex I embedded systems to 2 August 2028) and adds a new Article 5 prohibition on AI systems generating non-consensual intimate imagery and child sexual abuse material. Published in the Official Journal on 24 July 2026, in force 27 July 2026.",
+        "Brief Description": "Amends the EU AI Act to postpone high-risk obligations (Annex III stand-alone systems to 2 December 2027, Annex I embedded systems to 2 August 2028) and adds new Article 5 prohibitions on AI systems generating non-consensual intimate imagery and child sexual abuse material, applying from 2 December 2026. Signed 8 July 2026 and entered into force 27 July 2026. Also amends Regulations (EU) 2018/1139 and (EU) 2023/1230.",
         "Type": "Legislation",
         "Enacted": "2026-07-24",
         "In Force": "2026-07-27",
         "Deadline": "2027-12-02",
-        "Next Steps": "Annex III high-risk obligations apply from 2 December 2027; Annex I embedded systems from 2 August 2028. Commission guidance and harmonised standards for high-risk systems are expected before the new deadlines. The Article 5 prohibitions apply without transition.",
+        "Next Steps": "The new Article 5 prohibitions on AI-generated non-consensual intimate imagery and CSAM apply from 2 December 2026, not immediately on entry into force. Annex III high-risk obligations apply from 2 December 2027; Annex I embedded systems from 2 August 2028. Commission guidance and harmonised standards for high-risk systems are expected before the new deadlines. Note on sourcing: EUR-Lex ELI metadata confirms date of document 8 July 2026 and first date of entry into force 27 July 2026. The widely reported Official Journal publication date of 24 July 2026 has not been confirmed against the OJ itself; the Enacted field currently carries 24 July 2026 on that basis and should be reconciled at the next review.",
         "Scope": "Providers and deployers of AI systems in scope of the EU AI Act, including general-purpose AI model providers. The new Article 5 prohibition applies to providers and deployers regardless of risk classification.",
         "Enforcement": "Enforced through the AI Act's existing regime: national market surveillance authorities and the EU AI Office. Prohibited-practice violations carry fines up to EUR 35M or 7 percent of global annual turnover.",
         "Relevance Notes": "Revontulet tracks the moving AI Act timeline so clients do not build compliance programmes against superseded deadlines. The new prohibition on AI-generated NCII and CSAM directly affects trust and safety obligations for platform clients, where Revontulet's online-harms expertise supports both policy drafting and detection workflows.",
         "Source": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj",
         "Subregion": "EU",
-        "Last Modified": "2026-08-09T16:09:18.000Z",
+        "Last Modified": "2026-08-23T16:33:16.000Z",
         "Obligation Count": 2
       }
     },
@@ -2703,13 +2830,13 @@
         "Brief Description": "Requires 316,000+ critical infrastructure entities across 16 US sectors to report cyber incidents to CISA within specified timeframes. CISA gains subpoena power for non-reporters.",
         "Type": "Legislation",
         "Enacted": "2022-03-15",
-        "Next Steps": "Underlying Act signed into law March 2022. CISA published NPRM April 2024. CISA targeted publication of the final rule by May 2026, but the March 2026 lapse in DHS appropriations forced cancellation of the planned 9 March - 2 April 2026 town hall consultation series, and analysts now expect further delay to the final rule. When finalised, the rule will require 72-hour incident reporting and 24-hour ransomware payment reporting for covered critical infrastructure entities.",
+        "Next Steps": "Confirmed 23 August 2026: the CIRCIA final rule has still not been published. CISA's own CIRCIA topic page continues to state that organizations are not required to submit cyber incident or ransom payment reports under CIRCIA until the yet-to-be-determined effective date of the final rule, and the page has not been updated past the NPRM stage. The May 2026 target slipped. Trade reporting (Federal News Network, July 2026) now points to September 2026, attributed partly to DHS funding lapses that also forced cancellation of CISA's March to April 2026 town halls; that September target is not confirmed against a primary CISA source or the Unified Agenda and should be treated as indicative only. Underlying Act signed March 2022; NPRM published April 2024. When finalised, the rule will require 72-hour incident reporting and 24-hour ransomware payment reporting for covered critical infrastructure entities.",
         "Scope": "Critical infrastructure entities across 16 sectors designated under Presidential Policy Directive 21. Estimated 316,000+ entities covered.",
         "Enforcement": "CISA enforcement. Subpoena power for non-reporting. Referral to DOJ for non-compliance with subpoenas. Civil penalties.",
         "Relevance Notes": "CIRCIA requires 316,000+ US critical infrastructure entities to report cyber incidents to CISA, creating massive demand for threat detection and incident classification capabilities. Revontulet provides the threat intelligence and incident analysis that helps US CI entities detect reportable incidents and produce the detailed reports CIRCIA mandates.",
         "Source": "https://www.cisa.gov/topics/cyber-threats-and-advisories/information-sharing/cyber-incident-reporting-critical-infrastructure-act-2022-circia",
         "Subregion": "Americas",
-        "Last Modified": "2026-05-06T11:55:33.000Z",
+        "Last Modified": "2026-08-23T16:33:51.000Z",
         "Obligation Count": 2,
         "Definition Count": 3
       }
@@ -2769,9 +2896,9 @@
         "Scope": "Essential and important entities in Denmark across all NIS2 sectors. Separate regulatory frameworks for financial services, telecoms, and energy.",
         "Enforcement": "Digitaliseringsstyrelsen and Styrelsen for Samfundssikkerhed og Beredskab, plus sector-specific regulators. Management body personal liability not included in Danish transposition.",
         "Relevance Notes": "Denmark's NIS2 transposition expands the regulated entity base requiring cybersecurity compliance. As a key Nordic market, Danish entities need threat intelligence tailored to the regional threat landscape. Revontulet delivers Nordic-focused cyber threat analysis and risk assessment capabilities that support Danish entities' NIS2 compliance.",
-        "Source": "https://www.twobirds.com/en/insights/2025/denmark/update-from-the-nordic-countries-on-the-nis2-directive-implementation",
+        "Source": "https://www.retsinformation.dk/eli/lta/2025/434",
         "Subregion": "Nordic",
-        "Last Modified": "2026-03-28T11:43:21.000Z",
+        "Last Modified": "2026-08-23T16:47:38.000Z",
         "Obligation Count": 2,
         "Definition Count": 3
       }
@@ -3432,11 +3559,12 @@
         ],
         "Brief Description": "Norway implements UN and EU counter-terrorism sanctions through royal decrees (forskrifter) under the Act on Implementation of International Sanctions. Despite not being an EU member, Norway aligns with EU restrictive measures through EEA mechanisms and voluntary adoption. Key CT sanctions regulations implement UNSCR 1267/2253 (ISIL/Al-Qaida), UNSCR 1988 (Taliban), and UNSCR 1373 domestic designations.",
         "Type": "Legislation",
+        "Next Steps": "Norway mirrors EU restrictive measures through forskrifter under sanksjonsloven (LOV-2021-04-16-18). Most recent in-window instrument: FOR-2026-08-14-1632, adopted by Utenriksdepartementet 14 August 2026, in force immediately and published 17 August 2026, amending Annex XLII of FOR-2014-08-15-1076. It replaces entry 629 (Stormbringer, IMO 9290397) and adds 41 shadow-fleet vessels as entries 652 to 692, most designated under Article 3s(2)(b) on irregular and high-risk shipping practices, with a date of application of 24 July 2026. Norway's implementation of the EU 20th package took effect 14 July 2026 (FOR-2026-07-14-1565), covering crypto-asset service providers in Russia, digital central-bank currencies (A7A5, RUBx, digital rouble), LNG terminal services and 20 further Russian banks. Norwegian implementation of the EU 21st package (adopted 23 July 2026) had not appeared in Norsk Lovtidend as of 23 August 2026 and should be monitored.",
         "Scope": "All persons and entities in Norway. Financial institutions, businesses, and individuals must screen against designation lists and freeze assets of listed persons.",
         "Enforcement": "Utenriksdepartementet (MFA); Politiets sikkerhetstjeneste (PST); Finanstilsynet.",
         "Source": "https://lovdata.no/dokument/SF/forskrift/",
         "Subregion": "Nordic",
-        "Last Modified": "2026-03-28T14:39:33.000Z"
+        "Last Modified": "2026-08-23T16:33:16.000Z"
       }
     },
     {
@@ -3781,11 +3909,11 @@
         ],
         "Brief Description": "US federal law requiring platforms to provide minors with safeguards including opt-out of addictive features, strongest privacy defaults, and tools to limit harmful content exposure.",
         "Type": "Legislation",
-        "Next Steps": "KOSA has never been enacted; the 118th Congress version passed the Senate in July 2024 but died without a House vote in January 2025. Reintroduced in the 119th Congress as S.1748 (14 May 2025); advanced unanimously out of the Senate Commerce Committee in early August 2026. The House passed the separate KIDS Act (H.R. 7757) on 29 June 2026 without KOSA's duty-of-care provision; the two bills would need reconciliation before enactment.",
+        "Next Steps": "Agreed by voice vote in Senate Commerce Committee executive session on 5 August 2026, as amended by the Blackburn substitute (as modified). Four related bills advanced in the same session: S. 4199 Youth AI Privacy Act, S. 4407 CHATBOT Act and S. 5171 Children's Artificial Intelligence Toy Safety Act of 2026 all agreed by voice vote, and S. 737 SCREEN Act (age verification for pornography sites) passed 15 to 13 on a party-line roll call, though the committee release states a revote will be needed to comply with Senate in-person attendance rules. KOSA now awaits Senate floor action. KOSA has never been enacted: the 118th Congress version passed the Senate in July 2024 but died without a House vote in January 2025, and it was reintroduced in the 119th Congress as S.1748 on 14 May 2025. The House passed the separate KIDS Act (H.R. 7757) on 29 June 2026 without KOSA's duty-of-care provision; the two would need reconciliation before enactment.",
         "Relevance Notes": "KOSA requires platforms to provide minors with safeguards against addictive design features and harmful content, with new duty-of-care obligations. Platforms subject to KOSA need intelligence on exploitation tactics, harmful content patterns, and platform safety risks. Revontulet provides threat analysis that supports clients' broader online safety compliance efforts.",
         "Source": "https://www.congress.gov/bill/119th-congress/senate-bill/1748",
         "Subregion": "Americas",
-        "Last Modified": "2026-08-09T16:11:38.000Z",
+        "Last Modified": "2026-08-23T16:33:16.000Z",
         "Obligation Count": 6,
         "Definition Count": 3
       }
