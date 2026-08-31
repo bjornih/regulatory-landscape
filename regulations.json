@@ -19,13 +19,13 @@
         "Type": "Legislation",
         "Enacted": "2022-11-16",
         "In Force": "2024-02-17",
-        "Next Steps": "Commission issued preliminary findings against TikTok on 24 July 2026 over minors' account safety, focused on minors being able to set accounts to public and on content from 16 and 17 year olds being recommended into the For You Feed. The Commission's preliminary view is that minors' accounts should default to accepted-contacts-only visibility and that minors' content should not be accessible to a global audience off-platform. A non-compliance decision could follow with fines up to 6 percent of global turnover. Earlier in the cycle: AliExpress fined EUR 550 million on 20 July 2026, the largest DSA fine to date; X's commitments on advertising transparency and researcher data access accepted and made binding on 20 July 2026; preliminary findings against Meta on 10 July 2026 over addictive design. Reported imminent VLOP/VLOSE designation of ChatGPT search and Roblox remains unconfirmed by the Commission. Monitor the Meta and TikTok proceedings and further designations through autumn 2026.",
+        "Next Steps": "Temu's action plan responding to the EUR 200 million non-compliance decision of 28 May 2026 was due to the Commission on 28 August 2026. The European Board for Digital Services then has one month to issue its opinion, after which the Commission decides whether the plan resolves the risk-assessment infringements. Commission issued preliminary findings against TikTok on 24 July 2026 over minors' account safety, focused on minors being able to set accounts to public and on content from 16 and 17 year olds being recommended into the For You Feed. The Commission's preliminary view is that minors' accounts should default to accepted-contacts-only visibility and that minors' content should not be accessible to a global audience off-platform. A non-compliance decision could follow with fines up to 6 percent of global turnover. Earlier in the cycle: AliExpress fined EUR 550 million on 20 July 2026, the largest DSA fine to date, with its own action plan due 20 October 2026; X's commitments on advertising transparency and researcher data access accepted and made binding on 20 July 2026; preliminary findings against Meta on 10 July 2026 over addictive design. Reported imminent VLOP/VLOSE designation of ChatGPT search and Roblox remains unconfirmed by the Commission. Monitor the Temu action plan assessment, the Meta and TikTok proceedings, and further designations through autumn 2026.",
         "Scope": "All online intermediaries operating in the EU. Enhanced obligations for VLOPs/VLOSEs (45M+ EU users).",
         "Enforcement": "EC directly enforces against VLOPs/VLOSEs. Fines up to 6% of worldwide turnover. Periodic penalty payments up to 5% of daily turnover.",
         "Relevance Notes": "Platforms and digital service providers face extensive obligations under the DSA for systemic risk assessments, illegal content removal, and transparency reporting. Revontulet delivers actionable intelligence on terrorist networks, organized crime operations, and disinformation campaigns that directly supports clients' DSA compliance, enabling faster identification of illegal content and more robust systemic risk assessments.",
         "Source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32022R2065",
         "Subregion": "EU",
-        "Last Modified": "2026-08-23T16:33:16.000Z",
+        "Last Modified": "2026-08-30T16:10:57.000Z",
         "Obligation Count": 11,
         "Definition Count": 8
       }
@@ -1740,6 +1740,31 @@
     },
     {
       "fields": {
+        "Legislation": "Australia CT Legislation Amendment Bill 2026",
+        "Full Name": "Counter-Terrorism Legislation Amendment Bill 2026 (Cth)",
+        "Jurisdiction": "Australia",
+        "Status": "Proposed",
+        "Relevance": "Strong",
+        "Domains": [
+          "Counter-Terrorism",
+          "Geopolitical Risk"
+        ],
+        "Brief Description": "Bill introduced in the Australian House of Representatives on 12 August 2026 extending a set of Commonwealth counter-terrorism powers for a further three years and amending the control order and post-sentence order frameworks in the Criminal Code Act 1995. It strengthens Commonwealth, state and territory information sharing, allows electronic surveillance warrants where a control order is being actively considered, permits courts to weigh findings of guilt where no conviction was recorded, makes technical amendments to the terrorist organisation listing framework, and extends protections for United Nations and associated personnel under the 1994 Convention on the Safety of United Nations and Associated Personnel.",
+        "Type": "Legislation",
+        "Enacted": "2026-08-12",
+        "Next Steps": "Referred to the Parliamentary Joint Committee on Intelligence and Security, which has commenced its review of the Bill. Passage through both Houses and Royal Assent are outstanding. Watch the PJCIS report and any resulting amendments to the control order and post-sentence order provisions, and confirm the revised sunset dates on Divisions 104 and 105 of the Criminal Code once the Bill is enacted.",
+        "Scope": "Commonwealth law enforcement and intelligence agencies, courts exercising control order and post-sentence order jurisdiction, state and territory agencies receiving shared information, and individuals subject to control orders or post-sentence orders. Indirect scope extends to carriers and communications providers served with electronic surveillance warrants issued in connection with control order consideration.",
+        "Enforcement": "Enforcement runs through the existing Criminal Code framework. Breach of a control order obligation is a criminal offence carrying up to five years imprisonment under section 104.27 of the Criminal Code Act 1995. Post-sentence orders are enforced through continuing detention or extended supervision administered by the courts and corrective services.",
+        "Relevance Notes": "Australia is once again extending emergency-era counter-terrorism powers rather than letting them sunset, and doing so with wider information sharing between federal and state agencies. Clients operating across Australian jurisdictions, and those tracking how Five Eyes partners handle serious terrorist offenders after sentence, need to know how the control order regime is shifting. Revontulet tracks this alongside comparable UK, Nordic and EU frameworks so clients can see where Australian practice converges with or diverges from European approaches to post-sentence management.",
+        "Source": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/bd/bd2627/27bd013",
+        "Subregion": "Asia-Pacific",
+        "Last Modified": "2026-08-30T16:10:34.000Z",
+        "Obligation Count": 4,
+        "Definition Count": 2
+      }
+    },
+    {
+      "fields": {
         "Legislation": "Sweden TCO Implementation",
         "Full Name": "Swedish Implementation of EU TCO Regulation 2021/784 - Competent Authority Designation",
         "Categories": [
@@ -2830,13 +2855,13 @@
         "Brief Description": "Requires 316,000+ critical infrastructure entities across 16 US sectors to report cyber incidents to CISA within specified timeframes. CISA gains subpoena power for non-reporters.",
         "Type": "Legislation",
         "Enacted": "2022-03-15",
-        "Next Steps": "Confirmed 23 August 2026: the CIRCIA final rule has still not been published. CISA's own CIRCIA topic page continues to state that organizations are not required to submit cyber incident or ransom payment reports under CIRCIA until the yet-to-be-determined effective date of the final rule, and the page has not been updated past the NPRM stage. The May 2026 target slipped. Trade reporting (Federal News Network, July 2026) now points to September 2026, attributed partly to DHS funding lapses that also forced cancellation of CISA's March to April 2026 town halls; that September target is not confirmed against a primary CISA source or the Unified Agenda and should be treated as indicative only. Underlying Act signed March 2022; NPRM published April 2024. When finalised, the rule will require 72-hour incident reporting and 24-hour ransomware payment reporting for covered critical infrastructure entities.",
+        "Next Steps": "CISA now expects to publish the CIRCIA final rule in September 2026, having slipped from a previously indicated May 2026 date and well past the October 2025 statutory deadline. Town halls scheduled 9 March to 2 April 2026 were postponed because of a partial government shutdown affecting DHS, and a further round of town halls ran over summer 2026. Once effective, the rule will require covered entities across the 16 critical infrastructure sectors to report a covered cyber incident within 72 hours and a ransom payment within 24 hours. Note for QA: the underlying statute was enacted 15 March 2022 as Division Y of the Consolidated Appropriations Act 2022 and is in force. What remains outstanding is the implementing rule, so the Status field on this record needs a decision on whether it tracks the Act or the rulemaking.",
         "Scope": "Critical infrastructure entities across 16 sectors designated under Presidential Policy Directive 21. Estimated 316,000+ entities covered.",
         "Enforcement": "CISA enforcement. Subpoena power for non-reporting. Referral to DOJ for non-compliance with subpoenas. Civil penalties.",
         "Relevance Notes": "CIRCIA requires 316,000+ US critical infrastructure entities to report cyber incidents to CISA, creating massive demand for threat detection and incident classification capabilities. Revontulet provides the threat intelligence and incident analysis that helps US CI entities detect reportable incidents and produce the detailed reports CIRCIA mandates.",
         "Source": "https://www.cisa.gov/topics/cyber-threats-and-advisories/information-sharing/cyber-incident-reporting-critical-infrastructure-act-2022-circia",
         "Subregion": "Americas",
-        "Last Modified": "2026-08-23T16:33:51.000Z",
+        "Last Modified": "2026-08-30T16:10:57.000Z",
         "Obligation Count": 2,
         "Definition Count": 3
       }
