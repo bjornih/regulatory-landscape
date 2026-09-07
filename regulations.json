@@ -166,7 +166,7 @@
         "Enforcement": "FINTRAC; OSFI (Office of the Superintendent of Financial Institutions).",
         "Source": "https://laws-lois.justice.gc.ca/eng/acts/P-24.501/",
         "Subregion": "Americas",
-        "Last Modified": "2026-03-28T14:39:15.000Z"
+        "Last Modified": "2026-09-06T16:12:46.000Z"
       }
     },
     {
@@ -351,7 +351,7 @@
         "Relevance Notes": "The definitional ancestor for terrorism financing legislation worldwide. EU Directive 2017/541 Art. 11 and Dutch WvSr Art. 421 both trace back to this Convention. For platforms with crowdfunding or financial transfer features, this Convention establishes the baseline international obligation.",
         "Source": "https://treaties.un.org/pages/ViewDetails.aspx?src=IND&mtdsg_no=XVIII-11&chapter=18&clang=_en",
         "Subregion": "UN/International",
-        "Last Modified": "2026-03-28T14:41:15.000Z"
+        "Last Modified": "2026-09-06T16:12:46.000Z"
       }
     },
     {
@@ -497,7 +497,7 @@
         "Enforcement": "Politiets sikkerhetstjeneste (PST); Riksadvokaten (Director of Public Prosecutions); Politiet (Police).",
         "Source": "https://lovdata.no/dokument/NL/lov/2005-05-20-28/KAPITTEL_2-6",
         "Subregion": "Nordic",
-        "Last Modified": "2026-03-28T14:39:15.000Z",
+        "Last Modified": "2026-09-06T16:12:46.000Z",
         "Definition Count": 3
       }
     },
@@ -586,7 +586,7 @@
         "Enforcement": "Swedish Prosecution Authority (Åklagarmyndigheten); National Police (Polismyndigheten); Swedish Security Service (Säkerhetspolisen/SÄPO).",
         "Source": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2022666-om-straff-for-terroristbrott_sfs-2022-666/",
         "Subregion": "Nordic",
-        "Last Modified": "2026-03-28T14:39:15.000Z",
+        "Last Modified": "2026-09-06T16:12:46.000Z",
         "Definition Count": 1
       }
     },
@@ -764,7 +764,7 @@
         "Enforcement": "New Zealand Police; New Zealand Security Intelligence Service (NZSIS); Crown Law Office.",
         "Source": "https://www.legislation.govt.nz/act/public/2002/0034/latest/DLM151491.html",
         "Subregion": "Oceania",
-        "Last Modified": "2026-03-28T14:39:15.000Z",
+        "Last Modified": "2026-09-06T16:12:46.000Z",
         "Definition Count": 2
       }
     },
@@ -824,7 +824,7 @@
         "Relevance Notes": "Directly relevant to Dutch FTF provisions. WvSr Art. 134a (training/travel), Paspoortwet measures, and the Twbmt administrative measures all trace back to this Protocol's requirements. For online platforms, relevant where content facilitates FTF travel or logistics.",
         "Source": "https://www.coe.int/en/web/conventions/full-list?module=treaty-detail&treatynum=217",
         "Subregion": "UK & Europe",
-        "Last Modified": "2026-03-28T14:41:15.000Z"
+        "Last Modified": "2026-09-06T16:12:46.000Z"
       }
     },
     {
@@ -1006,6 +1006,38 @@
     },
     {
       "fields": {
+        "Legislation": "Norway Anskaffelsesloven Amendment (LOV-2026-03-06-8)",
+        "Full Name": "Lov om endringer i anskaffelsesloven (samfunnshensyn mv.)",
+        "Categories": [
+          "National Security",
+          "Critical Infrastructure",
+          "Corporate Due Diligence"
+        ],
+        "Jurisdiction": "Norway",
+        "Status": "In force",
+        "Relevance": "Strong",
+        "Domains": [
+          "Geopolitical Risk",
+          "Critical Infrastructure",
+          "Threat Intelligence"
+        ],
+        "Brief Description": "Amendments to the Norwegian Public Procurement Act, adopted 6 March 2026 and in force from 1 July 2026, which establish security and preparedness as a cross-cutting consideration in public procurement. Security and preparedness are written into the purpose provision and a new section 5 d gives contracting authorities an express legal basis for imposing security and preparedness requirements across all phases of a procurement. The same amending Act raises the threshold at which the procurement rules apply from NOK 100,000 to NOK 500,000 excluding VAT, repeals section 4 on basic principles for procurements below the EEA thresholds, and consolidates the societal-consideration rules previously spread across the Act and regulations into the Act itself.",
+        "Type": "Legislation",
+        "Enacted": "2026-03-06",
+        "In Force": "2026-07-01",
+        "Next Steps": "In force since 1 July 2026. The accompanying regulations were amended by FOR-2026-04-14-617. Outstanding: the shape of the new national rules below the EEA thresholds is not settled following the repeal of section 4, so the practical scope for contracting authorities below threshold remains open. Separately, a new Norwegian act on defence and security procurement has not been scheduled; the working group reported on 5 September 2025 and the Defence Minister's answer to the Storting of 6 March 2026 indicates the government is waiting for the EU's full revision of the defence and security procurement directive (2009/81/EC) before moving. Retningslinjer for anskaffelser i forsvarssektoren (RAF) were updated 1 January 2026.",
+        "Scope": "Norwegian public sector contracting authorities and the suppliers competing for their contracts, including the utilities and supply sector. Of particular practical significance for suppliers in defence, defence industry, critical infrastructure, ICT security, logistics and health preparedness, who are now expected to be able to document robustness, security of supply and the ability to manage security considerations through the whole delivery chain.",
+        "Enforcement": "Enforcement runs through the ordinary Norwegian procurement enforcement route rather than a new penalty regime: complaints to KOFA (Klagenemnda for offentlige anskaffelser), judicial review, and the sanctions available under the Public Procurement Act for unlawful direct awards. The practical consequence of the amendment is not a new sanction but a widened lawful basis for contracting authorities to set and enforce security and preparedness requirements, which shifts the risk onto suppliers who cannot evidence them.",
+        "Relevance Notes": "Norwegian public buyers now have an express legal basis to set security and preparedness requirements in any procurement, and suppliers who cannot document supply-chain robustness will lose competitions on grounds that had no clear statutory footing before 1 July 2026. Revontulet supports both sides of that transaction: threat and risk assessments that give contracting authorities a defensible evidentiary basis for the requirements they set under the new section 5 d, and supplier-side supply-chain and counterparty due diligence for firms in defence, critical infrastructure, ICT and logistics that now have to evidence resilience to win Norwegian public contracts. The same analysis supports Sikkerhetsloven and Digitalsikkerhetsloven obligations, so a single assessment can serve procurement, security-act and digital-security-act requirements at once.",
+        "Source": "https://lovdata.no/dokument/LTI/lov/2026-03-06-8",
+        "Subregion": "Nordic",
+        "Last Modified": "2026-09-06T16:12:15.000Z",
+        "Obligation Count": 2,
+        "Definition Count": 2
+      }
+    },
+    {
+      "fields": {
         "Legislation": "TCO Regulation",
         "Full Name": "Regulation (EU) 2021/784 on addressing the dissemination of terrorist content online",
         "Categories": [
@@ -1090,7 +1122,7 @@
         "Relevance Notes": "Completes the UN FTF resolution chain (1373 > 2178 > 2396 > 2462). The Netherlands' Twbmt measures and NCTV returnee policies respond to 2396's requirements. For online platforms, relevant as the policy driver behind increased focus on FTF-related content during the returnee phase.",
         "Source": "https://unscr.com/en/resolutions/2396/",
         "Subregion": "UN/International",
-        "Last Modified": "2026-03-28T14:39:15.000Z"
+        "Last Modified": "2026-09-06T16:12:46.000Z"
       }
     },
     {
@@ -1116,7 +1148,7 @@
         "Enforcement": "Migrationsverket (Migration Agency); SÄPO; Migrationsöverdomstolen (Migration Court of Appeal).",
         "Source": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2022700-om-sarskild-kontroll-av-vissa_sfs-2022-700/",
         "Subregion": "Nordic",
-        "Last Modified": "2026-03-28T14:39:15.000Z"
+        "Last Modified": "2026-09-06T16:12:46.000Z"
       }
     },
     {
@@ -1202,7 +1234,7 @@
         "Enforcement": "NZSIS; GCSB; Inspector-General of Intelligence and Security (IGIS); Intelligence and Security Committee of Parliamentarians.",
         "Source": "https://www.legislation.govt.nz/act/public/2017/0010/latest/DLM6920823.html",
         "Subregion": "Oceania",
-        "Last Modified": "2026-03-28T14:39:15.000Z"
+        "Last Modified": "2026-09-06T16:12:46.000Z"
       }
     },
     {
@@ -1444,7 +1476,7 @@
         "Enforcement": "Kammarkollegiet (Legal, Financial and Administrative Services Agency); Finansinspektionen; SÄPO.",
         "Source": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-20101016-om-frysning-av-tillgangar_sfs-2010-1016/",
         "Subregion": "Nordic",
-        "Last Modified": "2026-03-28T14:39:15.000Z"
+        "Last Modified": "2026-09-06T16:12:46.000Z"
       }
     },
     {
@@ -1470,7 +1502,7 @@
         "Enforcement": "Swedish Prosecution Authority; Polismyndigheten; SÄPO. Online enforcement coordinated through TCO competent authority.",
         "Source": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2010299-om-straff-for-offentlig-uppmaning_sfs-2010-299/",
         "Subregion": "Nordic",
-        "Last Modified": "2026-03-28T14:39:24.000Z",
+        "Last Modified": "2026-09-06T16:12:58.000Z",
         "Definition Count": 1
       }
     },
@@ -1617,7 +1649,7 @@
         "Relevance Notes": "Consequential instrument: citizenship revocation is a downstream effect of terrorism convictions, not a content regulation tool. Relevant for completeness of the Dutch CT enforcement picture and for understanding the severity of consequences that flow from the WvSr terrorism provisions.",
         "Source": "https://wetten.overheid.nl/BWBR0003738/",
         "Subregion": "Other European",
-        "Last Modified": "2026-03-28T14:39:24.000Z"
+        "Last Modified": "2026-09-06T16:12:58.000Z"
       }
     },
     {
@@ -1735,7 +1767,7 @@
         "Enforcement": "Global Affairs Canada; RCMP; FINTRAC; Canada Border Services Agency (CBSA).",
         "Source": "https://laws-lois.justice.gc.ca/eng/acts/S-14.5/",
         "Subregion": "Americas",
-        "Last Modified": "2026-03-28T14:39:24.000Z"
+        "Last Modified": "2026-09-06T16:12:58.000Z"
       }
     },
     {
@@ -1752,13 +1784,13 @@
         "Brief Description": "Bill introduced in the Australian House of Representatives on 12 August 2026 extending a set of Commonwealth counter-terrorism powers for a further three years and amending the control order and post-sentence order frameworks in the Criminal Code Act 1995. It strengthens Commonwealth, state and territory information sharing, allows electronic surveillance warrants where a control order is being actively considered, permits courts to weigh findings of guilt where no conviction was recorded, makes technical amendments to the terrorist organisation listing framework, and extends protections for United Nations and associated personnel under the 1994 Convention on the Safety of United Nations and Associated Personnel.",
         "Type": "Legislation",
         "Enacted": "2026-08-12",
-        "Next Steps": "Referred to the Parliamentary Joint Committee on Intelligence and Security, which has commenced its review of the Bill. Passage through both Houses and Royal Assent are outstanding. Watch the PJCIS report and any resulting amendments to the control order and post-sentence order provisions, and confirm the revised sunset dates on Divisions 104 and 105 of the Criminal Code once the Bill is enacted.",
+        "Next Steps": "Referred to the Parliamentary Joint Committee on Intelligence and Security, which is to inquire and report by 6 October 2026. Passage through both Houses and Royal Assent are outstanding; the Bill was debated in the House on 19 August 2026 and the Opposition did not oppose it at that stage. Watch the PJCIS report due 6 October 2026 and any resulting amendments to the control order and post-sentence order provisions, and confirm the revised sunset dates on Divisions 104 and 105 of the Criminal Code once the Bill is enacted. Status confirmed as Proposed on 6 September 2026; no Senate passage or Royal Assent identified.",
         "Scope": "Commonwealth law enforcement and intelligence agencies, courts exercising control order and post-sentence order jurisdiction, state and territory agencies receiving shared information, and individuals subject to control orders or post-sentence orders. Indirect scope extends to carriers and communications providers served with electronic surveillance warrants issued in connection with control order consideration.",
         "Enforcement": "Enforcement runs through the existing Criminal Code framework. Breach of a control order obligation is a criminal offence carrying up to five years imprisonment under section 104.27 of the Criminal Code Act 1995. Post-sentence orders are enforced through continuing detention or extended supervision administered by the courts and corrective services.",
         "Relevance Notes": "Australia is once again extending emergency-era counter-terrorism powers rather than letting them sunset, and doing so with wider information sharing between federal and state agencies. Clients operating across Australian jurisdictions, and those tracking how Five Eyes partners handle serious terrorist offenders after sentence, need to know how the control order regime is shifting. Revontulet tracks this alongside comparable UK, Nordic and EU frameworks so clients can see where Australian practice converges with or diverges from European approaches to post-sentence management.",
         "Source": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/bd/bd2627/27bd013",
         "Subregion": "Asia-Pacific",
-        "Last Modified": "2026-08-30T16:10:34.000Z",
+        "Last Modified": "2026-09-06T16:12:30.000Z",
         "Obligation Count": 4,
         "Definition Count": 2
       }
@@ -1787,7 +1819,7 @@
         "Enforcement": "Polismyndigheten (Swedish Police Authority) as TCO competent authority.",
         "Source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32021R0784",
         "Subregion": "Nordic",
-        "Last Modified": "2026-03-28T14:39:24.000Z"
+        "Last Modified": "2026-09-06T16:12:58.000Z"
       }
     },
     {
@@ -1845,7 +1877,7 @@
         "Enforcement": "Utenriksdepartementet (MFA); Politiets sikkerhetstjeneste (PST).",
         "Source": "https://lovdata.no/dokument/NL/lov/1987-12-18-93",
         "Subregion": "Nordic",
-        "Last Modified": "2026-03-28T14:39:24.000Z"
+        "Last Modified": "2026-09-06T16:12:58.000Z"
       }
     },
     {
@@ -2264,13 +2296,13 @@
         "Enacted": "2024-12-10",
         "In Force": "2024-12-10",
         "Deadline": "2027-12-11",
-        "Next Steps": "Phased application under Article 71. Chapter IV (Articles 35 to 51, notification of conformity assessment bodies) has applied since 11 June 2026. Article 14, the manufacturers' reporting obligation for actively exploited vulnerabilities and severe incidents having an impact on product security, applies from 11 September 2026, which is the next binding milestone and falls within three weeks of this review. The Regulation applies in full from 11 December 2027. Manufacturers of products with digital elements placed on the EU market should have single reporting platform routing, 24-hour early warning and 72-hour notification processes in place before 11 September 2026. Adoption 23 October 2024; entry into force 10 December 2024.",
+        "Next Steps": "Phased application under Article 71. Chapter IV (Articles 35 to 51, notification of conformity assessment bodies) has applied since 11 June 2026. Article 14, the manufacturers' reporting obligation for actively exploited vulnerabilities and severe incidents having an impact on product security, applies from 11 September 2026, which is five days after this review and is the next binding milestone in the whole EU cyber file. The Regulation applies in full from 11 December 2027. Manufacturers of products with digital elements placed on the EU market should already have single reporting platform routing, 24-hour early warning and 72-hour notification processes in place. The Commission published practical implementation guidance on 27 July 2026 and maintains a dedicated reporting-obligations page and an implementation FAQ. Adoption 23 October 2024; entry into force 10 December 2024. Verified against the Commission's Cyber Resilience Act policy page, last updated 27 July 2026, on 6 September 2026.",
         "Scope": "All manufacturers, importers, and distributors of products with digital elements placed on the EU market. Covers hardware and software including IoT devices.",
         "Enforcement": "National market surveillance authorities. Fines up to EUR 15M or 2.5% of global turnover. Non-compliant products can be withdrawn from the EU market.",
         "Relevance Notes": "Product manufacturers and software developers must meet mandatory cybersecurity requirements and report actively exploited vulnerabilities under the CRA. Revontulet provides vulnerability intelligence, supply chain threat analysis, and exploit monitoring that helps manufacturers identify and address security issues throughout their product lifecycle as required by this regulation.",
         "Source": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj",
         "Subregion": "EU",
-        "Last Modified": "2026-08-23T16:47:38.000Z",
+        "Last Modified": "2026-09-06T16:12:30.000Z",
         "Obligation Count": 4,
         "Definition Count": 3
       }
@@ -2298,7 +2330,7 @@
         "Enforcement": "New Zealand Police; NZSIS; Crown Law Office.",
         "Source": "https://www.legislation.govt.nz/act/public/2021/0037/latest/LMS518498.html",
         "Subregion": "Oceania",
-        "Last Modified": "2026-03-28T14:39:24.000Z"
+        "Last Modified": "2026-09-06T16:12:58.000Z"
       }
     },
     {
@@ -2325,7 +2357,7 @@
         "Enforcement": "NSIRA; Intelligence Commissioner; CSIS; CSE; Public Safety Canada.",
         "Source": "https://laws-lois.justice.gc.ca/eng/AnnualStatutes/2019_13/",
         "Subregion": "Americas",
-        "Last Modified": "2026-03-28T14:39:24.000Z"
+        "Last Modified": "2026-09-06T16:12:58.000Z"
       }
     },
     {
@@ -2442,7 +2474,7 @@
         "Enforcement": "CSIS; RCMP; Public Safety Canada; National Security and Intelligence Review Agency (NSIRA, established later by C-59).",
         "Source": "https://laws-lois.justice.gc.ca/eng/AnnualStatutes/2015_20/",
         "Subregion": "Americas",
-        "Last Modified": "2026-03-28T14:39:24.000Z",
+        "Last Modified": "2026-09-06T16:12:58.000Z",
         "Definition Count": 1
       }
     },
@@ -2745,7 +2777,7 @@
         "Enforcement": "Global Affairs Canada; Immigration, Refugees and Citizenship Canada (IRCC); RCMP.",
         "Source": "https://laws-lois.justice.gc.ca/eng/acts/J-2.3/",
         "Subregion": "Americas",
-        "Last Modified": "2026-03-28T14:39:24.000Z"
+        "Last Modified": "2026-09-06T16:12:58.000Z"
       }
     },
     {
@@ -3015,7 +3047,7 @@
         "Enforcement": "Royal Canadian Mounted Police (RCMP); Canadian Security Intelligence Service (CSIS); Public Prosecution Service of Canada (PPSC).",
         "Source": "https://laws-lois.justice.gc.ca/eng/acts/c-46/page-29.html",
         "Subregion": "Americas",
-        "Last Modified": "2026-03-28T14:39:33.000Z",
+        "Last Modified": "2026-09-06T16:12:58.000Z",
         "Definition Count": 2
       }
     },
@@ -3105,7 +3137,7 @@
         "Relevance Notes": "The CT-specific component of the EU sanctions regime. While the tracker has the broader EU Sanctions Framework entry, this Common Position is the specific mechanism for terrorism listings. For the Dutch case, Sanctiewet screening obligations reference these EU lists alongside UN lists.",
         "Source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32001E0931",
         "Subregion": "EU",
-        "Last Modified": "2026-03-28T14:39:33.000Z"
+        "Last Modified": "2026-09-06T16:13:10.000Z"
       }
     },
     {
@@ -3456,7 +3488,7 @@
         "Enforcement": "Global Affairs Canada; RCMP; CBSA.",
         "Source": "https://laws-lois.justice.gc.ca/eng/acts/U-2/",
         "Subregion": "Americas",
-        "Last Modified": "2026-03-28T14:39:33.000Z"
+        "Last Modified": "2026-09-06T16:13:10.000Z"
       }
     },
     {
@@ -3484,7 +3516,7 @@
         "Relevance Notes": "Directly operational for the Dutch case. Complements criminal prosecution with faster administrative interventions for FTF-related threats. The Schengen exit ban is the primary Dutch tool for preventing FTF travel, alongside passport revocation under the Paspoortwet. For platforms, relevant as context for why certain individuals may be subject to monitoring or restrictions.",
         "Source": "https://wetten.overheid.nl/BWBR0039210/2017-03-01",
         "Subregion": "Other European",
-        "Last Modified": "2026-03-28T14:39:33.000Z"
+        "Last Modified": "2026-09-06T16:13:10.000Z"
       }
     },
     {
@@ -3512,7 +3544,7 @@
         "Relevance Notes": "Though replaced by Directive 2017/541, this remains relevant because: (1) Dutch case law from the Context investigation and earlier terrorism trials was decided under this instrument; (2) CJEU case law interpreting it (especially Lounani on group participation) still guides courts; (3) the Dutch Wet terroristische misdrijven 2004, which created WvSr Arts. 83/83a/140a, was the transposition of this Framework Decision.",
         "Source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32002F0475",
         "Subregion": "EU",
-        "Last Modified": "2026-03-28T14:00:39.000Z"
+        "Last Modified": "2026-09-06T16:13:10.000Z"
       }
     },
     {
@@ -3538,7 +3570,7 @@
         "Enforcement": "New Zealand Police (applicant); High Court (issuing authority); NZSIS (intelligence support).",
         "Source": "https://www.legislation.govt.nz/act/public/2019/0050/latest/LMS171911.html",
         "Subregion": "Oceania",
-        "Last Modified": "2026-03-28T14:39:33.000Z"
+        "Last Modified": "2026-09-06T16:13:10.000Z"
       }
     },
     {
@@ -3564,7 +3596,7 @@
         "Relevance Notes": "Critical gap in Canada's regulatory landscape. Canada is the only Five Eyes nation without comprehensive online content regulation. The death of C-63 leaves terrorist content removal in Canada reliant entirely on criminal law provisions and voluntary industry cooperation. Future reintroduction likely.",
         "Source": "https://www.parl.ca/legisinfo/en/bill/44-1/c-63",
         "Subregion": "Americas",
-        "Last Modified": "2026-03-28T14:40:14.000Z"
+        "Last Modified": "2026-09-06T16:13:10.000Z"
       }
     },
     {
@@ -3589,7 +3621,7 @@
         "Enforcement": "Utenriksdepartementet (MFA); Politiets sikkerhetstjeneste (PST); Finanstilsynet.",
         "Source": "https://lovdata.no/dokument/SF/forskrift/",
         "Subregion": "Nordic",
-        "Last Modified": "2026-08-23T16:33:16.000Z"
+        "Last Modified": "2026-09-06T16:13:10.000Z"
       }
     },
     {
@@ -3830,7 +3862,7 @@
         "Enforcement": "Reserve Bank of New Zealand; Financial Markets Authority (FMA); Department of Internal Affairs (DIA); NZ Police FIU.",
         "Source": "https://www.legislation.govt.nz/act/public/2009/0035/latest/DLM2140700.html",
         "Subregion": "Oceania",
-        "Last Modified": "2026-03-28T14:39:33.000Z"
+        "Last Modified": "2026-09-06T16:13:10.000Z"
       }
     },
     {
@@ -3913,7 +3945,7 @@
         "Relevance Notes": "One of two primary Dutch administrative tools for preventing FTF travel (alongside the Twbmt Schengen exit ban). Referenced in our Directive 2017/541 definition for Travelling for Terrorism. For the Dutch agency client, provides context on the non-criminal intervention toolkit.",
         "Source": "https://wetten.overheid.nl/BWBR0005212/",
         "Subregion": "Other European",
-        "Last Modified": "2026-03-28T14:39:33.000Z"
+        "Last Modified": "2026-09-06T16:13:10.000Z"
       }
     },
     {
@@ -4026,7 +4058,7 @@
         "Enforcement": "Finansinspektionen (FI); Finanspolisen (FIU within Polismyndigheten); County Administrative Boards (Länsstyrelserna).",
         "Source": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2017630-om-atgarder-mot-penningtvatt-och_sfs-2017-630/",
         "Subregion": "Nordic",
-        "Last Modified": "2026-03-28T14:39:40.000Z"
+        "Last Modified": "2026-09-06T16:13:10.000Z"
       }
     },
     {
@@ -4137,7 +4169,7 @@
         "Enforcement": "RCMP; CSIS; Department of Justice Canada.",
         "Source": "https://laws-lois.justice.gc.ca/eng/AnnualStatutes/2001_41/",
         "Subregion": "Americas",
-        "Last Modified": "2026-03-28T14:39:40.000Z"
+        "Last Modified": "2026-09-06T16:13:16.000Z"
       }
     },
     {
@@ -4165,7 +4197,7 @@
         "Relevance Notes": "Critical for understanding the definitional ancestry of TVEC content categories. Art. 5 (public provocation) directly shaped both EU Directive 2017/541 Art. 5 and TCO Art. 2(7)(a). Without this Convention in the tracker, the chain from CoE treaty to EU directive to TCO regulation to Dutch implementation is incomplete. 25 EU Member States have ratified.",
         "Source": "https://rm.coe.int/16808c3f55",
         "Subregion": "UK & Europe",
-        "Last Modified": "2026-03-28T14:41:15.000Z",
+        "Last Modified": "2026-09-06T16:13:16.000Z",
         "Definition Count": 3
       }
     },
