@@ -32,6 +32,36 @@
     },
     {
       "fields": {
+        "Legislation": "EU Anti-SLAPP Directive",
+        "Full Name": "Directive (EU) 2024/1069 on protecting persons who engage in public participation from manifestly unfounded claims or abusive court proceedings (Strategic lawsuits against public participation)",
+        "Categories": [
+          "Human Rights",
+          "Criminal Law"
+        ],
+        "Jurisdiction": "EU",
+        "Status": "In force",
+        "Relevance": "Strong",
+        "Domains": [
+          "Disinfo & Influence Ops",
+          "Geopolitical Risk"
+        ],
+        "Brief Description": "Directive requiring Member States to give courts procedural tools against manifestly unfounded or abusive proceedings brought to silence public participation, including early dismissal, cost shifting and penalties. It protects journalists, researchers, academics and civil society organisations who publish on matters of public interest in cases with cross-border implications. The transposition deadline of 7 May 2026 was missed by nearly all Member States.",
+        "Type": "Legislation",
+        "Enacted": "2024-04-11",
+        "Deadline": "2026-05-07",
+        "Next Steps": "Transposition deadline was 7 May 2026. The Commission opened infringement proceedings against 14 Member States in July 2026 over failure to notify transposition measures. Monitor national transposition laws through 2026 and 2027 and the Commission's first application report. Entry into force date is not yet recorded: adoption was 11 April 2024 and the Directive enters into force on the twentieth day following Official Journal publication. Confirm the exact date against EUR-Lex before citing it.",
+        "Scope": "Civil proceedings with cross-border implications brought against natural or legal persons engaged in public participation on a matter of public interest. Covers journalists, human rights defenders, academics, researchers, whistleblowers and civil society organisations. Member States are encouraged but not obliged to extend equivalent safeguards to purely domestic proceedings.",
+        "Enforcement": "Member States must provide for early dismissal of manifestly unfounded claims, security for costs, award of the full costs of proceedings against an unsuccessful abusive claimant, and penalties or other equally effective appropriate measures against the party bringing abusive proceedings. The Directive sets no harmonised financial ceiling; remedies follow national civil procedure. The Commission opened infringement proceedings against 14 Member States in July 2026 for failure to notify transposition measures.",
+        "Relevance Notes": "Open source investigation into extremist, criminal and influence networks carries litigation risk, and this Directive changes the balance of that risk across the EU. Revontulet advises clients on how to structure findings, sourcing and publication so that reporting on hostile networks withstands legal challenge, and tracks which Member States have actually transposed the safeguards so that publication decisions reflect the protection genuinely available in each jurisdiction rather than the protection the Directive promises on paper.",
+        "Source": "https://eur-lex.europa.eu/eli/dir/2024/1069/oj",
+        "Subregion": "EU",
+        "Last Modified": "2026-09-13T17:41:20.000Z",
+        "Obligation Count": 3,
+        "Definition Count": 3
+      }
+    },
+    {
+      "fields": {
         "Legislation": "AMLA",
         "Full Name": "Anti-Money Laundering Authority - Regulation (EU) 2024/1620",
         "Categories": [
@@ -669,13 +699,13 @@
         "Brief Description": "Proposed EU regulation on preventing child sexual abuse online. Would create an EU Centre on CSA. Council removed mandatory scanning in Nov 2025 position. European Parliament rejected extension of interim voluntary detection rules (ePrivacy derogation) on 26 March 2026. Trilogue negotiations on permanent regulation ongoing.",
         "Type": "Legislation",
         "Enacted": "2022-05-11",
-        "Next Steps": "Fifth trilogue on 29 June 2026 ended without agreement; detection orders remain the unresolved issue (Parliament opposes suspicionless scanning, Council resists targeted judicial detection orders). Negotiators report compromises on most other chapters. Negotiations resume September 2026. The interim ePrivacy derogation expired 3 April 2026, raising pressure for a deal.",
+        "Next Steps": "The fifth trilogue on 29 June 2026 ended without agreement; detection orders remain the unresolved issue. Parliament's negotiators reported compromises on almost the entire Regulation, leaving detection as the outstanding chapter. A sixth trilogue is scheduled for 29 September 2026, with Council reflection papers of 24 July 2026 exploring paths to agreement on detection orders and own-initiative searches. Parliament has signalled it could accept detection orders and own-initiative searches coexisting if a targeted approach and safeguards apply, conditional on protection of end-to-end encrypted communication and respect for the prohibition on general monitoring obligations, and has said it will discuss the Cyprus Presidency's building blocks on that basis. The interim ePrivacy derogation expired 3 April 2026 and was replaced by Regulation (EU) 2026/1881, which runs to 3 April 2028, so the immediate cliff edge has moved but not disappeared. Reviewed 13 September 2026.",
         "Scope": "Online service providers, messaging platforms, cloud storage providers, and app stores operating in the EU. Would establish an EU Centre on Child Sexual Abuse.",
         "Enforcement": "Proposed EU Centre on Child Sexual Abuse as coordinating body. Mandatory risk assessments and mitigation. Council position removes mandatory scanning.",
         "Relevance Notes": "The proposed EU CSAM regulation will require platforms to detect, report, and remove child sexual abuse material, with a new EU Centre overseeing compliance. Revontulet provides intelligence on exploitation networks, distribution infrastructure, and organized criminal groups involved in CSAM, supporting platforms' detection and reporting obligations.",
         "Source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM:2022:209:FIN",
         "Subregion": "EU",
-        "Last Modified": "2026-08-09T16:08:14.000Z",
+        "Last Modified": "2026-09-13T17:42:51.000Z",
         "Obligation Count": 8,
         "Definition Count": 3
       }
@@ -993,13 +1023,13 @@
         "Type": "Legislation",
         "Enacted": "2024-11-29",
         "In Force": "2025-12-10",
-        "Next Steps": "In force since Dec 2025. 10 platforms age-restricted. eSafety issued regulatory guidance Feb 2026. High Court challenge filed Nov 2025, hearing scheduled 2026.",
+        "Next Steps": "In force since 10 December 2025. Ten platforms are age-restricted and eSafety issued regulatory guidance in February 2026. Two constitutional challenges are pending in the High Court of Australia and neither had been decided as of 13 September 2026. The Digital Freedom Project Incorporated v Commonwealth was filed on 26 November 2025 on behalf of two 15-year-olds, arguing the Act burdens the implied freedom of political communication; a preliminary directions hearing was held in late February 2026. Reddit filed a separate challenge in December 2025 seeking invalidity or, in the alternative, removal from the age-restricted list. By April 2026 the Commonwealth had accepted that the restrictions limit how young people engage in political discourse online but argued the measures are proportionate to the child protection purpose. New South Wales and South Australia have sought to be heard. Watch for judgment, which would be the first constitutional ruling on a minimum-age social media regime anywhere. Reviewed 13 September 2026.",
         "Scope": "Social media platforms accessible to Australian users. Platforms must take reasonable steps to prevent under-16s from creating accounts. Age verification required beyond self-declaration.",
         "Enforcement": "eSafety Commissioner enforcement. Fines up to AUD 49.5M for non-compliance. 4.7M+ accounts deactivated by Jan 2026. High Court challenge pending.",
         "Relevance Notes": "The world's first social media minimum age law creates new compliance requirements for platforms that also face content moderation obligations. Revontulet helps platforms subject to this law address the broader ecosystem of online safety risks, providing intelligence on exploitation networks, grooming tactics, and harmful content patterns.",
         "Source": "https://www.esafety.gov.au/about-us/industry-regulation/social-media-age-restrictions",
         "Subregion": "Asia-Pacific",
-        "Last Modified": "2026-03-28T11:42:33.000Z",
+        "Last Modified": "2026-09-13T17:42:51.000Z",
         "Obligation Count": 3,
         "Definition Count": 3
       }
@@ -2296,13 +2326,13 @@
         "Enacted": "2024-12-10",
         "In Force": "2024-12-10",
         "Deadline": "2027-12-11",
-        "Next Steps": "Phased application under Article 71. Chapter IV (Articles 35 to 51, notification of conformity assessment bodies) has applied since 11 June 2026. Article 14, the manufacturers' reporting obligation for actively exploited vulnerabilities and severe incidents having an impact on product security, applies from 11 September 2026, which is five days after this review and is the next binding milestone in the whole EU cyber file. The Regulation applies in full from 11 December 2027. Manufacturers of products with digital elements placed on the EU market should already have single reporting platform routing, 24-hour early warning and 72-hour notification processes in place. The Commission published practical implementation guidance on 27 July 2026 and maintains a dedicated reporting-obligations page and an implementation FAQ. Adoption 23 October 2024; entry into force 10 December 2024. Verified against the Commission's Cyber Resilience Act policy page, last updated 27 July 2026, on 6 September 2026.",
+        "Next Steps": "Phased application under Article 71. Chapter IV (Articles 35 to 51, notification of conformity assessment bodies) has applied since 11 June 2026. Article 14, the manufacturers' reporting obligation for actively exploited vulnerabilities and severe incidents affecting product security, became applicable on 11 September 2026 and is now live. Manufacturers must notify ENISA and the coordinating CSIRT through the ENISA Single Reporting Platform within 24 hours (early warning), 72 hours (vulnerability or incident notification) and 14 days (final report), and must inform impacted users under Article 14(8). Article 14 applies to products already made available on the Union market, not only to those placed on the market after 11 December 2027. The Regulation applies in full from 11 December 2027, which is the next binding milestone in this file. Adoption 23 October 2024; entry into force 10 December 2024. Commission implementation guidance published 27 July 2026. Reporting go-live verified 13 September 2026.",
         "Scope": "All manufacturers, importers, and distributors of products with digital elements placed on the EU market. Covers hardware and software including IoT devices.",
         "Enforcement": "National market surveillance authorities. Fines up to EUR 15M or 2.5% of global turnover. Non-compliant products can be withdrawn from the EU market.",
         "Relevance Notes": "Product manufacturers and software developers must meet mandatory cybersecurity requirements and report actively exploited vulnerabilities under the CRA. Revontulet provides vulnerability intelligence, supply chain threat analysis, and exploit monitoring that helps manufacturers identify and address security issues throughout their product lifecycle as required by this regulation.",
         "Source": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj",
         "Subregion": "EU",
-        "Last Modified": "2026-09-06T16:12:30.000Z",
+        "Last Modified": "2026-09-13T17:38:20.000Z",
         "Obligation Count": 4,
         "Definition Count": 3
       }
@@ -3774,6 +3804,37 @@
         "Subregion": "Asia-Pacific",
         "Last Modified": "2026-03-28T11:43:57.000Z",
         "Obligation Count": 2,
+        "Definition Count": 2
+      }
+    },
+    {
+      "fields": {
+        "Legislation": "European Media Freedom Act (EMFA)",
+        "Full Name": "Regulation (EU) 2024/1083 establishing a common framework for media services in the internal market and amending Directive 2010/13/EU",
+        "Categories": [
+          "Human Rights",
+          "Platform Accountability"
+        ],
+        "Jurisdiction": "EU",
+        "Status": "In force",
+        "Relevance": "Moderate",
+        "Domains": [
+          "Disinfo & Influence Ops",
+          "Geopolitical Risk",
+          "Online Platforms"
+        ],
+        "Brief Description": "Regulation establishing a common framework for media services in the EU internal market, protecting editorial independence, requiring transparency of media ownership and state advertising, and restricting the use of surveillance software against journalists. It creates the European Board for Media Services and gives very large online platforms a specific procedure to follow before restricting content from recognised media service providers. Most obligations have applied since 8 August 2025.",
+        "Type": "Legislation",
+        "Enacted": "2024-04-11",
+        "In Force": "2024-05-07",
+        "Next Steps": "Main obligations have applied since 8 August 2025. Provisions on users' rights to customise their media offering apply from 2027; the exact application date should be confirmed against the Regulation's final provisions before it is cited to clients. The European Board for Media Services is developing common criteria for regulators to act against non-EU media operators presenting risks to public security under the European Democracy Shield.",
+        "Scope": "Media service providers operating in the EU internal market, national media regulatory authorities, Member State authorities and public authorities allocating state advertising, and very large online platforms as defined under the Digital Services Act when handling content from media service providers.",
+        "Enforcement": "Enforcement sits with national regulatory authorities and the European Board for Media Services, coordinated by the Commission. The Regulation sets no single harmonised fine ceiling: remedies and penalties follow national media law, and platform-facing obligations are enforced through the Digital Services Act regime.",
+        "Relevance Notes": "Media pluralism and ownership transparency are load-bearing evidence in influence operations work. The ownership disclosure and state advertising transparency duties create a public record that Revontulet uses to map covert state-linked media assets and coordinated narrative distribution across the EU. For clients assessing information environment risk, this converts a previously opaque area into a traceable dataset that can be linked to the rest of the picture.",
+        "Source": "https://eur-lex.europa.eu/eli/reg/2024/1083/oj",
+        "Subregion": "EU",
+        "Last Modified": "2026-09-13T17:41:20.000Z",
+        "Obligation Count": 4,
         "Definition Count": 2
       }
     },
