@@ -94,7 +94,7 @@
     {
       "fields": {
         "Legislation": "EU FDI Screening Regulation",
-        "Full Name": "Regulation (EU) 2019/452 establishing a framework for screening of foreign direct investments (proposed revision Oct 2025)",
+        "Full Name": "Regulation (EU) 2019/452 establishing a framework for screening of foreign direct investments (repealed with effect from 17 January 2028 by Regulation (EU) 2026/1386)",
         "Categories": [
           "Foreign Investment Screening",
           "National Security"
@@ -107,17 +107,17 @@
           "Organised Crime",
           "Financial Crime"
         ],
-        "Brief Description": "EU framework for screening foreign investments affecting security or public order. Proposed 2025 revision expands to greenfield investments and strengthens the Commission's coordination role.",
+        "Brief Description": "EU framework for screening foreign investments affecting security or public order. Regulation (EU) 2026/1386 of 17 June 2026 on the screening of foreign investments in the Union now repeals and replaces it, with the replacement fully applicable from 17 January 2028. Regulation 2019/452 remains the operative framework until then.",
         "Type": "Legislation",
         "Enacted": "2019-04-19",
         "In Force": "2020-10-11",
-        "Next Steps": "Current regulation in force since Oct 2020. EC proposed strengthened revision Oct 2025: mandatory screening in all member states, broader scope, lower thresholds. Expected adoption 2026-2027.",
-        "Scope": "Foreign investors acquiring control of EU entities in sectors affecting security or public order. Proposed revision expands to greenfield investments and EU-internal investments by foreign-controlled entities.",
-        "Enforcement": "National screening authorities with EC cooperation mechanism. Proposed revision strengthens EC role and introduces mandatory screening.",
+        "Next Steps": "Regulation (EU) 2026/1386 was adopted on 17 June 2026 (title confirmed on EUR-Lex: 'on the screening of foreign investments in the Union and repealing Regulation (EU) 2019/452'). A law firm summary reports Official Journal publication on 26 June 2026 and entry into force on 16 July 2026; those two dates were not confirmed against EUR-Lex this cycle. The replacement becomes fully applicable on 17 January 2028, when Regulation 2019/452 ceases to apply and Member States must have national mechanisms meeting the new minimum requirements. See the separate record for Regulation 2026/1386. Reviewed 11 October 2026.",
+        "Scope": "Foreign investors acquiring control of EU entities in sectors affecting security or public order. The replacement Regulation 2026/1386 widens the definition of foreign investment to cover indirect structures and brings greenfield investments into scope, from 17 January 2028.",
+        "Enforcement": "National screening authorities with an EC cooperation mechanism under 2019/452. Enforcement terms of the replacement Regulation 2026/1386 were not reviewed at article level this cycle.",
         "Relevance Notes": "Companies undergoing foreign investment screening and government bodies conducting FDI reviews require intelligence on foreign actors, state affiliations, and beneficial ownership structures. Revontulet delivers geopolitical risk assessments and actor-network analysis that enables clients to navigate FDI screening processes and meet disclosure requirements.",
         "Source": "https://eur-lex.europa.eu/eli/reg/2019/452/oj",
         "Subregion": "EU",
-        "Last Modified": "2026-03-28T11:42:01.000Z",
+        "Last Modified": "2026-10-11T16:09:28.000Z",
         "Obligation Count": 2,
         "Definition Count": 3
       }
@@ -726,16 +726,16 @@
           "Organised Crime",
           "Cyber Threat Intel"
         ],
-        "Brief Description": "Proposed EU regulation on preventing child sexual abuse online. Would create an EU Centre on CSA. Council removed mandatory scanning in Nov 2025 position. European Parliament rejected extension of interim voluntary detection rules (ePrivacy derogation) on 26 March 2026. Trilogue negotiations on permanent regulation ongoing.",
+        "Brief Description": "Proposed EU regulation on preventing child sexual abuse online. Would create an EU Centre on CSA. Council removed mandatory scanning in its November 2025 position. European Parliament rejected extension of interim voluntary detection rules (ePrivacy derogation) on 26 March 2026. Trilogue negotiations on the permanent regulation ongoing: agreement in principle on public-content detection and EU Centre tasks reached at the sixth trilogue on 29 September 2026, private-communications detection unresolved.",
         "Type": "Legislation",
         "Enacted": "2022-05-11",
-        "Next Steps": "The fifth trilogue on 29 June 2026 ended without agreement; detection orders remain the unresolved issue. A sixth political trilogue is scheduled for 29 September 2026 in Brussels. As of the review date the positions remain: Council supports voluntary provider scanning without mandatory detection orders, plus mandatory age verification for communication services; Parliament restricts detection to named suspects requiring judicial authorisation, explicitly protects end-to-end encryption, and excludes mandatory age verification; the Commission is brokering a hybrid model combining voluntary and mandatory detection across different content categories. Parliament has signalled it could accept detection orders and own-initiative searches coexisting if a targeted approach and safeguards apply, conditional on protection of end-to-end encrypted communication and respect for the prohibition on general monitoring obligations. Related deadlines regardless of trilogue outcome: the Commission is due to publish its list of reporting organisations on 1 October 2026, and providers' first transparency reports on error rates are due 1 February 2027. If no permanent agreement is reached, the interim voluntary scanning regime under Regulation (EU) 2026/1881 remains enforceable until 3 April 2028. Reviewed 27 September 2026; the outcome of the 29 September trilogue was not yet known at review time and should be checked at the next cycle.",
+        "Next Steps": "The sixth trilogue took place on 29 September 2026 and ended without a final political deal. Reported outcomes (AgenceEurope, 30 September 2026; Patrick Breyer, 30 September 2026): negotiators reached an agreement in principle on detection orders for public content (including social media and public cloud content), with administrative authorities as well as courts able to order hosting providers of any size to scan public content for known CSAM; consensus on the tasks of the EU Centre on Child Sexual Abuse, including checking provider reports, forwarding them to authorities and searching public content, under a fundamental rights officer; the Commission can now launch the procedure for choosing the Centre's seat. Still open: detection in private communications. Parliament insists any scanning of private communications be strictly limited to persons linked to child sexual abuse, and the Council push for broader scanning did not succeed. Technical talks on private detection continue through October 2026; the next trilogue is expected in November 2026 (date not confirmed in the sources checked), where a final political deal will be attempted. Related deadlines regardless of trilogue outcome: the Commission list of reporting organisations was due 1 October 2026 (publication not verified this cycle), and providers' first transparency reports on error rates are due 1 February 2027. If no permanent agreement is reached, the interim voluntary scanning regime under Regulation (EU) 2026/1881 remains enforceable until 3 April 2028. Reviewed 11 October 2026.",
         "Scope": "Online service providers, messaging platforms, cloud storage providers, and app stores operating in the EU. Would establish an EU Centre on Child Sexual Abuse.",
         "Enforcement": "Proposed EU Centre on Child Sexual Abuse as coordinating body. Mandatory risk assessments and mitigation. Council position removes mandatory scanning.",
         "Relevance Notes": "The proposed EU CSAM regulation will require platforms to detect, report, and remove child sexual abuse material, with a new EU Centre overseeing compliance. Revontulet provides intelligence on exploitation networks, distribution infrastructure, and organized criminal groups involved in CSAM, supporting platforms' detection and reporting obligations.",
         "Source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM:2022:209:FIN",
         "Subregion": "EU",
-        "Last Modified": "2026-09-27T16:09:04.000Z",
+        "Last Modified": "2026-10-11T16:06:05.000Z",
         "Obligation Count": 8,
         "Definition Count": 3
       }
@@ -1540,6 +1540,35 @@
     },
     {
       "fields": {
+        "Legislation": "EU FDI Screening Regulation 2026/1386",
+        "Full Name": "Regulation (EU) 2026/1386 of the European Parliament and of the Council of 17 June 2026 on the screening of foreign investments in the Union and repealing Regulation (EU) 2019/452",
+        "Categories": [
+          "Foreign Investment Screening",
+          "National Security"
+        ],
+        "Jurisdiction": "EU",
+        "Status": "In force",
+        "Relevance": "Strong",
+        "Domains": [
+          "Geopolitical Risk"
+        ],
+        "Brief Description": "Replaces Regulation (EU) 2019/452 with a revised EU framework for screening foreign investments on security and public order grounds. Per a law firm summary it widens the definition of foreign investment to indirect structures where a non-EU party can exercise effective participation in management or control, brings greenfield investments into scope (screening left to Member States), requires Member States to screen or require notification at least in a minimum list of sensitive sectors, sets a 45 day Phase I deadline, and strengthens the cooperation mechanism with the Commission and other Member States. Phased application: fully applicable from 17 January 2028.",
+        "Type": "Legislation",
+        "Enacted": "2026-06-17",
+        "Deadline": "2028-01-17",
+        "Next Steps": "17 January 2028: full application, Member States must have national mechanisms meeting the minimum requirements and Regulation 2019/452 is repealed (EUR-Lex shows 2019/452 ending on 16 January 2028). A law firm summary reports Official Journal publication on 26 June 2026 and entry into force on 16 July 2026; these two dates were not confirmed against EUR-Lex, so the In Force field is left empty. Article-level detail was not reviewed; the summary names no Annex or penalty provisions.",
+        "Scope": "Member States and foreign investors, including EU-based investors controlled by non-EU persons or entities. Minimum sectoral scope reported to include defence and dual-use items, advanced technologies such as semiconductors, quantum and AI, energy, transport, digital infrastructure, critical raw materials, financial system entities and electoral infrastructure.",
+        "Enforcement": "Enforcement is by national screening authorities, with ex officio call-in powers (reported limitation periods of 15 months to five years for investments not subject to prior authorisation, and up to 24 months after completion for authorisable investments not notified). Penalty provisions were not confirmed from the Regulation text.",
+        "Relevance Notes": "The new regime makes sanctions exposure, state links and opaque ownership explicit review factors. Revontulet delivers ownership-network and state-affiliation analysis that investors and screening bodies need to answer exactly those questions, which positions our actor-network work at the centre of the new process.",
+        "Source": "https://eur-lex.europa.eu/eli/reg/2026/1386/oj",
+        "Subregion": "EU",
+        "Last Modified": "2026-10-11T16:10:22.000Z",
+        "Obligation Count": 3,
+        "Definition Count": 2
+      }
+    },
+    {
+      "fields": {
         "Legislation": "SFS 2010:299 (CT Content Offences)",
         "Full Name": "Lag om straff för offentlig uppmaning, rekrytering och utbildning avseende terroristbrott och annan särskilt allvarlig brottslighet (SFS 2010:299)",
         "Categories": [
@@ -1683,6 +1712,30 @@
         "Last Modified": "2026-03-28T11:42:42.000Z",
         "Obligation Count": 1,
         "Definition Count": 3
+      }
+    },
+    {
+      "fields": {
+        "Legislation": "Norway KI-loven (AI Act)",
+        "Full Name": "Lov om kunstig intelligens (KI-loven), proposed Norwegian implementation of Regulation (EU) 2024/1689",
+        "Categories": [
+          "AI Regulation"
+        ],
+        "Jurisdiction": "Norway",
+        "Status": "Proposed",
+        "Relevance": "Strong",
+        "Domains": [
+          "Emerging Tech Governance"
+        ],
+        "Brief Description": "Proposed Norwegian act to implement the EU AI Act in Norwegian law via the EEA Agreement. An earlier draft went to consultation in 2025 and drew just under 150 responses. In a press release of 4 August 2026 the Ministry of Digitalisation announced that, because of recent EU changes (the Digital Omnibus on AI, Regulation (EU) 2026/1744), the act will be sent out for a new consultation in autumn 2026. Not adopted and not in force.",
+        "Type": "Legislation",
+        "Next Steps": "New consultation planned for autumn 2026. The minister's stated goal is to bring the bill before the Storting in spring 2027. No Norwegian entry into force date has been set; the press release indicates the Norwegian rules are expected to follow the postponed EU high-risk dates (2 December 2027 or 2 August 2028 depending on system type). The EU AI Act must first be incorporated into the EEA Agreement. Reviewed 11 October 2026 against the regjeringen.no press release only; the content of the revised draft has not been published, so scope and enforcement fields are left cautious.",
+        "Scope": "Expected to mirror the scope of Regulation (EU) 2024/1689: providers and deployers of AI systems in Norway. Exact scope in the revised draft is not yet published.",
+        "Enforcement": "Not yet defined. A 2025 commentary reports the Norwegian Communications Authority (Nkom) as proposed coordinating supervisory body; this has not been confirmed against the revised draft.",
+        "Relevance Notes": "Norway is Revontulet's home market, and the national AI law will shape how clients buy, deploy and document AI-assisted intelligence products. Revontulet tracks the Norwegian and EU AI regimes together, so clients get one view of obligations as the timeline moves from consultation to Storting.",
+        "Source": "https://www.regjeringen.no/no/aktuelt/tung-vil-sende-ki-loven-med-endringer-pa-horing/id3169693/",
+        "Subregion": "Nordic",
+        "Last Modified": "2026-10-11T16:06:21.000Z"
       }
     },
     {
