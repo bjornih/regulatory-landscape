@@ -163,13 +163,13 @@
         ],
         "Brief Description": "Global AML/CFT standards applied across 200+ jurisdictions. Grey-listing triggers significant economic consequences. The Travel Rule extends obligations to virtual asset service providers.",
         "Type": "Framework",
-        "Next Steps": "Public consultation on draft Recommendation 16 guidance on payment transparency closed 21 August 2026. The guidance supports the revised R.16 agreed in June 2025 covering cross-border payment transparency, misdirected-payment and alignment checks, digital wallets and mobile money, and interaction with data protection law; countries are expected to be ready to implement by end-2030. The 7th Targeted Update on Implementation of the FATF Standards on Virtual Assets and VASPs was published 16 July 2026, the first major publication under the UK presidency (Giles Thomson, from 1 July 2026): 83 percent of surveyed jurisdictions have passed Travel Rule legislation, up from 73 percent in 2025, and the report flags DPRK-linked cyber theft, pig-butchering scam-centre operations, a Cambodia-based conglomerate that laundered at least USD 4 billion between 2021 and 2025, AI misuse via deepfakes and synthetic identities, and an emerging risk of criminal-linked development of a proprietary stablecoin designed to resist freezing and seizure. June 2026 plenary (17 to 19 June, final plenary under the Mexican presidency): Iraq and Bosnia and Herzegovina added to the grey list, Namibia and Algeria removed, list now 22 jurisdictions; Recommendation 6 updated to protect humanitarian assistance from unintended sanctions effects; mutual evaluation reports for Canada and Turkiye adopted. Next plenary October 2026.",
+        "Next Steps": "October 2026 plenary (Paris, 28 to 30 October 2026, first under the UK presidency of Giles Thomson; official outcomes read 15 November 2026): Bulgaria, Cote d'Ivoire, the Democratic Republic of the Congo and Monaco removed from the grey list after successful on-site visits; no additions; 18 jurisdictions remain under increased monitoring. The FATF expressed significant concern at Vietnam's pace of progress and will consider next steps at the February 2027 plenary. Black list unchanged (DPRK, Iran, Myanmar), with updated statements on Myanmar (fraud and scam activity) and Iran (criminalise terrorist financing, targeted financial sanctions). The plenary agreed to accelerate implementation of the virtual asset standards in jurisdictions with materially important VA sectors through a targeted review with results in June and October 2027, approved a report on illicit financial flows linked to scam compounds (first output of the UK presidency fraud roadmap), adopted mutual evaluation reports for Mexico and the United States (publication December 2026) and agreed tailored assessments for low-capacity countries. Barbados, Namibia and Thailand participated under the Guest Initiative. Earlier: public consultation on draft Recommendation 16 payment transparency guidance closed 21 August 2026 (revised R.16 agreed June 2025, implementation readiness by end-2030); 7th Targeted Update on Virtual Assets published 16 July 2026 (83 percent of surveyed jurisdictions have Travel Rule legislation); June 2026 plenary added Iraq and Bosnia and Herzegovina to the grey list and removed Namibia and Algeria. Next plenary February 2027.",
         "Scope": "Global: 40 FATF member jurisdictions and 200+ via regional bodies. Financial institutions, DNFBPs, and virtual asset service providers (VASPs).",
         "Enforcement": "Mutual evaluations; grey/black listing. Being grey-listed causes significant economic consequences: reduced foreign investment, increased compliance costs. EU framework: fines up to 10% of turnover.",
         "Relevance Notes": "The FATF framework creates the global baseline for anti-money laundering and counter-terrorism financing compliance across 200+ jurisdictions. Revontulet's financial crime and counter-terrorism intelligence directly supports clients' risk-based approach requirements, helping them identify and mitigate money laundering and terrorist financing risks as mandated by FATF Recommendations.",
         "Source": "https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Fatf-recommendations.html",
         "Subregion": "UN/International",
-        "Last Modified": "2026-08-23T16:33:16.000Z",
+        "Last Modified": "2026-11-15T17:24:20.000Z",
         "Obligation Count": 4,
         "Definition Count": 3
       }
@@ -462,13 +462,13 @@
         ],
         "Brief Description": "Proposed Norwegian act implementing the EU Digital Services Act (Regulation (EU) 2022/2065) in Norwegian law. Nkom is designated national digital services coordinator, with Medietilsynet, Forbrukertilsynet and Datatilsynet as competent authorities in their respective areas. The government aims for the DSA regime to apply in Norway from summer 2026.",
         "Type": "Legislation",
-        "Next Steps": "FLAGGED FOR HUMAN REVIEW, 23 August 2026, reviewed again 27 September 2026 with no material change. The Storting remained in recess through the review window and no Prop., Innst. or Lovvedtak on digitale tjenester or the DSA has appeared in the 2025-2026 or 2026-2027 session lists. The measure remains at horing stage from 2025; consultation closed 1 October 2025. Vendor and commentary claims that the law applies from summer 2026 remain unverified against any primary source. The DSA must also be incorporated into the EEA Agreement before Norwegian implementation; no EEA Joint Committee decision doing so has been identified. ACTION: monitor for a proposition to the Storting in the autumn 2026 session, which begins in October, and for EEA incorporation.",
+        "Next Steps": "FLAGGED FOR HUMAN REVIEW, 23 August 2026, reviewed again 27 September 2026 and 15 November 2026 with no confirmed change. The Storting case search (stortinget.no) returned a server error on 15 November 2026 and regjeringen.no blocked automated access, so no Prop. L, Innst. or Lovvedtak on digitale tjenester could be confirmed; Medietilsynet's DSA page (last changed 21 November 2025) still states the stale target of application from summer 2026. The measure remains at horing stage from 2025 (consultation closed 1 October 2025; Datatilsynet response published 3 October 2025). The DSA must also be incorporated into the EEA Agreement before Norwegian implementation. Related: the government's proposed social media age limit act (tracked separately) is expressly conditional on this law, which raises the political priority of getting it to the Storting. ACTION: Bjorn to check stortinget.no manually for a Prop. L on digitaltjenesteloven in the 2026-2027 session.",
         "Scope": "Intermediary services offered in Norway: mere conduit, caching and hosting services, online platforms and marketplaces, with VLOP/VLOSE obligations mirrored from the DSA.",
         "Enforcement": "Nkom as digital services coordinator with sanction powers mirroring the DSA, including fines of up to 6 percent of global annual turnover for the most serious infringements; sectoral supervision by Medietilsynet, Forbrukertilsynet and Datatilsynet.",
         "Relevance Notes": "As a Norwegian company advising Nordic public-sector and platform clients, Revontulet monitors the DSA's extension into Norwegian law at source, positioning clients ahead of Nkom supervision, risk assessment duties and content governance obligations before they take effect.",
         "Source": "https://www.regjeringen.no/no/dokumenter/3112328/id3112328/",
         "Subregion": "Nordic",
-        "Last Modified": "2026-09-27T16:09:04.000Z"
+        "Last Modified": "2026-11-15T17:26:56.000Z"
       }
     },
     {
@@ -487,15 +487,15 @@
           "Online Safety / Content Governance",
           "Emerging Tech Governance"
         ],
-        "Brief Description": "Exposure draft released 8 September 2026, proposing a central digital duty of care requiring online services to ensure, so far as reasonably practicable, a safe online environment. Would repeal the existing industry codes and standards scheme, replacing co-regulation with prescriptive, regulator-enforced obligations covering design management, annual risk assessment and mitigation measures.",
+        "Brief Description": "Bill introduced into the House of Representatives on 15 October 2026 after an exposure draft consultation (8 to 22 September 2026). Replaces the Online Safety Act 2021 industry codes framework and the Basic Online Safety Expectations with a digital duty of care requiring online service providers to take appropriate and effective measures to provide a safe online environment, with mandatory risk assessments, transparency duties, user empowerment and age assurance requirements, and expanded eSafety Commissioner powers including take-down and link-deletion. Passed the House on 28 October 2026 with 15 government and 8 crossbench amendments and is now before the Senate.",
         "Type": "Legislation",
-        "Next Steps": "Public consultation on the exposure draft closed at 12:00pm, 22 September 2026. Awaiting the Government's response to submissions and formal introduction of the Bill to Parliament. Commencement of most provisions is set at 12 months after Royal Assent; the exact provisions taking immediate effect on commencement (reported as expanded removal and link-deletion powers) should be confirmed against the introduced Bill text once available. Added to the tracker 27 September 2026.",
+        "Next Steps": "Official APH record (read 15 November 2026): introduced and read a first time 15 October 2026; second reading debate 27 October 2026; second reading agreed 28 October 2026; consideration in detail 28 October 2026 with 15 government and 8 crossbench amendments agreed; third reading agreed 28 October 2026 (divisions 300 to 307). Referred on 15 October 2026 to the Senate Environment and Communications Legislation Committee, report due 20 November 2026. The Coalition has indicated opposition, so Senate passage depends on the Greens and crossbench; the Greens are seeking a private right of action and higher penalties, and the minister has said she is open to a right of action. Compared with the exposure draft, the compliance standard changed from reasonably practicable to appropriate and effective (cost expressly excluded), the ministerial power to expand harm categories was removed and carve-outs were added for professional news, public-interest material, research, court proceedings, public health information and certain entertainment content. A 12-month transition applies before the duty commences. ACTION: re-cite the linked obligations and definitions against the third-reading text once the Senate committee reports.",
         "Scope": "Online services with an expansive definition covering social media platforms, search engines, content hosting services, app distribution platforms and AI content-generation services. The duty applies to any person or entity responsible for, or exercising day-to-day control over, such a service, potentially capturing AI developers not currently regulated under the Online Safety Act 2021.",
         "Enforcement": "eSafety Commissioner enforcement, replacing the current industry co-regulatory codes and standards scheme. Civil penalties up to approximately AUD 109 million for bodies corporate breaching the duty of care; infringement notices up to approximately AUD 218,000; higher penalties signalled for systemic breaches; expanded investigative, removal and link-deletion powers for the Commissioner.",
         "Relevance Notes": "Australia is moving from co-regulation to a prescriptive, EU/UK-style duty-of-care model, comparable in structure to the DSA and the UK Online Safety Act. Because the duty explicitly reaches AI content-generation services and anyone with day-to-day control of a covered service, Revontulet is well placed to help platforms and AI providers build the annual risk-assessment, mitigation and transparency-reporting programme the Bill would require, ahead of competitors still calibrated for the narrower 2021 Act.",
-        "Source": "https://www.infrastructure.gov.au/media-communications/internet/online-safety/online-safety-amendment-digital-duty-care-bill-2026-exposure-draft",
+        "Source": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7553",
         "Subregion": "Asia-Pacific",
-        "Last Modified": "2026-09-27T16:11:06.000Z",
+        "Last Modified": "2026-11-15T17:24:20.000Z",
         "Obligation Count": 3,
         "Definition Count": 2
       }
@@ -1347,13 +1347,13 @@
         ],
         "Brief Description": "Package of two Commission proposals published 19 November 2025 to simplify and streamline the EU digital rulebook. COM(2025) 836 amends the AI Act (Reg (EU) 2024/1689) and was adopted in June 2026, deferring certain high-risk obligations. COM(2025) 837 amends the GDPR, ePrivacy Directive, Data Act, NIS2 and CER Directive, including a proposed extension of the personal-data breach notification deadline from 72 to 96 hours and a single EU cyber-incident reporting entry point; it remains in the legislative procedure.",
         "Type": "Legislation",
-        "Next Steps": "The AI strand was adopted separately as the Digital Omnibus on AI (Regulation (EU) 2026/1744, OJ 24 July 2026, in force 27 July 2026), postponing AI Act high-risk deadlines. The wider data/privacy omnibus strand remains in negotiation.",
+        "Next Steps": "The AI strand was adopted separately as the Digital Omnibus on AI (Regulation (EU) 2026/1744, OJ 24 July 2026, in force 27 July 2026). Data strand (COM(2025) 837, procedure 2025/0360(COD)): Coreper agreed the Council negotiating mandate on 21 October 2026 (outcome of proceedings ST 14756/26, 22 October 2026), after the Cypriot presidency withdrew its text in June 2026 for lack of a qualified majority. The Council mandate keeps the current GDPR definition of personal data but treats pseudonymised data as non-personal for a recipient that cannot identify individuals (new Article 25a), extends the personal data breach notification deadline to 96 hours with a single incident reporting entry point per Member State, keeps cookie rules in the ePrivacy Directive with new consent exemptions for audience measurement, contextual ad measurement and device security and a four-month re-ask period after refusal, retains a legitimate-interest provision for AI development while stating AI development is not automatically a legitimate interest, and adds an exception for incidental sensitive data in AI training sets. Parliament: joint ITRE-LIBE committee, draft report of 22 June 2026, more than 1,800 amendments tabled; no committee vote as of 28 October 2026. Trilogues have not started. Reviewed 15 November 2026 (Gibson Dunn 12 November 2026, EDRi 4 November 2026, eudigitalpolicy.eu 28 October 2026).",
         "Scope": "AI system providers and deployers under the AI Act; data controllers and processors under the GDPR; providers of electronic communications services under ePrivacy; essential and important entities under NIS2; critical entities under CER; and businesses relying on the Data Act.",
         "Enforcement": "No new enforcement regime; the package amends the enforcement and penalty structures of the underlying instruments (AI Act, GDPR, NIS2, CER) rather than creating standalone penalties.",
         "Relevance Notes": "The Digital Omnibus will reshape compliance baselines across the AI Act, GDPR, NIS2 and CER simultaneously. Revontulet tracks the amendments line by line so clients can plan to the moving deadlines rather than the original ones, and can tell which existing controls remain mandatory and which are being relaxed before committing budget.",
         "Source": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:52025PC0837",
         "Subregion": "EU",
-        "Last Modified": "2026-08-09T16:08:14.000Z",
+        "Last Modified": "2026-11-15T17:24:20.000Z",
         "Obligation Count": 1
       }
     },
@@ -1673,13 +1673,13 @@
         "Brief Description": "First global cybercrime treaty, adopted by the UN General Assembly in December 2024. Covers computer fraud, identity theft, and electronic evidence cooperation. Opens for ratification.",
         "Type": "Treaty/Convention",
         "Enacted": "2024-12-24",
-        "Next Steps": "Canada signed in July 2026. Signature remains open until 31 December 2026. Entry into force requires 40 ratifications (90 days after the fortieth deposit), which has not yet been reached. Track the ratification count via the UN treaty collection.",
+        "Next Steps": "As of early October 2026 (secondary source CADE Project, 7 October 2026; UNODC and UN Treaty Collection pages could not be read on 15 November 2026): more than 90 signatories and three parties (Qatar, Azerbaijan and Vietnam named). Indonesia signed 24 September 2026 and India 25 September 2026; Canada signed in July 2026; the Council authorised EU signature on 13 October 2025. Signature remains open until 31 December 2026. Entry into force requires 40 ratifications or accessions (90 days after the fortieth deposit) and has not been reached. ACTION: verify the current ratification count against the UN Treaty Collection (Chapter XVIII) before the signature window closes.",
         "Scope": "All UN member states upon ratification. Covers computer-related fraud, identity theft, content-related offences, and electronic evidence procedures.",
         "Enforcement": "Treaty obligations upon ratification. Requires criminalization of cybercrime offences, mutual legal assistance, and real-time data cooperation.",
         "Relevance Notes": "The first global cybercrime treaty will generate implementation legislation across dozens of countries, dramatically expanding the regulatory landscape for cybersecurity compliance. Revontulet helps clients anticipate and prepare for these emerging national-level cybercrime laws by tracking implementation progress and providing intelligence on the evolving threat landscape the convention addresses.",
         "Source": "https://www.unodc.org/unodc/en/cybercrime/ad_hoc_committee/home",
         "Subregion": "UN/International",
-        "Last Modified": "2026-07-26T16:06:45.000Z",
+        "Last Modified": "2026-11-15T17:24:20.000Z",
         "Obligation Count": 2,
         "Definition Count": 1
       }
@@ -1824,6 +1824,38 @@
         "Subregion": "EU",
         "Last Modified": "2026-08-16T16:10:17.000Z",
         "Definition Count": 1
+      }
+    },
+    {
+      "fields": {
+        "Legislation": "Norway DORA-loven",
+        "Full Name": "Lov om digital operasjonell motstandsdyktighet i finanssektoren (DORA-loven), LOV-2025-05-27-18",
+        "Categories": [
+          "Cybersecurity",
+          "Financial Regulation",
+          "Critical Infrastructure"
+        ],
+        "Jurisdiction": "Norway",
+        "Status": "In force",
+        "Relevance": "Strong",
+        "Domains": [
+          "Cyber Threat Intelligence",
+          "Financial Crime",
+          "Critical Infrastructure"
+        ],
+        "Brief Description": "Norwegian act incorporating Regulation (EU) 2022/2554 (DORA) into Norwegian law through the EEA Agreement (Annex IX point 31q), together with Directive (EU) 2022/2556. Section 1 gives DORA effect as Norwegian law, section 3 designates Finanstilsynet as national supervisory authority (including TLPT task allocation under DORA Article 26) and section 4 empowers Finanstilsynet to impose administrative fines of up to NOK 50 million for breaches of the core DORA articles on ICT risk management, incident reporting, resilience testing and third-party risk. Sanctioned 27 May 2025 and in force from 1 July 2025; amended by LOV-2026-06-19-39 from 1 July 2026.",
+        "Type": "Legislation",
+        "Enacted": "2025-05-27",
+        "In Force": "2025-07-01",
+        "Next Steps": "Fully in force since 1 July 2025 (res. 20 June 2025 nr. 1084), with the exception of section 6 no. 1 (amendment to verdipapirhandelloven section 17-1 first paragraph), which enters into force when the King decides. Amended by LOV-2026-06-19-39 in force 1 July 2026 (changes to sections 2 and 3, including the forskrift power to extend DORA to additional undertakings and to allocate TLPT costs). Watch for Finansdepartementet forskrifter under sections 1(3), 2 and 3 on incident reporting channels, the register of ICT service agreements and TLPT. Added to the tracker 15 November 2026 from Lovdata and the Storting case page.",
+        "Scope": "Financial entities covered by DORA Article 2 operating in Norway (banks, insurers, investment firms, payment and e-money institutions, crypto-asset service providers, central securities depositories and others) and their ICT third-party service providers. Section 2 lets the ministry extend the act by forskrift to undertakings in DORA Article 2(3), financing undertakings, loan intermediaries, debt collection agencies, real estate brokers, parent companies in financial groups and Norsk naturskadepool.",
+        "Enforcement": "Finanstilsynet is the national supervisory authority (section 3). Administrative fines (overtredelsesgebyr) of up to NOK 50 million on natural persons or undertakings for intentional or negligent breaches of the listed DORA provisions (Articles 5, 6, 8, 9(4), 11, 12, 14, 16(1)-(2), 17, 19(1), (3), (4), 24, 25(2), 28 and 42(3)) and of forskrifter implementing technical standards under Articles 15 and 16(3); contribution to a breach is sanctionable in the same way; five-year limitation period (section 4).",
+        "Relevance Notes": "Norwegian financial entities now carry a binding legal duty to detect, classify and report major ICT incidents, to manage ICT third-party risk and to test resilience against realistic threats, all supervised by Finanstilsynet with fines of up to NOK 50 million. Revontulet's cyber threat intelligence gives Norwegian banks, insurers and payment firms the threat-led view DORA expects: current adversary tradecraft for TLPT scoping, early warning on campaigns targeting the Nordic financial sector, and supplier-risk intelligence for the register of ICT service agreements.",
+        "Source": "https://lovdata.no/dokument/NL/lov/2025-05-27-18",
+        "Subregion": "Nordic",
+        "Last Modified": "2026-11-15T17:22:15.000Z",
+        "Obligation Count": 4,
+        "Definition Count": 2
       }
     },
     {
@@ -2002,13 +2034,13 @@
         "Brief Description": "Proposed EU regulation to modernise, simplify and harmonise the EU telecoms framework. Merges the European Electronic Communications Code (EECC), the BEREC Regulation, the Radio Spectrum Policy Programme and the core parts of the Open Internet Regulation into a single directly applicable Regulation. Introduces a Single Passport authorisation regime, EU-wide spectrum instruments, mandatory national copper-to-fibre transition plans by 2035, and a unified satellite spectrum authorisation.",
         "Type": "Legislation",
         "Enacted": "2026-01-21",
-        "Next Steps": "Adopted by the Commission on 21 January 2026. Now begins the ordinary legislative procedure: Council and Parliament preparing positions ahead of trilogues. National fibre transition plans due by 31 October 2029 if adopted as proposed.",
+        "Next Steps": "Adopted by the Commission on 21 January 2026. Parliament: ITRE rapporteur Michal Kobosko presented his draft report to the committee on 10 November 2026, with amendments due by 12 November 2026. The draft report (as reported by the Internet Society, 3 November 2026) would create a significant traffic provider category (at least 2 percent of peak EU traffic) with a duty to negotiate interconnection and binding regulator decisions where talks fail, bring CDNs within the electronic communications network definition and reshape the open internet rules. Council position and committee and plenary vote dates not yet confirmed. National fibre transition plans would be due by 31 October 2029 if adopted as proposed. Reviewed 15 November 2026.",
         "Scope": "Providers of public electronic communications networks and services in the EU, satellite communications providers, spectrum users, internet access service providers.",
         "Enforcement": "Enforcement model and sanctions are being negotiated; expected to retain national regulator-led enforcement (NRAs) under reinforced BEREC coordination, with EU-level authorisation regimes for cross-border activities.",
         "Relevance Notes": "The DNA is the most significant restructuring of EU telecoms law in a decade and has direct implications for clients operating cross-border digital infrastructure, satellite services and connected products. Revontulet tracks the proposal's interaction with NIS2, CSA2 and the Cyber Resilience Act and can advise on consolidated cyber and telecoms compliance.",
         "Source": "https://digital-strategy.ec.europa.eu/en/policies/digital-networks-act",
         "Subregion": "EU",
-        "Last Modified": "2026-05-17T16:09:03.000Z",
+        "Last Modified": "2026-11-15T17:24:20.000Z",
         "Definition Count": 1
       }
     },
@@ -2288,13 +2320,13 @@
         "Brief Description": "Expands UK cyber regulation to cover MSPs, data centres, and critical suppliers alongside essential services. Introduces enhanced enforcement powers for sector regulators and NCSC oversight of 900+ additional firms.",
         "Type": "Legislation",
         "Enacted": "2025-11-12",
-        "Next Steps": "Passed all Commons stages; introduced in the Lords on 25 June 2026, with second reading held 14 July 2026. Lords committee stage is next. Royal Assent expected late 2026, with phased implementation of duties (including for managed service providers, data centres and designated critical suppliers) running to 2028.",
+        "Next Steps": "Official stage history (bills.parliament.uk/bills/4035, read 15 November 2026): introduced in the Commons 12 November 2025 (Bill 329); Commons second reading 6 January 2026; Commons committee from 3 February 2026; reintroduced 14 May 2026 after the session change; Commons report and third reading 16 June 2026; Lords first reading 17 June 2026, second reading 14 July 2026, committee from 1 September 2026, report 26 October 2026 and third reading 2 November 2026. The Commons agreed a carry-over motion on 4 November 2026, so the Bill does not lapse before the end of 29 April 2027. Commons consideration of Lords amendments is scheduled for 24 November 2026 (112 Lords amendments, two reported as government-opposed). Royal Assent has not been given and no date is set; framework provisions commence on Royal Assent or two months later, with substantive duties for MSPs, data centres and designated critical suppliers commenced by regulations, expected to run to 2028. Note: the Enacted field holds the Commons introduction date because the Bill is not enacted.",
         "Scope": "Operators of essential services, digital service providers, MSPs, data centres (1MW+), large load controllers (300MW+), designated critical suppliers. 900-1,100 additional firms under regulatory oversight.",
         "Enforcement": "Two-tier penalty regime with enhanced enforcement powers for sector regulators and the NCSC. Specific penalty amounts to be set through secondary legislation.",
         "Relevance Notes": "The UK Cyber Security and Resilience Bill expands regulation to managed service providers, data centres, and critical suppliers alongside essential services. Revontulet provides the threat intelligence and risk assessment capabilities that these newly regulated entities need to comply with enhanced cybersecurity requirements and supply chain security obligations.",
         "Source": "https://bills.parliament.uk/bills/4035",
         "Subregion": "UK",
-        "Last Modified": "2026-07-26T16:06:45.000Z",
+        "Last Modified": "2026-11-15T17:24:20.000Z",
         "Obligation Count": 3,
         "Definition Count": 3
       }
@@ -2611,15 +2643,15 @@
         "Enacted": "2023-10-26",
         "In Force": "2025-03-17",
         "Deadline": "2026-12-31",
-        "Next Steps": "Ofcom's Register of Categorised Services page was first published 30 June 2026, the register document is dated 10 July 2026, and the page was last updated 14 August 2026. Eleven Category 1 services are designated (Facebook, Instagram, Pinterest, Quora, Reddit, Roblox, Snapchat, TikTok, WhatsApp, X, YouTube), four Category 2A (Google Search, Bing, ChatGPT Search, Facebook Feed Deep Dive) and 24 Category 2B including Discord, Steam, Twitch, Pornhub and Xbox. Emerging Category 1 list: iMessage, Messenger, Threads, Wikipedia. Of note for emerging tech governance, an AI search assistant (ChatGPT Search) is now a categorised regulated search service in the UK. Enforcement activity in August 2026: investigations into Chat-Avenue.com and Teen-Chat.org on illegal content duties updated 20 August 2026; investigation into fapello.com on age assurance and the adult sector age-assurance enforcement programme updated 18 August 2026; investigation into TikTok under section 12 opened 16 July 2026. Enforcement activity in early September 2026: Ofcom fined pornography provider Xgroovy GBP 700,000 for inadequate age assurance protecting children, plus a further GBP 30,000 for failing to respond to a statutory information request, underscoring that highly effective age assurance is now central to enforcement. An August 2026 content sweep targeted platforms hosting content harmful to minors, with file-sharing services receiving particular scrutiny for potential CSAM distribution. Monitor consultation closing dates on the fraudulent advertising codes and Ofcom's final Category 1 codes. Reviewed 27 September 2026.",
+        "Next Steps": "UPDATE 15 November 2026. Crisis response protocol: Ofcom's statement of 9 June 2026 added two recommended measures to the Illegal Content Codes of Practice and the Protection of Children Code for user-to-user services, a crisis response protocol (ICU C15 / PCU C11) and a dedicated law enforcement channel (ICU C16 / PCU C12). The draft amendments were laid before Parliament on 18 June 2026, issued by Ofcom on 12 October 2026 and came into force on 2 November 2026. Litigation: Meta's judicial review of the Online Safety (Qualifying Worldwide Revenue) Regulations 2025 (claim AC-2025-LON-004500), challenging the use of group-wide global revenue for fees and penalty ceilings, was heard in the Administrative Court on 13 and 14 October 2026 with 5Rights intervening for Ofcom; judgment is pending. Enforcement: more than GBP 7 million in fines on 11 providers since October 2025, with Ofcom telling the Lords Communications and Digital Committee on 15 September 2026 that most remain unpaid; Ofcom narrowed its X investigation to illegal content and reporting duties on 14 October 2026 and opened an Instagram investigation in early October 2026. Reform: Ofcom has asked the Lords committee for amendments to the Act, including removing the continuing-breach test for business disruption measures, allowing BDM applications for unpaid fines alone, a lower interim BDM threshold, dynamic orders covering mirror sites and an interim direction power. Earlier context: Ofcom's Register of Categorised Services (page first published 30 June 2026, register dated 10 July 2026, updated 14 August 2026) lists eleven Category 1 services (Facebook, Instagram, Pinterest, Quora, Reddit, Roblox, Snapchat, TikTok, WhatsApp, X, YouTube), four Category 2A (Google Search, Bing, ChatGPT Search, Facebook Feed Deep Dive) and 24 Category 2B. Enforcement in August and September 2026 included investigations into Chat-Avenue.com, Teen-Chat.org, fapello.com and TikTok (section 12, opened 16 July 2026), and a GBP 700,000 fine plus GBP 30,000 on Xgroovy for inadequate age assurance. Monitor the fraudulent advertising codes consultation, the final Category 1 codes, the proactive technology consultation and the planned under-16 social media measures.",
         "Scope": "All services allowing user-generated content or interaction with a significant number of UK users. Applies globally to services accessible from the UK.",
         "Enforcement": "Fines up to 10% of qualifying worldwide revenue or GBP 18M. Senior manager liability. Ofcom can require business disruption measures including blocking.",
         "Relevance Notes": "The UK Online Safety Act requires platforms to conduct risk assessments spanning terrorism, fraud, and organized crime, and to implement proportionate safety measures. Revontulet provides the multi-domain intelligence on terrorist content, financial crime patterns, and disinformation campaigns that platforms need to fulfil these risk assessment and mitigation obligations.",
         "Source": "https://www.gov.uk/government/publications/online-safety-act-explainer/online-safety-act-explainer",
         "Subregion": "UK",
-        "Last Modified": "2026-09-27T16:09:04.000Z",
-        "Obligation Count": 10,
-        "Definition Count": 8
+        "Last Modified": "2026-11-15T17:24:20.000Z",
+        "Obligation Count": 12,
+        "Definition Count": 9
       }
     },
     {
@@ -2855,13 +2887,13 @@
         "Type": "Legislation",
         "Enacted": "2023-01-16",
         "In Force": "2025-01-17",
-        "Next Steps": "2026 marks shift from transitional supervision to active enforcement. Second annual Register of Information (RoI) submissions due to national authorities, consolidated to ESAs by 31 March 2026. Regulators now demanding real-time resilience evidence, automated reporting, and ICT risk control documentation. Supervisory audits focusing on ICT Risk Management, Incident Reporting, and Threat-Led Penetration Testing (TLPT). EC submitted report (Jan 2026) assessing whether to bring statutory auditors under DORA scope.",
+        "Next Steps": "2026 marks shift from transitional supervision to active enforcement. Second annual Register of Information (RoI) submissions due to national authorities, consolidated to ESAs by 31 March 2026. Regulators now demanding real-time resilience evidence, automated reporting, and ICT risk control documentation. Supervisory audits focusing on ICT Risk Management, Incident Reporting, and Threat-Led Penetration Testing (TLPT). EC submitted report (Jan 2026) assessing whether to bring statutory auditors under DORA scope. EEA: Norway incorporated DORA through the DORA-loven (LOV-2025-05-27-18), in force 1 July 2025 with Finanstilsynet as supervisor and fines of up to NOK 50 million; see the separate Norway DORA-loven record added 15 November 2026.",
         "Scope": "22,000+ financial entities including banks, insurers, investment firms, crypto-asset service providers, and their critical ICT third-party providers.",
         "Enforcement": "Financial supervisory authorities. Penalties set by member states. Critical ICT providers face fines up to 1% of average daily worldwide turnover.",
         "Relevance Notes": "DORA requires 22,000+ EU financial entities to implement ICT risk management, cyber threat reporting, and third-party risk assessment frameworks. Revontulet provides the cyber threat intelligence, geopolitical risk analysis, and financial crime intelligence that financial sector clients need to satisfy DORA's operational resilience requirements and ICT risk management obligations.",
         "Source": "https://eur-lex.europa.eu/eli/reg/2022/2554/oj/eng",
         "Subregion": "EU",
-        "Last Modified": "2026-03-28T11:43:21.000Z",
+        "Last Modified": "2026-11-15T17:26:56.000Z",
         "Obligation Count": 4,
         "Definition Count": 3
       }
@@ -2982,6 +3014,36 @@
     },
     {
       "fields": {
+        "Legislation": "Norway Social Media Age Limit Act",
+        "Full Name": "Lov om aldersgrense for bruk av sosiale medier (proposed), draft act on a 16-year age limit for social media",
+        "Categories": [
+          "Child Safety",
+          "Online Safety",
+          "Platform Regulation"
+        ],
+        "Jurisdiction": "Norway",
+        "Status": "Proposed",
+        "Relevance": "Moderate",
+        "Domains": [
+          "Online Safety / Content Governance",
+          "Online Platforms",
+          "Social Media"
+        ],
+        "Brief Description": "Proposed Norwegian act setting a national age limit for social media: children may not have access to (harmful) social media until 1 January of the year they turn 16 (draft section 4). The 2025 consultation proposed 15 and drew more than 8,100 responses; the government announced the 16-year limit on 24 April 2026 and notified the draft to the EEA (notification 2025/9028/NO). The act places no direct obligations on providers because of the EEA country-of-establishment principle; instead, read together with the Digital Services Act once incorporated into Norwegian law, platforms must operate effective, privacy-friendly age verification under DSA Article 28. Children and parents are not sanctioned.",
+        "Type": "Legislation",
+        "Next Steps": "Government stated in April 2026 that the bill would be put before the Storting during 2026, after the mandatory three-month EEA consultation. No Prop. L number, Storting vote or sanction could be confirmed from primary sources as of 15 November 2026 (Storting case search was unavailable). Entry into force is set by the King (draft section 6) and is conditional on the DSA being implemented in Norwegian law (digitaltjenesteloven), so the earliest realistic application is 2027. A national supervisory authority will decide by individual decision which services count as social media (draft section 5). Monitor for the Prop. L and for the parallel digitaltjenesteloven.",
+        "Scope": "Social media services directed at the Norwegian market or provided by entities established in Norway. The ministries are considering a harmful social media condition and exemptions for games, editorial media, marketplaces, closed education and leisure groups, political and civil society groups and messaging services. Children under the age threshold, their parents and platforms (indirectly via the DSA).",
+        "Enforcement": "No sanctions on children or parents. Platform compliance is enforced through the Digital Services Act regime (Nkom as Norwegian digital services coordinator for services established in Norway; European Commission for VLOPs such as Meta, TikTok and Snapchat), with DSA fines of up to 6 percent of worldwide annual turnover. Supervisory authority designation decisions under draft section 5.",
+        "Relevance Notes": "Norway is moving to a hard 16-year floor for social media, enforced through DSA age-assurance duties rather than parental consent. Platforms serving Norwegian users will need an auditable age verification approach and evidence that minors are kept off, and policymakers will need intelligence on circumvention, grooming and harmful-content exposure among under-16s. Revontulet's online safety and child-safety threat intelligence supports both the compliance case and the public-policy debate around this law.",
+        "Source": "https://www.regjeringen.no/contentassets/6e58994934134cc593a2b5cff087aeb2/eos-horing-av-lovforslaget-om-aldersgrense-for-bruk-av-sosiale-medier.pdf",
+        "Subregion": "Nordic",
+        "Last Modified": "2026-11-15T17:22:15.000Z",
+        "Obligation Count": 2,
+        "Definition Count": 2
+      }
+    },
+    {
+      "fields": {
         "Legislation": "US CIRCIA",
         "Full Name": "Cyber Incident Reporting for Critical Infrastructure Act of 2022",
         "Categories": [
@@ -2999,13 +3061,13 @@
         "Brief Description": "Requires 316,000+ critical infrastructure entities across 16 US sectors to report cyber incidents to CISA within specified timeframes. CISA gains subpoena power for non-reporters.",
         "Type": "Legislation",
         "Enacted": "2022-03-15",
-        "Next Steps": "CISA now expects to publish the CIRCIA final rule in September 2026, having slipped from a previously indicated May 2026 date and well past the October 2025 statutory deadline. Town halls scheduled 9 March to 2 April 2026 were postponed because of a partial government shutdown affecting DHS, and a further round of town halls ran over summer 2026. Once effective, the rule will require covered entities across the 16 critical infrastructure sectors to report a covered cyber incident within 72 hours and a ransom payment within 24 hours. Note for QA: the underlying statute was enacted 15 March 2022 as Division Y of the Consolidated Appropriations Act 2022 and is in force. What remains outstanding is the implementing rule, so the Status field on this record needs a decision on whether it tracks the Act or the rulemaking.",
+        "Next Steps": "CISA sent the CIRCIA final rule to the Office of Management and Budget for review on 1 October 2026 (reported by HIPAA Journal and Paubox, 8 October 2026); the text is not public and the rule had not appeared in the Federal Register as of mid-October 2026, with publication expected before the end of 2026. This follows slips from the October 2025 statutory deadline, a May 2026 target and a September 2026 target; town halls ran 15 to 18 June 2026. Once effective, covered entities across the 16 critical infrastructure sectors must report a covered cyber incident within 72 hours of reasonably believing it occurred and a ransom payment within 24 hours; the 2024 NPRM proposed coverage of entities above the SBA small business size standard or meeting sector-based criteria, and it is unclear how far the final rule narrows this. Note for QA: the underlying statute was enacted 15 March 2022 (Division Y, Consolidated Appropriations Act 2022) and is in force; the Status field tracks the implementing rule, which remains outstanding. Re-check the Federal Register weekly.",
         "Scope": "Critical infrastructure entities across 16 sectors designated under Presidential Policy Directive 21. Estimated 316,000+ entities covered.",
         "Enforcement": "CISA enforcement. Subpoena power for non-reporting. Referral to DOJ for non-compliance with subpoenas. Civil penalties.",
         "Relevance Notes": "CIRCIA requires 316,000+ US critical infrastructure entities to report cyber incidents to CISA, creating massive demand for threat detection and incident classification capabilities. Revontulet provides the threat intelligence and incident analysis that helps US CI entities detect reportable incidents and produce the detailed reports CIRCIA mandates.",
         "Source": "https://www.cisa.gov/topics/cyber-threats-and-advisories/information-sharing/cyber-incident-reporting-critical-infrastructure-act-2022-circia",
         "Subregion": "Americas",
-        "Last Modified": "2026-08-30T16:10:57.000Z",
+        "Last Modified": "2026-11-15T17:24:20.000Z",
         "Obligation Count": 2,
         "Definition Count": 3
       }
@@ -3391,10 +3453,15 @@
         ],
         "Brief Description": "US federal law requiring parental consent for collecting personal data from children under 13, with strict rules on data use, storage, and deletion by online services.",
         "Type": "Legislation",
+        "Enacted": "1998-10-21",
+        "In Force": "2000-04-21",
+        "Next Steps": "The FTC's amended COPPA Rule was published in the Federal Register on 22 April 2025 and took effect 23 June 2025, with a compliance deadline of 22 April 2026 for most new requirements (separate verifiable parental consent for third-party disclosures, written information security programme, data retention policy). Monitor FTC enforcement under the amended rule and any COPPA 2.0 provisions moving with the KIDS Act / KOSA package in Congress. Dates and scope filled 15 November 2026 from the statute (Pub. L. 105-277, Title XIII, enacted 21 October 1998, effective 21 April 2000) and the 2025 FTC rule.",
+        "Scope": "Operators of commercial websites and online services (including apps, connected toys and ad networks) that are directed to children under 13, or that have actual knowledge they are collecting personal information from children under 13, including foreign operators serving US children. Implemented by the FTC COPPA Rule, 16 CFR Part 312 (amended rule published 22 April 2025, compliance by 22 April 2026).",
+        "Enforcement": "Enforced by the Federal Trade Commission under the FTC Act and by state attorneys general. Civil penalties per violation are inflation-adjusted annually (above USD 50,000 per violation in 2025), with consent orders imposing data deletion, algorithm disgorgement and compliance monitoring. Safe harbour programmes approved by the FTC provide an alternative compliance route.",
         "Relevance Notes": "COPPA requires parental consent for collecting data from children under 13, with significant penalties for non-compliance. Platforms and online service providers need robust age verification and data handling processes. Revontulet provides intelligence on exploitation patterns and platform safety risks that helps clients understand the threat landscape underpinning child safety regulations.",
         "Source": "https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa",
         "Subregion": "Americas",
-        "Last Modified": "2026-05-06T12:01:11.000Z",
+        "Last Modified": "2026-11-15T17:26:56.000Z",
         "Obligation Count": 7,
         "Definition Count": 3
       }
