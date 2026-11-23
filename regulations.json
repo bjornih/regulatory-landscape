@@ -489,13 +489,13 @@
         ],
         "Brief Description": "Bill introduced into the House of Representatives on 15 October 2026 after an exposure draft consultation (8 to 22 September 2026). Replaces the Online Safety Act 2021 industry codes framework and the Basic Online Safety Expectations with a digital duty of care requiring online service providers to take appropriate and effective measures to provide a safe online environment, with mandatory risk assessments, transparency duties, user empowerment and age assurance requirements, and expanded eSafety Commissioner powers including take-down and link-deletion. Passed the House on 28 October 2026 with 15 government and 8 crossbench amendments and is now before the Senate.",
         "Type": "Legislation",
-        "Next Steps": "Official APH record (read 15 November 2026): introduced and read a first time 15 October 2026; second reading debate 27 October 2026; second reading agreed 28 October 2026; consideration in detail 28 October 2026 with 15 government and 8 crossbench amendments agreed; third reading agreed 28 October 2026 (divisions 300 to 307). Referred on 15 October 2026 to the Senate Environment and Communications Legislation Committee, report due 20 November 2026. The Coalition has indicated opposition, so Senate passage depends on the Greens and crossbench; the Greens are seeking a private right of action and higher penalties, and the minister has said she is open to a right of action. Compared with the exposure draft, the compliance standard changed from reasonably practicable to appropriate and effective (cost expressly excluded), the ministerial power to expand harm categories was removed and carve-outs were added for professional news, public-interest material, research, court proceedings, public health information and certain entertainment content. A 12-month transition applies before the duty commences. ACTION: re-cite the linked obligations and definitions against the third-reading text once the Senate committee reports.",
+        "Next Steps": "Bill introduced in the House of Representatives 15 October 2026 and passed the House 28 October 2026 (third reading 96 to 38). Referred to the Senate Environment and Communications Legislation Committee with a reporting deadline of 20 November 2026; whether the report was tabled and its recommendation could not be confirmed on 23 November 2026 (aph.gov.au blocks automated access; Wikipedia snapshot current to 10 November). Government aims to pass the bill before the end of 2026 with commencement about one year later. Monitor the Senate committee report, Senate debate in the final 2026 sitting weeks, Royal Assent and the commencement proclamation, then re-cite obligations and definitions against the enacted text.",
         "Scope": "Online services with an expansive definition covering social media platforms, search engines, content hosting services, app distribution platforms and AI content-generation services. The duty applies to any person or entity responsible for, or exercising day-to-day control over, such a service, potentially capturing AI developers not currently regulated under the Online Safety Act 2021.",
         "Enforcement": "eSafety Commissioner enforcement, replacing the current industry co-regulatory codes and standards scheme. Civil penalties up to approximately AUD 109 million for bodies corporate breaching the duty of care; infringement notices up to approximately AUD 218,000; higher penalties signalled for systemic breaches; expanded investigative, removal and link-deletion powers for the Commissioner.",
         "Relevance Notes": "Australia is moving from co-regulation to a prescriptive, EU/UK-style duty-of-care model, comparable in structure to the DSA and the UK Online Safety Act. Because the duty explicitly reaches AI content-generation services and anyone with day-to-day control of a covered service, Revontulet is well placed to help platforms and AI providers build the annual risk-assessment, mitigation and transparency-reporting programme the Bill would require, ahead of competitors still calibrated for the narrower 2021 Act.",
         "Source": "https://www.aph.gov.au/Parliamentary_Business/Bills_Legislation/Bills_Search_Results/Result?bId=r7553",
         "Subregion": "Asia-Pacific",
-        "Last Modified": "2026-11-15T17:24:20.000Z",
+        "Last Modified": "2026-11-23T09:19:19.000Z",
         "Obligation Count": 3,
         "Definition Count": 2
       }
@@ -1012,24 +1012,24 @@
           "National Security"
         ],
         "Jurisdiction": "Japan",
-        "Status": "Pending",
+        "Status": "In force",
         "Relevance": "Moderate",
         "Domains": [
           "Cyber Threat Intel",
           "Counter-Terrorism",
           "Geopolitical Risk"
         ],
-        "Brief Description": "Japan's Active Cyber Defense Act covers 15 critical infrastructure sectors with proactive threat monitoring. First Japanese law authorizing government offensive cyber capabilities. In force November 2026.",
+        "Brief Description": "Japan's Active Cyber Defense legislation (Act on the Prevention of Damage Caused by Unauthorized Acts against Critical Electronic Computers, Act No. 42 of 2025, with its companion amendment act), enacted 16 May 2025, covers 15 critical infrastructure sectors with proactive threat monitoring and is the first Japanese law authorising government offensive cyber capabilities. Phased commencement: general provisions 1 July 2025; independent oversight commission for communications data 1 April 2026; main body (asset notification, mandatory incident and precursor-event reporting by designated operators, government information sharing and the public-private council) 1 October 2026, per Hogan Lovells (6 October 2026) and Tokyo Policy Insights (2 October 2026). Communications-data acquisition and counter-access provisions follow by Cabinet ordinance.",
         "Type": "Legislation",
         "Enacted": "2025-05-16",
-        "Deadline": "2026-11-30",
-        "Next Steps": "Active Cyber Defense Act enacted by the Diet on 16 May 2025. Phased implementation 2026-2027. Expert panel to finalise the basic policy on active cyber defense by end of 2026. Empowers the National Police Agency and Self-Defense Forces to monitor and neutralise malicious cyber activity at source under four pillars (public-private collaboration, communications monitoring, counter-access, neutralisation).",
+        "In Force": "2026-10-01",
+        "Next Steps": "Main reporting regime in force since 1 October 2026 (Status updated 23 November 2026 from secondary sources; confirm commencement dates against the e-Gov statute and Cabinet Office or NCO notices). Designated operators (258 across 16 sectors as of 1 July 2026 under the Economic Security Promotion Act) must file an initial report promptly after identifying a reportable incident and a detailed report generally within 30 days. First asset notification deadline reported as 1 April 2027 (unconfirmed). Communications-data acquisition and use provisions (Chapters 3 to 7) remain to commence by ordinance; one secondary source gives an outer date of 22 November 2027. Expert panel to finalise the basic policy on active cyber defense by end of 2026. The earlier tracker deadline of 30 November 2026 could not be verified and was removed.",
         "Scope": "15 critical infrastructure sectors: info-comms, financial services, aviation, airports, railways, electric power, gas, government, healthcare, water, logistics, chemicals, credit cards, petroleum, ports/harbors.",
         "Enforcement": "Enforcement under NCO framework. Specific penalty structures set through implementing regulations.",
         "Relevance Notes": "Japan's Active Cyber Defense Act covers 15 critical infrastructure sectors with proactive threat monitoring requirements, reflecting the escalating state-sponsored cyber threat landscape in the Indo-Pacific. Revontulet provides the cross-domain threat intelligence covering state-sponsored operations, geopolitical context, and supply chain risks that Japanese CI operators need.",
         "Source": "https://iclg.com/practice-areas/cybersecurity-laws-and-regulations/japan",
         "Subregion": "Asia-Pacific",
-        "Last Modified": "2026-05-17T16:06:24.000Z",
+        "Last Modified": "2026-11-23T09:12:32.000Z",
         "Obligation Count": 2,
         "Definition Count": 2
       }
@@ -1626,6 +1626,38 @@
     },
     {
       "fields": {
+        "Legislation": "France Social Media Under-15 Ban (Loi 2026-813)",
+        "Full Name": "Loi n° 2026-813 du 24 août 2026 visant à protéger les mineurs des risques auxquels les expose l'utilisation des réseaux sociaux",
+        "Categories": [
+          "Child Safety",
+          "Online Safety",
+          "Platform Regulation"
+        ],
+        "Jurisdiction": "France",
+        "Status": "In force",
+        "Relevance": "Moderate",
+        "Domains": [
+          "Online Safety / Content Governance",
+          "Social Media",
+          "Online Platforms"
+        ],
+        "Brief Description": "French law prohibiting access to online social networks provided by online platforms for minors under 15. Adopted definitively by the Sénat and the Assemblée nationale on 21 July 2026 after a joint committee (CMP) agreement of 20 July 2026, partially censured by the Conseil constitutionnel in decision 2026-911 DC of 14 August 2026, and promulgated on 24 August 2026. The law also bans advertising for social networks aimed specifically at minors (including via influencers), requires a health warning on promotion of social networks, and extends the school phone ban to lycées. Arcom monitors compliance and reports suspected breaches to the competent authorities in accordance with EU law. Reporting indicates new under-15 accounts are barred from 1 September 2026 and existing under-15 accounts must be removed by 1 January 2027 (to be confirmed against the Légifrance text).",
+        "Type": "Legislation",
+        "Enacted": "2026-08-24",
+        "Deadline": "2027-01-01",
+        "Next Steps": "Verify on Légifrance: JO publication date, penalty provisions, provisions struck by Conseil constitutionnel decision 2026-911 DC, and the exact entry into force dates (reported 1 September 2026 for new accounts and 1 January 2027 for deletion of existing under-15 accounts). Monitor Arcom implementing guidance and the European Commission's DSA compatibility assessment (Commission opinion of 7 July 2026 on the earlier text). The EU KIDS Act (COM(2026) 681) may supersede national age limits once adopted.",
+        "Scope": "Online platforms providing online social networking services to users in France (Instagram, TikTok, Facebook, Snapchat and similar services enabling interaction, public broadcasting or participation in user communities). Excludes collaborative online encyclopaedias, educational or scientific directories and free-software development and sharing platforms. Minors under 15 and their parents are not sanctioned.",
+        "Enforcement": "Arcom is charged with monitoring compliance and must report suspected breaches to the competent national authorities within the limits of EU law (DSA country-of-origin principle). Penalty provisions and the scope of the Conseil constitutionnel's partial censure were not confirmed from the primary text during this review and must be verified on Légifrance (JORFTEXT000054743001).",
+        "Relevance Notes": "France is the first EU Member State to enact a hard under-15 social media ban, enforced through Arcom and the DSA framework. Platforms serving French users need robust age assurance, evidence of removal of under-15 accounts and intelligence on circumvention, grooming and harmful content exposure among young teens. Revontulet's child-safety and online-harms intelligence supports platforms, regulators and civil society navigating this new regime and the parallel EU KIDS Act.",
+        "Source": "https://www.senat.fr/travaux-parlementaires/textes-legislatifs/la-loi-en-clair/proposition-de-loi-visant-a-proteger-les-mineurs-des-risques-auxquels-les-expose-lutilisation-des-reseaux-sociaux.html",
+        "Subregion": "Other European",
+        "Last Modified": "2026-11-23T09:18:55.000Z",
+        "Obligation Count": 2,
+        "Definition Count": 1
+      }
+    },
+    {
+      "fields": {
         "Legislation": "ISO/IEC 27035:2023",
         "Full Name": "ISO/IEC 27035:2023 - Information technology - Information security incident management",
         "Categories": [
@@ -1824,6 +1856,39 @@
         "Subregion": "EU",
         "Last Modified": "2026-08-16T16:10:17.000Z",
         "Definition Count": 1
+      }
+    },
+    {
+      "fields": {
+        "Legislation": "EU KIDS Act (proposed)",
+        "Full Name": "Proposal for a Regulation EU KIDS Act (EU Keeping Internet Digital Spaces Accountable and Trustworthy), COM(2026) 681 final, 2026/0286(COD)",
+        "Categories": [
+          "Child Safety",
+          "Online Safety",
+          "Platform Regulation",
+          "AI Regulation"
+        ],
+        "Jurisdiction": "EU",
+        "Status": "Proposed",
+        "Relevance": "Direct",
+        "Domains": [
+          "Online Safety / Content Governance",
+          "Emerging Tech Governance",
+          "Social Media",
+          "Online Platforms"
+        ],
+        "Brief Description": "Commission proposal of 17 September 2026 for a Regulation on the protection of minors online. Chapter II bars online social networking services and video-sharing platforms with risky features (live streaming to the public, contact with strangers, profiling-based recommender systems, engagement-maximising design) from letting anyone under 15 hold an autonomous account, with a guardian-managed limited account for 13 to 15 year olds (Article 6). Chapter III imposes safety-by-design duties (addictive design ban, safe default settings, contact safeguards, transaction transparency, no variable reward systems for minors) on social networks, video-sharing platforms, AI companions, general conversational chatbots, online games and app stores. Chapter V requires certified EU age verification solutions for the age gate and bans self-declaration.",
+        "Type": "Legislation",
+        "Enacted": "2026-09-17",
+        "Next Steps": "Ordinary legislative procedure 2026/0286(COD) has started; EDPS Opinion 36/2026 issued 12 November 2026. Parliament committee allocation and Council working party discussions to follow; no rapporteur or Council mandate confirmed as of 23 November 2026. Companion Digital Fairness Act proposal (11 November 2026) cross-refers to this text. Draft application: 6 months after entry into force, with Article 5 (compliance plan notification and audit) applying immediately and Articles 33 and 35 after 12 months (Article 43). Existing under-15 accounts must be identified and disabled within 6 months of application (Article 6(4)).",
+        "Scope": "Providers of online social networking services, video-sharing platform services, software application stores, online games (video games and video gaming platforms), operating systems, AI companions and general conversational chatbots that are accessible to minors in the Union, irrespective of the provider's place of establishment (Article 2). Member States must make at least one certified age verification solution available (Article 31). Builds on DSA, DMA and AI Act definitions (Article 3).",
+        "Enforcement": "Enforcement rides on existing regimes (Article 34): Chapter IV of the DSA for social networks, video-sharing platforms, gaming platforms and app stores (Digital Services Coordinators and the Commission for VLOPs); Chapter IX of the AI Act for AI companions and chatbots, with fines of up to 6 percent of worldwide annual turnover under AI Act Article 99; national authorities for video games; data protection authorities for the age assurance data protection rules (GDPR Article 83 fines). Expedited Commission procedure with preliminary findings within 30 days and a final decision targeted within 90 days (Article 35). Supervisory fee on providers (Article 36).",
+        "Relevance Notes": "The EU KIDS Act would make a 15-year age floor, certified age verification and child safety-by-design binding across every social network, video platform, game, app store and AI chatbot serving EU minors. Platforms will need evidence that minors are kept off risky features and that recommender systems, contact tools and AI companions do not expose children to grooming, self-harm content or manipulation. Revontulet's child-safety and online-harms threat intelligence gives platforms, regulators and NGOs the independent risk picture this regime will demand, from circumvention tactics to emerging AI companion harms.",
+        "Source": "https://digital-strategy.ec.europa.eu/en/news/eu-kids-act-restrict-social-media-platforms-access-children-eu",
+        "Subregion": "EU",
+        "Last Modified": "2026-11-23T09:17:34.000Z",
+        "Obligation Count": 6,
+        "Definition Count": 6
       }
     },
     {
@@ -2363,6 +2428,38 @@
     },
     {
       "fields": {
+        "Legislation": "EU Digital Fairness Act (proposed)",
+        "Full Name": "Proposal for a Regulation on promoting fair business-to-consumer commercial practices in the offline and digital single market, and repealing Directive 2005/29/EC (Digital Fairness Act), COM(2026) 1100 final, 2026/0356(COD)",
+        "Categories": [
+          "Platform Regulation",
+          "Child Safety",
+          "Online Safety",
+          "AI Regulation"
+        ],
+        "Jurisdiction": "EU",
+        "Status": "Proposed",
+        "Relevance": "Moderate",
+        "Domains": [
+          "Online Safety / Content Governance",
+          "Emerging Tech Governance",
+          "Online Platforms"
+        ],
+        "Brief Description": "Commission proposal of 11 November 2026 that converts the Unfair Commercial Practices Directive into a directly applicable Regulation and adds a Digital Fairness chapter. It bans dark patterns in online interfaces with a blacklist in Annex I Part III (Article 10), sets disclosure and child-protection rules for influencer marketing (Article 11), prohibits profiling-based advertising to known minors or on special-category data (Article 12) and harmful personalised pricing to minors and vulnerable consumers (Article 13), regulates paid-for virtual currencies, variable reward systems and pay-to-win mechanics in games (Articles 14 to 16), requires switch-off tools for addictive design features (Article 17), and adds subscription reminders, an online contract termination function (Article 23), a right to reach a human in customer service (Article 25) and rules for automated contracting systems (Articles 26 to 27). Adopted together with a Simplification Directive and a revised CPC Regulation.",
+        "Type": "Legislation",
+        "Enacted": "2026-11-11",
+        "Next Steps": "Ordinary legislative procedure 2026/0356(COD) begins; Parliament committee (IMCO expected) and Council working party to take positions in 2027. Entry into force 20 days after OJ publication; application 12 months after entry into force (Article 40). Repeals Directive 2005/29/EC from the application date (Article 38). The Commission's delegated powers to amend the dark pattern list (Article 10(3)) and addictive features list (Article 17(2)) will be contested in negotiations. Read alongside the EU KIDS Act (COM(2026) 681) and the Digital Omnibus.",
+        "Scope": "All traders engaged in business-to-consumer commercial practices before, during and after a transaction, online and offline (Article 2), including online platforms, marketplaces, game publishers, subscription services, influencers and brands using influencer marketing. Article 12 does not apply to online platforms already subject to DSA Chapter III Section 3; Articles 14, 15 and 17 defer to the EU KIDS Act for social networks, video-sharing platforms, AI companions and chatbots in respect of minors.",
+        "Enforcement": "Member State penalties that are effective, proportionate and dissuasive (Article 35(1)). In coordinated cross-border cases under the CPC Regulation, fines of at least 4 percent of annual turnover in the Member States concerned, or at least EUR 2 million where turnover data is unavailable (Article 35(3) and (4)). The Commission may fine up to 6 percent of worldwide annual turnover for infringements it investigates itself under the new CPC Regulation (Article 35(6)). Right of recourse for traders against third parties (Article 36).",
+        "Relevance Notes": "The Digital Fairness Act turns dark patterns, addictive design and manipulative personalisation into directly enforceable EU-wide prohibitions, with Commission-level fines of up to 6 percent of global turnover. Platforms, game publishers and subscription services will need to evidence how their interfaces, recommender loops and in-app economies affect consumers and children. Revontulet's online-harms and emerging-tech intelligence helps clients and regulators map manipulative design, influencer-driven fraud and AI-agent risks before enforcement arrives.",
+        "Source": "https://commission.europa.eu/law/law-topic/consumer-protection-law/digital-fairness-act_en",
+        "Subregion": "EU",
+        "Last Modified": "2026-11-23T09:18:55.000Z",
+        "Obligation Count": 5,
+        "Definition Count": 5
+      }
+    },
+    {
+      "fields": {
         "Legislation": "EU CSAM Derogation 2026 (Reg 2026/1881)",
         "Full Name": "Regulation (EU) 2026/1881 of the European Parliament and of the Council of 24 July 2026 on a temporary derogation from certain provisions of Directive 2002/58/EC as regards the use of technologies by providers of number-independent interpersonal communications services for the processing of personal and other data for the purpose of combating online child sexual abuse",
         "Categories": [
@@ -2559,6 +2656,37 @@
         "Source": "https://www.legislation.gov.uk/ukpga/2026/21",
         "Subregion": "UK",
         "Last Modified": "2026-09-27T16:09:04.000Z",
+        "Obligation Count": 1,
+        "Definition Count": 1
+      }
+    },
+    {
+      "fields": {
+        "Legislation": "Denmark Social Media Age Limit Bill (draft)",
+        "Full Name": "Draft bill on a 15-year age limit for social media and video-sharing platforms (lovforslag om aldersgraense for sociale medier), public consultation of 7 September 2026",
+        "Categories": [
+          "Child Safety",
+          "Online Safety",
+          "Platform Regulation"
+        ],
+        "Jurisdiction": "Denmark",
+        "Status": "Proposed",
+        "Relevance": "Moderate",
+        "Domains": [
+          "Online Safety / Content Governance",
+          "Social Media",
+          "Online Platforms"
+        ],
+        "Brief Description": "Danish draft bill, sent for public consultation on 7 September 2026 (deadline 5 October 2026), prohibiting children under 15 from accessing certain social media services and video-sharing platforms, including existing accounts. The earlier parental-consent route for 13 to 15 year olds was dropped from the draft, making the 15-year limit absolute. Because of DSA full harmonisation the bill addresses children rather than platforms and contains no sanctions; platform age verification is expected to flow from DSA Article 28 and the Commission's July 2025 guidelines on minors. Planned introduction in the Folketing in early 2027 and entry into force on 1 July 2027.",
+        "Type": "Legislation",
+        "Deadline": "2027-07-01",
+        "Next Steps": "Consultation closed 5 October 2026. Bill expected in the Folketing in early 2027 with planned entry into force 1 July 2027. Age verification method (MitID, EU age verification app) still open. Watch for interaction with the EU KIDS Act, which proposes a harmonised 15-year floor with a guardian-managed account for 13 to 15 year olds that the Danish draft has dropped.",
+        "Scope": "Services meeting all three conditions: an online social networking service or video-sharing platform service as defined in DMA Article 2(7) or 2(8); designated a very large online platform under DSA Article 33; and accessed by creating a user profile with a login. Professional networking services and logged-out parts of a service are excluded. Addressed to children under 15 in Denmark.",
+        "Enforcement": "The draft contains no enforcement or sanctions provisions for children, parents or platforms. Platform compliance is expected through the Digital Services Act regime (Commission for VLOPs, with fines up to 6 percent of worldwide turnover). Enforcement body for the national rule not yet designated in the draft.",
+        "Relevance Notes": "Denmark is set to join Norway, France and Australia with a statutory social media age floor, targeting 1 July 2027. VLOPs will need to demonstrate effective age assurance for Danish users and evidence on how under-15s circumvent limits. Revontulet's Nordic footprint and child-safety intelligence position it to support platforms, Danish authorities and researchers as the law and the EU KIDS Act converge.",
+        "Source": "https://plesner.com/en/news/new-draft-bill-social-media-age-limits-denmark",
+        "Subregion": "Nordic",
+        "Last Modified": "2026-11-23T09:18:55.000Z",
         "Obligation Count": 1,
         "Definition Count": 1
       }
@@ -3031,13 +3159,13 @@
         ],
         "Brief Description": "Proposed Norwegian act setting a national age limit for social media: children may not have access to (harmful) social media until 1 January of the year they turn 16 (draft section 4). The 2025 consultation proposed 15 and drew more than 8,100 responses; the government announced the 16-year limit on 24 April 2026 and notified the draft to the EEA (notification 2025/9028/NO). The act places no direct obligations on providers because of the EEA country-of-establishment principle; instead, read together with the Digital Services Act once incorporated into Norwegian law, platforms must operate effective, privacy-friendly age verification under DSA Article 28. Children and parents are not sanctioned.",
         "Type": "Legislation",
-        "Next Steps": "Government stated in April 2026 that the bill would be put before the Storting during 2026, after the mandatory three-month EEA consultation. No Prop. L number, Storting vote or sanction could be confirmed from primary sources as of 15 November 2026 (Storting case search was unavailable). Entry into force is set by the King (draft section 6) and is conditional on the DSA being implemented in Norwegian law (digitaltjenesteloven), so the earliest realistic application is 2027. A national supervisory authority will decide by individual decision which services count as social media (draft section 5). Monitor for the Prop. L and for the parallel digitaltjenesteloven.",
+        "Next Steps": "Government stated in April 2026 that the bill would be put before the Storting during 2026, after the mandatory three-month EEA consultation. No Prop. L number, Storting vote or sanction could be confirmed from primary sources as of 23 November 2026 (Storting case search unavailable to automated checks; Medietilsynet's 24 April 2026 article is the latest official-adjacent statement read). Entry into force is set by the King (draft section 6) and is conditional on the DSA being implemented in Norwegian law (digitaltjenesteloven, delayed by EEA adaptation talks per Medietilsynet 30 January 2026), so the earliest realistic application is 2027. A national supervisory authority will decide by individual decision which services count as social media (draft section 5). New since 23 November 2026: the Commission's EU KIDS Act proposal (COM(2026) 681, 17 September 2026) would set a harmonised 15-year floor with a guardian-managed account for 13 to 15 year olds; as an EEA-relevant regulation it may constrain or supersede the Norwegian 16-year limit. Monitor for the Prop. L, the parallel digitaltjenesteloven and the KIDS Act negotiations.",
         "Scope": "Social media services directed at the Norwegian market or provided by entities established in Norway. The ministries are considering a harmful social media condition and exemptions for games, editorial media, marketplaces, closed education and leisure groups, political and civil society groups and messaging services. Children under the age threshold, their parents and platforms (indirectly via the DSA).",
         "Enforcement": "No sanctions on children or parents. Platform compliance is enforced through the Digital Services Act regime (Nkom as Norwegian digital services coordinator for services established in Norway; European Commission for VLOPs such as Meta, TikTok and Snapchat), with DSA fines of up to 6 percent of worldwide annual turnover. Supervisory authority designation decisions under draft section 5.",
         "Relevance Notes": "Norway is moving to a hard 16-year floor for social media, enforced through DSA age-assurance duties rather than parental consent. Platforms serving Norwegian users will need an auditable age verification approach and evidence that minors are kept off, and policymakers will need intelligence on circumvention, grooming and harmful-content exposure among under-16s. Revontulet's online safety and child-safety threat intelligence supports both the compliance case and the public-policy debate around this law.",
         "Source": "https://www.regjeringen.no/contentassets/6e58994934134cc593a2b5cff087aeb2/eos-horing-av-lovforslaget-om-aldersgrense-for-bruk-av-sosiale-medier.pdf",
         "Subregion": "Nordic",
-        "Last Modified": "2026-11-15T17:22:15.000Z",
+        "Last Modified": "2026-11-23T09:19:19.000Z",
         "Obligation Count": 2,
         "Definition Count": 2
       }
